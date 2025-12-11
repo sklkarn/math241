@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Differentiability</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta property="book:title" content="Calculus I">
+<meta property="book:author" content="Sunil Karna">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '7.11.0';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="changeme" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="calculus.html"><span class="title">Calculus I</span> <span class="subtitle">Limits and Differentiation</span></a></h1>
+<p class="byline">Sunil Karna</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search term"><button title="Close search" id="closesearchresults" class="closesearchresults"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div id="searchempty" class="searchempty"><span>No results.</span></div>
+<ol id="searchresults" class="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec_third-implct.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-third.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec_third-appl-drvt.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-first.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers &amp; Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-review.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Review</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Classification of Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of some Number Systems:</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-intervals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-functions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Function</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-func_type" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Types of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-graph" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graph of some Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-gif-fpf" class="internal"><span class="codenumber">1.4.3</span> <span class="title">GIF and FPF</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-trnsform" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Transformation of Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-domain.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Domain</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-domain.html#subsec-dom_ex" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Determining Domain:</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-range.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Range</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-funct-gr.html" class="internal"><span class="codenumber">1.7</span> <span class="title">The Graph of Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Transformation of Graph</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">1.7.2</span> <span class="title">Graph of Quadratic Function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">1.7.2.1</span> <span class="title">Special Graphs</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-asympt.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Asymptote</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_first-log.html" class="internal"><span class="codenumber">1.9</span> <span class="title">Logarithm</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_plot" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Graph of Lagarithimic Function:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_rule" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Logarithmic Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-exp_eqn" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Solving Exponential Equations.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_eqn" class="internal"><span class="codenumber">1.9.4</span> <span class="title">Solving Logarithmic Equations.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-appl" class="internal"><span class="codenumber">1.9.5</span> <span class="title">Applications of Logarithmic Expression</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.10</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-second.html" class="internal"><span class="codenumber">2</span> <span class="title">Introduction to Calculus</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Limits</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-tangnt" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Difference Quotient:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-onesd_lmt" class="internal"><span class="codenumber">2.1.2</span> <span class="title">One-Sided Limits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-linfty" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Limit at Infinity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-lindet" class="internal"><span class="codenumber">2.1.4</span> <span class="title">Indeterminate Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-losc" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Oscillating Function</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-lmtlaws.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Limit Laws</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-sqzt" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Squeeze Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-std_lmt" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Some Standard Limits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm2" class="internal"><span class="codenumber">2.2.3</span> <span class="title"><span class="process-math">\(0\times\infty, \infty^0, \)</span> and <span class="process-math">\(0^0\)</span> Forms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleA.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Example A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-contf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Continuity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contFns" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Types of Continuous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-dscont_type" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Types of Discontinuities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Continuity on an Interval</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Example B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-third.html" class="internal"><span class="codenumber">3</span> <span class="title">Differentiation</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Derivative (First Principle)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec-drvt" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Derivative using First Principle</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-diff.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Derivative (short cut rule)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-diff.html#subsec-st_derv" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Standard Derivatives</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-invrse.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Derivatives of Inverse Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-implct.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Implicit Differentiation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-implct.html#subsec-paramtrc" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Parametric Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a href="sec_third-diffblt.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Differentiability</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-appl-drvt.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Application of Derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-rate-msr" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Measurement of Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-apprx" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Approximatation and error analysis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-tngnt" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Tangent and Normal at a Point</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-rolls_th" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Rolle’s Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-meanv_th" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Mean Value Theorem</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-max_min" class="internal"><span class="codenumber">3.6.6</span> <span class="title">Maxima and Minima</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsubsec-loc_max" class="internal"><span class="codenumber">3.6.6.1</span> <span class="title">Local Maxima</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsubsec-loc_min" class="internal"><span class="codenumber">3.6.6.2</span> <span class="title">Local Minima</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_math.html" class="internal"><span class="codenumber">A</span> <span class="title">Mathematical Relations</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_physTable.html" class="internal"><span class="codenumber">B</span> <span class="title">Greek Letters</span></a></div></li>
+<li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-4.html" class="internal"><span class="codenumber">C</span> <span class="title">List of Symbols</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-references"><div class="toc-title-box"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Colophon</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_third-diffblt"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.5</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Differentiability</span>
+</h2>
+<div class="para logical" id="sec_third-diffblt-2">
+<div class="para">The function <span class="process-math">\(f(x)\)</span> is continuous at a point <span class="process-math">\(x=a,\)</span> if</div>
+<div class="displaymath process-math" id="diffblt1">
+\begin{equation}
+\lim_{x\to a} f(x) = f(a)\tag{3.5.1}
+\end{equation}
+</div>
+<div class="para">Which also means Left hand derivative is equal to right hand derivative.</div>
+<div class="displaymath process-math" id="diffblt2">
+\begin{equation}
+LHL\vert_a =  RHL\vert_a = f(a)\tag{3.5.2}
+\end{equation}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_third-diffblt-3">
+<div class="para">The function <span class="process-math">\(f(x)\)</span> is differentiable at <span class="process-math">\(x=a,\)</span> if</div>
+<div class="displaymath process-math" id="sec_third-diffblt-3-3">
+\begin{equation*}
+LHD\vert_{x=a} =  RHD\vert_{x=a} =finite
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="diffblt3">
+\begin{equation}
+or, \,  f'(a^-) = f'(a^+) = finite  \tag{3.5.3}
+\end{equation}
+</div>
+<div class="displaymath process-math" id="diffblt4">
+\begin{equation}
+or, \,  f'(x^-) = f'(x^+) \tag{3.5.4}
+\end{equation}
+</div>
+<div class="para">but if</div>
+<div class="displaymath process-math" id="diffblt5">
+\begin{equation}
+f'(x^-) \neq f'(x^+) \tag{3.5.5}
+\end{equation}
+</div>
+<div class="para">then <span class="process-math">\(f(x)\)</span> is not differentiable. If</div>
+<div class="displaymath process-math" id="sec_third-diffblt-3-8">
+\begin{equation*}
+LHL\vert_{x=a} =  RHL\vert_{x=a} =finite
+\end{equation*}
+</div>
+<div class="para">then limit exists and if</div>
+<div class="displaymath process-math" id="sec_third-diffblt-3-9">
+\begin{equation*}
+LHL\vert_{a} =  RHL\vert_{a} =f(a),
+\end{equation*}
+</div>
+<div class="para">then <span class="process-math">\(f(x)\)</span> is continuous.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_third-diffblt-4">
+<div class="displaymath process-math" id="sec_third-diffblt-4-1">
+\begin{align*}
+RHD\vert_{x=a} \amp   =  f'(a^+) = \lim_{h \to 0}\frac{f(a+h) - f(a)}{h}, \quad \, h \gt 0\\
+LHD\vert_{x=a} \amp =f'(a^-) = \lim_{h \to 0}\frac{f(a-h) - f(a)}{-h}, \quad \, h \gt 0 
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<details id="sec_third-diffblt-5" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.5.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_third-diffblt-5-1-1">
+<div class="para">If <span class="process-math">\(f'(a^+)=3, \)</span> then find</div>
+<div class="displaymath process-math" id="sec_third-diffblt-5-1-1-2">
+\begin{equation*}
+\lim_{h \to 0}\frac{f(a+2h^2) - f(a)}{h^2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_third-diffblt-5-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_third-diffblt-5-2-1">
+<div class="para">Here,</div>
+<div class="displaymath process-math" id="sec_third-diffblt-5-2-1-1">
+\begin{equation*}
+\lim_{h \to 0}\frac{f(a+2h^2) - f(a)}{h^2}= \lim_{h \to 0}\frac{f(a+2h^2) - f(a)}{2h^2}\cdot 2 =2 \cdot f'(a^+) = 6.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.5.1.1"><a href="#sec_third-diffblt-5-2" title="Copy heading and permalink for Solution 3.5.1.1" aria-label="Copy heading and permalink for Solution 3.5.1.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 3.5.1"><a href="#sec_third-diffblt-5" title="Copy heading and permalink for Example 3.5.1" aria-label="Copy heading and permalink for Example 3.5.1">🔗</a></div></article></details><details id="sec_third-diffblt-6" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.5.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_third-diffblt-6-1-1">
+<div class="para">At what numbers is the following function <span class="process-math">\(g\)</span> differentiable?</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-1-1-2">
+\begin{equation*}
+g(x) = \begin {cases} 2x &amp; \text{ if } x\leq 0 \\
+2x-x^2 &amp; \text{ if } 0\lt x \lt 2 \\
+2-x &amp; \text{ if } x \geq 2
+\end {cases}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_third-diffblt-6-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="sec_third-diffblt-6-2-1">A function <span class="process-math">\(f\)</span> is differentiable at <span class="process-math">\(a\)</span> if the function is continuous, i.e., <span class="process-math">\(f(a^-) = f(a^+) = f(a)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-6-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_third-diffblt-6-2-2">
+<div class="para">At <span class="process-math">\(x=0\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-2-2">
+\begin{equation*}
+\lim_{x \to 0} g(x) = g(0) = 0. 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-2-3">
+\begin{equation*}
+also, \, \lim_{x \to 0^-} g(x) = \lim_{x \to 0^-} 2x = 0.
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-2-4">
+\begin{equation*}
+and, \,  \lim_{x \to 0^+} g(x) = \lim_{x \to 0^+} 2x-x^2 = 2\cdot 0 -0^2 =0.
+\end{equation*}
+</div>
+<div class="para">Hence, the function is continuous at <span class="process-math">\(x=0.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-6-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_third-diffblt-6-2-3">
+<div class="para">At <span class="process-math">\(x=2\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-3-2">
+\begin{equation*}
+\lim_{x \to 2} g(x) = \lim_{x \to 2} (2-x) = 2-2 =0. 
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-3-3">
+\begin{equation*}
+also, \, \lim_{x \to 2^-} g(x) = \lim_{x \to 2^-} (2x-x^2) = 2\cdot 2-2^2= 0.
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-3-4">
+\begin{equation*}
+and, \,  \lim_{x \to 2^+} g(x) = \lim_{x \to 2^+} (2-x) = 2-2 =0.
+\end{equation*}
+</div>
+<div class="para">Hence, the function is continuous at <span class="process-math">\(x=2.\)</span> <dfn class="terminology">Polynomials are differentiable everywhere, but need to check differentiabilty at the given point.</dfn>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-6-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_third-diffblt-6-2-4">
+<div class="para">Now Left hand derivative at <span class="process-math">\(x=0.\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-4-2">
+\begin{equation*}
+g(x) = 2x  \, \Rightarrow g'(x)= 2  \, \Rightarrow g'(0)= 2.
+\end{equation*}
+</div>
+<div class="para">again, Right hand derivative at <span class="process-math">\(x=0.\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-4-4">
+\begin{equation*}
+g(x) = 2x-x^2  \, \Rightarrow g'(x)= 2-2x  \, \Rightarrow g'(0)= 2.
+\end{equation*}
+</div>
+<div class="para">Hence, the function is continuous and left derivative = right derivative = 2.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-6-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_third-diffblt-6-2-5">
+<div class="para">Now check differentiabilty at <span class="process-math">\(x=2.\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-5-2">
+\begin{equation*}
+LHD\vert_{x=2},  \, g(x) = 2x-x^2 \, \Rightarrow g'(x)= 2-2x  \, \Rightarrow g'(2^-)= 2-2\cdot 2= -2.
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-5-3">
+\begin{equation*}
+RHD\vert_{x=2},  \, g(x) = 2-x \, \Rightarrow g'(x)= -1  \, \Rightarrow g'(2^+)= -1.
+\end{equation*}
+</div>
+<div class="para">That is,</div>
+<div class="displaymath process-math" id="sec_third-diffblt-6-2-5-4">
+\begin{equation*}
+g'(2^+) \neq g'(2^-)
+\end{equation*}
+</div>
+<div class="para">Hence, the function is not differentiable at <span class="process-math">\(x=2, \)</span> however, it is continous at <span class="process-math">\(x=2.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-6-2-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.5.2.1"><a href="#sec_third-diffblt-6-2" title="Copy heading and permalink for Solution 3.5.2.1" aria-label="Copy heading and permalink for Solution 3.5.2.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 3.5.2"><a href="#sec_third-diffblt-6" title="Copy heading and permalink for Example 3.5.2" aria-label="Copy heading and permalink for Example 3.5.2">🔗</a></div></article></details><details id="sec_third-diffblt-7" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.5.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_third-diffblt-7-1-1">
+<div class="para">Let</div>
+<div class="displaymath process-math" id="sec_third-diffblt-7-1-1-1">
+\begin{equation*}
+f(x) = \begin {cases} x^2+1 &amp; \text{ if } x\lt 1 \\
+x+1 &amp; \text{ if } x \geq 1 \\
+\end {cases}
+\end{equation*}
+</div>
+<div class="para">is <span class="process-math">\(f\)</span> differentiable at <span class="process-math">\(1?\)</span> Sketch the graph of <span class="process-math">\(f\)</span> and <span class="process-math">\(f'.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-7-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_third-diffblt-7-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_third-diffblt-7-2-1">
+<div class="para">Polynomials are differentiable everywhere, just need to check differentiability at <span class="process-math">\(x=1.\)</span>
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-7-2-1-2">
+\begin{align*}
+LHL\vert_{x=1}, \, f(x)  \amp  = x^2+1 \, \Rightarrow f(1^-)= 1+1 =2. \\
+LHD\vert_{x=1},\, f'(x) \amp  = 2x \, \Rightarrow f'(1^-)= 2\\cdot 1 = 2.
+\end{align*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-7-2-1-3">
+\begin{align*}
+RHL\vert_{x=1}, \, f(x)  \amp  = x+1 \, \Rightarrow f(1^+)= 1+1 =2. \\
+RHD\vert_{x=1},\, f'(x) \amp  = 1 \, \Rightarrow f'(1^+)= 1.
+\end{align*}
+</div>
+<div class="para">Hence, the function is continuous as <span class="process-math">\(f(x)=f(x^-)= f(x^+)\)</span> but not differentiable as <span class="process-math">\(f'(x^-)\neq f'(x^+)\text{.}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-7-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.5.3.1"><a href="#sec_third-diffblt-7-2" title="Copy heading and permalink for Solution 3.5.3.1" aria-label="Copy heading and permalink for Solution 3.5.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 3.5.3"><a href="#sec_third-diffblt-7" title="Copy heading and permalink for Example 3.5.3" aria-label="Copy heading and permalink for Example 3.5.3">🔗</a></div></article></details><details id="sec_third-diffblt-8" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.5.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3></summary><article class="example example-like knowl__content"><div class="para logical" id="sec_third-diffblt-8-1-1">
+<div class="para">In</div>
+<div class="displaymath process-math" id="sec_third-diffblt-8-1-1-1">
+\begin{equation*}
+f(x) = \begin {cases} x^2 &amp; \text{ if } x  \leq 2 \\
+mx+b &amp; \text{ if } x \gt 2 \\
+\end {cases}
+\end{equation*}
+</div>
+<div class="para">find <span class="process-math">\(m\)</span> and <span class="process-math">\(b.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-8-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="sec_third-diffblt-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period heading-divison-mark heading-divison-mark__period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="sec_third-diffblt-8-2-1">
+<div class="displaymath process-math" id="sec_third-diffblt-8-2-1-1">
+\begin{align*}
+LHL\vert_{x=2}, \, f(x)  \amp  = x^2 \, \Rightarrow f(2^-)= 2^2 =4. \\
+LHD\vert_{x=2},\, f'(x) \amp  = 2x \, \Rightarrow f'(2^-)= 2\\cdot 2 = 4.
+\end{align*}
+</div>
+<div class="displaymath process-math" id="sec_third-diffblt-8-2-1-2">
+\begin{align*}
+RHL\vert_{x=2}, \, f(x)  \amp  = mx+b \, \Rightarrow f(x^+)= m\cdot 2+b =2m+b. \\
+RHD\vert_{x=2}, \, f'(x) \amp  = m \, \Rightarrow f'(m^+)= m.
+\end{align*}
+</div>
+<div class="para">Also <span class="process-math">\(f(x) =  x^2\)</span> so <span class="process-math">\(f(2)=2^2=4.\)</span> i.e., the given function must be continous and differentiable in order to determine the value of <span class="process-math">\(m\)</span> and <span class="process-math">\(b\text{.}\)</span> Hence, to be differentiable</div>
+<div class="displaymath process-math" id="sec_third-diffblt-8-2-1-7">
+\begin{align*}
+LHD\vert_{x=2} \amp = RHD\vert_{x=2} \\
+m \amp =4
+\end{align*}
+</div>
+<div class="para">and to be continuous</div>
+<div class="displaymath process-math" id="sec_third-diffblt-8-2-1-8">
+\begin{align*}
+LHL\vert_{x=2} \amp = RHL\vert_{x=2} \\
+2m+b \amp = 4 \, \Rightarrow \, b= 4-2m = 4-8=-4.
+\end{align*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_third-diffblt-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 3.5.4.1"><a href="#sec_third-diffblt-8-2" title="Copy heading and permalink for Solution 3.5.4.1" aria-label="Copy heading and permalink for Solution 3.5.4.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 3.5.4"><a href="#sec_third-diffblt-8" title="Copy heading and permalink for Example 3.5.4" aria-label="Copy heading and permalink for Example 3.5.4">🔗</a></div></article></details><div class="autopermalink" data-description="Section 3.5: Differentiability"><a href="#sec_third-diffblt" title="Copy heading and permalink for Section 3.5: Differentiability" aria-label="Copy heading and permalink for Section 3.5: Differentiability">🔗</a></div></section></div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec_third-implct.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_third-appl-drvt.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
