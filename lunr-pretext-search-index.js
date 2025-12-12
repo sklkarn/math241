@@ -124,7 +124,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Function",
-  "body": " Function      Function is a relationship between two variables where each input corresponds to exactly one output. For every, input, there is a unique output, .  ( )  For every or all    All possible real values of input for which the function is definded are called a domain and the corresponding output values are called a Range . Each input produces exactly one output    Notation:   ( )  function of  A function is often written as where is the input and is the output. For example, Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test in graphical form. (No vertical line intersects the graph more than once.)   Vertical line test: if any vertical line (drawn parallel to the y-axis) intersects the graph at more than one point, then the realtion is not a function, because it means a single x-value produces multiple y-values. i.e. a function is a relation when a vertical line intersects the graph at most once.   For a graph, any vertial line at intersects the parabola at exactly one point at .       For a circle , a vertical line at intersects at two points and Hence, is not a function.      For a function , we have the and its corresponding values are given in a table below. We can see that every value is producing only unique value. Hence, y is a function.         For a function , we have the and its corresponding values are given in a table below. We can see that when , it is giving either or which are not unique. Hence, y is not a function.           Types of Functions  Functions map inputs to outputs and they can be categorized based on their properties, behavior, or structure.    By Algebraic Structure:    Polynomial Functions: Functions defined by polynomials, e.g., For examples: Linear , quadratic , cubic, etc.    Rational Functions: Ratios of two polynomial functions, e.g., where     Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,         By Continuity and Differentiability    Continuous Functions: Functions with no breaks or jumps in their graphs, e.g., .    Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g., (discontinuous at ).    Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g., .    Piecewise Functions: Functions defined by different rules on different intervals, e.g., .        By Behavior    A function is strictly increasing over an interval if:       While it is said to be increasing (or, non-decreasing) if:       A function is strictly decreasing over an interval if: While it is said to be decreasing (or, non-increasing) if:   Monotonic Functions: a function is monotonic in an interval if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [ ]    Periodic Functions: Functions that repeat values at regular intervals, e.g., (period ).    Even Functions: Symmetric about the y-axis, i.e., , e.g., .    Odd Functions: Symmetric about the origin, i.e., , e.g., .        By Specific Type    Trigonometric Functions: Functions like etc.    Exponential Functions: Functions of the form , where , e.g., .    Logarithmic Functions: Functions like or Inverse of exponential functions, defined for .    Hyperbolic Functions: Functions like , , defined using exponentials, e.g., .        By Domain and Range    Explicit Functions: Defined directly, e.g., .    Implicit Functions: Defined by an equation, e.g., .    Parametric Functions: Defined using a parameter, e.g., , .    Inverse Functions: Functions that reverse the input-output relationship, e.g., , . This kind of function exists if original function is one-to-one.        By Application in Calculus    Elementary Functions: Combinations of polynomials, rationals, trigonometric, exponential, and logarithmic functions.    Transcendental Functions: Functions that are not algebraic, e.g.,     Vector-Valued Functions: Functions that map scalars to vectors, e.g., . Used in multivariable calculus for curves in space.    Multivariable Functions: Functions of several variables, e.g., . Studied in multivariable calculus for surfaces and fields.          Graph of some Functions     Piecewise function:             Algebric function: parabolic             Algebric function: cubic             Square root function             Rational function             Trigonometric function             Exponential function             Logarithmic function             Inverse function   inverse function reverses another function . If then   Graphically, is reflected across If then graph of can be seen below.   The graph of          The graph of               GIF and FPF   Greatest Integer Function (GIF): The GIF, also known as Floor Function is denoted by , and is defined as the greatest integer less than or equal to . For any real number , , where is an integer and . It essentially \"rounds down\" ( ) to the nearest integer.            (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)                Fractional Part Function (FPF): The fractional part of a real number ( ), denoted by , is the part \"after the decimal point\", defined as: . It satisfies . It is always non-negative.                            Any real number ( ) can be expressed as:     Transformation of Functions  If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , then horizontal compression,    , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by \\frac{1}{2} as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for            "
+  "body": " Function      Function is a relationship between two variables where each input corresponds to exactly one output. For every, input, there is a unique output, .  ( )  For every or all    All possible real values of input for which the function is definded are called a domain and the corresponding output values are called a Range . Each input produces exactly one output    Notation:   ( )  function of  A function is often written as where is the input and is the output. For example, Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test in graphical form. (No vertical line intersects the graph more than once.)   Vertical line test: if any vertical line (drawn parallel to the y-axis) intersects the graph at more than one point, then the realtion is not a function, because it means a single x-value produces multiple y-values. i.e. a function is a relation when a vertical line intersects the graph at most once.   For a graph, any vertial line at intersects the parabola at exactly one point at .       For a circle , a vertical line at intersects at two points and Hence, is not a function.      For a function , we have the and its corresponding values are given in a table below. We can see that every value is producing only unique value. Hence, y is a function.         For a function , we have the and its corresponding values are given in a table below. We can see that when , it is giving either or which are not unique. Hence, y is not a function.           Types of Functions  Functions map inputs to outputs and they can be categorized based on their properties, behavior, or structure.    By Algebraic Structure:    Polynomial Functions: Functions defined by polynomials, e.g., For examples: Linear function, , quadratic function , cubic function, etc.    Rational Functions: Ratios of two polynomial functions, e.g.,     Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,         By Continuity and Differentiability    Continuous Functions: Functions with no breaks or jumps in their graphs, e.g., .    Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g.,     Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g., .    Piecewise Functions: Functions defined by different rules on different intervals, e.g., .        By Behavior    A function is strictly increasing over an interval if:       While it is said to be increasing (or, non-decreasing) if:        A function is strictly decreasing over an interval if: While it is said to be decreasing (or, non-increasing) if:    Monotonic Functions: a function is monotonic in an interval if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [ ]    Periodic Functions: Functions that repeat values at regular intervals, e.g., (period of function is ).    Even Functions: Symmetric about the y-axis, i.e., , e.g., .    Odd Functions: Symmetric about the origin, i.e., , e.g., .        By Specific Type    Trigonometric Functions: Functions like etc.    Exponential Functions: Functions of the form , e.g., .    Logarithmic Functions: Functions like or Inverse of exponential functions, defined for     Hyperbolic Functions: Functions like , , defined using exponentials, e.g., .        By Domain and Range    Explicit Functions: Defined directly, e.g., .    Implicit Functions: Defined by an equation, e.g., .    Parametric Functions: Defined using a parameter, e.g., , .    Inverse Functions: Functions that reverse the input-output relationship, e.g., , . This kind of function exists if original function is one-to-one.        By Application in Calculus    Elementary Functions: Combinations of polynomials, rationals, trigonometric, exponential, and logarithmic functions.    Transcendental Functions: Functions that are not algebraic, e.g.,     Vector-Valued Functions: Functions that map scalars to vectors, e.g., . Used in multivariable calculus for curves in space.    Multivariable Functions: Functions of several variables, e.g., . Studied in multivariable calculus for surfaces and fields.          Graph of some Functions     Piecewise function:             Algebric function: parabolic             Algebric function: cubic             Square root function             Rational function             Trigonometric function             Exponential function          Logarithmic function             Inverse function   inverse function reverses another function . If   Graphically, is reflected across If then graph of can be seen below.   The graph of       The graph of            GIF and FPF   Greatest Integer Function (GIF): The GIF, also known as Floor Function is denoted by , and is defined as the greatest integer less than or equal to . For any real number , , where is an integer and . It essentially \"rounds down\" ( ) to the nearest integer.            (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)                Fractional Part Function (FPF): The fractional part of a real number ( ), denoted by , is the part \"after the decimal point\", defined as: . It satisfies . It is always non-negative.                            Any real number ( ) can be expressed as:     Transformation of Functions  If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for            "
 },
 {
   "id": "sec_first-functions-2-4",
@@ -244,38 +244,11 @@ var ptx_lunr_docs = [
   "body": "   "
 },
 {
-  "id": "subsec-graph-2-1-7-2-2",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-graph-2-1-7-2-2",
-  "type": "Figure",
-  "number": "1.4.13",
-  "title": "",
-  "body": "   "
-},
-{
   "id": "subsec-graph-2-1-8-2-2",
   "level": "2",
   "url": "sec_first-functions.html#subsec-graph-2-1-8-2-2",
   "type": "Figure",
-  "number": "1.4.14",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "subsec-graph-2-1-9-4-2",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-graph-2-1-9-4-2",
-  "type": "Figure",
-  "number": "1.4.15",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "subsec-graph-2-1-9-5-2",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-graph-2-1-9-5-2",
-  "type": "Figure",
-  "number": "1.4.16",
+  "number": "1.4.13",
   "title": "",
   "body": "   "
 },
@@ -293,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-3",
   "type": "Example",
-  "number": "1.4.17",
+  "number": "1.4.14",
   "title": "",
   "body": "          (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)          "
 },
@@ -302,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-4",
   "type": "Figure",
-  "number": "1.4.18",
+  "number": "1.4.15",
   "title": "",
   "body": "   "
 },
@@ -320,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-6",
   "type": "Example",
-  "number": "1.4.19",
+  "number": "1.4.16",
   "title": "",
   "body": "                         "
 },
@@ -329,9 +302,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-trnsform-13",
   "type": "Example",
-  "number": "1.4.20",
+  "number": "1.4.17",
   "title": "",
-  "body": "  If then graph     Here, , then graph go to vertical compression, by \\frac{1}{2} as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          "
+  "body": "  If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          "
 },
 {
   "id": "sec_first-domain",
@@ -622,128 +595,11 @@ var ptx_lunr_docs = [
   "body": " Range of   Convert this equation to get in terms of   Since . Hence   "
 },
 {
-  "id": "sec_second-funct-gr",
-  "level": "1",
-  "url": "sec_second-funct-gr.html",
-  "type": "Section",
-  "number": "1.7",
-  "title": "The Graph of Functions",
-  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function.      Some Standard Graphs                                                                               Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.     Draw the graph of                 Draw the graph of       Special Graphs                                           Plot:                      "
-},
-{
-  "id": "subsec-gr_transf-4",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_transf-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Some Standard Graphs "
-},
-{
-  "id": "subsec-gr_transf-6",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_transf-6",
-  "type": "Observation",
-  "number": "1.7.1",
-  "title": "",
-  "body": "    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].      "
-},
-{
-  "id": "subsec-gr_funct-2-4",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-4",
-  "type": "Remark",
-  "number": "1.7.2",
-  "title": "",
-  "body": " To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.      "
-},
-{
-  "id": "subsec-gr_funct-2-5",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-5",
-  "type": "Remark",
-  "number": "1.7.3",
-  "title": "",
-  "body": " To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.   "
-},
-{
-  "id": "subsec-gr_funct-2-6",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-6",
-  "type": "Remark",
-  "number": "1.7.4",
-  "title": "",
-  "body": " To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about    "
-},
-{
-  "id": "subsec-gr_funct-2-7",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-7",
-  "type": "Remark",
-  "number": "1.7.5",
-  "title": "",
-  "body": " To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.   "
-},
-{
-  "id": "subsec-gr_funct-2-8",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-8",
-  "type": "Remark",
-  "number": "1.7.6",
-  "title": "",
-  "body": " To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.   "
-},
-{
-  "id": "subsec-gr_funct-2-9",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-9",
-  "type": "Remark",
-  "number": "1.7.7",
-  "title": "",
-  "body": " To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.   "
-},
-{
-  "id": "subsec-gr_funct-2-10",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-10",
-  "type": "Example",
-  "number": "1.7.8",
-  "title": "",
-  "body": " Draw the graph of               "
-},
-{
-  "id": "subsec-gr_funct-2-11",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-11",
-  "type": "Example",
-  "number": "1.7.9",
-  "title": "",
-  "body": " Draw the graph of    "
-},
-{
-  "id": "subsubsec-spcl_gr-2",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": ""
-},
-{
-  "id": "subsubsec-spcl_gr-3",
-  "level": "2",
-  "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-3",
-  "type": "Checkpoint",
-  "number": "1.7.10",
-  "title": "",
-  "body": " Plot:                   "
-},
-{
   "id": "sec_first-asympt",
   "level": "1",
   "url": "sec_first-asympt.html",
   "type": "Section",
-  "number": "1.8",
+  "number": "1.7",
   "title": "Asymptote",
   "body": " Asymptote   An asymptote is a line that a curve (function) approaches but never touches as it extends toward infinity. Asymptotes describe the behavior of functions, especially rational functions, as their input (or output) grows very large or very small. There are three main types: horizontal, vertical, and oblique (slant).    Vertical Asymptote: A vertical asymptote is a vertical line where the function approaches infinity (or negative infinity) as ( ) approaches ( ). It occurs where the function is undefined, typically at values that make the denominator zero.        Denominator: , so .    Vertical asymptote at .    As , ; as , . The graph shoots upward on one side and downward on the other.        becomes infinite at and        Horizontal Asymptote: A horizontal asymptote is a horizontal line that the graph of a function approaches as or . It describes the function's behavior at the extremes of the x-axis. For a rational function , compare the degrees of the numerator and denominator :   If the degree of  degree of , the horizontal asymptote is .    If the degrees are equal, the horizontal asymptote is , where and are the leading coefficients of and .    If the degree of degree of , there is no horizontal asymptote (but there may be an oblique asymptote).       Degree of numerator: 1 (from ( )).    Degree of denominator: 2 (from ).    Since 1 2, the horizontal asymptote is .    As , the denominator grows faster, so . The graph flattens toward the x-axis.              Degrees are equal: both .    Leading coefficients: 3 (numerator) and 2 (denominator).    Horizontal asymptote: .    As , , so the graph approaches .            Oblique Asymptote An oblique asymptote is a slanted line that the graph approaches when the degree of the numerator is exactly one more than the degree of the denominator.  No discussion of oblique asymptote here.      For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at ( c ), but the \"gap\" can be filled by simplifying.    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At , HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and     "
 },
@@ -761,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#sec_first-asympt-2-2",
   "type": "Observation",
-  "number": "1.8.5",
+  "number": "1.7.5",
   "title": "",
   "body": " For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at ( c ), but the \"gap\" can be filled by simplifying.  "
 },
@@ -770,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#sec_first-asympt-2-3",
   "type": "Example",
-  "number": "1.8.6",
+  "number": "1.7.6",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .  "
 },
@@ -779,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#sec_first-asympt-2-4",
   "type": "Example",
-  "number": "1.8.7",
+  "number": "1.7.7",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At , HA at .  "
 },
@@ -788,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#sec_first-asympt-2-5",
   "type": "Example",
-  "number": "1.8.8",
+  "number": "1.7.8",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and   "
 },
@@ -797,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-log.html",
   "type": "Section",
-  "number": "1.9",
+  "number": "1.8",
   "title": "Logarithm",
   "body": " Logarithm   A function that gives the exponent to which a fixed number (base) must be raised to produce a given number (argument). In the above expression is argument and is called the base of logarithm. The condition in logarithm and   In real numbers, the base must be a positive number and not equal to 1. The argument of a logarithm must also be a positive number.  Examples:                    Common Logarithm:     Natural Logarithm:      Evaluate:                                Logarithm to Exponent Conversion:                     Exponent to Logarithm Conversion:                      Graph of Lagarithimic Function:          Domain:     Logarithmic Rules   Power Rule:                               Product Rule:                     Quotient Rule:          Other Rules or Tricks:              If then,                                       Solving Exponential Equations.                          Solving Logarithmic Equations.       but in logarithm argument is always positive, hence need to be excluded for .            Since, makes negative argument, hence this value must be excluded for the solution.       Applications of Logarithmic Expression  Logarithms can be used to analyze either very small or very large numbers. It has wide applications in science such as represent earthquake magnitude (Richter scale), sound intensity (decibels), and chemical acidity (pH scale).   "
 },
@@ -824,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-6",
   "type": "Example",
-  "number": "1.9.1",
+  "number": "1.8.1",
   "title": "",
   "body": "  Evaluate:                              "
 },
@@ -842,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-8",
   "type": "Example",
-  "number": "1.9.2",
+  "number": "1.8.2",
   "title": "",
   "body": "               "
 },
@@ -860,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-10",
   "type": "Example",
-  "number": "1.9.3",
+  "number": "1.8.3",
   "title": "",
   "body": "               "
 },
@@ -869,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_plot-3",
   "type": "Figure",
-  "number": "1.9.4",
+  "number": "1.8.4",
   "title": "",
   "body": "   "
 },
@@ -887,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-3",
   "type": "Example",
-  "number": "1.9.5",
+  "number": "1.8.5",
   "title": "",
   "body": "                         "
 },
@@ -905,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-5",
   "type": "Example",
-  "number": "1.9.6",
+  "number": "1.8.6",
   "title": "",
   "body": "               "
 },
@@ -923,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-7",
   "type": "Example",
-  "number": "1.9.7",
+  "number": "1.8.7",
   "title": "",
   "body": "    "
 },
@@ -941,25 +797,196 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-9",
   "type": "Example",
-  "number": "1.9.8",
+  "number": "1.8.8",
   "title": "",
   "body": "                    "
+},
+{
+  "id": "sec_second-funct-gr",
+  "level": "1",
+  "url": "sec_second-funct-gr.html",
+  "type": "Section",
+  "number": "1.9",
+  "title": "The Graph of Functions",
+  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function.      Some Standard Graphs                                                                               Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.     Draw the graph of                 Draw the graph of       Special Graphs                                           Plot:                      "
+},
+{
+  "id": "subsec-gr_transf-4",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_transf-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Some Standard Graphs "
+},
+{
+  "id": "subsec-gr_transf-6",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_transf-6",
+  "type": "Observation",
+  "number": "1.9.1",
+  "title": "",
+  "body": "    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].      "
+},
+{
+  "id": "subsec-gr_funct-2-4",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-4",
+  "type": "Remark",
+  "number": "1.9.2",
+  "title": "",
+  "body": " To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.      "
+},
+{
+  "id": "subsec-gr_funct-2-5",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-5",
+  "type": "Remark",
+  "number": "1.9.3",
+  "title": "",
+  "body": " To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.   "
+},
+{
+  "id": "subsec-gr_funct-2-6",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-6",
+  "type": "Remark",
+  "number": "1.9.4",
+  "title": "",
+  "body": " To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about    "
+},
+{
+  "id": "subsec-gr_funct-2-7",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-7",
+  "type": "Remark",
+  "number": "1.9.5",
+  "title": "",
+  "body": " To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.   "
+},
+{
+  "id": "subsec-gr_funct-2-8",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-8",
+  "type": "Remark",
+  "number": "1.9.6",
+  "title": "",
+  "body": " To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.   "
+},
+{
+  "id": "subsec-gr_funct-2-9",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-9",
+  "type": "Remark",
+  "number": "1.9.7",
+  "title": "",
+  "body": " To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.   "
+},
+{
+  "id": "subsec-gr_funct-2-10",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-10",
+  "type": "Example",
+  "number": "1.9.8",
+  "title": "",
+  "body": " Draw the graph of               "
+},
+{
+  "id": "subsec-gr_funct-2-11",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_funct-2-11",
+  "type": "Example",
+  "number": "1.9.9",
+  "title": "",
+  "body": " Draw the graph of    "
+},
+{
+  "id": "subsubsec-spcl_gr-2",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": ""
+},
+{
+  "id": "subsubsec-spcl_gr-3",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-3",
+  "type": "Checkpoint",
+  "number": "1.9.10",
+  "title": "",
+  "body": " Plot:                   "
+},
+{
+  "id": "sec_first-comp",
+  "level": "1",
+  "url": "sec_first-comp.html",
+  "type": "Section",
+  "number": "1.10",
+  "title": "Combinations of Functions",
+  "body": " Combinations of Functions  When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.         The composite function also called composition of and if here, all in the domain of such that is in the domain of .      If and , find the composite functions and             Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain          If and find     By definition: First apply , then plug the result into :       If , then find (a) and (b) .  If , and find .         "
+},
+{
+  "id": "def-com_func",
+  "level": "2",
+  "url": "sec_first-comp.html#def-com_func",
+  "type": "Definition",
+  "number": "1.10.1",
+  "title": "",
+  "body": "  The composite function also called composition of and if here, all in the domain of such that is in the domain of .   "
+},
+{
+  "id": "sec_first-comp-5",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-5",
+  "type": "Example",
+  "number": "1.10.2",
+  "title": "",
+  "body": "  If and , find the composite functions and          "
+},
+{
+  "id": "sec_first-comp-6",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-6",
+  "type": "Example",
+  "number": "1.10.3",
+  "title": "",
+  "body": "  Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain       "
+},
+{
+  "id": "sec_first-comp-7",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-7",
+  "type": "Example",
+  "number": "1.10.4",
+  "title": "",
+  "body": "  If and find     By definition: First apply , then plug the result into :    "
+},
+{
+  "id": "sec_first-comp-8",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-8",
+  "type": "Example",
+  "number": "1.10.5",
+  "title": "",
+  "body": "  If , then find (a) and (b) .  If , and find .        "
 },
 {
   "id": "ex_first",
   "level": "1",
   "url": "ex_first.html",
   "type": "Exercises",
-  "number": "1.10",
+  "number": "1.11",
   "title": "Exercise",
-  "body": " Exercise   Find the domain of     . Domain: (0,4)     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of the following functions                          Draw graph of the given function , its domain and Range.          Define function,         Find the range of the following functions                               Find range of:                    "
+  "body": " Exercise   Find the domain of     . Domain: (0,4)     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of the following functions                          Draw graph of the given function , its domain and Range.          Define function,         Find the range of the following functions                               Find range of:                        Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                          "
 },
 {
   "id": "ex_first-2",
   "level": "2",
   "url": "ex_first.html#ex_first-2",
   "type": "Exercise",
-  "number": "1.10.1",
+  "number": "1.11.1",
   "title": "",
   "body": " Find the domain of     . Domain: (0,4)   "
 },
@@ -968,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-3",
   "type": "Exercise",
-  "number": "1.10.2",
+  "number": "1.11.2",
   "title": "",
   "body": " Find the domain of   "
 },
@@ -977,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-4",
   "type": "Exercise",
-  "number": "1.10.3",
+  "number": "1.11.3",
   "title": "",
   "body": " Find the domain of   "
 },
@@ -986,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-5",
   "type": "Exercise",
-  "number": "1.10.4",
+  "number": "1.11.4",
   "title": "",
   "body": " Find the domain of   "
 },
@@ -995,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-6",
   "type": "Exercise",
-  "number": "1.10.5",
+  "number": "1.11.5",
   "title": "",
   "body": " Find the domain of   "
 },
@@ -1004,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-7",
   "type": "Exercise",
-  "number": "1.10.6",
+  "number": "1.11.6",
   "title": "",
   "body": " Find the domain of   "
 },
@@ -1013,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-8",
   "type": "Exercise",
-  "number": "1.10.7",
+  "number": "1.11.7",
   "title": "",
   "body": " Find the domain of   "
 },
@@ -1022,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-9",
   "type": "Exercise",
-  "number": "1.10.8",
+  "number": "1.11.8",
   "title": "",
   "body": " Find the domain of the following functions                        "
 },
@@ -1031,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-10",
   "type": "Exercise",
-  "number": "1.10.9",
+  "number": "1.11.9",
   "title": "",
   "body": " Draw graph of the given function , its domain and Range.  "
 },
@@ -1040,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-11",
   "type": "Exercise",
-  "number": "1.10.10",
+  "number": "1.11.10",
   "title": "",
   "body": "       Define function,       "
 },
@@ -1049,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-12",
   "type": "Exercise",
-  "number": "1.10.11",
+  "number": "1.11.11",
   "title": "",
   "body": " Find the range of the following functions                             "
 },
@@ -1058,9 +1085,36 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-13",
   "type": "Exercise",
-  "number": "1.10.12",
+  "number": "1.11.12",
   "title": "",
   "body": " Find range of:                   "
+},
+{
+  "id": "ex_first-14",
+  "level": "2",
+  "url": "ex_first.html#ex_first-14",
+  "type": "Exercise",
+  "number": "1.11.13",
+  "title": "",
+  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
+},
+{
+  "id": "ex_first-15",
+  "level": "2",
+  "url": "ex_first.html#ex_first-15",
+  "type": "Exercise",
+  "number": "1.11.14",
+  "title": "",
+  "body": " Match each equation with its graph.                    "
+},
+{
+  "id": "ex_first-16",
+  "level": "2",
+  "url": "ex_first.html#ex_first-16",
+  "type": "Exercise",
+  "number": "1.11.15",
+  "title": "",
+  "body": " Match each equation with its graph.                         "
 },
 {
   "id": "sec_second-intro",
@@ -1321,7 +1375,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Limit Laws",
-  "body": " Limit Laws     If is a constant and the limits and exist as finite numbers not as or , then                             Evaluating Limits: If f(x) and g(x) tends to zero as then              e.g., , , ,            If exists and as then as Meaning, if limit exists between and , then as , also goes to zero at     If and then could be  or, limit does not exist.    If and , then could exist or could not exist.       Find:     If exist then find   Solution: At then ,   or,      Evaluate:                Remember: if numerator or denominator or both contains square roots then we need to rationalize the function.           Let , then at            Evaluate:     Let , so as , we have .       form:     Rationalize:      Alternate:    Therefore,          Squeeze Theorem  The Squeeze Theorem (also known as the Sandwich Theorem or Pinching Theorem) is a tool for evaluating limits, especially when direct substitution leads to indeterminate forms like or .  Let and be functions defined on some open interval containing , and suppose: for all in that interval (except possibly at ). If and then   In words: If is squeezed between two functions and that both approach the same limit , then must also approach .    Evaluate:     Let's consider a unit circle: From right angled   From right angled triangle, we have Now from figure,     Area of  Area of  Area of     Area of sector =    For angle area subtends by radius . Hence, area subtends by radius for an angle   Now from eqn 3,       Hence, from eqns. 8 and 9.      Alternate: use L'Hospital rule       Find: from squeeze theorem,          Some Standard Limits   Algebric      Solution:      Trigonometric                          Find:   Solution:       Solution: Step 1: Analyze the behavior as    (since base 1)   oscillates between -1 and +1 for all real , because the argument grows exponentially, and sine is periodic. So the fraction is:   Step 2: Apply the Squeeze Theorem  We know:   Divide by (for large): Now take the limit, and Hence, from squeeze theorem     Find:   Solution: At           Logarithimic and Exponential  Logarithimic and Exponential                          Find:         Find:          Find:         where and as      Form   Evaluate:                and Forms  If forms of limit are then convert it into either formate or format before solving the limit.       use L Hospital's rule:              where as       for form convert into form.             use L hospital rule,      As                           Whenever function under consideration has one of the following traits, always check RHL, LHL for the existance of limit.     It has , , or mod    It is piecewise defind function    It has and        "
+  "body": " Limit Laws     If is a constant and the limits and exist as finite numbers not as or , then                            If then   e.g., if then but then .          Evaluating Limits: If f(x) and g(x) tends to zero as then              e.g., , , ,            If exists and as then as Meaning, if limit exists between and , then as , also goes to zero at     If and then could be  or, limit does not exist.    If and , then could exist or could not exist.       Find:     If exist then find   Solution: At then ,   or,      Evaluate:                Remember: if numerator or denominator or both contains square roots then we need to rationalize the function.           Let , then at            Evaluate:     Let , so as , we have .       form:     Rationalize:      Alternate:    Therefore,          Squeeze Theorem  The Squeeze Theorem (also known as the Sandwich Theorem or Pinching Theorem) is a tool for evaluating limits, especially when direct substitution leads to indeterminate forms like or .  Let and be functions defined on some open interval containing , and suppose: for all in that interval (except possibly at ). If and then   In words: If is squeezed between two functions and that both approach the same limit , then must also approach .    Evaluate:     Let's consider a unit circle: From right angled   From right angled triangle, we have Now from figure,     Area of  Area of  Area of     Area of sector =    For angle area subtends by radius . Hence, area subtends by radius for an angle   Now from eqn 3,       Hence, from eqns. 8 and 9.      Alternate: use L'Hospital rule       Find: from squeeze theorem,          Some Standard Limits   Algebric      Solution:      Trigonometric                          Find:   Solution:       Solution: Step 1: Analyze the behavior as    (since base 1)   oscillates between -1 and +1 for all real , because the argument grows exponentially, and sine is periodic. So the fraction is:   Step 2: Apply the Squeeze Theorem  We know:   Divide by (for large): Now take the limit, and Hence, from squeeze theorem       Evaluate the following:           degree is not a real number, so convert it into radian first.         Find:   Solution: At           Logarithimic and Exponential  Logarithimic and Exponential                          Find:         Find:          Find:         where and as      Form   Evaluate:                and Forms  If forms of limit are then convert it into either formate or format before solving the limit.       use L Hospital's rule:              where as       for form convert into form.             use L hospital rule,      As                           Whenever function under consideration has one of the following traits, always check RHL, LHL for the existance of limit.     It has , , or mod    It is piecewise defind function    It has and        "
 },
 {
   "id": "thm-lmt_lws",
@@ -1330,7 +1384,7 @@ var ptx_lunr_docs = [
   "type": "Theorem",
   "number": "2.2.1",
   "title": "",
-  "body": "  If is a constant and the limits and exist as finite numbers not as or , then                         "
+  "body": "  If is a constant and the limits and exist as finite numbers not as or , then                            If then   e.g., if then but then .      "
 },
 {
   "id": "thm-eval_lmt",
@@ -1465,6 +1519,15 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.15",
   "title": "",
+  "body": "   Evaluate the following:           degree is not a real number, so convert it into radian first.       "
+},
+{
+  "id": "subsec-std_lmt-8",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-std_lmt-8",
+  "type": "Example",
+  "number": "2.2.16",
+  "title": "",
   "body": " Find:   Solution: At         "
 },
 {
@@ -1477,22 +1540,13 @@ var ptx_lunr_docs = [
   "body": "Logarithimic and Exponential "
 },
 {
-  "id": "subsec-std_lmt-9",
-  "level": "2",
-  "url": "sec_second-lmtlaws.html#subsec-std_lmt-9",
-  "type": "Example",
-  "number": "2.2.16",
-  "title": "",
-  "body": " Find:       "
-},
-{
   "id": "subsec-std_lmt-10",
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-std_lmt-10",
   "type": "Example",
   "number": "2.2.17",
   "title": "",
-  "body": " Find:        "
+  "body": " Find:       "
 },
 {
   "id": "subsec-std_lmt-11",
@@ -1501,25 +1555,25 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.18",
   "title": "",
-  "body": " Find:      "
+  "body": " Find:        "
 },
 {
   "id": "subsec-std_lmt-12",
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-std_lmt-12",
-  "type": "Remark",
+  "type": "Example",
   "number": "2.2.19",
   "title": "",
-  "body": "  where and as   "
+  "body": " Find:      "
 },
 {
   "id": "subsec-std_lmt-13",
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-std_lmt-13",
-  "type": "Example",
+  "type": "Remark",
   "number": "2.2.20",
   "title": "",
-  "body": "  Form   Evaluate:    "
+  "body": "  where and as   "
 },
 {
   "id": "subsec-std_lmt-14",
@@ -1528,6 +1582,15 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.2.21",
   "title": "",
+  "body": "  Form   Evaluate:    "
+},
+{
+  "id": "subsec-std_lmt-15",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-std_lmt-15",
+  "type": "Example",
+  "number": "2.2.22",
+  "title": "",
   "body": "        "
 },
 {
@@ -1535,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-3",
   "type": "Example",
-  "number": "2.2.22",
+  "number": "2.2.23",
   "title": "",
   "body": "     use L Hospital's rule:   "
 },
@@ -1544,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-4",
   "type": "Example",
-  "number": "2.2.23",
+  "number": "2.2.24",
   "title": "",
   "body": "       "
 },
@@ -1553,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-5",
   "type": "Remark",
-  "number": "2.2.24",
+  "number": "2.2.25",
   "title": "",
   "body": "  where as   "
 },
@@ -1562,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-6",
   "type": "Example",
-  "number": "2.2.25",
+  "number": "2.2.26",
   "title": "",
   "body": "   for form convert into form.      "
 },
@@ -1571,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-7",
   "type": "Example",
-  "number": "2.2.26",
+  "number": "2.2.27",
   "title": "",
   "body": "      use L hospital rule,    "
 },
@@ -1580,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-8",
   "type": "Note",
-  "number": "2.2.27",
+  "number": "2.2.28",
   "title": "",
   "body": " As                         "
 },
@@ -1589,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-lmtlaws.html#subsec-inderForm2-9",
   "type": "Note",
-  "number": "2.2.28",
+  "number": "2.2.29",
   "title": "",
   "body": " Whenever function under consideration has one of the following traits, always check RHL, LHL for the existance of limit.     It has , , or mod    It is piecewise defind function    It has and      "
 },
@@ -1600,7 +1663,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Example A",
-  "body": " Example A   Find:   convert mod function in algebric function as From left hand limit (LHL)  Since,   From right hand limit (RHL)  Since, .  Hence, the limit does not exist as      Indeterminant Forms of Limit  If then we say the exists and   If and , then is in indetrminant form.    , are determinant forms.  However, can not tell whether it is determinant or inderminant without looking at the context.   Evaluate:   Solution: set, and as     Using Binomial Expression    Using L Hosppital's Rule      If exists then find the value of   At  then see remark [ ].   or,     If then find the value of   solution: At  , then or,   from L Hospital rule: or, From previous equation, Hence,      Rationalization method:    solution:        When or , then just take biggest terms in nemerator and denominator common.   Solution:        If quotient functions of top and bottom has same power of variable, then we get finite value after substitution of     If bottom function has higher power then the top function, then gives zero.    If top function has higher power then the bottom function, then gives either or, .       If then find the value of and   Solution: Set as or, or, or, To get expression zero, bottom power must be high but it is not the condition here so set the coefficient of and to be zero.  Hence,   and,     Find: here x is a variable as x is going to y.        Find:   Solution:       As  but slightly less than 1.  and as  but slightly greater than 1.                                                1\/4    1\/2    6    DNE (limit does not exists)    1\/3         Answer: 3.    "
+  "body": " Example A   Find:   convert mod function in algebric function as From left hand limit (LHL)  Since,   From right hand limit (RHL)  Since, .  Hence, the limit does not exist as      Indeterminant Forms of Limit  If then we say the exists and   If and , then is in indetrminant form.    , are determinant forms.  However, can not tell whether it is determinant or inderminant without looking at the context.   Evaluate:   Solution: set, and as     Using Binomial Expression    Using L Hosppital's Rule      If exists then find the value of   At  then see remark [ ].   or,     If then find the value of   solution: At  , then or,   from L Hospital rule: or, From previous equation, Hence,      Rationalization method:    solution:        When or , then just take biggest terms in nemerator and denominator common.   Solution:        If quotient functions of top and bottom has same power of variable, then we get finite value after substitution of     If bottom function has higher power then the top function, then gives zero.    If top function has higher power then the bottom function, then gives either or, .       If then find the value of and   Solution: Set as or, or, or, To get expression zero, bottom power must be high but it is not the condition here so set the coefficient of and to be zero.  Hence,   and,     Find: here x is a variable as x is going to y.         Evaluate:       Now change limit as so that as       Find:   Solution:       As  but slightly less than 1.  and as  but slightly greater than 1.                                                1\/4    1\/2    6    DNE (limit does not exists)    1\/3         Answer: 3.    "
 },
 {
   "id": "sec_second-exampleA-2",
@@ -1690,7 +1753,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.10",
   "title": "",
-  "body": " Find:   Solution:       As  but slightly less than 1.  and as  but slightly greater than 1.   "
+  "body": "  Evaluate:       Now change limit as so that as     "
 },
 {
   "id": "sec_second-exampleA-3-15",
@@ -1699,7 +1762,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.11",
   "title": "",
-  "body": "       "
+  "body": " Find:   Solution:       As  but slightly less than 1.  and as  but slightly greater than 1.   "
 },
 {
   "id": "sec_second-exampleA-3-16",
@@ -1708,7 +1771,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.12",
   "title": "",
-  "body": "                                    1\/4    1\/2    6    DNE (limit does not exists)    1\/3      "
+  "body": "       "
 },
 {
   "id": "sec_second-exampleA-3-17",
@@ -1716,6 +1779,15 @@ var ptx_lunr_docs = [
   "url": "sec_second-exampleA.html#sec_second-exampleA-3-17",
   "type": "Example",
   "number": "2.3.13",
+  "title": "",
+  "body": "                                    1\/4    1\/2    6    DNE (limit does not exists)    1\/3      "
+},
+{
+  "id": "sec_second-exampleA-3-18",
+  "level": "2",
+  "url": "sec_second-exampleA.html#sec_second-exampleA-3-18",
+  "type": "Example",
+  "number": "2.3.14",
   "title": "",
   "body": "  Answer: 3.  "
 },
@@ -3400,7 +3472,7 @@ var ptx_lunr_docs = [
   "type": "Appendix",
   "number": "A",
   "title": "Mathematical Relations",
-  "body": " Mathematical Relations   Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant.     Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                        If then                                     Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:    Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and      Law of sines:     Law of cosines:       Binomial Theorem  Binomial Theorem:      Power Series:          Combination and Permutation      Vectors: Draw a rectangle having adjacent sides as and Draw perpendicular on x-axis from point L as shown in figure below. The diagonal of rectangle represents resultant of the vectors and . Now      and  and      "
+  "body": " Mathematical Relations   Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant.     Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                        If then                                               Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:    Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and      Law of sines:     Law of cosines:       Binomial Theorem  Binomial Theorem:      Power Series:          Combination and Permutation     "
 },
 {
   "id": "append_math-2",
@@ -3464,15 +3536,6 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "Power Series: "
-},
-{
-  "id": "append_math-15",
-  "level": "2",
-  "url": "append_math.html#append_math-15",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Vectors: "
 },
 {
   "id": "append_physTable",
