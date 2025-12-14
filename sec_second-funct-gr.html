@@ -102,15 +102,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.0';
+eBookConfig.runestone_version = '7.11.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -146,12 +146,15 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-review.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Review</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Classification of Numbers</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of some Number Systems:</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Number Systems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of Number Systems:</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_first-intervals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-mod_fn" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Modulus Functions</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_first-functions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Function</span></a></div>
@@ -278,483 +281,702 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_second-funct-gr"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">The Graph of Functions</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.9</span><span class="space"> </span><span class="title">The Graph of Functions</span>
 </h2>
-<section class="introduction" id="sec_second-funct-gr-2"><div class="para" id="sec_second-funct-gr-2-1">The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let’s break down how the graph can be used to analyze each of these properties:<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec_second-funct-gr-2"><div class="para" id="sec_second-funct-gr-2-1">The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let’s break down how the graph can be used to analyze each of these properties:<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_second-funct-gr-2-2">
 <ol class="lower-roman ol-marker-1" id="sec_second-funct-gr-2-2-1">
 <li id="sec_second-funct-gr-2-2-1-1">
-<div class="para" id="sec_second-funct-gr-2-2-1-1-1">Domain: <a href="sec_first-domain.html" class="internal" title="Section 1.5: Domain">Section 1.5</a><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-1-1">Domain: <a href="sec_first-domain.html" class="internal" title="Section 1.5: Domain">Section 1.5</a><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-1-2">Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, <span class="process-math">\(\mathbb{R}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-1-2">Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, <span class="process-math">\(\mathbb{R}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-1-3">If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of <span class="process-math">\(f(x) = \frac{1}{x}\)</span>  [<a href="sec_first-functions.html#rational_f1" class="xref" data-knowl="./knowl/xref/rational_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.11">Figure 1.4.11</a>] has a vertical asymptote at <span class="process-math">\(x = 0\text{,}\)</span> so the domain is <span class="process-math">\(\mathbb{R} \setminus \{0\}\)</span> (read as domain is all real number except zero).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-1-3">If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of <span class="process-math">\(f(x) = \frac{1}{x}\)</span>  [<a href="sec_first-functions.html#rational_f1" class="xref" data-knowl="./knowl/xref/rational_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.6">Figure 1.4.6</a>] has a vertical asymptote at <span class="process-math">\(x = 0\text{,}\)</span> so the domain is <span class="process-math">\(\mathbb{R} \setminus \{0\}\)</span> (read as domain is all real number except zero).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-1-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item i"><a href="#sec_second-funct-gr-2-2-1-1" title="Copy heading and permalink for Item i" aria-label="Copy heading and permalink for Item i">🔗</a></div>
+<div class="autopermalink" data-description="Item i"><a href="#sec_second-funct-gr-2-2-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
 </li>
 <li id="sec_second-funct-gr-2-2-1-2">
-<div class="para" id="sec_second-funct-gr-2-2-1-2-1">Range: <a href="sec_first-range.html" class="internal" title="Section 1.6: Range">Section 1.6</a><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-2-1">Range: <a href="sec_first-range.html" class="internal" title="Section 1.6: Range">Section 1.6</a><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-2-2">Examine the y-axis. The range includes all y-values covered by the graph. For example: For <span class="process-math">\(f(x) = x^2\text{,}\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.8">Figure 1.4.8</a>] the graph is a parabola opening upward with a vertex at the origin, so the range is <span class="process-math">\([0, \infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-2-2">Examine the y-axis. The range includes all y-values covered by the graph. For example: For <span class="process-math">\(f(x) = x^2\text{,}\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.4">Figure 1.4.4</a>] the graph is a parabola opening upward with a vertex at the origin, so the range is <span class="process-math">\([0, \infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-2-3">For <span class="process-math">\(f(x) = \sin(x)\text{,}\)</span> [<a href="sec_first-functions.html#trig_f1" class="xref" data-knowl="./knowl/xref/trig_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.12">Figure 1.4.12</a>] the graph oscillates between -1 and 1, so the range is <span class="process-math">\([-1, 1]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-2-3">For <span class="process-math">\(f(x) = \sin(x)\text{,}\)</span> [<a href="sec_first-functions.html#trig_f1" class="xref" data-knowl="./knowl/xref/trig_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.7">Figure 1.4.7</a>] the graph oscillates between -1 and 1, so the range is <span class="process-math">\([-1, 1]\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item ii"><a href="#sec_second-funct-gr-2-2-1-2" title="Copy heading and permalink for Item ii" aria-label="Copy heading and permalink for Item ii">🔗</a></div>
+<div class="autopermalink" data-description="Item ii"><a href="#sec_second-funct-gr-2-2-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
 </li>
 <li id="sec_second-funct-gr-2-2-1-3">
-<div class="para" id="sec_second-funct-gr-2-2-1-3-1">Even/Odd Function:<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-3-1">Even/Odd Function:<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-3-2">A function is even if <span class="process-math">\(f(-x) = f(x)\text{,}\)</span> implying symmetry about the y-axis.  Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: <span class="process-math">\(f(x) = x^2\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.8">Figure 1.4.8</a>] is even because its graph is symmetric about the y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-3-2">A function is even if <span class="process-math">\(f(-x) = f(x)\text{,}\)</span> implying symmetry about the y-axis.  Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: <span class="process-math">\(f(x) = x^2\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.4">Figure 1.4.4</a>] is even because its graph is symmetric about the y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-3-3">A function is odd if <span class="process-math">\(f(-x) = -f(x)\text{,}\)</span> implying symmetry about the origin. Check if rotating the graph by <span class="process-math">\(180^o\)</span> around the origin leaves it unchanged. Example: <span class="process-math">\(f(x) = x^3\)</span> [<a href="sec_first-functions.html#odd_f1" class="xref" data-knowl="./knowl/xref/odd_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.9">Figure 1.4.9</a>] is odd because its graph is symmetric about the origin.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-3-3">A function is odd if <span class="process-math">\(f(-x) = -f(x)\text{,}\)</span> implying symmetry about the origin. Check if rotating the graph by <span class="process-math">\(180^o\)</span> around the origin leaves it unchanged. Example: <span class="process-math">\(f(x) = x^3\)</span> [<a href="sec_first-functions.html#odd_f1" class="xref" data-knowl="./knowl/xref/odd_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.5">Figure 1.4.5</a>] is odd because its graph is symmetric about the origin.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-3-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item iii"><a href="#sec_second-funct-gr-2-2-1-3" title="Copy heading and permalink for Item iii" aria-label="Copy heading and permalink for Item iii">🔗</a></div>
+<div class="autopermalink" data-description="Item iii"><a href="#sec_second-funct-gr-2-2-1-3" title="Copy heading and permalink for Item iii">🔗</a></div>
 </li>
 <li id="sec_second-funct-gr-2-2-1-4">
-<div class="para" id="sec_second-funct-gr-2-2-1-4-1">Symmetry:<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-4-1">Symmetry:<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-4-2">Y-Axis Symmetry: Indicates an even function, as described above.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-4-2">Y-Axis Symmetry: Indicates an even function, as described above.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-4-3">Origin Symmetry: Indicates an odd function.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-4-3">Origin Symmetry: Indicates an odd function.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-4-4">Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., <span class="process-math">\(f(x) = \sin(x)\)</span> [<a href="sec_first-functions.html#trig_f1" class="xref" data-knowl="./knowl/xref/trig_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.12">Figure 1.4.12</a>] has translational symmetry for every <span class="process-math">\(2\pi\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-4-4">Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., <span class="process-math">\(f(x) = \sin(x)\)</span> [<a href="sec_first-functions.html#trig_f1" class="xref" data-knowl="./knowl/xref/trig_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.7">Figure 1.4.7</a>] has translational symmetry for every <span class="process-math">\(2\pi\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-4-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item iv"><a href="#sec_second-funct-gr-2-2-1-4" title="Copy heading and permalink for Item iv" aria-label="Copy heading and permalink for Item iv">🔗</a></div>
+<div class="autopermalink" data-description="Item iv"><a href="#sec_second-funct-gr-2-2-1-4" title="Copy heading and permalink for Item iv">🔗</a></div>
 </li>
 <li id="sec_second-funct-gr-2-2-1-5">
-<div class="para" id="sec_second-funct-gr-2-2-1-5-1">One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-5-1">One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-5-2">Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of <span class="process-math">\(f(x) = x^3\)</span> [<a href="sec_first-functions.html#odd_f1" class="xref" data-knowl="./knowl/xref/odd_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.9">Figure 1.4.9</a>] passes the horizontal line test (one-to-one). The graph of <span class="process-math">\(f(x) = x^2\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.8">Figure 1.4.8</a>] fails the test (not one-to-one, as <span class="process-math">\(f(-x) = f(x)\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-5-2">Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of <span class="process-math">\(f(x) = x^3\)</span> [<a href="sec_first-functions.html#odd_f1" class="xref" data-knowl="./knowl/xref/odd_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.5">Figure 1.4.5</a>] passes the horizontal line test (one-to-one). The graph of <span class="process-math">\(f(x) = x^2\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.4">Figure 1.4.4</a>] fails the test (not one-to-one, as <span class="process-math">\(f(-x) = f(x)\)</span>).<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-5-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item v"><a href="#sec_second-funct-gr-2-2-1-5" title="Copy heading and permalink for Item v" aria-label="Copy heading and permalink for Item v">🔗</a></div>
+<div class="autopermalink" data-description="Item v"><a href="#sec_second-funct-gr-2-2-1-5" title="Copy heading and permalink for Item v">🔗</a></div>
 </li>
 <li id="sec_second-funct-gr-2-2-1-6">
-<div class="para" id="sec_second-funct-gr-2-2-1-6-1">Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-6-1">Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-6-2">Using the Graph: Check if the graph covers the entire codomain (often assumed to be <span class="process-math">\(\mathbb{R}\)</span> unless specified). For example: For <span class="process-math">\(f(x) = x^3\text{,}\)</span> [<a href="sec_first-functions.html#odd_f1" class="xref" data-knowl="./knowl/xref/odd_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.9">Figure 1.4.9</a>] the graph extends from <span class="process-math">\(-\infty\)</span> to <span class="process-math">\(\infty\)</span> on the y-axis, so it is onto <span class="process-math">\(\mathbb{R}\text{.}\)</span> For <span class="process-math">\(f(x) = x^2\text{,}\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.8">Figure 1.4.8</a>] the graph only covers <span class="process-math">\([0, \infty)\text{,}\)</span> so it is not onto <span class="process-math">\(\mathbb{R}\text{,}\)</span> but it is onto <span class="process-math">\([0, \infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-6-2">Using the Graph: Check if the graph covers the entire codomain (often assumed to be <span class="process-math">\(\mathbb{R}\)</span> unless specified). For example: For <span class="process-math">\(f(x) = x^3\text{,}\)</span> [<a href="sec_first-functions.html#odd_f1" class="xref" data-knowl="./knowl/xref/odd_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.5">Figure 1.4.5</a>] the graph extends from <span class="process-math">\(-\infty\)</span> to <span class="process-math">\(\infty\)</span> on the y-axis, so it is onto <span class="process-math">\(\mathbb{R}\text{.}\)</span> For <span class="process-math">\(f(x) = x^2\text{,}\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.4">Figure 1.4.4</a>] the graph only covers <span class="process-math">\([0, \infty)\text{,}\)</span> so it is not onto <span class="process-math">\(\mathbb{R}\text{,}\)</span> but it is onto <span class="process-math">\([0, \infty)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-6-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item vi"><a href="#sec_second-funct-gr-2-2-1-6" title="Copy heading and permalink for Item vi" aria-label="Copy heading and permalink for Item vi">🔗</a></div>
+<div class="autopermalink" data-description="Item vi"><a href="#sec_second-funct-gr-2-2-1-6" title="Copy heading and permalink for Item vi">🔗</a></div>
 </li>
 <li id="sec_second-funct-gr-2-2-1-7">
-<div class="para" id="sec_second-funct-gr-2-2-1-7-1">Bijective: A function is bijective if it is both one-to-one and onto.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-7-1">Bijective: A function is bijective if it is both one-to-one and onto.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-2-1-7-2">Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of <span class="process-math">\(f(x) = x\)</span> (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of <span class="process-math">\(\mathbb{R}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-7-2">Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of <span class="process-math">\(f(x) = x\)</span> (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of <span class="process-math">\(\mathbb{R}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-7-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 25%; margin-left: 37.5%; margin-right: 37.5%;"><img src="generated/latex-image/set_stl-gr.svg" role="img" class="contained"></div>
-<div class="para" id="sec_second-funct-gr-2-2-1-7-4">The graph of <span class="process-math">\(f(x) = x^2\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.8">Figure 1.4.8</a>] is neither one-to-one nor onto <span class="process-math">\(\mathbb{R}\text{,}\)</span> so it is not bijective.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-2-1-7-4">The graph of <span class="process-math">\(f(x) = x^2\)</span> [<a href="sec_first-functions.html#parab_f1" class="xref" data-knowl="./knowl/xref/parab_f1.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.4">Figure 1.4.4</a>] is neither one-to-one nor onto <span class="process-math">\(\mathbb{R}\text{,}\)</span> so it is not bijective.<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2-1-7-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item vii"><a href="#sec_second-funct-gr-2-2-1-7" title="Copy heading and permalink for Item vii" aria-label="Copy heading and permalink for Item vii">🔗</a></div>
+<div class="autopermalink" data-description="Item vii"><a href="#sec_second-funct-gr-2-2-1-7" title="Copy heading and permalink for Item vii">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_second-funct-gr-2-3">
 <div class="para">Draw the graph of function</div>
-<div class="displaymath process-math" id="sec_second-funct-gr-2-3-1">
+<div class="displaymath process-math">
 \begin{equation*}
 f(x) = \lvert x \rvert
 \end{equation*}
 </div>
 <div class="para">and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_second-funct-gr-2-4">
 <div class="para">Here,</div>
-<div class="displaymath process-math" id="sec_second-funct-gr-2-4-1">
+<div class="displaymath process-math">
 \begin{equation*}
 f(x) = \lvert x \rvert = \pm x
 \end{equation*}
 </div>
 <div class="para">Hence, the graph looks like:</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/modgr1.png" class="contained"></div>
-<div class="para" id="sec_second-funct-gr-2-6">Domain, <span class="process-math">\(x: (-\infty, \infty).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-6">Domain, <span class="process-math">\(x: (-\infty, \infty).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-7">Range, <span class="process-math">\(f(x): (0, \infty).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-7">Range, <span class="process-math">\(f(x): (0, \infty).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_second-funct-gr-2-8">It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from <span class="process-math">\((-\infty, 0)\)</span> and increasing from <span class="process-math">\((\infty , 0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_second-funct-gr-2-8">It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from <span class="process-math">\((-\infty, 0)\)</span> and increasing from <span class="process-math">\((\infty , 0)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_second-funct-gr-2-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><section class="subsection" id="subsec-gr_transf"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Transformation of Graph</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.9.1</span><span class="space"> </span><span class="title">Transformation of Graph</span>
 </h3>
-<div class="para" id="subsec-gr_transf-2">To transform a graph we need to know how to plot the graph of a basic function.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_transf-2">To transform a graph we need to know how to plot the graph of a basic function [<a href="sec_first-functions.html#subsec-trnsform" class="internal" title="Subsection 1.4.4: Transformation of Functions">Subsection 1.4.4</a>].<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="image-box" style="width: 75%; margin-left: 12.5%; margin-right: 12.5%;"><img src="generated/latex-image/transform_gr.svg" role="img" class="contained"></div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/latex-image/transform_gr.svg" role="img" class="contained"></div>
 <div class="para" id="subsec-gr_transf-4">
-<dfn class="terminology">Some Standard Graphs</dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology">Some Standard Graphs</dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="sbsgroup">
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-1-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-1-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-1-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=x^2, x^4, x^6 \cdots 
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/parab_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/parab_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-2-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-2-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-2-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=x^3, x^5, x^7 \cdots 
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/cube_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/cube_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-3-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-3-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-3-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\frac{1}{x}, \frac{1}{x^3}, \frac{1}{x^5} \cdots 
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/recprc_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/recprc_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-4-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-4-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-4-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\frac{1}{x^2}, \frac{1}{x^4},  \cdots 
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/recprc_plt2.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/recprc_plt2.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-5-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-5-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-5-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\sin x
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/sin_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/sin_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-6-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-6-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-6-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\cos x
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/cos_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/cos_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-7-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-7-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-7-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\tan x
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/tan_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/tan_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-8-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-8-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-8-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=|x|
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-8-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/mod_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/mod_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:27.7777777777778% 38.8888888888889%;column-gap:30%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-9-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-9-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:27.7777777777778%;"><div class="para logical" id="subsec-gr_transf-5-9-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y= sgn (x)
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-9-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/sgn_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:38.8888888888889%;"><img src="external/sgn_plt1.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:16.6666666666667% 61.1111111111111%;column-gap:20%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-10-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-10-1-1">
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:16.6666666666667%;"><div class="para logical" id="subsec-gr_transf-5-10-1">
+<div class="displaymath process-math">
 \begin{equation*}
-y= a^x
+y= a^x; \, a\gt 1 
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-10-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/exp_plt2.png" class="contained"></div>
+<div class="sbspanel top" style="width:36.6666666666667%;"><img src="external/exp_plt2.png" class="contained"></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:44.4444444444444% 44.4444444444444%;column-gap:10%;">
-<div class="sbspanel sbspanel--top top" style=""><img src="external/exp_plt3.png" class="contained"></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/log_plt.png" class="contained"></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:16.6666666666667%;"><div class="para" id="subsec-gr_transf-5-11-1">
+<span class="process-math">\(y=a^x; \, 0\lt a\lt 1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-11-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:16.6666666666667% 38.8888888888889%;column-gap:40%;">
-<div class="sbspanel sbspanel--top top" style=""><div class="para logical" id="subsec-gr_transf-5-12-1">
-<div class="displaymath process-math" id="subsec-gr_transf-5-12-1-1">
+<div class="sbspanel top" style="width:44.4444444444444%;"><img src="external/exp_plt3.png" class="contained"></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:16.6666666666667%;"><div class="para" id="subsec-gr_transf-5-12-1">
+<span class="process-math">\(y=\log_a{x}; \, a\gt 1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-12-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></div>
+<div class="sbspanel top" style="width:44.4444444444444%;"><img src="external/log_plt.png" class="contained"></div>
+</div></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;">
+<div class="sbspanel top" style="width:16.6666666666667%;"><div class="para logical" id="subsec-gr_transf-5-13-1">
+<div class="displaymath process-math">
 \begin{equation*}
-y= \log_a{x}
+y= \log_a{x}; \, 0\lt a \lt 1
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-5-13-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/log_plt2.png" class="contained"></div>
+<div class="sbspanel top" style="width:44.4444444444444%;"><img src="external/log_plt2.png" class="contained"></div>
 </div></div>
 </div>
 <article class="observation remark-like" id="subsec-gr_transf-6"><h4 class="heading">
-<span class="type">Observation</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Observation</span><span class="space"> </span><span class="codenumber">1.9.1</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="subsec-gr_transf-6-1">
 <ul class="disc" id="subsec-gr_transf-6-1-1">
 <li id="subsec-gr_transf-6-1-1-1">
-<div class="para" id="subsec-gr_transf-6-1-1-1-1">Any line passing through origin can cross the log graph at two points, no matter how small is its slope.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-6-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_transf-6-1-1-1-1">Any line passing through origin can cross the log graph at two points, no matter how small is its slope.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-6-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/log_plt3.png" class="contained"></div>
-<div class="autopermalink" data-description="Item"><a href="#subsec-gr_transf-6-1-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-gr_transf-6-1-1-1" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsec-gr_transf-6-1-1-2">
-<div class="para" id="subsec-gr_transf-6-1-1-2-1">As <span class="process-math">\(x\)</span> approaches closer to zero, the value of <span class="process-math">\(y \)</span> goes more and more negative and ultimatley reaches to <span class="process-math">\(-\infty\)</span> at <span class="process-math">\(x\to 0\)</span> [blue curve in figure below]. Opposite will be true for <span class="process-math">\(a\lt 1\)</span> graph [see graph of <span class="process-math">\(\log_{0.5}{x}\)</span>].<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-6-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_transf-6-1-1-2-1">As <span class="process-math">\(x\)</span> approaches closer to zero, the value of <span class="process-math">\(y \)</span> goes more and more negative and ultimatley reaches to <span class="process-math">\(-\infty\)</span> at <span class="process-math">\(x\to 0\)</span> [blue curve in figure below]. Opposite will be true for <span class="process-math">\(a\lt 1\)</span> graph [see graph of <span class="process-math">\(\log_{0.5}{x}\)</span>].<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-6-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/ex-log_plt.png" class="contained"></div>
-<div class="autopermalink" data-description="Item"><a href="#subsec-gr_transf-6-1-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<div class="autopermalink" data-description="Item"><a href="#subsec-gr_transf-6-1-1-2" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 </ul>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Observation 1.9.1"><a href="#subsec-gr_transf-6" title="Copy heading and permalink for Observation 1.9.1" aria-label="Copy heading and permalink for Observation 1.9.1">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.9.1: Transformation of Graph"><a href="#subsec-gr_transf" title="Copy heading and permalink for Subsection 1.9.1: Transformation of Graph" aria-label="Copy heading and permalink for Subsection 1.9.1: Transformation of Graph">🔗</a></div></section><section class="subsection" id="subsec-gr_funct"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Graph of Quadratic Function</span>
+<div class="autopermalink" data-description="Observation 1.9.1"><a href="#subsec-gr_transf-6" title="Copy heading and permalink for Observation 1.9.1">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_transf-7"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.2</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-gr_transf-7-1">
+<div class="para">
+<dfn class="terminology">Vertical and Horizontal Shifts:</dfn> If <span class="process-math">\(a \gt 0\)</span> then to obtain the graph of</div>
+<ol class="decimal" id="subsec-gr_transf-7-1-3">
+<li id="subsec-gr_transf-7-1-3-1">
+<div class="para" id="subsec-gr_transf-7-1-3-1-1">
+<span class="process-math">\(y=f(x) + a\text{,}\)</span> shift the graph of <span class="process-math">\(y=f(x)\)</span> a distance <span class="process-math">\(a\)</span> units upward<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-7-1-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-gr_transf-7-1-3-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-7-1-3-2">
+<div class="para" id="subsec-gr_transf-7-1-3-2-1">
+<span class="process-math">\(y=f(x) - a\text{,}\)</span> shift the graph of <span class="process-math">\(y=f(x)\)</span> a distance <span class="process-math">\(a\)</span> units downward<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-7-1-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-gr_transf-7-1-3-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-7-1-3-3">
+<div class="para" id="subsec-gr_transf-7-1-3-3-1">
+<span class="process-math">\(y=f(x - a)\text{,}\)</span> shift the graph of <span class="process-math">\(y=f(x)\)</span> a distance <span class="process-math">\(a\)</span> units to the right<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-7-1-3-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec-gr_transf-7-1-3-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-7-1-3-4">
+<div class="para" id="subsec-gr_transf-7-1-3-4-1">
+<span class="process-math">\(y=f(x + a)\text{,}\)</span> shift the graph of <span class="process-math">\(y=f(x)\)</span> a distance <span class="process-math">\(a\)</span> units to the left<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-7-1-3-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsec-gr_transf-7-1-3-4" title="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Remark 1.9.2"><a href="#subsec-gr_transf-7" title="Copy heading and permalink for Remark 1.9.2">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_transf-8"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-gr_transf-8-1">
+<div class="para">
+<dfn class="terminology">Vertical and Horizontal Stretch and Reflection:</dfn> If <span class="process-math">\(a \gt 1\)</span> then to obtain the graph of</div>
+<ol class="decimal" id="subsec-gr_transf-8-1-3">
+<li id="subsec-gr_transf-8-1-3-1">
+<div class="para" id="subsec-gr_transf-8-1-3-1-1">
+<span class="process-math">\(y=af(x)\text{,}\)</span> stretch the graph of <span class="process-math">\(y=f(x)\)</span> vertically by a factor <span class="process-math">\(a\)</span> units<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-gr_transf-8-1-3-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-8-1-3-2">
+<div class="para" id="subsec-gr_transf-8-1-3-2-1">
+<span class="process-math">\(y=\frac{1}{a}f(x)\text{,}\)</span> shrink the graph of <span class="process-math">\(y=f(x)\)</span> vertically by a factor <span class="process-math">\(a\)</span> units<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-gr_transf-8-1-3-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-8-1-3-3">
+<div class="para" id="subsec-gr_transf-8-1-3-3-1">
+<span class="process-math">\(y=f(ax)\text{,}\)</span> shrink the graph of <span class="process-math">\(y=f(x)\)</span> horizontally by a factor <span class="process-math">\(a\)</span> units<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1-3-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsec-gr_transf-8-1-3-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-8-1-3-4">
+<div class="para" id="subsec-gr_transf-8-1-3-4-1">
+<span class="process-math">\(y=f(\frac{x}{a})\text{,}\)</span> stretch the graph of <span class="process-math">\(y=f(x)\)</span> horizontally by a factor <span class="process-math">\(a\)</span> units<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1-3-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsec-gr_transf-8-1-3-4" title="Copy heading and permalink for Item 4">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-8-1-3-5">
+<div class="para" id="subsec-gr_transf-8-1-3-5-1">
+<span class="process-math">\(y=-f(x)\text{,}\)</span> reflect the graph of <span class="process-math">\(y=f(x)\)</span> about the x-axis<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1-3-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 5"><a href="#subsec-gr_transf-8-1-3-5" title="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+<li id="subsec-gr_transf-8-1-3-6">
+<div class="para" id="subsec-gr_transf-8-1-3-6-1">
+<span class="process-math">\(y=f(-x)\text{,}\)</span> reflect the graph of <span class="process-math">\(y=f(x)\)</span> about the y-axis<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1-3-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6"><a href="#subsec-gr_transf-8-1-3-6" title="Copy heading and permalink for Item 6">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_transf-8-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Remark 1.9.3"><a href="#subsec-gr_transf-8" title="Copy heading and permalink for Remark 1.9.3">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.9.1: Transformation of Graph"><a href="#subsec-gr_transf" title="Copy heading and permalink for Subsection 1.9.1: Transformation of Graph">🔗</a></div></section><section class="subsection" id="subsec-gr_funct"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.9.2</span><span class="space"> </span><span class="title">Graph of Quadratic Function</span>
 </h3>
 <section class="introduction" id="subsec-gr_funct-2"><div class="para logical" id="subsec-gr_funct-2-1">
-<div class="displaymath process-math" id="subsec-gr_funct-2-1-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=ax^2+bx+c
 \end{equation*}
 </div>
 <div class="para">For <span class="process-math">\(a\gt 0,\)</span> graph open up and has the vertex at <span class="process-math">\((-\frac{b}{2a}, -\frac{D}{4a})\)</span> where discriminant, <span class="process-math">\(D=b^2-4ac\text{.}\)</span>  For <span class="process-math">\(a \lt 0,\)</span> graph open down and has the vertex at <span class="process-math">\((-\frac{b}{2a}, -\frac{D}{4a})\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/quadr_plt1.png" class="contained"></div>
-<div class="para" id="subsec-gr_funct-2-3">The above graphs are drawn for <span class="process-math">\(y=x^2-2x-3\)</span> and <span class="process-math">\(y=-x^2+2x+3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-3">The above graphs are drawn for <span class="process-math">\(y=x^2-2x-3\)</span> and <span class="process-math">\(y=-x^2+2x+3\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="remark remark-like" id="subsec-gr_funct-2-4"><h4 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.4</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-gr_funct-2-4-1">To draw a graph of <span class="process-math">\(y=f(x)\pm a\text{,}\)</span> shift the graph of base function <span class="process-math">\(y=f(x)\)</span> upward or downward respectively by ’<span class="process-math">\(a\)</span>’ units.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-4-1">To draw a graph of <span class="process-math">\(y=f(x)\pm a\text{,}\)</span> shift the graph of base function <span class="process-math">\(y=f(x)\)</span> upward or downward respectively by ’<span class="process-math">\(a\)</span>’ units.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:5%;margin-right:5%;grid-template-columns:44.4444444444444% 44.4444444444444%;column-gap:10%;">
-<div class="sbspanel sbspanel--top top" style=""><img src="external/qdrf_plt1.png" class="contained"></div>
-<div class="sbspanel sbspanel--top top" style=""><img src="external/qdrf_plt2.png" class="contained"></div>
+<div class="sidebyside"><div class="sbsrow" style="margin-left:3.75%;margin-right:3.75%;">
+<div class="sbspanel top" style="width:43.2432432432432%;"><img src="external/qdrf_plt1.png" class="contained"></div>
+<div class="sbspanel top" style="width:48.6486486486486%;"><img src="external/qdrf_plt2.png" class="contained"></div>
 </div></div>
-<div class="autopermalink" data-description="Remark 1.9.2"><a href="#subsec-gr_funct-2-4" title="Copy heading and permalink for Remark 1.9.2" aria-label="Copy heading and permalink for Remark 1.9.2">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-5"><h4 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Remark 1.9.4"><a href="#subsec-gr_funct-2-4" title="Copy heading and permalink for Remark 1.9.4">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-5"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.5</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-gr_funct-2-5-1">To draw a graph of <span class="process-math">\(y=f(x\pm a)\text{,}\)</span> shift the graph of base function <span class="process-math">\(y=f(x)\)</span> to the left or right respectively by ’<span class="process-math">\(a\)</span>’ units.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-5-1">To draw a graph of <span class="process-math">\(y=f(x\pm a)\text{,}\)</span> shift the graph of base function <span class="process-math">\(y=f(x)\)</span> to the left or right respectively by ’<span class="process-math">\(a\)</span>’ units.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/cubf_plt1.png" class="contained"></div>
-<div class="autopermalink" data-description="Remark 1.9.3"><a href="#subsec-gr_funct-2-5" title="Copy heading and permalink for Remark 1.9.3" aria-label="Copy heading and permalink for Remark 1.9.3">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-6"><h4 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Remark 1.9.5"><a href="#subsec-gr_funct-2-5" title="Copy heading and permalink for Remark 1.9.5">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-6"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.6</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-gr_funct-2-6-1">To draw a graph of <span class="process-math">\(y=af(x)\text{,}\)</span> inflate or deflate the graph of base function <span class="process-math">\(y=f(x)\)</span> by ’<span class="process-math">\(a\)</span>’ units depending on either <span class="process-math">\(a\gt 1 \)</span> or <span class="process-math">\(0\lt a \lt 1.\)</span>   [(Vertical stretch, or Vertical shrink)]<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-6-1">To draw a graph of <span class="process-math">\(y=af(x)\text{,}\)</span> inflate or deflate the graph of base function <span class="process-math">\(y=f(x)\)</span> by ’<span class="process-math">\(a\)</span>’ units depending on either <span class="process-math">\(a\gt 1 \)</span> or <span class="process-math">\(0\lt a \lt 1.\)</span>   [(Vertical stretch, or Vertical shrink)]<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/sinf_plt1.png" class="contained"></div>
-<div class="para" id="subsec-gr_funct-2-6-3">To draw <span class="process-math">\(y=-f(x),\)</span> reflect the <span class="process-math">\(y=f(x)\)</span> graph about <span class="process-math">\(x-axis.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-6-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-6-3">To draw <span class="process-math">\(y=-f(x),\)</span> reflect the <span class="process-math">\(y=f(x)\)</span> graph about <span class="process-math">\(x-axis.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-6-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/sinf_plt2.png" class="contained"></div>
-<div class="autopermalink" data-description="Remark 1.9.4"><a href="#subsec-gr_funct-2-6" title="Copy heading and permalink for Remark 1.9.4" aria-label="Copy heading and permalink for Remark 1.9.4">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-7"><h4 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Remark 1.9.6"><a href="#subsec-gr_funct-2-6" title="Copy heading and permalink for Remark 1.9.6">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-7"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.7</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-gr_funct-2-7-1">To draw a graph of <span class="process-math">\(y=f(ax)\text{,}\)</span> stretch or compress the graph of base function <span class="process-math">\(y=f(x)\)</span> depending on either <span class="process-math">\(0\lt a \lt 1 \)</span> or <span class="process-math">\(a\gt 1, \)</span> respectively.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-7-1">To draw a graph of <span class="process-math">\(y=f(ax)\text{,}\)</span> stretch or compress the graph of base function <span class="process-math">\(y=f(x)\)</span> depending on either <span class="process-math">\(0\lt a \lt 1 \)</span> or <span class="process-math">\(a\gt 1, \)</span> respectively.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/sinf_plt3.png" class="contained"></div>
 <div class="para logical" id="subsec-gr_funct-2-7-3">
 <div class="para">For <span class="process-math">\(a \gt 1\)</span> in <span class="process-math">\(y=\sin 2x\text{,}\)</span> we have period calculated as</div>
-<div class="displaymath process-math" id="subsec-gr_funct-2-7-3-3">
+<div class="displaymath process-math">
 \begin{equation*}
 0 \lt 2x \lt 2\pi
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="subsec-gr_funct-2-7-3-4">
+<div class="displaymath process-math">
 \begin{equation*}
 \therefore \,  0 \lt x \lt \pi \quad \text{ (Horizontal shrink)}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsec-gr_funct-2-7-4">
 <div class="para">For <span class="process-math">\(0 \lt a \lt 1\)</span> in <span class="process-math">\(y=\sin \frac{x}{2}\text{,}\)</span> we have period calculated as</div>
-<div class="displaymath process-math" id="subsec-gr_funct-2-7-4-3">
+<div class="displaymath process-math">
 \begin{equation*}
 0 \lt \frac{x}{2} \lt 2\pi
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="subsec-gr_funct-2-7-4-4">
+<div class="displaymath process-math">
 \begin{equation*}
 \therefore \,  0 \lt x \lt 4\pi \quad \text{ (Horizontal stretch)}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-gr_funct-2-7-5">To draw a graph of <span class="process-math">\(y=f(-x)\text{,}\)</span> reflect the graph of base function <span class="process-math">\(y=f(x)\)</span> about y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-7-5">To draw a graph of <span class="process-math">\(y=f(-x)\text{,}\)</span> reflect the graph of base function <span class="process-math">\(y=f(x)\)</span> about y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-7-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/exp_plt4.png" class="contained"></div>
-<div class="autopermalink" data-description="Remark 1.9.5"><a href="#subsec-gr_funct-2-7" title="Copy heading and permalink for Remark 1.9.5" aria-label="Copy heading and permalink for Remark 1.9.5">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-8"><h4 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Remark 1.9.7"><a href="#subsec-gr_funct-2-7" title="Copy heading and permalink for Remark 1.9.7">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-8"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.8</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-gr_funct-2-8-1">To draw a graph of <span class="process-math">\(y=\vert{f(x)}\vert \text{,}\)</span> keep the graph of <span class="process-math">\(y=f(x)\)</span> as such where <span class="process-math">\(f(x) \geq 0\)</span> while reflecting it about x-axis where <span class="process-math">\(f(x) \lt 0\text{.}\)</span> about y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-8-1">To draw a graph of <span class="process-math">\(y=\vert{f(x)}\vert \text{,}\)</span> keep the graph of <span class="process-math">\(y=f(x)\)</span> as such where <span class="process-math">\(f(x) \geq 0\)</span> while reflecting it about x-axis where <span class="process-math">\(f(x) \lt 0\text{.}\)</span> about y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-8-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/mod_plt2.png" class="contained"></div>
-<div class="autopermalink" data-description="Remark 1.9.6"><a href="#subsec-gr_funct-2-8" title="Copy heading and permalink for Remark 1.9.6" aria-label="Copy heading and permalink for Remark 1.9.6">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-9"><h4 class="heading">
-<span class="type">Remark</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Remark 1.9.8"><a href="#subsec-gr_funct-2-8" title="Copy heading and permalink for Remark 1.9.8">🔗</a></div></article><article class="remark remark-like" id="subsec-gr_funct-2-9"><h4 class="heading">
+<span class="type">Remark</span><span class="space"> </span><span class="codenumber">1.9.9</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-gr_funct-2-9-1">To draw a graph of <span class="process-math">\(y=f(\vert(x)\vert) \text{,}\)</span> keep the graph of <span class="process-math">\(y=f(x)\)</span> as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on <span class="process-math">\(y=f(x)\)</span>  on the -ve x-axis, then erase it first to draw <span class="process-math">\(y=f(|x|).\)</span> about y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-gr_funct-2-9-1">To draw a graph of <span class="process-math">\(y=f(\vert(x)\vert) \text{,}\)</span> keep the graph of <span class="process-math">\(y=f(x)\)</span> as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on <span class="process-math">\(y=f(x)\)</span>  on the -ve x-axis, then erase it first to draw <span class="process-math">\(y=f(|x|).\)</span> about y-axis.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-9-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/mod_plt3.png" class="contained"></div>
-<div class="autopermalink" data-description="Remark 1.9.7"><a href="#subsec-gr_funct-2-9" title="Copy heading and permalink for Remark 1.9.7" aria-label="Copy heading and permalink for Remark 1.9.7">🔗</a></div></article><details id="subsec-gr_funct-2-10" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Remark 1.9.9"><a href="#subsec-gr_funct-2-9" title="Copy heading and permalink for Remark 1.9.9">🔗</a></div></article><details id="subsec-gr_funct-2-10" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9.10</span><span class="period">.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para logical" id="subsec-gr_funct-2-10-1">
 <div class="para">Draw the graph of</div>
 <ol class="decimal" id="subsec-gr_funct-2-10-1-1">
 <li id="subsec-gr_funct-2-10-1-1-1">
 <div class="para logical" id="subsec-gr_funct-2-10-1-1-1-1">
-<div class="displaymath process-math" id="subsec-gr_funct-2-10-1-1-1-1-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=|x^2-5x+6|
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-10-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-10-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/mod_plt5.png" class="contained"></div>
-<div class="autopermalink" data-description="Item 1"><a href="#subsec-gr_funct-2-10-1-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsec-gr_funct-2-10-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="subsec-gr_funct-2-10-1-1-2">
 <div class="para logical" id="subsec-gr_funct-2-10-1-1-2-1">
-<div class="displaymath process-math" id="subsec-gr_funct-2-10-1-1-2-1-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=|4-x^2|
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-10-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-10-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#subsec-gr_funct-2-10-1-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsec-gr_funct-2-10-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-10-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.9.8"><a href="#subsec-gr_funct-2-10" title="Copy heading and permalink for Example 1.9.8" aria-label="Copy heading and permalink for Example 1.9.8">🔗</a></div></article></details><details id="subsec-gr_funct-2-11" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<div class="autopermalink" data-description="Example 1.9.10"><a href="#subsec-gr_funct-2-10" title="Copy heading and permalink for Example 1.9.10">🔗</a></div></article></details><details id="subsec-gr_funct-2-11" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9.11</span><span class="period">.</span>
 </h4></summary><article class="example example-like knowl__content"><div class="para logical" id="subsec-gr_funct-2-11-1">
 <div class="para">Draw the graph of</div>
-<div class="displaymath process-math" id="subsec-gr_funct-2-11-1-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=|x^2| -5|x|+6
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-gr_funct-2-11-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/mod_plt4.png" class="contained"></div>
-<div class="autopermalink" data-description="Example 1.9.9"><a href="#subsec-gr_funct-2-11" title="Copy heading and permalink for Example 1.9.9" aria-label="Copy heading and permalink for Example 1.9.9">🔗</a></div></article></details></section><section class="subsubsection" id="subsubsec-spcl_gr"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Special Graphs</span>
+<div class="autopermalink" data-description="Example 1.9.11"><a href="#subsec-gr_funct-2-11" title="Copy heading and permalink for Example 1.9.11">🔗</a></div></article></details></section><section class="subsubsection" id="subsubsec-spcl_gr"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.9.2.1</span><span class="space"> </span><span class="title">Special Graphs</span>
 </h4>
 <div class="para logical" id="subsubsec-spcl_gr-2">
 <ol class="lower-roman ol-marker-1" id="subsubsec-spcl_gr-2-1">
 <li id="subsubsec-spcl_gr-2-1-1">
 <div class="para" id="subsubsec-spcl_gr-2-1-1-1">
-<dfn class="terminology"><span class="process-math">\(y=x+\sin{x}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology"><span class="process-math">\(y=x+\sin{x}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/spcl_gr1.png" class="contained"></div>
-<div class="autopermalink" data-description="Item i"><a href="#subsubsec-spcl_gr-2-1-1" title="Copy heading and permalink for Item i" aria-label="Copy heading and permalink for Item i">🔗</a></div>
+<div class="autopermalink" data-description="Item i"><a href="#subsubsec-spcl_gr-2-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
 </li>
 <li id="subsubsec-spcl_gr-2-1-2">
 <div class="para" id="subsubsec-spcl_gr-2-1-2-1">
-<dfn class="terminology"><span class="process-math">\(y=x\sin{x}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology"><span class="process-math">\(y=x\sin{x}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/spcl_gr2.png" class="contained"></div>
-<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-spcl_gr-2-1-2" title="Copy heading and permalink for Item ii" aria-label="Copy heading and permalink for Item ii">🔗</a></div>
+<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-spcl_gr-2-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
 </li>
 <li id="subsubsec-spcl_gr-2-1-3">
 <div class="para" id="subsubsec-spcl_gr-2-1-3-1">
-<dfn class="terminology"><span class="process-math">\(y=\sin{\frac{1}{x}}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology"><span class="process-math">\(y=\sin{\frac{1}{x}}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/spcl_gr3.png" class="contained"></div>
-<div class="autopermalink" data-description="Item iii"><a href="#subsubsec-spcl_gr-2-1-3" title="Copy heading and permalink for Item iii" aria-label="Copy heading and permalink for Item iii">🔗</a></div>
+<div class="autopermalink" data-description="Item iii"><a href="#subsubsec-spcl_gr-2-1-3" title="Copy heading and permalink for Item iii">🔗</a></div>
 </li>
 <li id="subsubsec-spcl_gr-2-1-4">
 <div class="para" id="subsubsec-spcl_gr-2-1-4-1">
-<dfn class="terminology"><span class="process-math">\(y=x\sin{\frac{1}{x}}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<dfn class="terminology"><span class="process-math">\(y=x\sin{\frac{1}{x}}: \)</span></dfn><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/spcl_gr4.png" class="contained"></div>
-<div class="autopermalink" data-description="Item iv"><a href="#subsubsec-spcl_gr-2-1-4" title="Copy heading and permalink for Item iv" aria-label="Copy heading and permalink for Item iv">🔗</a></div>
+<div class="autopermalink" data-description="Item iv"><a href="#subsubsec-spcl_gr-2-1-4" title="Copy heading and permalink for Item iv">🔗</a></div>
 </li>
 <li id="subsubsec-spcl_gr-2-1-5">
 <div class="para" id="subsubsec-spcl_gr-2-1-5-1">
-<span class="process-math">\(\displaystyle |x|+|y| =1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(\displaystyle |x|+|y| =1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/spcl_gr5.png" class="contained"></div>
-<div class="autopermalink" data-description="Item v"><a href="#subsubsec-spcl_gr-2-1-5" title="Copy heading and permalink for Item v" aria-label="Copy heading and permalink for Item v">🔗</a></div>
+<div class="autopermalink" data-description="Item v"><a href="#subsubsec-spcl_gr-2-1-5" title="Copy heading and permalink for Item v">🔗</a></div>
 </li>
 <li id="subsubsec-spcl_gr-2-1-6">
 <div class="para" id="subsubsec-spcl_gr-2-1-6-1">
-<span class="process-math">\(\displaystyle \lfloor y\rfloor = \lfloor x\rfloor\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<span class="process-math">\(\displaystyle \lfloor y\rfloor = \lfloor x\rfloor\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2-1-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/spcl_gr6.png" class="contained"></div>
-<div class="autopermalink" data-description="Item vi"><a href="#subsubsec-spcl_gr-2-1-6" title="Copy heading and permalink for Item vi" aria-label="Copy heading and permalink for Item vi">🔗</a></div>
+<div class="autopermalink" data-description="Item vi"><a href="#subsubsec-spcl_gr-2-1-6" title="Copy heading and permalink for Item vi">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<details id="subsubsec-spcl_gr-3" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.9.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="exercise exercise-like knowl__content"><div class="para logical" id="subsubsec-spcl_gr-3-1">
+<details id="subsubsec-spcl_gr-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9.12</span><span class="period">.</span>
+</h5></summary><article class="example example-like knowl__content"><div class="para logical" id="subsubsec-spcl_gr-3-1-1">
 <div class="para">Plot:</div>
-<ol class="decimal" id="subsubsec-spcl_gr-3-1-1">
-<li id="subsubsec-spcl_gr-3-1-1-1">
-<div class="para logical" id="subsubsec-spcl_gr-3-1-1-1-1">
-<div class="displaymath process-math" id="subsubsec-spcl_gr-3-1-1-1-1-1">
+<ol class="decimal" id="subsubsec-spcl_gr-3-1-1-1">
+<li id="subsubsec-spcl_gr-3-1-1-1-1">
+<div class="para logical" id="subsubsec-spcl_gr-3-1-1-1-1-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\frac{x^2-1}{x^2+1}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1.9.10.1"><a href="#subsubsec-spcl_gr-3-1-1-1" title="Copy heading and permalink for Item 1.9.10.1" aria-label="Copy heading and permalink for Item 1.9.10.1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-spcl_gr-3-1-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="subsubsec-spcl_gr-3-1-1-2">
-<div class="para logical" id="subsubsec-spcl_gr-3-1-1-2-1">
-<div class="displaymath process-math" id="subsubsec-spcl_gr-3-1-1-2-1-1">
+<li id="subsubsec-spcl_gr-3-1-1-1-2">
+<div class="para logical" id="subsubsec-spcl_gr-3-1-1-1-2-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\frac{x^2}{x^2+1}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1.9.10.2"><a href="#subsubsec-spcl_gr-3-1-1-2" title="Copy heading and permalink for Item 1.9.10.2" aria-label="Copy heading and permalink for Item 1.9.10.2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-spcl_gr-3-1-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
-<li id="subsubsec-spcl_gr-3-1-1-3">
-<div class="para logical" id="subsubsec-spcl_gr-3-1-1-3-1">
-<div class="displaymath process-math" id="subsubsec-spcl_gr-3-1-1-3-1-1">
+<li id="subsubsec-spcl_gr-3-1-1-1-3">
+<div class="para logical" id="subsubsec-spcl_gr-3-1-1-1-3-1">
+<div class="displaymath process-math">
 \begin{equation*}
 y=\frac{\tan^2 x-1}{\tan^2 x+1}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1.9.10.3"><a href="#subsubsec-spcl_gr-3-1-1-3" title="Copy heading and permalink for Item 1.9.10.3" aria-label="Copy heading and permalink for Item 1.9.10.3">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-spcl_gr-3-1-1-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Checkpoint 1.9.10"><a href="#subsubsec-spcl_gr-3" title="Copy heading and permalink for Checkpoint 1.9.10" aria-label="Copy heading and permalink for Checkpoint 1.9.10">🔗</a></div></article></details><div class="autopermalink" data-description="Subsubsection 1.9.2.1: Special Graphs"><a href="#subsubsec-spcl_gr" title="Copy heading and permalink for Subsubsection 1.9.2.1: Special Graphs" aria-label="Copy heading and permalink for Subsubsection 1.9.2.1: Special Graphs">🔗</a></div></section><div class="autopermalink" data-description="Subsection 1.9.2: Graph of Quadratic Function"><a href="#subsec-gr_funct" title="Copy heading and permalink for Subsection 1.9.2: Graph of Quadratic Function" aria-label="Copy heading and permalink for Subsection 1.9.2: Graph of Quadratic Function">🔗</a></div></section><div class="autopermalink" data-description="Section 1.9: The Graph of Functions"><a href="#sec_second-funct-gr" title="Copy heading and permalink for Section 1.9: The Graph of Functions" aria-label="Copy heading and permalink for Section 1.9: The Graph of Functions">🔗</a></div></section></div>
+<div class="solutions"><details id="subsubsec-spcl_gr-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1">
+<ol class="decimal" id="subsubsec-spcl_gr-3-2-1-1">
+<li id="subsubsec-spcl_gr-3-2-1-1-1">
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+y=\frac{x^2-1}{x^2+1}=\frac{(x^2+1)-2}{x^2+1}=1-\frac{2}{x^2+1} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-1-2">Domain: at very large <span class="process-math">\(|x|,\, y = 1\)</span> at <span class="process-math">\(x\to 0, \, y\to -1\text{,}\)</span> hence horizontal asymptote, <span class="process-math">\(y=1.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-1-3">y-intercept: at <span class="process-math">\(x=0, \, y=-1,\)</span> so point is <span class="process-math">\((0,-1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-1-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-1-4">x-intercept: at <span class="process-math">\(y=0, \, x^2-1=0,\, \Rightarrow \, x=\pm 1\)</span> so points are <span class="process-math">\((-1,0)\)</span> and <span class="process-math">\((1,0).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-1-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-1-5">
+<div class="para">Range:</div>
+<div class="displaymath process-math" id="subsubsec-spcl_gr-3-2-1-1-1-5-1">
+\begin{align*}
+y \amp =\frac{x^2-1}{x^2+1} \\
+x^2y+y \amp =x^2-1\\
+or, \, x^2 \amp = \frac{1+y}{1-y} \\
+or, \, x \amp = \sqrt{ \frac{1+y}{1-y}} 
+\end{align*}
+</div>
+<div class="para">Now,</div>
+<div class="displaymath process-math" id="subsubsec-spcl_gr-3-2-1-1-1-5-2">
+\begin{align*}
+1-y \gt 0 \amp \, | 1+y \geq 0\\
+1\gt y \amp \, | y \geq -1\\
+\therefore \, y \lt 1 \amp \, | -1 \leq y
+\end{align*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore -1 \leq y \lt 1
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-1-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-1-6">
+<div class="para">Symmetry:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) =f(-x) 
+\end{equation*}
+</div>
+<div class="para">so the function is even function.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-1-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/gr_evn1.png" class="contained"></div>
+<div class="autopermalink" data-description="Item 1"><a href="#subsubsec-spcl_gr-3-2-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="subsubsec-spcl_gr-3-2-1-1-2">
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+y=\frac{x^2}{x^2+1}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-2-2">Domain: at very large <span class="process-math">\(|x|,\, y = 1\)</span> at <span class="process-math">\(x\to 0, \, y\to 0\text{,}\)</span> hence horizontal asymptote, <span class="process-math">\(y=1.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-2-3">y-intercept: <span class="process-math">\((0,0)\)</span> x-intercept: <span class="process-math">\((0,0)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-2-4">
+<div class="para">Range:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+0\leq y \lt 1
+\end{equation*}
+</div>
+<div class="para">Symmetry:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) =f(-x)
+\end{equation*}
+</div>
+<div class="para">so even function.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/gr_evn2.png" class="contained"></div>
+<div class="autopermalink" data-description="Item 2"><a href="#subsubsec-spcl_gr-3-2-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="subsubsec-spcl_gr-3-2-1-1-3">
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-3-1">
+<div class="displaymath process-math">
+\begin{equation*}
+y=\frac{\tan^2 x-1}{\tan^2 x+1}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsubsec-spcl_gr-3-2-1-1-3-2">
+<div class="para">[<a href="append_math.html#trig-ident" class="xref" data-knowl="./knowl/xref/trig-ident.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph: Trigonometric Identities">Trigonometric Identities</a>]</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/trig-ident.html">
+\begin{equation*}
+y=\frac{\frac{\sin^2 x}{\cos^2 x}-1}{\frac{\sin^2 x}{\cos^2 x}+1}
+\end{equation*}
+</div>
+<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/trig-ident.html">
+\begin{equation*}
+y=-\cos 2x
+\end{equation*}
+</div>
+<div class="para">In <span class="process-math">\(-1\lt \cos 2x\lt 1\text{,}\)</span> the domain: <span class="process-math">\(x\in [-\frac{\pi}{2},\frac{\pi}{2}] \)</span> and the Range: <span class="process-math">\({-1,1}\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-3-3">Now at <span class="process-math">\(x=0, \, y = -\cos (2\cdot 0) =-\cos 0=-1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-3-4">at <span class="process-math">\(x=\frac{\pi}{4}, \, y = -\cos \frac{\pi}{2} = 0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-3-5">at <span class="process-math">\(x=\frac{\pi}{2}, \, y = -\cos \pi = 1 \, \text{ maximum }\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-3-6">at <span class="process-math">\(x=\frac{3\pi}{4}, \, y = -\cos \frac{3\pi}{2} = 0 \)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-spcl_gr-3-2-1-1-3-7">at <span class="process-math">\(x=\pi, \, y = -\cos 2\pi = -1 \)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1-1-3-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#subsubsec-spcl_gr-3-2-1-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-spcl_gr-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/gr_evn3.png" class="contained"></div>
+<div class="autopermalink" data-description="Solution 1.9.12.1"><a href="#subsubsec-spcl_gr-3-2" title="Copy heading and permalink for Solution 1.9.12.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.9.12"><a href="#subsubsec-spcl_gr-3" title="Copy heading and permalink for Example 1.9.12">🔗</a></div></article></details><div class="autopermalink" data-description="Subsubsection 1.9.2.1: Special Graphs"><a href="#subsubsec-spcl_gr" title="Copy heading and permalink for Subsubsection 1.9.2.1: Special Graphs">🔗</a></div></section><div class="autopermalink" data-description="Subsection 1.9.2: Graph of Quadratic Function"><a href="#subsec-gr_funct" title="Copy heading and permalink for Subsection 1.9.2: Graph of Quadratic Function">🔗</a></div></section><div class="autopermalink" data-description="Section 1.9: The Graph of Functions"><a href="#sec_second-funct-gr" title="Copy heading and permalink for Section 1.9: The Graph of Functions">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-log.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-comp.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

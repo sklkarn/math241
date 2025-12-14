@@ -102,15 +102,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.0';
+eBookConfig.runestone_version = '7.11.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -146,12 +146,15 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-review.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Review</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Classification of Numbers</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of some Number Systems:</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Number Systems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of Number Systems:</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_first-intervals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-mod_fn" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Modulus Functions</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_first-functions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Function</span></a></div>
@@ -278,40 +281,40 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="chapter" id="ch-first"><h2 class="heading">
-<span class="type">Chapter</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Numbers &amp; Functions</span>
+<span class="type">Chapter</span><span class="space"> </span><span class="codenumber">1</span><span class="space"> </span><span class="title">Numbers &amp; Functions</span>
 </h2>
 <section class="introduction" id="ch-first-2"><div class="para logical" id="ch-first-2-1">
 <div class="para">A number system is used to express the numbers. It is the mathematical notation for representing numbers of a given set by using digits or other symbols in a consistent manner. There are four types of number system:</div>
 <ol class="decimal" id="ch-first-2-1-1">
 <li id="ch-first-2-1-1-1">
-<div class="para" id="ch-first-2-1-1-1-1">Binary: It has base of <span class="process-math">\(2\)</span> and consists two digits family of <span class="process-math">\((0,1)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-first-2-1-1-1-1">Binary: It has base of <span class="process-math">\(2\)</span> and consists two digits family of <span class="process-math">\((0,1)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#ch-first-2-1-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#ch-first-2-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="ch-first-2-1-1-2">
-<div class="para" id="ch-first-2-1-1-2-1">Decimal: It has base of <span class="process-math">\(10\)</span> and consists ten digits family of <span class="process-math">\((0,1, 2,3,4,5,6,7,8,9)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-first-2-1-1-2-1">Decimal: It has base of <span class="process-math">\(10\)</span> and consists ten digits family of <span class="process-math">\((0,1, 2,3,4,5,6,7,8,9)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#ch-first-2-1-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#ch-first-2-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="ch-first-2-1-1-3">
-<div class="para" id="ch-first-2-1-1-3-1">Octal: It has base of <span class="process-math">\(8\)</span> and consists eight digits family of <span class="process-math">\((0,1, 2,3,4,5,6,7)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-first-2-1-1-3-1">Octal: It has base of <span class="process-math">\(8\)</span> and consists eight digits family of <span class="process-math">\((0,1, 2,3,4,5,6,7)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 3"><a href="#ch-first-2-1-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#ch-first-2-1-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="ch-first-2-1-1-4">
-<div class="para" id="ch-first-2-1-1-4-1">Hexadecimal: It has base of <span class="process-math">\(16\)</span> and consists sixteen digits and symbols family of <span class="process-math">\((0,1, 2,3,4,5,6,7,8,9, A, B,C,D,E,F)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-first-2-1-1-4-1">Hexadecimal: It has base of <span class="process-math">\(16\)</span> and consists sixteen digits and symbols family of <span class="process-math">\((0,1, 2,3,4,5,6,7,8,9, A, B,C,D,E,F)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 4"><a href="#ch-first-2-1-1-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
+<div class="autopermalink" data-description="Item 4"><a href="#ch-first-2-1-1-4" title="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
 </ol>
 <div class="para">It provides a unique representation of every number. It also allows us to operate mathematical operations like addition, subtraction, multiplication, and division.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="ch-first-2-2">Here we are going to discuss only decimsal number system. All the other number systems are mostly used in electronic world.<div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="ch-first-2-2">Here we are going to discuss only decimsal number system. All the other number systems are mostly used in electronic world.<div class="autopermalink" data-description="Paragraph"><a href="#ch-first-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="generated/latex-image/set_numb-family.svg" role="img" class="contained"></div></section><nav class="summary-links"><ul>
 <li><a href="sec_first-review.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Review</span></a></li>
-<li><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Classification of Numbers</span></a></li>
+<li><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Number Systems</span></a></li>
 <li><a href="sec_first-intervals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></li>
 <li><a href="sec_first-functions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Function</span></a></li>
 <li><a href="sec_first-domain.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Domain</span></a></li>
@@ -321,7 +324,7 @@ eBookConfig.enable_chatcodes =  false;
 <li><a href="sec_second-funct-gr.html" class="internal"><span class="codenumber">1.9</span> <span class="title">The Graph of Functions</span></a></li>
 <li><a href="sec_first-comp.html" class="internal"><span class="codenumber">1.10</span> <span class="title">Combinations of Functions</span></a></li>
 <li><a href="ex_first.html" class="internal"><span class="codenumber">1.11</span> <span class="title">Exercise</span></a></li>
-</ul></nav><div class="autopermalink" data-description="Chapter 1: Numbers &amp; Functions"><a href="#ch-first" title="Copy heading and permalink for Chapter 1: Numbers &amp; Functions" aria-label="Copy heading and permalink for Chapter 1: Numbers &amp; Functions">🔗</a></div></section></div>
+</ul></nav></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="front-colophon.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-review.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

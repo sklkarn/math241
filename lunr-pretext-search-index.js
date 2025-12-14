@@ -69,8 +69,8 @@ var ptx_lunr_docs = [
   "url": "sec_first-intro.html",
   "type": "Section",
   "number": "1.2",
-  "title": "Classification of Numbers",
-  "body": " Classification of Numbers   A number is a mathematical value used for counting, measuring, or labelling objects. In our daily life, we use these numbers to perform all the mathematical operations like addition, subtraction, multiplication, and division.      Natural Numbers:  Natural numbers starts from 1 which is the first number to begin counting and continue endlessly. It is also called counting numbers. Each number in natural number can be obtained by adding 1 to the previous number. It may contain 10, 20, 100, etc. but not mare zero . Natural numbers are all positive numbers.     Whole Numbers:  . Whole numbers also contain zero, ( ) and every numbers in natural numbers. Whole numbers are also all positive.     Integers:  . Integers are the Whole numbers with both positive and negative numbers. Hence, we have positive inegers as and negative integers as .     Prime Numbers: The natural numbers which has two factors or divisible by only itself and by a is known as prime numbers. It is also all positive. Number is only even number in prime numbers. is not considered as a prime number because it can be only divisible by itself and there is no other number which can divide .     Composite Numbers: The number which has at least three divisors is known as composite number. Example: 4 can be divisible by 1, 2, and 4. Hence 4 is one of the composite numbers. Similarly, are composite numbers. It is also all positive.     Rational Numbers: Rational numbers can be expressed as a fraction in the form of where and are any integer but . Rational numbers are positive, negative, and zero. Rational numbers can be converted to both terminating and non-terminating decimal numbers but with repeating value. Examples:    To show a repeating digits in a decimal number, we put either a dot or a line above the repeating digit as shown above.   Note: The sum of two rational numbers or the product of two rational numbers is also rational. Examples:       Irrational Numbers: The numbers which are not rational numbers are called irrational numbers. Irrational numbers could be written in decimals but not in the form of fractions, which means they cannot be written as the ratio of two integers. Irrational numbers are non-terminating and non-repeating digits after decimal point. Examples:    are irrational numbers.   Note: The sum of two irrational numbers or the product of two irrational numbers is not always irrational. Examples:       Rational numbers are finite and repeating decimals whereas irrational numbers are infinite and non-repeating.    Some irrational numbers are also special numbers like Pi ( ), Euler number ( ), golden ratio ( ), and square root of 2 ( ).      Real Numbers: A real number is any rational or irrational number, including positive and negative whole numbers, integers, decimals, fractions, and numbers such as pi and Euler's number .   Infinity and negative infinity are not real numbers. Because infinity and negative infinity can have different values. For example, the set of whole numbers is infinite. So is the set of integers. But, the two sets are not of the same size.  The four main properties of real numbers are the commutative property, associative property, distributive property, and identity property. If and are real numbers, then:     Complex Numbers: The complex number is the combination of a real number and an imaginary number. The complex number is in the form of , where = real number and = imaginary number. Also, belongs to real numbers and This numbers are very useful in analysing phasor diagram in electricity.  The numbers which are not real are imaginary numbers. When we square an imaginary number, it gives a negative result. It is represented as . Example: are all imaginary numbers. The roots of equation is an imaginary number.       Standard Notations of some Number Systems:   .   the natural numbers    the integers    the rational numbers    the real numbers    the complex numbers    The symbol ' ' read as 'belongs to' or 'is an element of', where as ' ' stands for 'does not belong to' or 'is not an element of'. Example:      .    "
+  "title": "Number Systems",
+  "body": " Number Systems   A number is a mathematical value used for counting, measuring, or labelling objects. In our daily life, we use these numbers to perform all the mathematical operations like addition, subtraction, multiplication, and division.      Natural Numbers:  Natural numbers starts from 1 which is the first number to begin counting and continue endlessly. It is also called counting numbers. Each number in natural number can be obtained by adding 1 to the previous number. It may contain 10, 20, 100, etc. but not mare zero . Natural numbers are all positive numbers.     Whole Numbers:  . Whole numbers also contain zero, ( ) and every numbers in natural numbers. Whole numbers are also all positive.     Integers:  . Integers are the Whole numbers with both positive and negative numbers. Hence, we have positive inegers as and negative integers as .     Rational Numbers: Rational numbers can be expressed as a fraction in the form of where and are any integer but . Rational numbers are positive, negative, and zero. Rational numbers can be converted to both terminating and non-terminating decimal numbers but with repeating value. Examples:    To show a repeating digits in a decimal number, we put either a dot or a line above the repeating digit as shown above.   Note: The sum of two rational numbers or the product of two rational numbers is also rational. Examples:       Irrational Numbers: The numbers which are not rational numbers are called irrational numbers. Irrational numbers could be written in decimals but not in the form of fractions, which means they cannot be written as the ratio of two integers. Irrational numbers are non-terminating and non-repeating digits after decimal point. Examples:    are irrational numbers.   Note: The sum of two irrational numbers or the product of two irrational numbers is not always irrational. Examples:       Rational numbers are finite and repeating decimals whereas irrational numbers are infinite and non-repeating.    Some irrational numbers are also special numbers like Pi ( ), Euler number ( ), golden ratio ( ), and square root of 2 ( ).      Real Numbers: A real number is any rational or irrational number, including positive and negative whole numbers, integers, decimals, fractions, and numbers such as pi and Euler's number .   Infinity and negative infinity are not real numbers. Because infinity and negative infinity can have different values. For example, the set of whole numbers is infinite. So is the set of integers. But, the two sets are not of the same size.  The four main properties of real numbers are the commutative property, associative property, distributive property, and identity property. If and are real numbers, then:     Complex Numbers: The complex number is the combination of a real number and an imaginary number. The complex number is in the form of , where = real number and = imaginary number. Also, belongs to real numbers and This numbers are very useful in analysing phasor diagram in electricity.  The numbers which are not real are imaginary numbers. When we square an imaginary number, it gives a negative result. It is represented as . Example: are all imaginary numbers. The roots of equation is an imaginary number.       Standard Notations of Number Systems:   .   the natural numbers    the integers    the rational numbers    the real numbers    the complex numbers    The symbol ' ' read as 'belongs to' or 'is an element of', where as ' ' stands for 'does not belong to' or 'is not an element of'. Example:    "
 },
 {
   "id": "sec_first-intro-2-2",
@@ -79,7 +79,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Natural Numbers: Whole Numbers: Integers: Prime Numbers: Composite Numbers: Rational Numbers: Note: Irrational Numbers: Note: Real Numbers: Infinity and negative infinity are not real numbers. Complex Numbers: "
+  "body": "Natural Numbers: Whole Numbers: Integers: Rational Numbers: Note: Irrational Numbers: Note: Real Numbers: Infinity and negative infinity are not real numbers. Complex Numbers: "
 },
 {
   "id": "sec_first-intervals",
@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Number Line <span class=\"process-math\">\\(\\&amp;\\)<\/span> Intervals",
-  "body": " Number Line Intervals    Number Line Intervals, : In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval: or,        unfilled circle represents the number is not included.      Closed Interval: or,       filled circle represents the number is included.      Closed - open Interval: or,       including but excluding       Open - closed Interval: (a, b] or,       excluding but including        Inequality Rules  Summary of inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:       "
+  "body": " Number Line Intervals   In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval: or,        unfilled circle represents the number is not included.      Closed Interval: or,       filled circle represents the number is included.      Closed - open Interval: or,       including but excluding       Open - closed Interval: (a, b] or,       excluding but including        Inequality Rules  Summary of inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:        Modulus Functions  Basics of Modulus functions: The general representation of the modulus function is where                          Rememebr: Mod always gives a single value, if there is one.    Solve the following:                       For       Solve the following inequalities:                                           "
 },
 {
   "id": "sec_first-intervals-2-1",
@@ -97,7 +97,7 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Number Line Intervals, : Interval Notation "
+  "body": "Interval Notation "
 },
 {
   "id": "sec_first-intervals-2-3",
@@ -118,13 +118,58 @@ var ptx_lunr_docs = [
   "body": "Open Interval: or,  Closed Interval: or, Closed - open Interval: or, Open - closed Interval: (a, b] or, "
 },
 {
+  "id": "subsec-mod_fn-3",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-3",
+  "type": "Example",
+  "number": "1.3.1",
+  "title": "",
+  "body": "                    "
+},
+{
+  "id": "subsec-mod_fn-4",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-4",
+  "type": "Example",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Rememebr: Mod always gives a single value, if there is one.  "
+},
+{
+  "id": "subsec-mod_fn-5",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-5",
+  "type": "Example",
+  "number": "1.3.3",
+  "title": "",
+  "body": " Solve the following:                     "
+},
+{
+  "id": "subsec-mod_fn-6",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-6",
+  "type": "Observation",
+  "number": "1.3.4",
+  "title": "",
+  "body": " For     "
+},
+{
+  "id": "subsec-mod_fn-7",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-7",
+  "type": "Example",
+  "number": "1.3.5",
+  "title": "",
+  "body": " Solve the following inequalities:                                         "
+},
+{
   "id": "sec_first-functions",
   "level": "1",
   "url": "sec_first-functions.html",
   "type": "Section",
   "number": "1.4",
   "title": "Function",
-  "body": " Function      Function is a relationship between two variables where each input corresponds to exactly one output. For every, input, there is a unique output, .  ( )  For every or all    All possible real values of input for which the function is definded are called a domain and the corresponding output values are called a Range . Each input produces exactly one output    Notation:   ( )  function of  A function is often written as where is the input and is the output. For example, Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test in graphical form. (No vertical line intersects the graph more than once.)   Vertical line test: if any vertical line (drawn parallel to the y-axis) intersects the graph at more than one point, then the realtion is not a function, because it means a single x-value produces multiple y-values. i.e. a function is a relation when a vertical line intersects the graph at most once.   For a graph, any vertial line at intersects the parabola at exactly one point at .       For a circle , a vertical line at intersects at two points and Hence, is not a function.      For a function , we have the and its corresponding values are given in a table below. We can see that every value is producing only unique value. Hence, y is a function.         For a function , we have the and its corresponding values are given in a table below. We can see that when , it is giving either or which are not unique. Hence, y is not a function.           Types of Functions  Functions map inputs to outputs and they can be categorized based on their properties, behavior, or structure.    By Algebraic Structure:    Polynomial Functions: Functions defined by polynomials, e.g., For examples: Linear function, , quadratic function , cubic function, etc.    Rational Functions: Ratios of two polynomial functions, e.g.,     Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,         By Continuity and Differentiability    Continuous Functions: Functions with no breaks or jumps in their graphs, e.g., .    Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g.,     Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g., .    Piecewise Functions: Functions defined by different rules on different intervals, e.g., .        By Behavior    A function is strictly increasing over an interval if:       While it is said to be increasing (or, non-decreasing) if:        A function is strictly decreasing over an interval if: While it is said to be decreasing (or, non-increasing) if:    Monotonic Functions: a function is monotonic in an interval if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [ ]    Periodic Functions: Functions that repeat values at regular intervals, e.g., (period of function is ).    Even Functions: Symmetric about the y-axis, i.e., , e.g., .    Odd Functions: Symmetric about the origin, i.e., , e.g., .        By Specific Type    Trigonometric Functions: Functions like etc.    Exponential Functions: Functions of the form , e.g., .    Logarithmic Functions: Functions like or Inverse of exponential functions, defined for     Hyperbolic Functions: Functions like , , defined using exponentials, e.g., .        By Domain and Range    Explicit Functions: Defined directly, e.g., .    Implicit Functions: Defined by an equation, e.g., .    Parametric Functions: Defined using a parameter, e.g., , .    Inverse Functions: Functions that reverse the input-output relationship, e.g., , . This kind of function exists if original function is one-to-one.        By Application in Calculus    Elementary Functions: Combinations of polynomials, rationals, trigonometric, exponential, and logarithmic functions.    Transcendental Functions: Functions that are not algebraic, e.g.,     Vector-Valued Functions: Functions that map scalars to vectors, e.g., . Used in multivariable calculus for curves in space.    Multivariable Functions: Functions of several variables, e.g., . Studied in multivariable calculus for surfaces and fields.          Graph of some Functions     Piecewise function:             Algebric function: parabolic             Algebric function: cubic             Square root function             Rational function             Trigonometric function             Exponential function          Logarithmic function             Inverse function   inverse function reverses another function . If   Graphically, is reflected across If then graph of can be seen below.   The graph of       The graph of            GIF and FPF   Greatest Integer Function (GIF): The GIF, also known as Floor Function is denoted by , and is defined as the greatest integer less than or equal to . For any real number , , where is an integer and . It essentially \"rounds down\" ( ) to the nearest integer.            (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)                Fractional Part Function (FPF): The fractional part of a real number ( ), denoted by , is the part \"after the decimal point\", defined as: . It satisfies . It is always non-negative.                            Any real number ( ) can be expressed as:     Transformation of Functions  If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for            "
+  "body": " Function      Function is a relationship between two variables where each input corresponds to exactly one output. For every, input, there is a unique output, .   For every or all    All possible real values of input for which the function is definded are called a domain and the corresponding output values are called a Range . Each input produces exactly one output    Notation:    function of  A function is often written as where is the input and is the output. For example, Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test in graphical form. (No vertical line intersects the graph more than once.)   Vertical line test: if any vertical line (drawn parallel to the y-axis) intersects the graph at more than one point, then the realtion is not a function, because it means a single x-value produces multiple y-values. i.e. a function is a relation when a vertical line intersects the graph at most once.   For a graph, any vertial line at intersects the parabola at exactly one point at .       For a circle , a vertical line at intersects at two points and Hence, is not a function.      For a function , we have the and its corresponding values are given in a table below. We can see that every value is producing only unique value. Hence, y is a function.      For a function , we have the and its corresponding values are given in a table below. We can see that when , it is giving either or which are not unique. Hence, y is not a function.        Types of Functions  Functions map inputs to outputs and they can be categorized based on their properties, behavior, or structure.    By Algebraic Structure:    Polynomial Functions: Functions defined by polynomials, e.g., For examples: Linear function, , quadratic function , cubic function, etc.    Rational Functions: Ratios of two polynomial functions, e.g.,     Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,         By Continuity and Differentiability    Continuous Functions: Functions with no breaks or jumps in their graphs, e.g., .    Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g.,     Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g., .    Piecewise Functions: Functions defined by different rules on different intervals, e.g., .        By Behavior    A function is strictly increasing over an interval if:       While it is said to be increasing (or, non-decreasing) if:     A function is strictly decreasing over an interval if: While it is said to be decreasing (or, non-increasing) if:    Monotonic Functions: a function is monotonic in an interval if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [ ]    Periodic Functions: Functions that repeat values at regular intervals, e.g., (period of function is ).    Even Functions: Symmetric about the y-axis, i.e., , e.g., .    Odd Functions: Symmetric about the origin, i.e., , e.g., .        By Specific Type    Trigonometric Functions: Functions like etc.    Exponential Functions: Functions of the form , e.g., .    Logarithmic Functions: Functions like or Inverse of exponential functions, defined for     Hyperbolic Functions: Functions like , , defined using exponentials, e.g., .        By Domain and Range    Explicit Functions: Defined directly, e.g., .    Implicit Functions: Defined by an equation, e.g., .    Parametric Functions: Defined using a parameter, e.g., , .    Inverse Functions: Functions that reverse the input-output relationship, e.g., , . This kind of function exists if original function is one-to-one.        By Application in Calculus    Elementary Functions: Combinations of polynomials, rationals, trigonometric, exponential, and logarithmic functions.    Transcendental Functions: Functions that are not algebraic, e.g.,     Vector-Valued Functions: Functions that map scalars to vectors, e.g., . Used in multivariable calculus for curves in space.    Multivariable Functions: Functions of several variables, e.g., . Studied in multivariable calculus for surfaces and fields.          Graph of some Functions     Piecewise function:          Algebric function: parabolic             Algebric function: cubic             Square root function          Rational function             Trigonometric function             Exponential function          Logarithmic function          Inverse function   inverse function reverses another function . If   Graphically, is reflected across If then graph of can be seen below.   The graph of       The graph of            GIF and FPF   Greatest Integer Function (GIF): The GIF, also known as Floor Function is denoted by , and is defined as the greatest integer less than or equal to . For any real number , , where is an integer and . It essentially \"rounds down\" ( ) to the nearest integer.            (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)             Fractional Part Function (FPF): The fractional part of a real number ( ), denoted by , is the part \"after the decimal point\", defined as: . It satisfies . It is always non-negative.                            Any real number ( ) can be expressed as:     Transformation of Functions   then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for         "
 },
 {
   "id": "sec_first-functions-2-4",
@@ -163,24 +208,6 @@ var ptx_lunr_docs = [
   "body": " For a circle , a vertical line at intersects at two points and Hence, is not a function.     "
 },
 {
-  "id": "sec_first-functions-2-9",
-  "level": "2",
-  "url": "sec_first-functions.html#sec_first-functions-2-9",
-  "type": "Figure",
-  "number": "1.4.3",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "sec_first-functions-2-12",
-  "level": "2",
-  "url": "sec_first-functions.html#sec_first-functions-2-12",
-  "type": "Figure",
-  "number": "1.4.4",
-  "title": "",
-  "body": "   "
-},
-{
   "id": "subsec-func_type-2",
   "level": "2",
   "url": "sec_first-functions.html#subsec-func_type-2",
@@ -190,20 +217,11 @@ var ptx_lunr_docs = [
   "body": "By Algebraic Structure: By Continuity and Differentiability By Behavior By Specific Type By Domain and Range By Application in Calculus "
 },
 {
-  "id": "subsec-graph-2-1-1-2-2",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-graph-2-1-1-2-2",
-  "type": "Figure",
-  "number": "1.4.7",
-  "title": "",
-  "body": "   "
-},
-{
   "id": "parab_f1",
   "level": "2",
   "url": "sec_first-functions.html#parab_f1",
   "type": "Figure",
-  "number": "1.4.8",
+  "number": "1.4.4",
   "title": "",
   "body": "   "
 },
@@ -212,16 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#odd_f1",
   "type": "Figure",
-  "number": "1.4.9",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "subsec-graph-2-1-4-2-2",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-graph-2-1-4-2-2",
-  "type": "Figure",
-  "number": "1.4.10",
+  "number": "1.4.5",
   "title": "",
   "body": "   "
 },
@@ -230,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#rational_f1",
   "type": "Figure",
-  "number": "1.4.11",
+  "number": "1.4.6",
   "title": "",
   "body": "   "
 },
@@ -239,16 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#trig_f1",
   "type": "Figure",
-  "number": "1.4.12",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "subsec-graph-2-1-8-2-2",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-graph-2-1-8-2-2",
-  "type": "Figure",
-  "number": "1.4.13",
+  "number": "1.4.7",
   "title": "",
   "body": "   "
 },
@@ -266,18 +266,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-3",
   "type": "Example",
-  "number": "1.4.14",
+  "number": "1.4.8",
   "title": "",
   "body": "          (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)          "
-},
-{
-  "id": "subsec-gif-fpf-4",
-  "level": "2",
-  "url": "sec_first-functions.html#subsec-gif-fpf-4",
-  "type": "Figure",
-  "number": "1.4.15",
-  "title": "",
-  "body": "   "
 },
 {
   "id": "subsec-gif-fpf-5",
@@ -293,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-6",
   "type": "Example",
-  "number": "1.4.16",
+  "number": "1.4.9",
   "title": "",
   "body": "                         "
 },
@@ -302,9 +293,9 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-trnsform-13",
   "type": "Example",
-  "number": "1.4.17",
+  "number": "1.4.10",
   "title": "",
-  "body": "  If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          "
+  "body": "  If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for       "
 },
 {
   "id": "sec_first-domain",
@@ -808,7 +799,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.9",
   "title": "The Graph of Functions",
-  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function.      Some Standard Graphs                                                                               Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.     Draw the graph of                 Draw the graph of       Special Graphs                                           Plot:                      "
+  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].      Some Standard Graphs                                                                                       Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis        Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.     Draw the graph of                 Draw the graph of       Special Graphs                                            Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at           "
 },
 {
   "id": "subsec-gr_transf-4",
@@ -829,11 +820,29 @@ var ptx_lunr_docs = [
   "body": "    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].      "
 },
 {
+  "id": "subsec-gr_transf-7",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_transf-7",
+  "type": "Remark",
+  "number": "1.9.2",
+  "title": "",
+  "body": "  Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left     "
+},
+{
+  "id": "subsec-gr_transf-8",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsec-gr_transf-8",
+  "type": "Remark",
+  "number": "1.9.3",
+  "title": "",
+  "body": "  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis     "
+},
+{
   "id": "subsec-gr_funct-2-4",
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-4",
   "type": "Remark",
-  "number": "1.9.2",
+  "number": "1.9.4",
   "title": "",
   "body": " To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.      "
 },
@@ -842,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-5",
   "type": "Remark",
-  "number": "1.9.3",
+  "number": "1.9.5",
   "title": "",
   "body": " To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.   "
 },
@@ -851,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-6",
   "type": "Remark",
-  "number": "1.9.4",
+  "number": "1.9.6",
   "title": "",
   "body": " To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about    "
 },
@@ -860,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-7",
   "type": "Remark",
-  "number": "1.9.5",
+  "number": "1.9.7",
   "title": "",
   "body": " To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.   "
 },
@@ -869,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-8",
   "type": "Remark",
-  "number": "1.9.6",
+  "number": "1.9.8",
   "title": "",
   "body": " To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.   "
 },
@@ -878,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-9",
   "type": "Remark",
-  "number": "1.9.7",
+  "number": "1.9.9",
   "title": "",
   "body": " To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.   "
 },
@@ -887,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-10",
   "type": "Example",
-  "number": "1.9.8",
+  "number": "1.9.10",
   "title": "",
   "body": " Draw the graph of               "
 },
@@ -896,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-11",
   "type": "Example",
-  "number": "1.9.9",
+  "number": "1.9.11",
   "title": "",
   "body": " Draw the graph of    "
 },
@@ -913,10 +922,10 @@ var ptx_lunr_docs = [
   "id": "subsubsec-spcl_gr-3",
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-3",
-  "type": "Checkpoint",
-  "number": "1.9.10",
+  "type": "Example",
+  "number": "1.9.12",
   "title": "",
-  "body": " Plot:                   "
+  "body": "  Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at        "
 },
 {
   "id": "sec_first-comp",
@@ -925,7 +934,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.10",
   "title": "Combinations of Functions",
-  "body": " Combinations of Functions  When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.         The composite function also called composition of and if here, all in the domain of such that is in the domain of .      If and , find the composite functions and             Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain          If and find     By definition: First apply , then plug the result into :       If , then find (a) and (b) .  If , and find .         "
+  "body": " Combinations of Functions    The function , read as of is a composition of and where here, all in the domain of is also in the domain of .  If then is inverse function of      When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.       Notice: is different then .     If and then find the composite functions and      This is the value of function at . Hence, replace of with  This is the value of function at . Hence, replace of with       If and then find                                  If and , then find the value of for which            Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain          If and find     By definition: First apply , then plug the result into :       If , then find (a) and (b) .  If , and find .         "
 },
 {
   "id": "def-com_func",
@@ -934,41 +943,68 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "1.10.1",
   "title": "",
-  "body": "  The composite function also called composition of and if here, all in the domain of such that is in the domain of .   "
+  "body": "  The function , read as of is a composition of and where here, all in the domain of is also in the domain of .  If then is inverse function of    "
+},
+{
+  "id": "sec_first-comp-3",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-3",
+  "type": "Note",
+  "number": "1.10.2",
+  "title": "",
+  "body": " When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.       Notice: is different then .  "
+},
+{
+  "id": "sec_first-comp-4",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-4",
+  "type": "Example",
+  "number": "1.10.3",
+  "title": "",
+  "body": "  If and then find the composite functions and      This is the value of function at . Hence, replace of with  This is the value of function at . Hence, replace of with    "
 },
 {
   "id": "sec_first-comp-5",
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-5",
   "type": "Example",
-  "number": "1.10.2",
+  "number": "1.10.4",
   "title": "",
-  "body": "  If and , find the composite functions and          "
+  "body": "  If and then find                               "
 },
 {
   "id": "sec_first-comp-6",
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-6",
   "type": "Example",
-  "number": "1.10.3",
+  "number": "1.10.5",
   "title": "",
-  "body": "  Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain       "
+  "body": "  If and , then find the value of for which         "
 },
 {
   "id": "sec_first-comp-7",
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-7",
   "type": "Example",
-  "number": "1.10.4",
+  "number": "1.10.6",
   "title": "",
-  "body": "  If and find     By definition: First apply , then plug the result into :    "
+  "body": "  Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain       "
 },
 {
   "id": "sec_first-comp-8",
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-8",
   "type": "Example",
-  "number": "1.10.5",
+  "number": "1.10.7",
+  "title": "",
+  "body": "  If and find     By definition: First apply , then plug the result into :    "
+},
+{
+  "id": "sec_first-comp-9",
+  "level": "2",
+  "url": "sec_first-comp.html#sec_first-comp-9",
+  "type": "Example",
+  "number": "1.10.8",
   "title": "",
   "body": "  If , then find (a) and (b) .  If , and find .        "
 },
@@ -3472,7 +3508,7 @@ var ptx_lunr_docs = [
   "type": "Appendix",
   "number": "A",
   "title": "Mathematical Relations",
-  "body": " Mathematical Relations   Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant.     Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                        If then                                               Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:    Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and      Law of sines:     Law of cosines:       Binomial Theorem  Binomial Theorem:      Power Series:          Combination and Permutation     "
+  "body": " Mathematical Relations   Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant.     Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                            If then                                                  Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:    Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and      Law of sines:     Law of cosines:       Binomial Theorem  Binomial Theorem:      Power Series:          Combination and Permutation     "
 },
 {
   "id": "append_math-2",
@@ -3493,18 +3529,18 @@ var ptx_lunr_docs = [
   "body": "Geometric Formulae: "
 },
 {
-  "id": "trig-indent",
+  "id": "trig-ident",
   "level": "2",
-  "url": "append_math.html#trig-indent",
+  "url": "append_math.html#trig-ident",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "Trigonometric Identities",
   "body": "Trigonometric Identities: "
 },
 {
-  "id": "append_math-5",
+  "id": "append_math-7",
   "level": "2",
-  "url": "append_math.html#append_math-5",
+  "url": "append_math.html#append_math-7",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",

@@ -14,7 +14,7 @@
 <!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Classification of Numbers</title>
+<title>Number Systems</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -102,15 +102,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.0';
+eBookConfig.runestone_version = '7.11.1';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.f91c1a4dc12163f2.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.557d81b04b3ec0e4.css">
+<script src="_static/prefix-runtime.49eb29f446982553.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.731d8387162b79c1.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
@@ -146,12 +146,15 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-review.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Review</span></a></div></li>
 <li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Classification of Numbers</span></a></div>
-<ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of some Number Systems:</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Number Systems</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-notation" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Standard Notations of Number Systems:</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_first-intervals.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li></ul>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Inequality Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-mod_fn" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Modulus Functions</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_first-functions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Function</span></a></div>
@@ -278,211 +281,182 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_first-intro"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Classification of Numbers</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.2</span><span class="space"> </span><span class="title">Number Systems</span>
 </h2>
-<section class="introduction" id="sec_first-intro-2"><div class="para" id="sec_first-intro-2-1">A number is a mathematical value used for counting, measuring, or labelling objects. In our daily life, we use these numbers to perform all the mathematical operations like addition, subtraction, multiplication, and division.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec_first-intro-2"><div class="para" id="sec_first-intro-2-1">A number is a mathematical value used for counting, measuring, or labelling objects. In our daily life, we use these numbers to perform all the mathematical operations like addition, subtraction, multiplication, and division.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_first-intro-2-2">
 <ol class="decimal" id="sec_first-intro-2-2-1">
 <li id="sec_first-intro-2-2-1-1">
 <div class="para logical" id="sec_first-intro-2-2-1-1-1">
 <div class="para"><dfn class="terminology">Natural Numbers:</dfn></div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-1-1-2">
+<div class="displaymath process-math">
 \begin{equation*}
 1,2,3,4,5,6,7,8,9,10,11,\ldots, \infty
 \end{equation*}
 </div>
 <div class="para">Natural numbers starts from 1 which is the first number to begin counting and continue endlessly. It is also called counting numbers. Each number in natural number can be obtained by adding 1 to the previous number. It may contain 10, 20, 100, etc. but not mare <em class="emphasis">zero</em>. Natural numbers are all positive numbers.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec_first-intro-2-2-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec_first-intro-2-2-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
 <li id="sec_first-intro-2-2-1-2">
 <div class="para logical" id="sec_first-intro-2-2-1-2-1">
 <div class="para"><dfn class="terminology">Whole Numbers:</dfn></div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-2-1-2">
+<div class="displaymath process-math">
 \begin{equation*}
 0, 1,2,3,4,5,6,7,8,9,10,11,\ldots, \infty\text{.}
 \end{equation*}
 </div>
 <div class="para">Whole numbers also contain zero, (<span class="process-math">\(0\)</span>) and every numbers in natural numbers. Whole numbers are also all positive.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec_first-intro-2-2-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec_first-intro-2-2-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="sec_first-intro-2-2-1-3">
 <div class="para logical" id="sec_first-intro-2-2-1-3-1">
 <div class="para"><dfn class="terminology">Integers:</dfn></div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-3-1-2">
+<div class="displaymath process-math">
 \begin{equation*}
 -\infty, \ldots -5,-4,-3,-2, -1, 0, +1,+2,+3,+4,+5,\ldots, \infty\text{.}
 \end{equation*}
 </div>
 <div class="para">Integers are the Whole numbers with both positive and negative numbers.  Hence, we have positive inegers as <span class="process-math">\(0, +1,+2,+3,+4,+5,\ldots \infty \)</span> and negative integers as <span class="process-math">\(-1,-2,-3, \ldots, -\infty \text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 3"><a href="#sec_first-intro-2-2-1-3" title="Copy heading and permalink for Item 3" aria-label="Copy heading and permalink for Item 3">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#sec_first-intro-2-2-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
 <li id="sec_first-intro-2-2-1-4">
 <div class="para logical" id="sec_first-intro-2-2-1-4-1">
 <div class="para">
-<dfn class="terminology">Prime Numbers:</dfn> The natural numbers which has two factors or divisible by only itself and by a <span class="process-math">\(1\)</span> is known as prime numbers. It is also all positive.</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-4-1-3">
-\begin{equation*}
-2, 3, 5, 7, 11, 13, \ldots, \infty. 
-\end{equation*}
-</div>
-<div class="para">Number <span class="process-math">\(2\)</span> is only even number in prime numbers. <span class="process-math">\(1\)</span> is not considered as a prime number because it can be only divisible by itself and there is no other number which can divide <span class="process-math">\(1\text{.}\)</span>
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 4"><a href="#sec_first-intro-2-2-1-4" title="Copy heading and permalink for Item 4" aria-label="Copy heading and permalink for Item 4">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-2-1-5">
-<div class="para logical" id="sec_first-intro-2-2-1-5-1">
-<div class="para">
-<dfn class="terminology">Composite Numbers:</dfn>  The number which has at least three divisors is known as composite number. Example: 4 can be divisible by 1, 2, and 4. Hence 4 is one of the composite numbers. Similarly,</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-5-1-2">
-\begin{equation*}
-4, 6, 8, 9, 10, 12, 14, 15, \ldots 
-\end{equation*}
-</div>
-<div class="para">are composite numbers. It is also all positive.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Item 5"><a href="#sec_first-intro-2-2-1-5" title="Copy heading and permalink for Item 5" aria-label="Copy heading and permalink for Item 5">🔗</a></div>
-</li>
-<li id="sec_first-intro-2-2-1-6">
-<div class="para logical" id="sec_first-intro-2-2-1-6-1">
-<div class="para">
 <dfn class="terminology">Rational Numbers:</dfn> Rational numbers can be expressed as a fraction in the form of <span class="process-math">\(\frac{p}{q}\)</span> where <span class="process-math">\(p\)</span> and <span class="process-math">\(q\)</span> are any integer but <span class="process-math">\(q \neq 0\text{.}\)</span> Rational numbers are positive, negative, and zero.</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-1-6">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{p}{q} =  \frac{5}{2},  -\frac{5}{1},  \frac{1}{2} =0.5,  -\frac{1}{3} =-0.33333, \frac{1}{3}, \frac{7}{8},
 \frac{8}{4}, \sqrt{9}, 0, \ldots.
 \end{equation*}
 </div>
 <div class="para">Rational numbers can be converted to both terminating and non-terminating decimal numbers but with repeating value. Examples:</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-1-7">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{25}{4} = 6.25. \text{ (terminating value)}
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-1-8">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{1}{3} = 0.333 \ldots = 0.\dot{3} = 0.\bar{3}. \text{ (3 repeats forever)} 
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-1-9">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{1}{7} = 0.142857142857 \ldots. \text{ (14285714 repeats forever)}
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-1-10">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{77}{600} = 0.128333 \ldots. \text{ (3 repeats forever)}
 \end{equation*}
 </div>
 <div class="para">To show a repeating digits in a decimal number, we put either a dot or a line above the repeating digit as shown above.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec_first-intro-2-2-1-6-2">
+<div class="para logical" id="sec_first-intro-2-2-1-4-2">
 <div class="para">
 <dfn class="terminology">Note:</dfn> The sum of two rational numbers or the product of two rational numbers is also rational. Examples:</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-2-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{1}{2} + \frac{1}{3} = \frac{5}{6} (\text{rational})
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-6-2-3">
+<div class="displaymath process-math">
 \begin{equation*}
 \frac{1}{2} \times \frac{1}{3} = \frac{1}{6} (\text{rational})
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-4-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 6"><a href="#sec_first-intro-2-2-1-6" title="Copy heading and permalink for Item 6" aria-label="Copy heading and permalink for Item 6">🔗</a></div>
+<div class="autopermalink" data-description="Item 4"><a href="#sec_first-intro-2-2-1-4" title="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
-<li id="sec_first-intro-2-2-1-7">
-<div class="para logical" id="sec_first-intro-2-2-1-7-1">
+<li id="sec_first-intro-2-2-1-5">
+<div class="para logical" id="sec_first-intro-2-2-1-5-1">
 <div class="para">
 <dfn class="terminology">Irrational Numbers:</dfn> The numbers which are not rational numbers are called irrational numbers. Irrational numbers could be written in decimals but not in the form of fractions, which means they cannot be written as the ratio of two integers. Irrational numbers are non-terminating and non-repeating digits after decimal point. Examples:</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-1-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \sqrt{3} = 1.73205 \ldots.
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-1-3">
+<div class="displaymath process-math">
 \begin{equation*}
 \sqrt{8} = 2.8284271 \ldots.
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-1-4">
+<div class="displaymath process-math">
 \begin{equation*}
 \pi = 3.1415926 \ldots.
 \end{equation*}
 </div>
 <div class="para">
 <span class="process-math">\(\sqrt{2}, \sqrt{10}, 1.24387\ldots, \ldots \)</span> are irrational numbers.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec_first-intro-2-2-1-7-2">
+<div class="para logical" id="sec_first-intro-2-2-1-5-2">
 <div class="para">
 <dfn class="terminology">Note:</dfn> The sum of two irrational numbers or the product of two irrational numbers is not always irrational. Examples:</div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-2-2">
+<div class="displaymath process-math">
 \begin{equation*}
 \sqrt{2}+ \sqrt{2} = 2\sqrt{2} (\text{irrational})
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-2-3">
+<div class="displaymath process-math">
 \begin{equation*}
 \sqrt{5} + (-\sqrt{5}) = 0 (\text{rational})
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-2-4">
+<div class="displaymath process-math">
 \begin{equation*}
 \sqrt{2}\times \sqrt{3} = \sqrt{6} (\text{irrational})
 \end{equation*}
 </div>
-<div class="displaymath process-math" id="sec_first-intro-2-2-1-7-2-5">
+<div class="displaymath process-math">
 \begin{equation*}
 \sqrt{2}\times \sqrt{2} = \sqrt{4} (\text{rational})
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-5-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-intro-2-2-1-7-3">
-<em class="emphasis">Rational numbers are finite and repeating decimals whereas irrational numbers are infinite and non-repeating.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-intro-2-2-1-5-3">
+<em class="emphasis">Rational numbers are finite and repeating decimals whereas irrational numbers are infinite and non-repeating.</em><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-5-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-intro-2-2-1-7-4">
-<em class="emphasis">Some irrational numbers are also special numbers like Pi (<span class="process-math">\(\pi\)</span>), Euler number (<span class="process-math">\(e\)</span>), golden ratio (<span class="process-math">\(\phi\)</span>), and square root of 2 (<span class="process-math">\(\sqrt{2}\)</span>).</em><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-7-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-intro-2-2-1-5-4">
+<em class="emphasis">Some irrational numbers are also special numbers like Pi (<span class="process-math">\(\pi\)</span>), Euler number (<span class="process-math">\(e\)</span>), golden ratio (<span class="process-math">\(\phi\)</span>), and square root of 2 (<span class="process-math">\(\sqrt{2}\)</span>).</em><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-5-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 7"><a href="#sec_first-intro-2-2-1-7" title="Copy heading and permalink for Item 7" aria-label="Copy heading and permalink for Item 7">🔗</a></div>
+<div class="autopermalink" data-description="Item 5"><a href="#sec_first-intro-2-2-1-5" title="Copy heading and permalink for Item 5">🔗</a></div>
 </li>
-<li id="sec_first-intro-2-2-1-8">
-<div class="para" id="sec_first-intro-2-2-1-8-1">
-<dfn class="terminology">Real Numbers:</dfn> A real number is any rational or irrational number, including positive and negative whole numbers, integers, decimals, fractions, and numbers such as pi <span class="process-math">\((\pi)\)</span> and Euler’s number <span class="process-math">\((e)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec_first-intro-2-2-1-6">
+<div class="para" id="sec_first-intro-2-2-1-6-1">
+<dfn class="terminology">Real Numbers:</dfn> A real number is any rational or irrational number, including positive and negative whole numbers, integers, decimals, fractions, and numbers such as pi <span class="process-math">\((\pi)\)</span> and Euler’s number <span class="process-math">\((e)\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-intro-2-2-1-8-2">
-<dfn class="terminology">Infinity <span class="process-math">\((\infty)\)</span> and negative infinity <span class="process-math">\((-\infty)\)</span> are not real numbers.</dfn> Because infinity and negative infinity can have different values. For example, the set of whole numbers is infinite. So is the set of integers. But, the two sets are not of the same size.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-intro-2-2-1-6-2">
+<dfn class="terminology">Infinity <span class="process-math">\((\infty)\)</span> and negative infinity <span class="process-math">\((-\infty)\)</span> are not real numbers.</dfn> Because infinity and negative infinity can have different values. For example, the set of whole numbers is infinite. So is the set of integers. But, the two sets are not of the same size.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-6-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-intro-2-2-1-8-3">The four main properties of real numbers are the commutative property, associative property, distributive property, and identity property. If <span class="process-math">\(m, n,\)</span> and <span class="process-math">\(r\)</span> are real numbers, then:<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-intro-2-2-1-6-3">The four main properties of real numbers are the commutative property, associative property, distributive property, and identity property. If <span class="process-math">\(m, n,\)</span> and <span class="process-math">\(r\)</span> are real numbers, then:<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-6-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 8"><a href="#sec_first-intro-2-2-1-8" title="Copy heading and permalink for Item 8" aria-label="Copy heading and permalink for Item 8">🔗</a></div>
+<div class="autopermalink" data-description="Item 6"><a href="#sec_first-intro-2-2-1-6" title="Copy heading and permalink for Item 6">🔗</a></div>
 </li>
-<li id="sec_first-intro-2-2-1-9">
-<div class="para" id="sec_first-intro-2-2-1-9-1">
-<dfn class="terminology">Complex Numbers:</dfn> The complex number is the combination of a real number and an imaginary number. The complex number is in the form of <span class="process-math">\(a+ib\text{,}\)</span> where <span class="process-math">\(a\)</span> = real number and <span class="process-math">\(ib\)</span> = imaginary number. Also, <span class="process-math">\(a,b\)</span> belongs to real numbers and <span class="process-math">\(i = \sqrt{-1}.\)</span> This numbers are very useful in analysing phasor diagram in electricity.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec_first-intro-2-2-1-7">
+<div class="para" id="sec_first-intro-2-2-1-7-1">
+<dfn class="terminology">Complex Numbers:</dfn> The complex number is the combination of a real number and an imaginary number. The complex number is in the form of <span class="process-math">\(a+ib\text{,}\)</span> where <span class="process-math">\(a\)</span> = real number and <span class="process-math">\(ib\)</span> = imaginary number. Also, <span class="process-math">\(a,b\)</span> belongs to real numbers and <span class="process-math">\(i = \sqrt{-1}.\)</span> This numbers are very useful in analysing phasor diagram in electricity.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-intro-2-2-1-9-2">The numbers which are not real are imaginary numbers. When we square an imaginary number, it gives a negative result. It is represented as <span class="process-math">\(Im()\text{.}\)</span> Example: <span class="process-math">\(\sqrt{-2}, \sqrt{-7}, \sqrt{-11}\)</span> are all imaginary numbers. The roots of equation <span class="process-math">\(x^2+1 = 0\)</span> is an imaginary number.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-intro-2-2-1-7-2">The numbers which are not real are imaginary numbers. When we square an imaginary number, it gives a negative result. It is represented as <span class="process-math">\(Im()\text{.}\)</span> Example: <span class="process-math">\(\sqrt{-2}, \sqrt{-7}, \sqrt{-11}\)</span> are all imaginary numbers. The roots of equation <span class="process-math">\(x^2+1 = 0\)</span> is an imaginary number.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2-1-7-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 9"><a href="#sec_first-intro-2-2-1-9" title="Copy heading and permalink for Item 9" aria-label="Copy heading and permalink for Item 9">🔗</a></div>
+<div class="autopermalink" data-description="Item 7"><a href="#sec_first-intro-2-2-1-7" title="Copy heading and permalink for Item 7">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-intro-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div></section><section class="subsection" id="subsec-notation"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Standard Notations of some Number Systems:</span>
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.2.1</span><span class="space"> </span><span class="title">Standard Notations of Number Systems:</span>
 </h3>
 <div class="para logical" id="subsec-notation-2">
 <div class="displaymath process-math" id="subsec-notation-2-1">
@@ -497,41 +471,18 @@ eBookConfig.enable_chatcodes =  false;
 {\mathbb C} &amp;= \{z : z \text{ is a complex number}\}\text{.}
 \end{align*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-notation-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-notation-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="subsec-notation-3">
 <div class="para">The symbol ’<span class="process-math">\(\in\)</span>’ read as ’belongs to’ or ’is an element of’, where as ’<span class="process-math">\(\notin\)</span>’ stands for ’does not belong to’ or ’is not an element of’. Example:</div>
-<div class="displaymath process-math" id="subsec-notation-3-3">
+<div class="displaymath process-math">
 \begin{equation*}
 A = \{ 2,4,8,10,12\}; 8 \in A; \text{ but } 14 \notin A.
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-notation-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-notation-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="subsec-notation-4">
-<div class="displaymath process-math" id="subsec-notation-4-1">
-\begin{equation*}
-\bigcup_{i = 1}^{n} A_{i} = A_{1} \cup \ldots \cup A_n
-\end{equation*}
-</div>
-<div class="displaymath process-math" id="subsec-notation-4-2">
-\begin{equation*}
-A \cup B = \{x : x \in A \text{ or } x \in B \}
-\end{equation*}
-</div>
-<div class="displaymath process-math" id="subsec-notation-4-3">
-\begin{equation*}
-A \cap B = \{x :  x \in A \text{ and } x \in B \}\text{.}
-\end{equation*}
-</div>
-<div class="displaymath process-math" id="subsec-notation-4-4">
-\begin{equation*}
-\bigcap_{i = 1}^{n} A_{i} = A_{1} \cap \ldots \cap A_n
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-notation-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Subsection 1.2.1: Standard Notations of some Number Systems:"><a href="#subsec-notation" title="Copy heading and permalink for Subsection 1.2.1: Standard Notations of some Number Systems:" aria-label="Copy heading and permalink for Subsection 1.2.1: Standard Notations of some Number Systems:">🔗</a></div></section><div class="autopermalink" data-description="Section 1.2: Classification of Numbers"><a href="#sec_first-intro" title="Copy heading and permalink for Section 1.2: Classification of Numbers" aria-label="Copy heading and permalink for Section 1.2: Classification of Numbers">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 1.2.1: Standard Notations of Number Systems:"><a href="#subsec-notation" title="Copy heading and permalink for Subsection 1.2.1: Standard Notations of Number Systems:">🔗</a></div></section><div class="autopermalink" data-description="Section 1.2: Number Systems"><a href="#sec_first-intro" title="Copy heading and permalink for Section 1.2: Number Systems">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-review.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-intervals.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
