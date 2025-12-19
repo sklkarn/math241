@@ -1051,7 +1051,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.11",
   "title": "Exercise",
-  "body": " Exercise   Determine whether the curve is the graph of a function of x.                  Find the domain of the following functions                          Draw graph of the given function , its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of     Find the domain of           Define function,         Find the range of the following functions                               Find range of:                        Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                           Find the range of:                    Terns the equation in quadratic in . Now quadratic equations in are defined for     "
+  "body": " Exercise   Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                             Find the range of the following functions                               Find range of:                        Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                           Find the range of:                    Terns the equation in quadratic in . Now quadratic equations in are defined for      Find the functions and their domains.     Find the and their domains.    "
 },
 {
   "id": "ex_first-2",
@@ -1069,7 +1069,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.2",
   "title": "",
-  "body": " Find the domain of the following functions                        "
+  "body": " Determine whether each of the following function is even, odd or neither even nor odd.                                              "
 },
 {
   "id": "ex_first-4",
@@ -1078,7 +1078,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.3",
   "title": "",
-  "body": " Draw graph of the given function , its domain and Range.  "
+  "body": " Find the domain of the following functions                                       "
 },
 {
   "id": "ex_first-5",
@@ -1087,7 +1087,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.4",
   "title": "",
-  "body": " Find the domain of     . Domain: (0,4)   "
+  "body": " Draw graph of the given function and find its domain and Range.  "
 },
 {
   "id": "ex_first-6",
@@ -1096,7 +1096,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.5",
   "title": "",
-  "body": " Find the domain of   "
+  "body": " Find the domain of     . Domain: (0,4)   "
 },
 {
   "id": "ex_first-7",
@@ -1105,7 +1105,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.6",
   "title": "",
-  "body": " Find the domain of   "
+  "body": " Find the domain and sketch the graph of the following functions:                                       Define function,          "
 },
 {
   "id": "ex_first-8",
@@ -1114,7 +1114,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.7",
   "title": "",
-  "body": " Find the domain of   "
+  "body": " Find the domain and sketch the graph of the following functions:                               "
 },
 {
   "id": "ex_first-9",
@@ -1123,7 +1123,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.8",
   "title": "",
-  "body": " Find the domain of   "
+  "body": " Match each equation with its graph:                    "
 },
 {
   "id": "ex_first-10",
@@ -1132,7 +1132,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.9",
   "title": "",
-  "body": " Find the domain of   "
+  "body": " Match each equation with its graph:                         "
 },
 {
   "id": "ex_first-11",
@@ -1141,7 +1141,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.10",
   "title": "",
-  "body": " Find the domain of   "
+  "body": " Graph each function:                                                           "
 },
 {
   "id": "ex_first-12",
@@ -1150,7 +1150,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.11",
   "title": "",
-  "body": "       Define function,       "
+  "body": " Find the range of the following functions                             "
 },
 {
   "id": "ex_first-13",
@@ -1159,7 +1159,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.12",
   "title": "",
-  "body": " Find the range of the following functions                             "
+  "body": " Find range of:                   "
 },
 {
   "id": "ex_first-14",
@@ -1168,7 +1168,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.13",
   "title": "",
-  "body": " Find range of:                   "
+  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
 },
 {
   "id": "ex_first-15",
@@ -1177,7 +1177,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.14",
   "title": "",
-  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
+  "body": " Match each equation with its graph.                    "
 },
 {
   "id": "ex_first-16",
@@ -1186,7 +1186,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.15",
   "title": "",
-  "body": " Match each equation with its graph.                    "
+  "body": " Match each equation with its graph.                         "
 },
 {
   "id": "ex_first-17",
@@ -1195,7 +1195,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.16",
   "title": "",
-  "body": " Match each equation with its graph.                         "
+  "body": " Find the range of:                    Terns the equation in quadratic in . Now quadratic equations in are defined for    "
 },
 {
   "id": "ex_first-18",
@@ -1204,7 +1204,16 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.11.17",
   "title": "",
-  "body": " Find the range of:                    Terns the equation in quadratic in . Now quadratic equations in are defined for    "
+  "body": " Find the functions and their domains.   "
+},
+{
+  "id": "ex_first-19",
+  "level": "2",
+  "url": "ex_first.html#ex_first-19",
+  "type": "Exercise",
+  "number": "1.11.18",
+  "title": "",
+  "body": " Find the and their domains.   "
 },
 {
   "id": "sec_second-intro",
@@ -1216,9 +1225,9 @@ var ptx_lunr_docs = [
   "body": " Limits   A limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.    Limits and Derivatives       One-Sided Limits   Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like , , or require special techniques (e.g., L'Hopital's Rule) to evaluate.  Methods of solving indeterminate forms:   L Hospital's Rule    Factorization Method    Rationalization Method (involve square root)    Methods of Evaluating Algebric Limit when     Trigonometric Limits    Logarithimic and Exponential Limits    Form            Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       Difference Quotient:  For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.      The average rate of change for on the interval is the slope of the secant line between the two points and     For example: the average rate of change for the on the interval is       A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and     One-Sided Limits    Left hand limit:   Right hand limit:  and the function at         The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at           Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.        If then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.        If and then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .    Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate at                For what value of does the exist if      and     equating these two equations, we get -       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form  When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:                etc. are some oscillatory functions whose limit do not exist at    "
 },
 {
-  "id": "sec_second-intro-2-2",
+  "id": "derv_video",
   "level": "2",
-  "url": "sec_second-intro.html#sec_second-intro-2-2",
+  "url": "sec_second-intro.html#derv_video",
   "type": "Figure",
   "number": "2.1.1",
   "title": "",
