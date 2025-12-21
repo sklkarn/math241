@@ -192,7 +192,8 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-comp.html" class="internal"><span class="codenumber">1.10</span> <span class="title">Combinations of Functions</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.11</span> <span class="title">Exercise</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-inverse.html" class="internal"><span class="codenumber">1.11</span> <span class="title">Inverse Functions</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.12</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
@@ -303,7 +304,7 @@ eBookConfig.enable_chatcodes =  false;
 <div class="para logical" id="sec_first-asympt-2-1-1-1-2-1">
 <div class="displaymath process-math">
 \begin{equation*}
-f(x)= \frac{1}{x+2}
+f(x)= \frac{1}{x-2}
 \end{equation*}
 </div>
 <ul class="disc" id="sec_first-asympt-2-1-1-1-2-1-2">
@@ -318,7 +319,7 @@ f(x)= \frac{1}{x+2}
 <div class="autopermalink" data-description="Item"><a href="#sec_first-asympt-2-1-1-1-2-1-2-2" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="sec_first-asympt-2-1-1-1-2-1-2-3">
-<div class="para" id="sec_first-asympt-2-1-1-1-2-1-2-3-1">As <span class="process-math">\(x \to 2^+\text{,}\)</span> <span class="process-math">\(f(x) \to \infty\text{;}\)</span> as <span class="process-math">\(x \to 2^-\text{,}\)</span> <span class="process-math">\(f(x) \to -\infty\text{.}\)</span> The graph shoots upward on one side and downward on the other.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-1-1-1-2-1-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-asympt-2-1-1-1-2-1-2-3-1">As <span class="process-math">\(x \to 2^+\text{,}\)</span>  <span class="process-math">\(f(x) \to \infty\text{;}\)</span>  as <span class="process-math">\(x \to 2^-\text{,}\)</span>  <span class="process-math">\(f(x) \to -\infty\text{.}\)</span> The graph shoots upward on one side and downward on the other.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-1-1-1-2-1-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#sec_first-asympt-2-1-1-1-2-1-2-3" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
@@ -344,7 +345,13 @@ f(x) = \frac{1}{(x+2)(x-4)}
 <li id="sec_first-asympt-2-1-1-2">
 <div class="para logical" id="sec_first-asympt-2-1-1-2-1">
 <div class="para">
-<dfn class="terminology">Horizontal Asymptote:</dfn> A horizontal asymptote is a horizontal line <span class="process-math">\(y = c\)</span> that the graph of a function approaches as <span class="process-math">\(x \to \infty\)</span> or <span class="process-math">\(x \to -\infty\text{.}\)</span> It describes the function’s behavior at the extremes of the x-axis. For a rational function <span class="process-math">\(f(x) = \frac{p(x)}{q(x)}\text{,}\)</span> compare the degrees of the numerator <span class="process-math">\(p(x) \)</span> and denominator <span class="process-math">\(q(x)\text{:}\)</span>
+<dfn class="terminology">Horizontal Asymptote:</dfn> A horizontal asymptote is a horizontal line <span class="process-math">\(y = c\)</span> that the graph of a function approaches as <span class="process-math">\(x \to \infty\)</span> or <span class="process-math">\(x \to -\infty\text{.}\)</span> It describes the function’s behavior at the extremes of the x-axis. For a rational function</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{p(x)}{q(x)}\text{,}
+\end{equation*}
+</div>
+<div class="para">compare the degrees of the numerator <span class="process-math">\(p(x) \)</span> and denominator <span class="process-math">\(q(x)\text{:}\)</span>
 </div>
 <ul class="disc" id="sec_first-asympt-2-1-1-2-1-8">
 <li id="sec_first-asympt-2-1-1-2-1-8-1">
@@ -474,7 +481,7 @@ f(x)= \frac{5x+4}{3x^2+5x-7}
 \frac{5x}{3x^2} = \frac{5}{3x} 
 \end{equation*}
 </div>
-<div class="para">At <span class="process-math">\(x\to \infty\)</span> <span class="process-math">\(\frac{5}{3x} \to 0.\)</span> Therefore HA at <span class="process-math">\(y=0\text{.}\)</span>
+<div class="para">At <span class="process-math">\(x\to \infty, \, \)</span> <span class="process-math">\(\frac{5}{3x} \to 0.\)</span> Therefore HA at <span class="process-math">\(y=0\text{.}\)</span>
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -494,7 +501,7 @@ g(x)= \frac{2x^3+4}{3x^3-7x}
 \frac{2x^3}{3x^3} = \frac{2}{3} 
 \end{equation*}
 </div>
-<div class="para">At <span class="process-math">\(x\to \infty\text{,}\)</span> HA at <span class="process-math">\(y=2/3\text{.}\)</span>
+<div class="para">At <span class="process-math">\(x\to \infty, \, \)</span> HA at <span class="process-math">\(y=2/3\text{.}\)</span>
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -514,7 +521,7 @@ h(x)= \frac{x^2+4x-5}{2x-1}
 \frac{x^2}{2x} = \frac{x}{2} \to \infty
 \end{equation*}
 </div>
-<div class="para">no HA. As <span class="process-math">\(x\to +\infty\)</span> and <span class="process-math">\(x\to -\infty\)</span>
+<div class="para">no HA. As <span class="process-math">\(x\to +\infty \, \)</span> and <span class="process-math">\(x\to -\infty\)</span>
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
