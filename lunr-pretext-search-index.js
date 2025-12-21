@@ -3742,7 +3742,7 @@ var ptx_lunr_docs = [
   "type": "References",
   "number": "",
   "title": "References",
-  "body": "  Mathematical Physics for Undergraduate, Karna, S., Kindle Publication, 2018.   "
+  "body": " References      James  Stewart    Calculus      "
 },
 {
   "id": "backmatter-7",
