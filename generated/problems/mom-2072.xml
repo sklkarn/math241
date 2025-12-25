@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<myopenmath xmlns:pi="http://pretextbook.org/2020/pretext/internal" id="2072">
+<statement>
+<p>
+Solve the following formula for <m>\displaystyle{x}</m></p>
+<p>
+<m>\displaystyle{y}={3}{x}+{5}{k}{x}</m></p>
+<p>
+<m>\displaystyle{x}=</m> <fillin characters="20"/>  
+</p>
+<p>
+Enter your answer as an expression. </p>
+<p> But be careful. You will need parentheses when you enter your expression.
+</p>
+</statement>
+<answer>
+<p><ul><li><m>\displaystyle\frac{{y}}{{{3}+{5}\cdot{k}}}</m></li></ul></p>
+</answer>
+
+</myopenmath>

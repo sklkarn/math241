@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Review",
-  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          "
+  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          Titled Sage Cells            "
 },
 {
   "id": "sec_first-review-2-1",
@@ -3787,7 +3787,7 @@ var ptx_lunr_docs = [
   "type": "References",
   "number": "",
   "title": "References",
-  "body": " References      James  Stewart    Calculus (Cengage Learning)         Edwin  Herman    Gilbert  Strang    Calculus I (OpenStax)   "
+  "body": " References      James  Stewart    Calculus (Cengage Learning)         Edwin  Herman    Gilbert  Strang    Calculus I (OpenStax)      Robert  Beezer    Derivatives and Integrals: An annotated discourse   "
 },
 {
   "id": "backmatter-7",
