@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.3';
+eBookConfig.runestone_version = '7.11.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.886636c6424f998d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f71e3729636f8aa8.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.a3de768070907914.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.da61f94af95570ff.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -162,7 +162,6 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-func_type" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Types of Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-graph" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graph of some Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-gif-fpf" class="internal"><span class="codenumber">1.4.3</span> <span class="title">GIF and FPF</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-trnsform" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Transformation of Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section contains-active">
@@ -187,10 +186,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_second-funct-gr.html" class="internal"><span class="codenumber">1.9</span> <span class="title">The Graph of Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Transformation of Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-trnsform" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Transformation of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Transformation of Graph</span></a></div></li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Graph of Quadratic Function</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">1.9.2.1</span> <span class="title">Special Graphs</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Graph of Quadratic Function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">1.9.3.1</span> <span class="title">Special Graphs</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -287,10 +287,10 @@ eBookConfig.enable_chatcodes =  false;
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_first-domain"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.5</span><span class="space"> </span><span class="title">Domain</span>
 </h2>
-<section class="introduction" id="sec_first-domain-2"><div class="para" id="sec_first-domain-2-1">The set of all possible (number) input values (typically ( x )) for which the function is defined and produces a real number output is called a domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-domain-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<section class="introduction" id="sec_first-domain-2"><div class="para" id="sec_first-domain-2-1">The set of all possible number (input values), typically  <span class="process-math">\(x\)</span> for which the function is defined and produces a real number output is called a  domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-domain-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_first-domain-2-2">
-<div class="para"><dfn class="terminology">Stategy of Finding the Domain:</dfn></div>
+<div class="para"><dfn class="terminology">Strategy of Finding the Domain:</dfn></div>
 <ol class="decimal" id="sec_first-domain-2-2-2">
 <li id="sec_first-domain-2-2-2-1">
 <div class="para logical" id="sec_first-domain-2-2-2-1-1">
@@ -1122,19 +1122,19 @@ x+2 \gt  0 \, \Rightarrow \, x \lt -2
 <div class="autopermalink" data-description="Example 1.5.18"><a href="#subsec-dom_ex-12-4" title="Copy heading and permalink for Example 1.5.18">🔗</a></div></article><div class="autopermalink" data-description="Paragraphs: Domain of Fractional function with radicals."><a href="#subsec-dom_ex-12" title="Copy heading and permalink for Paragraphs: Domain of Fractional function with radicals.">🔗</a></div></section><article class="example example-like" id="subsec-dom_ex-13"><h4 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.5.19</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-dom_ex-13-1-1">Draw graph of the given function <span class="process-math">\(f(x)=\log_2{x-1}\text{,}\)</span> its domain and Range.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dom_ex-13-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-dom_ex-13-1-1">Draw graph of the given function <span class="process-math">\(f(x)=\log_2{(x-1)}\text{,}\)</span> its domain and Range.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-dom_ex-13-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="solutions"><details id="subsec-dom_ex-13-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
 <div class="para logical" id="subsec-dom_ex-13-2-1">
 <div class="displaymath process-math">
 \begin{equation*}
-Let, \, y=f(x)=\log_2{x-1}
+Let, \, y=f(x)=\log_2{(x-1)}
 \end{equation*}
 </div>
 <div class="para">Now replace y to x and x to y.</div>
 <div class="displaymath process-math">
 \begin{equation*}
-Let, \, x=\log_2{y-1}
+Let, \, x=\log_2{(y-1)}
 \end{equation*}
 </div>
 <div class="displaymath process-math">

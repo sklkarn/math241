@@ -102,14 +102,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.3';
+eBookConfig.runestone_version = '7.11.4';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.886636c6424f998d.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.f71e3729636f8aa8.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.a3de768070907914.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.da61f94af95570ff.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -162,7 +162,6 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-func_type" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Types of Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-graph" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graph of some Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-gif-fpf" class="internal"><span class="codenumber">1.4.3</span> <span class="title">GIF and FPF</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-trnsform" class="internal"><span class="codenumber">1.4.4</span> <span class="title">Transformation of Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
@@ -187,10 +186,11 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="sec_second-funct-gr.html" class="internal"><span class="codenumber">1.9</span> <span class="title">The Graph of Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Transformation of Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-trnsform" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Transformation of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Transformation of Graph</span></a></div></li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Graph of Quadratic Function</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">1.9.2.1</span> <span class="title">Special Graphs</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Graph of Quadratic Function</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">1.9.3.1</span> <span class="title">Special Graphs</span></a></div></li></ul>
 </li>
 </ul>
 </li>
@@ -288,7 +288,7 @@ eBookConfig.enable_chatcodes =  false;
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">1.4</span><span class="space"> </span><span class="title">Function</span>
 </h2>
 <section class="introduction" id="sec_first-functions-2"><div class="image-box" style="width: 45%; margin-left: 27.5%; margin-right: 27.5%;"><img src="generated/latex-image/func_a.svg" role="img" class="contained"></div>
-<div class="para" id="sec_first-functions-2-2">Function is a relationship between two variables where each input corresponds to exactly one output. For every, <span class="process-math">\(\forall\)</span> input, <span class="process-math">\(x\in X\)</span> there is a unique output, <span class="process-math">\(f(x) \in y\text{.}\)</span> <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-functions-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-functions-2-2"> Function is a relationship between two variables where each input corresponds to exactly one output. For every, <span class="process-math">\(\forall\)</span> input, <span class="process-math">\(x\in X\)</span> there is a unique output, <span class="process-math">\(f(x) \in y\text{.}\)</span> <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-functions-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="sec_first-functions-2-3">All possible real values of input <span class="process-math">\(x\)</span> for which the function is definded are called a <em class="emphasis">domain</em> and the corresponding output values are called a <em class="emphasis">Range</em>. Each input <span class="process-math">\(x\)</span> produces exactly one output <span class="process-math">\(f(x).\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-functions-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -305,10 +305,10 @@ y =f(x)
 \begin{align*}
 f(x) \amp =x^{2} \\
 f(x) \amp =\sin(x)\\
-f(x) \amp = \frac{1}{x} \, \quad (\text{ defined for } x \neq 0).
+f(x) \amp = \frac{1}{x} \, \quad (\text{ defined for }\, x \neq 0).
 \end{align*}
 </div>
-<div class="para">Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test in graphical form. (No vertical line intersects the graph more than once.)</div>
+<div class="para">Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the  vertical line test in graphical form. (No vertical line intersects the graph more than once.)</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-functions-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para" id="sec_first-functions-2-5">
@@ -339,7 +339,7 @@ y = x^2
 x^2+y^2 =1\text{,}
 \end{equation*}
 </div>
-<div class="para">a vertical line at <span class="process-math">\(x=0\)</span> intersects at two points <span class="process-math">\((0,1.5)\)</span> and <span class="process-math">\((0,-1.5).\)</span> Hence, <span class="process-math">\(y= \sqrt{1-x^2}\)</span> is not a function.</div>
+<div class="para">a vertical line at <span class="process-math">\(x=0\)</span> intersects at two points <span class="process-math">\((0,1.5)\)</span> and <span class="process-math">\((0,-1.5).\)</span> Hence,  <span class="process-math">\(y=\pm \sqrt{1-x^2}\)</span> is not a function. The expression <span class="process-math">\(\pm \sqrt{1 - x^2}\)</span>  actually represents two separate functions. However, <span class="process-math">\(y=+ \sqrt{1-x^2}\)</span> is a function (upper half circle) and <span class="process-math">\(y=- \sqrt{1-x^2}\)</span> is also a function (lower half circle).</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-functions-2-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="generated/latex-image/func_c.svg" role="img" class="contained"></div>
@@ -405,7 +405,8 @@ x &amp; y  \\ \hline
 <ul class="disc" id="subsec-func_type-2-1-1-1-2">
 <li id="subsec-func_type-2-1-1-1-2-1">
 <div class="para logical" id="subsec-func_type-2-1-1-1-2-1-1">
-<div class="para">Polynomial Functions: Functions defined by polynomials, e.g.,</div>
+<div class="para">
+<em class="alert">Polynomial Functions:</em> Functions defined by polynomials, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = ax^n + bx^{n-1} + \dots + c 
@@ -430,7 +431,8 @@ f(x) = ax^2 + bx + c
 </li>
 <li id="subsec-func_type-2-1-1-1-2-2">
 <div class="para logical" id="subsec-func_type-2-1-1-1-2-2-1">
-<div class="para">Rational Functions: Ratios of two polynomial functions, e.g.,</div>
+<div class="para">
+<em class="alert">Rational Functions:</em> Ratios of two polynomial functions, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \frac{P(x)}{Q(x)}, \, \quad \text{ where } Q(x) \neq 0. 
@@ -442,7 +444,8 @@ f(x) = \frac{P(x)}{Q(x)}, \, \quad \text{ where } Q(x) \neq 0.
 </li>
 <li id="subsec-func_type-2-1-1-1-2-3">
 <div class="para logical" id="subsec-func_type-2-1-1-1-2-3-1">
-<div class="para">Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,</div>
+<div class="para">
+<em class="alert">Algebraic Functions:</em> Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \sqrt{x^2 + 1} 
@@ -463,7 +466,8 @@ f(x) = \sqrt{x^2 + 1}
 <ul class="disc" id="subsec-func_type-2-1-2-1-2">
 <li id="subsec-func_type-2-1-2-1-2-1">
 <div class="para logical" id="subsec-func_type-2-1-2-1-2-1-1">
-<div class="para">Continuous Functions: Functions with no breaks or jumps in their graphs, e.g.,</div>
+<div class="para">
+<em class="alert">Continuous Functions:</em> Functions with no breaks or jumps in their graphs, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = x^2
@@ -475,7 +479,8 @@ f(x) = x^2
 </li>
 <li id="subsec-func_type-2-1-2-1-2-2">
 <div class="para logical" id="subsec-func_type-2-1-2-1-2-2-1">
-<div class="para">Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g.,</div>
+<div class="para">
+<em class="alert">Discontinuous Functions:</em> Functions with breaks, jumps, or asymptotes, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \frac{1}{x}, \, \quad \text{ here function is discontinuous at } x = 0
@@ -487,7 +492,8 @@ f(x) = \frac{1}{x}, \, \quad \text{ here function is discontinuous at } x = 0
 </li>
 <li id="subsec-func_type-2-1-2-1-2-3">
 <div class="para logical" id="subsec-func_type-2-1-2-1-2-3-1">
-<div class="para">Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g.,</div>
+<div class="para">
+<em class="alert">Differentiable Functions:</em> Functions with a defined derivative at every point in their domain, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \sin x
@@ -499,7 +505,8 @@ f(x) = \sin x
 </li>
 <li id="subsec-func_type-2-1-2-1-2-4">
 <div class="para logical" id="subsec-func_type-2-1-2-1-2-4-1">
-<div class="para">Piecewise Functions: Functions defined by different rules on different intervals, e.g.,</div>
+<div class="para">
+<em class="alert">Piecewise Functions:</em> Functions defined by different rules on different intervals, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \begin{cases} x^2; &amp; \text{if } x \geq 0 \\ -x; &amp; \text{if } x \lt 0 \end{cases}
@@ -520,7 +527,7 @@ f(x) = \begin{cases} x^2; &amp; \text{if } x \geq 0 \\ -x; &amp; \text{if } x \l
 <ul class="disc" id="subsec-func_type-2-1-3-1-2">
 <li id="subsec-func_type-2-1-3-1-2-1">
 <div class="para logical" id="subsec-func_type-2-1-3-1-2-1-1">
-<div class="para">A function <span class="process-math">\(f(x)\)</span> is strictly increasing over an interval <span class="process-math">\([a,b]\)</span>
+<div class="para">A function <span class="process-math">\(f(x)\)</span> is <em class="alert">strictly increasing</em> over an interval <span class="process-math">\([a,b]\)</span>
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -542,7 +549,7 @@ if: \, \quad x_2 \gt x_1, \, \Rightarrow \, f(x_2) \geq f(x_1); \, \forall_{x_1,
 </div>
 <div class="image-box" style="width: 35%; margin-left: 32.5%; margin-right: 32.5%;"><img src="external/crv_in7.png" class="contained"></div>
 <div class="para logical" id="subsec-func_type-2-1-3-1-2-1-5">
-<div class="para">A function <span class="process-math">\(f(x)\)</span> is strictly decreasing over an interval <span class="process-math">\([a,b]\)</span> if:</div>
+<div class="para">A function <span class="process-math">\(f(x)\)</span> is <em class="alert">strictly decreasing</em> over an interval <span class="process-math">\([a,b]\)</span> if:</div>
 <div class="displaymath process-math">
 \begin{equation*}
 x_2 \gt x_1, \, \Rightarrow \, f(x_2) \lt f(x_1); \, \forall_{x_1,x_2} \in [a,b]. 
@@ -557,13 +564,15 @@ x_2 \gt x_1, \, \Rightarrow \, f(x_2) \leq f(x_1); \, \forall_{x_1,x_2} \in [a,b
 <div class="para"><span class="process-math">\(e.g.,\,  f(x) = -x.\)</span></div>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-3-1-2-1-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="subsec-func_type-2-1-3-1-2-1-6">Monotonic Functions:  a function <span class="process-math">\(f(x)\)</span> is monotonic in an interval <span class="process-math">\([a,b]\)</span> if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [<a href="sec_first-functions.html#crv_in6" class="xref" data-knowl="./knowl/xref/crv_in6.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.3">Figure 1.4.3</a>]<div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-3-1-2-1-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-func_type-2-1-3-1-2-1-6">
+<em class="alert">Monotonic Functions:</em>  a function <span class="process-math">\(f(x)\)</span> is monotonic in an interval <span class="process-math">\([a,b]\)</span> if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [<a href="sec_first-functions.html#crv_in6" class="xref" data-knowl="./knowl/xref/crv_in6.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 1.4.3">Figure 1.4.3</a>]<div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-3-1-2-1-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#subsec-func_type-2-1-3-1-2-1" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsec-func_type-2-1-3-1-2-2">
 <div class="para logical" id="subsec-func_type-2-1-3-1-2-2-1">
-<div class="para">Periodic Functions: Functions that repeat values at regular intervals, e.g.,</div>
+<div class="para">
+<em class="alert">Periodic Functions:</em> Functions that repeat values at regular intervals, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \sin x
@@ -576,7 +585,8 @@ f(x) = \sin x
 </li>
 <li id="subsec-func_type-2-1-3-1-2-3">
 <div class="para logical" id="subsec-func_type-2-1-3-1-2-3-1">
-<div class="para">Even Functions: Symmetric about the y-axis, i.e.,</div>
+<div class="para">
+<em class="alert">Even Functions:</em> Symmetric about the y-axis, i.e.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(-x) = f(x)
@@ -590,7 +600,8 @@ f(-x) = f(x)
 </li>
 <li id="subsec-func_type-2-1-3-1-2-4">
 <div class="para logical" id="subsec-func_type-2-1-3-1-2-4-1">
-<div class="para">Odd Functions:  Symmetric about the origin, i.e.,</div>
+<div class="para">
+<em class="alert">Odd Functions:</em>  Symmetric about the origin, i.e.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(-x) = -f(x)
@@ -613,7 +624,8 @@ f(-x) = -f(x)
 <ul class="disc" id="subsec-func_type-2-1-4-1-2">
 <li id="subsec-func_type-2-1-4-1-2-1">
 <div class="para logical" id="subsec-func_type-2-1-4-1-2-1-1">
-<div class="para">Trigonometric Functions: Functions like</div>
+<div class="para">
+<em class="alert">Trigonometric Functions:</em> Functions like</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \sin x, \, \cos x,\, \tan x, \cdots, 
@@ -625,7 +637,8 @@ f(-x) = -f(x)
 </li>
 <li id="subsec-func_type-2-1-4-1-2-2">
 <div class="para logical" id="subsec-func_type-2-1-4-1-2-2-1">
-<div class="para">Exponential Functions: Functions of the form</div>
+<div class="para">
+<em class="alert">Exponential Functions:</em> Functions of the form</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = a^x; \, \text { where } a \gt 0
@@ -639,7 +652,8 @@ f(x) = a^x; \, \text { where } a \gt 0
 </li>
 <li id="subsec-func_type-2-1-4-1-2-3">
 <div class="para logical" id="subsec-func_type-2-1-4-1-2-3-1">
-<div class="para">Logarithmic Functions: Functions like</div>
+<div class="para">
+<em class="alert">Logarithmic Functions:</em> Functions like</div>
 <div class="displaymath process-math">
 \begin{equation*}
 f(x) = \ln x \, \quad \text{ or} \, f(x) = \log_b{x}
@@ -653,7 +667,8 @@ f(x) = \ln x \, \quad \text{ or} \, f(x) = \log_b{x}
 </li>
 <li id="subsec-func_type-2-1-4-1-2-4">
 <div class="para logical" id="subsec-func_type-2-1-4-1-2-4-1">
-<div class="para">Hyperbolic Functions: Functions like <span class="process-math">\(\sinh x\text{,}\)</span> <span class="process-math">\(\cosh x\text{,}\)</span> defined using exponentials, e.g.,</div>
+<div class="para">
+<em class="alert">Hyperbolic Functions:</em> Functions like <span class="process-math">\(\sinh x\text{,}\)</span> <span class="process-math">\(\cosh x\text{,}\)</span> defined using exponentials, e.g.,</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \sinh x = \frac{e^x - e^{-x}}{2}
@@ -673,74 +688,64 @@ f(x) = \ln x \, \quad \text{ or} \, f(x) = \log_b{x}
 <div class="para"><dfn class="terminology">By Domain and Range</dfn></div>
 <ul class="disc" id="subsec-func_type-2-1-5-1-2">
 <li id="subsec-func_type-2-1-5-1-2-1">
-<div class="para logical" id="subsec-func_type-2-1-5-1-2-1-1">
-<div class="para">Explicit Functions: Defined directly, e.g.,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-y = f(x) = x^2
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-5-1-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-func_type-2-1-5-1-2-1-1">
+<em class="alert">Explicit Functions:</em> Defined directly, e.g.,<span class="process-math">\(y = f(x) = x^2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-5-1-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#subsec-func_type-2-1-5-1-2-1" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsec-func_type-2-1-5-1-2-2">
-<div class="para logical" id="subsec-func_type-2-1-5-1-2-2-1">
-<div class="para">Implicit Functions: Defined by an equation, e.g.,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-x^2 + y^2 = 1
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-5-1-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-func_type-2-1-5-1-2-2-1">
+<em class="alert">Implicit Functions:</em> Defined by an equation, e.g., <span class="process-math">\(x^2 + y^2 = 1\)</span> or <span class="process-math">\(xy=1 \)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-5-1-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#subsec-func_type-2-1-5-1-2-2" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsec-func_type-2-1-5-1-2-3">
-<div class="para logical" id="subsec-func_type-2-1-5-1-2-3-1">
-<div class="para">Parametric Functions: Defined using a parameter, e.g.,</div>
-<div class="displaymath process-math">
-\begin{equation*}
-x = \cos t, \, \text{ and  } \, y = \sin t
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-5-1-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-func_type-2-1-5-1-2-3-1">
+<em class="alert">Parametric Functions:</em> Defined using a parameter, e.g., <span class="process-math">\(x = \cos t, \, \text{ and  } \, y = \sin t\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-func_type-2-1-5-1-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item"><a href="#subsec-func_type-2-1-5-1-2-3" title="Copy heading and permalink for Item">🔗</a></div>
 </li>
 <li id="subsec-func_type-2-1-5-1-2-4">
 <div class="para logical" id="invrs_fn1">
-<div class="para"> Inverse Functions: Functions that reverse the input-output relationship, e.g., if</div>
+<div class="para"> <em class="alert">Inverse Functions:</em> Functions that reverse the input-output relationship, e.g., if</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec_second-funct-gr.html">
 \begin{equation*}
 f(x) = x^3
 \end{equation*}
 </div>
-<div class="para">then</div>
 <div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec_second-funct-gr.html">
 \begin{equation*}
-f^{-1}(x) = x^{1/3}
+\text{ then } \, f^{-1}(x) = x^{1/3}
 \end{equation*}
 </div>
-<div class="para">This kind of function exists if original function is one-to-one and onto. <details class="ptx-footnote" aria-live="polite" id="invrs_fn1-4"><summary class="ptx-footnote__number" title="Footnote 1.4.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="invrs_fn1-4">
-<em class="emphasis">One-to-one (injective):</em> Every element in the codomain is mapped to by at most one element in the domain. No two distinct inputs produce the same output: if <span class="process-math">\(f(a) = f(b)\text{,}\)</span> then <span class="process-math">\(a = b\text{.}\)</span> <em class="emphasis">Onto (surjective):</em> Every element in the codomain is mapped to by at least one element in the domain. The range equals the codomain. <em class="emphasis">Bijective:</em> A function that is both one-to-one and onto.</div></details> <article class="note remark-like" id="invrs_fn1-5"><h4 class="heading">
+<div class="para">This kind of function exists if original function is one-to-one and onto [<a href="sec_second-funct-gr.html" class="internal" title="Section 1.9: The Graph of Functions">Section 1.9</a>]. <article class="note remark-like" id="invrs_fn1-6"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="period">.</span>
 </h4>
-<div class="para logical" id="invrs_fn1-5-1">
-<div class="para">[<a href="sec_second-funct-gr.html" class="internal" title="Section 1.9: The Graph of Functions">Section 1.9</a>] The inverse function <span class="process-math">\(f^{-1}\)</span> must satisfy:</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec_second-funct-gr.html">
+<div class="para logical" id="invrs_fn1-6-1">
+<div class="para">
+<em class="alert">The inverse function:</em> <span class="process-math">\(f^{-1}\)</span> must satisfy:</div>
+<div class="displaymath process-math">
 \begin{equation*}
-f(f^{-1}(y)) = y \quad \text{ for all } y \text{ in codomain}
+f(f^{-1}(y)) = y \quad \forall_y; \text{ in codomain}
 \end{equation*}
 </div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/sec_second-funct-gr.html">
+<div class="displaymath process-math">
 \begin{equation*}
-f^{-1}(f(x)) = x \quad \text{ for all } x \text{ in domain}
+f^{-1}(f(x)) = x \quad \forall_x; \text{ in domain}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#invrs_fn1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#invrs_fn1-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Note 1.4.4"><a href="#invrs_fn1-5" title="Copy heading and permalink for Note 1.4.4">🔗</a></div></article>
+<div class="para" id="invrs_fn1-6-2">
+<em class="emphasis">One-to-one (injective):</em> Every element in the codomain is mapped to by at most one element in the domain. No two distinct inputs produce the same output: if <span class="process-math">\(f(a) = f(b)\text{,}\)</span> then <span class="process-math">\(a = b\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#invrs_fn1-6-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="invrs_fn1-6-3">
+<em class="emphasis">Onto (surjective):</em> Every element in the codomain is mapped to by at least one element in the domain. The range equals the codomain.<div class="autopermalink" data-description="Paragraph"><a href="#invrs_fn1-6-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="invrs_fn1-6-4">
+<em class="emphasis">Bijective:</em> A function that is both one-to-one and onto.<div class="autopermalink" data-description="Paragraph"><a href="#invrs_fn1-6-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Note 1.4.4"><a href="#invrs_fn1-6" title="Copy heading and permalink for Note 1.4.4">🔗</a></div></article>
 </div>
 <div class="autopermalink" data-description="Paragraph: inverse function"><a href="#invrs_fn1" title="Copy heading and permalink for Paragraph: inverse function">🔗</a></div>
 </div>
@@ -1005,10 +1010,14 @@ x &amp; y  \\ \hline
 <div class="displaymath process-math" id="subsec-graph-2-1-10-5-1-2">
 \begin{align*}
 \text{Let } y \amp =f(x) = 2^x\\
-\text{then } x \amp = 2^y\\
-\text{or, }\log_2(x) \amp = \log_2(2^y) =y\\
-\therefore \, y \amp = \log_2(x)
+\text{or, }\log_2(y) \amp = \log_2(2^x) =x
 \end{align*}
+</div>
+<div class="para">Now on Swaping <span class="process-math">\(y\)</span> to <span class="process-math">\(x\)</span> we have -</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_2(x) = y 
+\end{equation*}
 </div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -1114,110 +1123,7 @@ x = \lfloor x \rfloor +\{x\}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-gif-fpf-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 1.4.3: GIF and FPF"><a href="#subsec-gif-fpf" title="Copy heading and permalink for Subsection 1.4.3: GIF and FPF">🔗</a></div></section><section class="subsection" id="subsec-trnsform"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.4.4</span><span class="space"> </span><span class="title">Transformation of Functions</span>
-</h3>
-<div class="para logical" id="subsec-trnsform-2">
-<div class="para">[<a href="sec_second-funct-gr.html#vh_shift" class="xref" data-knowl="./knowl/xref/vh_shift.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph: vh_shift">vh_shift</a>] [<a href="sec_second-funct-gr.html#vh_stretch" class="xref" data-knowl="./knowl/xref/vh_stretch.html" data-reveal-label="Reveal" data-close-label="Close" title="Paragraph: vh_stretch">vh_stretch</a>] If</div>
-<div class="displaymath process-math" data-contains-math-knowls="./knowl/xref/vh_shift.html ./knowl/xref/vh_stretch.html">
-\begin{equation*}
-g(x) = a f[k(x-d)]+c 
-\end{equation*}
-</div>
-<div class="para">then the graph of <span class="process-math">\(g(x)\)</span> can be obtained from the graph of <span class="process-math">\(f(x)\)</span> by applying these transformation rule.</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-3">
-<span class="process-math">\(c \gt 0\text{,}\)</span> up<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-4">
-<span class="process-math">\(c \lt 0\text{,}\)</span> down<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-5">
-<span class="process-math">\(d \gt 0\text{,}\)</span> right<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-6">
-<span class="process-math">\(d \lt 0\text{,}\)</span> left<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-7">
-<span class="process-math">\(-1 \gt a \gt 1\text{,}\)</span> or <span class="process-math">\(|a| \gt 1\text{,}\)</span> vertical stretch, <span class="process-math">\(V_s\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-8">
-<span class="process-math">\(-1 \lt a \lt 1\text{,}\)</span> or <span class="process-math">\(|a| \lt 1\text{,}\)</span> vertical compression, <span class="process-math">\(V_c\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-9">
-<span class="process-math">\(a \lt 0\text{,}\)</span> vertical reflection, <span class="process-math">\(V_R\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-9" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-10">
-<span class="process-math">\(-1 \gt k \gt 1\text{,}\)</span> or <span class="process-math">\(|k| \gt 1\text{,}\)</span> then horizontal compression, <span class="process-math">\(H_c= \frac{1}{|k|}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-10" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-11">
-<span class="process-math">\(-1 \lt k \lt 1\text{,}\)</span> or <span class="process-math">\(|k| \lt 1\text{,}\)</span> then horizontal stretch, <span class="process-math">\(H_s= \frac{1}{|k|}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-11" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-12">
-<span class="process-math">\(k \lt 0\text{,}\)</span> then horizontal reflection, <span class="process-math">\(H_R\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-12" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<article class="example example-like" id="subsec-trnsform-13"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.4.11</span><span class="period">.</span>
-</h4>
-<div class="para logical" id="subsec-trnsform-13-1-1">
-<div class="para">If <span class="process-math">\(f(x) = x^3\)</span> then graph</div>
-<div class="displaymath process-math">
-\begin{equation*}
-g(x)= y= \frac{1}{2}f(x-2) -1
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-13-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="solutions"><details id="subsec-trnsform-13-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
-<div class="para" id="subsec-trnsform-13-2-1">Here, <span class="process-math">\(a=\frac{1}{2}\text{,}\)</span> then graph go to vertical compression, <span class="process-math">\(V_c\)</span> by <span class="process-math">\(\frac{1}{2}\)</span> as <span class="process-math">\(\frac{y}{2}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-13-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-13-2-2">
-<span class="process-math">\(d=2 \text{,}\)</span> then graph shifts right by 2 units as <span class="process-math">\(x+2\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-13-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="para" id="subsec-trnsform-13-2-3">
-<span class="process-math">\(c=-1 \text{,}\)</span> then graph shifts down by 1 units as <span class="process-math">\(y-1\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-13-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="sidebyside"><div class="sbsrow" style="margin-left:0%;margin-right:0%;">
-<div class="sbspanel middle" style="width:35%;"><div class="para logical" id="subsec-trnsform-13-2-4-1">
-<div class="para">Table for <span class="process-math">\(f(x)=x^3\)</span>
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\begin{array}{c|c} 
-x &amp; y  \\ \hline 
--2 &amp; -8   \\ 
--1 &amp;  -1 \\ 
-0 &amp; 0 \\ 
-1 &amp; 1 \\ 
-2 &amp; 8 \\ 
-\end{array}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-13-2-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
-<div class="sbspanel middle" style="width:65%;"><div class="para logical" id="subsec-trnsform-13-2-4-2">
-<div class="para">Table for <span class="process-math">\(g(x)=\frac{1}{2}f(x-2)-1\)</span>
-</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\begin{array}{c|c} 
-(x+2) &amp; (\frac{y}{2}-1)  \\ \hline 
-0 &amp; -5   \\ 
-1 &amp;  -1.5 \\ 
-2 &amp; -1 \\ 
-3 &amp; -0.5 \\ 
-4 &amp; 3 \\ 
-\end{array}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsec-trnsform-13-2-4-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
-</div></div>
-<div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/fx_transf.png" class="contained"></div>
-<div class="autopermalink" data-description="Solution 1.4.11.1"><a href="#subsec-trnsform-13-2" title="Copy heading and permalink for Solution 1.4.11.1">🔗</a></div>
-</div></details></div>
-<div class="autopermalink" data-description="Example 1.4.11"><a href="#subsec-trnsform-13" title="Copy heading and permalink for Example 1.4.11">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.4.4: Transformation of Functions"><a href="#subsec-trnsform" title="Copy heading and permalink for Subsection 1.4.4: Transformation of Functions">🔗</a></div></section><div class="autopermalink" data-description="Section 1.4: Function"><a href="#sec_first-functions" title="Copy heading and permalink for Section 1.4: Function">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 1.4.3: GIF and FPF"><a href="#subsec-gif-fpf" title="Copy heading and permalink for Subsection 1.4.3: GIF and FPF">🔗</a></div></section><div class="autopermalink" data-description="Section 1.4: Function"><a href="#sec_first-functions" title="Copy heading and permalink for Section 1.4: Function">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-intervals.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-domain.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
