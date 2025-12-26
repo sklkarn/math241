@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Review",
-  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          Titled Sage Cells            "
+  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          Sage Cells            Interactive Problems 1   Negative Numbers and Exponents     With an image     Geometry of a Cone     Solve Equation     "
 },
 {
   "id": "sec_first-review-2-1",
@@ -62,6 +62,42 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "Solve the following equations "
+},
+{
+  "id": "subsec-interactive1-2",
+  "level": "2",
+  "url": "sec_first-review.html#subsec-interactive1-2",
+  "type": "Checkpoint",
+  "number": "1.1.1",
+  "title": "Negative Numbers and Exponents.",
+  "body": " Negative Numbers and Exponents   "
+},
+{
+  "id": "subsec-interactive1-3",
+  "level": "2",
+  "url": "sec_first-review.html#subsec-interactive1-3",
+  "type": "Checkpoint",
+  "number": "1.1.2",
+  "title": "With an image.",
+  "body": " With an image   "
+},
+{
+  "id": "subsec-interactive1-4",
+  "level": "2",
+  "url": "sec_first-review.html#subsec-interactive1-4",
+  "type": "Checkpoint",
+  "number": "1.1.3",
+  "title": "Geometry of a Cone.",
+  "body": " Geometry of a Cone   "
+},
+{
+  "id": "subsec-interactive1-5",
+  "level": "2",
+  "url": "sec_first-review.html#subsec-interactive1-5",
+  "type": "Checkpoint",
+  "number": "1.1.4",
+  "title": "Solve Equation.",
+  "body": " Solve Equation   "
 },
 {
   "id": "sec_first-intro",
@@ -1150,174 +1186,174 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.12",
   "title": "Exercise",
-  "body": " Exercise   Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                             Find the range of the following functions                               Find range of:                        Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:    "
-},
-{
-  "id": "ex_first-2",
-  "level": "2",
-  "url": "ex_first.html#ex_first-2",
-  "type": "Exercise",
-  "number": "1.12.1",
-  "title": "",
-  "body": " Determine whether the curve is the graph of a function of x.                "
+  "body": " Exercise   Sage Plot       Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                             Find the range of the following functions                               Find range of:                        Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:    "
 },
 {
   "id": "ex_first-3",
   "level": "2",
   "url": "ex_first.html#ex_first-3",
   "type": "Exercise",
-  "number": "1.12.2",
+  "number": "1.12.1",
   "title": "",
-  "body": " Determine whether each of the following function is even, odd or neither even nor odd.                                              "
+  "body": " Determine whether the curve is the graph of a function of x.                "
 },
 {
   "id": "ex_first-4",
   "level": "2",
   "url": "ex_first.html#ex_first-4",
   "type": "Exercise",
-  "number": "1.12.3",
+  "number": "1.12.2",
   "title": "",
-  "body": " Find the domain of the following functions                                       "
+  "body": " Determine whether each of the following function is even, odd or neither even nor odd.                                              "
 },
 {
   "id": "ex_first-5",
   "level": "2",
   "url": "ex_first.html#ex_first-5",
   "type": "Exercise",
-  "number": "1.12.4",
+  "number": "1.12.3",
   "title": "",
-  "body": " Draw graph of the given function and find its domain and Range.  "
+  "body": " Find the domain of the following functions                                       "
 },
 {
   "id": "ex_first-6",
   "level": "2",
   "url": "ex_first.html#ex_first-6",
   "type": "Exercise",
-  "number": "1.12.5",
+  "number": "1.12.4",
   "title": "",
-  "body": " Find the domain of     . Domain: (0,4)   "
+  "body": " Draw graph of the given function and find its domain and Range.  "
 },
 {
   "id": "ex_first-7",
   "level": "2",
   "url": "ex_first.html#ex_first-7",
   "type": "Exercise",
-  "number": "1.12.6",
+  "number": "1.12.5",
   "title": "",
-  "body": " Find the domain and sketch the graph of the following functions:                                       Define function,          "
+  "body": " Find the domain of     . Domain: (0,4)   "
 },
 {
   "id": "ex_first-8",
   "level": "2",
   "url": "ex_first.html#ex_first-8",
   "type": "Exercise",
-  "number": "1.12.7",
+  "number": "1.12.6",
   "title": "",
-  "body": " Find the domain and sketch the graph of the following functions:                               "
+  "body": " Find the domain and sketch the graph of the following functions:                                       Define function,          "
 },
 {
   "id": "ex_first-9",
   "level": "2",
   "url": "ex_first.html#ex_first-9",
   "type": "Exercise",
-  "number": "1.12.8",
+  "number": "1.12.7",
   "title": "",
-  "body": " Match each equation with its graph:                    "
+  "body": " Find the domain and sketch the graph of the following functions:                               "
 },
 {
   "id": "ex_first-10",
   "level": "2",
   "url": "ex_first.html#ex_first-10",
   "type": "Exercise",
-  "number": "1.12.9",
+  "number": "1.12.8",
   "title": "",
-  "body": " Match each equation with its graph:                         "
+  "body": " Match each equation with its graph:                    "
 },
 {
   "id": "ex_first-11",
   "level": "2",
   "url": "ex_first.html#ex_first-11",
   "type": "Exercise",
-  "number": "1.12.10",
+  "number": "1.12.9",
   "title": "",
-  "body": " Graph each function:                                                           "
+  "body": " Match each equation with its graph:                         "
 },
 {
   "id": "ex_first-12",
   "level": "2",
   "url": "ex_first.html#ex_first-12",
   "type": "Exercise",
-  "number": "1.12.11",
+  "number": "1.12.10",
   "title": "",
-  "body": " Find the range of the following functions                             "
+  "body": " Graph each function:                                                           "
 },
 {
   "id": "ex_first-13",
   "level": "2",
   "url": "ex_first.html#ex_first-13",
   "type": "Exercise",
-  "number": "1.12.12",
+  "number": "1.12.11",
   "title": "",
-  "body": " Find range of:                   "
+  "body": " Find the range of the following functions                             "
 },
 {
   "id": "ex_first-14",
   "level": "2",
   "url": "ex_first.html#ex_first-14",
   "type": "Exercise",
-  "number": "1.12.13",
+  "number": "1.12.12",
   "title": "",
-  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
+  "body": " Find range of:                   "
 },
 {
   "id": "ex_first-15",
   "level": "2",
   "url": "ex_first.html#ex_first-15",
   "type": "Exercise",
-  "number": "1.12.14",
+  "number": "1.12.13",
   "title": "",
-  "body": " Match each equation with its graph.                    "
+  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
 },
 {
   "id": "ex_first-16",
   "level": "2",
   "url": "ex_first.html#ex_first-16",
   "type": "Exercise",
-  "number": "1.12.15",
+  "number": "1.12.14",
   "title": "",
-  "body": " Match each equation with its graph.                         "
+  "body": " Match each equation with its graph.                    "
 },
 {
   "id": "ex_first-17",
   "level": "2",
   "url": "ex_first.html#ex_first-17",
   "type": "Exercise",
-  "number": "1.12.16",
+  "number": "1.12.15",
   "title": "",
-  "body": "  Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                       "
+  "body": " Match each equation with its graph.                         "
 },
 {
   "id": "ex_first-18",
   "level": "2",
   "url": "ex_first.html#ex_first-18",
   "type": "Exercise",
-  "number": "1.12.17",
+  "number": "1.12.16",
   "title": "",
-  "body": " Find the functions and their domains.   "
+  "body": "  Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                       "
 },
 {
   "id": "ex_first-19",
   "level": "2",
   "url": "ex_first.html#ex_first-19",
   "type": "Exercise",
-  "number": "1.12.18",
+  "number": "1.12.17",
   "title": "",
-  "body": " Find the and their domains.   "
+  "body": " Find the functions and their domains.   "
 },
 {
   "id": "ex_first-20",
   "level": "2",
   "url": "ex_first.html#ex_first-20",
+  "type": "Exercise",
+  "number": "1.12.18",
+  "title": "",
+  "body": " Find the and their domains.   "
+},
+{
+  "id": "ex_first-21",
+  "level": "2",
+  "url": "ex_first.html#ex_first-21",
   "type": "Exercise",
   "number": "1.12.19",
   "title": "",
@@ -2662,7 +2698,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Derivative (short cut rule)",
-  "body": " Derivative (short cut rule)   It is the process of finding the derivative derivative of a function, which tells us the instantaneous rate of change of that function at any point. Geometrically, the derivative is the slope of the tangent line to the curve at that point.  Imagine you are driving a car. Your position as a function of time is . The average speed over an interval is . The instantaneous speed at exactly seconds is the derivative  .  In real life, we care about instantaneous rates: how fast a population is growing right now, how sensitive profit is to a price change, the acceleration of a rocket at lift-off, etc.  Once a function is known to be differentiable, we can compute its derivative using established rules rather than the limit definition every time.   Basic Rules of Differentiation      Constant Rule: If (constant), then              Power Rule  Power Rule: If where is a real number and is defined, then provided if .     Constant Multiple Rule: If and is differentiable, then      Sum Rule  Sum Rule: If and both are differentiable, then      Product Rule  Product Rule: If and both are differentiable, then or, or,      Quotient Rule  Quotient Rule: If with and both differentiable, then      Chain Rule  Chain Rule: The chain rule allows differentiation of composite functions. If and , with differentiable at and differentiable at , then   or,      Exponent and Logarithimic Rule  Exponent Rule            Standard Derivatives    Algebric, Exponential, and Logarithmic Functions                               Trigonometric Functions                                         Find the derivative of     Differentiate     Find if     Differentiate           [ ] and [ ]      [ ]         [ ]          [ ]                    If is a positive integer, then .    Let        Find the first and second derivatives of the functions                     Let        If and then find and     Let  Hence, and       If then find .            The equation of motion of a particle is given by , where is in meters and is in seconds.   Find the velocity and acceleration of the particle in terms of     Find the acceleration after second.    Graph the position, velocity and acceleration of the function on the same plot.       We have                        Exponential differentition If find .    [ ]        when exponents are complicated use Logarithimic differentiation Differentiate     Take of both sides: Differentiate implicitly:        Higher-order derivatives. Let       The second derivative as tells us concavity and as acceleration.         Differentiate     Let         Differentiate     Let              If find             Differentiate:                     [ ]       [ ]          If prove that              If and , find      Differentiate w.r.t. \"x\" Remember                                        Find the derivative of            "
+  "body": " Derivative (short cut rule)   It is the process of finding the derivative derivative of a function, which tells us the instantaneous rate of change of that function at any point. Geometrically, the derivative is the slope of the tangent line to the curve at that point.  Imagine you are driving a car. Your position as a function of time is . The average speed over an interval is . The instantaneous speed at exactly seconds is the derivative  .  In real life, we care about instantaneous rates: how fast a population is growing right now, how sensitive profit is to a price change, the acceleration of a rocket at lift-off, etc.  Once a function is known to be differentiable, we can compute its derivative using established rules rather than the limit definition every time.   Basic Rules of Differentiation      Constant Rule: If (constant), then              Power Rule  Power Rule: If where is a real number and is defined, then provided if .     Constant Multiple Rule: If and is differentiable, then      Sum Rule  Sum Rule: If and both are differentiable, then      Product Rule  Product Rule: If and both are differentiable, then or, or,      Quotient Rule  Quotient Rule: If with and both differentiable, then      Chain Rule  Chain Rule: The chain rule allows differentiation of composite functions. If and , with differentiable at and differentiable at , then   or,      Exponent and Logarithimic Rule  Exponent Rule            Standard Derivatives               Find the derivative of     Differentiate     Find if     Differentiate           [ ] and [ ]      [ ]         [ ]          [ ]                    If is a positive integer, then .    Let        Find the first and second derivatives of the functions                     Let        If and then find and     Let  Hence, and       If then find .            The equation of motion of a particle is given by , where is in meters and is in seconds.   Find the velocity and acceleration of the particle in terms of     Find the acceleration after second.    Graph the position, velocity and acceleration of the function on the same plot.       We have                        Exponential differentition If find .    [ ]        when exponents are complicated use Logarithimic differentiation Differentiate     Take of both sides: Differentiate implicitly:        Higher-order derivatives. Let       The second derivative as tells us concavity and as acceleration.         Differentiate     Let         Differentiate     Let              If find             Differentiate:                     [ ]       [ ]          If prove that              If and , find      Differentiate w.r.t. \"x\" Remember                                        Find the derivative of            "
 },
 {
   "id": "sec_third-diff-2-5-2",
@@ -2672,24 +2708,6 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "Constant Rule: Power Rule: Constant Multiple Rule: Sum Rule: Product Rule: Quotient Rule: Chain Rule: Exponent Rule "
-},
-{
-  "id": "subsec-st_derv-2-1",
-  "level": "2",
-  "url": "sec_third-diff.html#subsec-st_derv-2-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Algebric, Exponential, and Logarithmic Functions "
-},
-{
-  "id": "subsec-st_derv-2-2",
-  "level": "2",
-  "url": "sec_third-diff.html#subsec-st_derv-2-2",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Trigonometric Functions "
 },
 {
   "id": "subsec-st_derv-3",
@@ -3671,6 +3689,105 @@ var ptx_lunr_docs = [
   "number": "3.8.18",
   "title": "",
   "body": " Find two numbers whose sum is 10 and sum of their square is minimum.   x = 5, y = 5.   "
+},
+{
+  "id": "sec_fourth-integ",
+  "level": "1",
+  "url": "sec_fourth-integ.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Integrations",
+  "body": " Integrations        Methods of Integration  There are basic four methods of doing integration:   Integration by Inspection Method:    Integration by Substitution Method:    Integration using Partial Fractions:    Integration by Parts:       Find the antiderivative (or integral) of the following functions by inspection method.                                     As                               Find the antiderivative (or integral) of the following functions by inspection method.                                                                           Find the integration of             Find the integration of                                                Find the integration of                                                 If such that , then find                     In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -          Integrate the functions:                        Let       put         put           "
+},
+{
+  "id": "subsec-integ_methods-3",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-3",
+  "type": "Example",
+  "number": "4.1.1",
+  "title": "",
+  "body": "  Find the antiderivative (or integral) of the following functions by inspection method.                                     As                            "
+},
+{
+  "id": "subsec-integ_methods-4",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-4",
+  "type": "Example",
+  "number": "4.1.2",
+  "title": "",
+  "body": "  Find the antiderivative (or integral) of the following functions by inspection method.                                                                        "
+},
+{
+  "id": "subsec-integ_methods-5",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-5",
+  "type": "Example",
+  "number": "4.1.3",
+  "title": "",
+  "body": "  Find the integration of          "
+},
+{
+  "id": "subsec-integ_methods-6",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-6",
+  "type": "Example",
+  "number": "4.1.4",
+  "title": "",
+  "body": "  Find the integration of                                             "
+},
+{
+  "id": "subsec-integ_methods-7",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-7",
+  "type": "Example",
+  "number": "4.1.5",
+  "title": "",
+  "body": "  Find the integration of                                              "
+},
+{
+  "id": "subsec-integ_methods-8",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-8",
+  "type": "Example",
+  "number": "4.1.6",
+  "title": "",
+  "body": "  If such that , then find             "
+},
+{
+  "id": "subsec-integ_methods-9",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-9",
+  "type": "Example",
+  "number": "4.1.7",
+  "title": "",
+  "body": "       In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -       "
+},
+{
+  "id": "subsec-integ_methods-10",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsec-integ_methods-10",
+  "type": "Example",
+  "number": "4.1.8",
+  "title": "",
+  "body": "  Integrate the functions:                        Let       put         put         "
+},
+{
+  "id": "ex_fourth",
+  "level": "1",
+  "url": "ex_fourth.html",
+  "type": "Exercises",
+  "number": "4.2",
+  "title": "Exercise",
+  "body": " Exercise   Find the integration of      put        put        put                                "
+},
+{
+  "id": "ex_fourth-2",
+  "level": "2",
+  "url": "ex_fourth.html#ex_fourth-2",
+  "type": "Exercise",
+  "number": "4.2.1",
+  "title": "",
+  "body": " Find the integration of      put        put        put                               "
 },
 {
   "id": "append_math",
