@@ -1330,7 +1330,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Limits",
-  "body": " Limits   A limit limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.    Limits and Derivatives       One-Sided Limits   Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like , , or require special techniques (e.g., L'Hopital's Rule) to evaluate.  Methods of solving indeterminate forms:   Factorization Method    Rationalization Method (involve square root)    Methods of Evaluating Algebric Limit when     Trigonometric Limits    Logarithimic and Exponential Limits    Form     L Hospital's Rule: Find the derivative of the numerator, and the derivative of the denominator, . Re-evaluate the Limit: Find the limit of the new fraction, . Repeat if Necessary: If you still get an indeterminate form, repeat the process (differentiate again) until the limit is solvable.        To evaluate limit of a function always try with direct substitution method first.     Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       Difference Quotient:  difference quotient   For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.        The average rate of change for on the interval is the slope of the secant line between the two points and          For example: the average rate of change for the on the interval is A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and     One-Sided Limits  The limiting values (LHL, RHL) and functional value could be different or could be same for a given function as can be described below:    Left hand limit:   Right hand limit:  and the function at      The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at        Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.      then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.      and then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .    Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.      Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.      show that exist.     show that does not exist.     Suppose What are possible values of and     Do your self.           Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate at                For what value of does the exist if      and     equating these two equations, we get -       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form   indeterminate form When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:          etc. are some oscillatory functions whose limit do not exist at    "
+  "body": " Limits   A limit limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.    Limits and Derivatives       One-Sided Limits   Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like , , or require special techniques (e.g., L'Hopital's Rule) to evaluate.  Methods of solving indeterminate forms:   Factorization Method    Rationalization Method (involve square root)    Methods of Evaluating Algebric Limit when     Trigonometric Limits    Logarithimic and Exponential Limits    Form     L Hospital's Rule: Find the derivative of the numerator, and the derivative of the denominator, . Re-evaluate the Limit: Find the limit of the new fraction, . Repeat if Necessary: If you still get an indeterminate form, repeat the process (differentiate again) until the limit is solvable.          Definition of Limit  The two small positive numbers and formalizes the idea of a limit. For implies that for every there exists a such that if Here, we do not really determine the value of , rather it is given arbitrarily to show us how close gets to There is no unique rather it satisfies the given     For If then where and     To determine in terms of , the following steps are taken:   Step I: Start with the target inequality     Step II: Express it in terms of by assuming        Prove that     If Now, If Therefore is proved.      Prove     If Now, is little tricky here as it grows infinitely. So, remember Hence,    Therefore, Meaning choose between and  is proved.      How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore      Prove that     Prove that     Prove that      For If then where       For If then where       Evaluate Limit  To evaluate limit of a function always try with direct substitution method first. If you get indeterminate forms then only look for other method to simply the function before apply the limit.     Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       Difference Quotient:  difference quotient   For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.        The average rate of change for on the interval is the slope of the secant line between the two points and          For example: the average rate of change for the on the interval is A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and     One-Sided Limits  The limiting values (LHL, RHL) and functional value could be different or could be same for a given function as can be described below:    Left hand limit:   Right hand limit:  and the function at      The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at        Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.      then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.      and then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .    Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.      Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.      show that exist.     show that does not exist.     Suppose What are possible values of and     Do your self.           Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate at                For what value of does the exist if      and     equating these two equations, we get -       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form   indeterminate form When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:          etc. are some oscillatory functions whose limit do not exist at    "
 },
 {
   "id": "derv_video",
@@ -1342,20 +1342,101 @@ var ptx_lunr_docs = [
   "body": "  Limits and Derivatives   "
 },
 {
-  "id": "sec_second-intro-2-5",
+  "id": "def-limit1",
   "level": "2",
-  "url": "sec_second-intro.html#sec_second-intro-2-5",
-  "type": "Example",
+  "url": "sec_second-intro.html#def-limit1",
+  "type": "Definition",
   "number": "2.1.2",
+  "title": "",
+  "body": "  For If then where and    "
+},
+{
+  "id": "subsec-def-limit-5",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-5",
+  "type": "Example",
+  "number": "2.1.3",
+  "title": "",
+  "body": "  Prove that     If Now, If Therefore is proved.   "
+},
+{
+  "id": "subsec-def-limit-6",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-6",
+  "type": "Example",
+  "number": "2.1.4",
+  "title": "",
+  "body": "  Prove     If Now, is little tricky here as it grows infinitely. So, remember Hence,    Therefore, Meaning choose between and  is proved.   "
+},
+{
+  "id": "subsec-def-limit-7",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-7",
+  "type": "Example",
+  "number": "2.1.5",
+  "title": "",
+  "body": "  How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore    "
+},
+{
+  "id": "subsec-def-limit-8",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-8",
+  "type": "Checkpoint",
+  "number": "2.1.6",
+  "title": "",
+  "body": " Prove that   "
+},
+{
+  "id": "subsec-def-limit-9",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-9",
+  "type": "Checkpoint",
+  "number": "2.1.7",
+  "title": "",
+  "body": " Prove that   "
+},
+{
+  "id": "subsec-def-limit-10",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-10",
+  "type": "Checkpoint",
+  "number": "2.1.8",
+  "title": "",
+  "body": " Prove that   "
+},
+{
+  "id": "def-limit2",
+  "level": "2",
+  "url": "sec_second-intro.html#def-limit2",
+  "type": "Definition",
+  "number": "2.1.9",
+  "title": "",
+  "body": "  For If then where    "
+},
+{
+  "id": "def-limit3",
+  "level": "2",
+  "url": "sec_second-intro.html#def-limit3",
+  "type": "Definition",
+  "number": "2.1.10",
+  "title": "",
+  "body": "  For If then where    "
+},
+{
+  "id": "subsec-direct-subst-3",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-direct-subst-3",
+  "type": "Example",
+  "number": "2.1.11",
   "title": "",
   "body": "   Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.   "
 },
 {
-  "id": "sec_second-intro-2-6",
+  "id": "subsec-direct-subst-4",
   "level": "2",
-  "url": "sec_second-intro.html#sec_second-intro-2-6",
+  "url": "sec_second-intro.html#subsec-direct-subst-4",
   "type": "Example",
-  "number": "2.1.3",
+  "number": "2.1.12",
   "title": "",
   "body": "   Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,    "
 },
@@ -1373,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#scnt",
   "type": "Figure",
-  "number": "2.1.4",
+  "number": "2.1.13",
   "title": "",
   "body": "   "
 },
@@ -1382,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#scnt2",
   "type": "Figure",
-  "number": "2.1.5",
+  "number": "2.1.14",
   "title": "",
   "body": "   "
 },
@@ -1400,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#crv5",
   "type": "Figure",
-  "number": "2.1.6",
+  "number": "2.1.15",
   "title": "",
   "body": "   "
 },
@@ -1409,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-10",
   "type": "Example",
-  "number": "2.1.7",
+  "number": "2.1.16",
   "title": "",
   "body": "  Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.   "
 },
@@ -1418,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-11",
   "type": "Example",
-  "number": "2.1.8",
+  "number": "2.1.17",
   "title": "",
   "body": "  Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.   "
 },
@@ -1427,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-12",
   "type": "Checkpoint",
-  "number": "2.1.9",
+  "number": "2.1.18",
   "title": "",
   "body": "  show that exist.  "
 },
@@ -1436,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-13",
   "type": "Checkpoint",
-  "number": "2.1.10",
+  "number": "2.1.19",
   "title": "",
   "body": "  show that does not exist.  "
 },
@@ -1445,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-14",
   "type": "Example",
-  "number": "2.1.11",
+  "number": "2.1.20",
   "title": "",
   "body": "  Suppose What are possible values of and     Do your self.        "
 },
@@ -1454,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-15",
   "type": "Example",
-  "number": "2.1.12",
+  "number": "2.1.21",
   "title": "",
   "body": "  Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.   "
 },
@@ -1463,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-16",
   "type": "Example",
-  "number": "2.1.13",
+  "number": "2.1.22",
   "title": "",
   "body": "  Evaluate:      or, or,    "
 },
@@ -1472,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-17",
   "type": "Example",
-  "number": "2.1.14",
+  "number": "2.1.23",
   "title": "",
   "body": "  Evaluate:      or,  . or,    "
 },
@@ -1481,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-18",
   "type": "Example",
-  "number": "2.1.15",
+  "number": "2.1.24",
   "title": "",
   "body": "  Evaluate: where, is FPF [ ].     or,  .   "
 },
@@ -1490,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-19",
   "type": "Example",
-  "number": "2.1.16",
+  "number": "2.1.25",
   "title": "",
   "body": "  Evaluate: where, is FPF [ ].     or,  and = = .   "
 },
@@ -1499,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-20",
   "type": "Example",
-  "number": "2.1.17",
+  "number": "2.1.26",
   "title": "",
   "body": "  Evaluate at             "
 },
@@ -1508,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-21",
   "type": "Example",
-  "number": "2.1.18",
+  "number": "2.1.27",
   "title": "",
   "body": "  For what value of does the exist if      and     equating these two equations, we get -    "
 },
@@ -1517,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-3",
   "type": "Remark",
-  "number": "2.1.19",
+  "number": "2.1.28",
   "title": "",
   "body": " On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.     "
 },
@@ -1526,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-4",
   "type": "Example",
-  "number": "2.1.20",
+  "number": "2.1.29",
   "title": "",
   "body": "  Evaluate the following.                                         "
 },
@@ -1535,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-5",
   "type": "Example",
-  "number": "2.1.21",
+  "number": "2.1.30",
   "title": "",
   "body": "                       as              "
 },
@@ -1544,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-6",
   "type": "Example",
-  "number": "2.1.22",
+  "number": "2.1.31",
   "title": "",
   "body": "  Evaluate:         "
 },
@@ -1571,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-lindet-6",
   "type": "Example",
-  "number": "2.1.23",
+  "number": "2.1.32",
   "title": "",
   "body": "                           Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,        "
 },
@@ -1580,7 +1661,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-losc-3",
   "type": "Example",
-  "number": "2.1.24",
+  "number": "2.1.33",
   "title": "",
   "body": " Find:        "
 },
