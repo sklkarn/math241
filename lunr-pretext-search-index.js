@@ -3844,76 +3844,22 @@ var ptx_lunr_docs = [
   "body": " Find the integration of      put        put        put                               "
 },
 {
-  "id": "append_math",
+  "id": "sec-formula",
   "level": "1",
-  "url": "append_math.html",
-  "type": "Appendix",
-  "number": "A",
-  "title": "Mathematical Relations",
-  "body": " Mathematical Relations   Algebric:    Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If then and if then , also   Similarly we can obtain the relations for natural log (ln).   Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant.     Geometric Formulae:   Circumference of a circle of circle of radius r, ;  Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                            If then                                                  Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:    Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and      Law of sines:     Law of cosines:       Binomial Theorem  Binomial Theorem:      Power Series:          Combination and Permutation     "
+  "url": "sec-formula.html",
+  "type": "Section",
+  "number": "A.1",
+  "title": "Some Formulae:",
+  "body": " Some Formulae:      Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If and if also   Similarly we can obtain the relations for natural log (ln). Remember:  mean and mean .     Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant. Vertex of quadratic plot is given by     Geometric Formulae:  Circumference of a circle of circle of radius r,   Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                                      If then                                                                                                                Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:      Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and        Law of sines:     Law of cosines:         Binomial Theorem  Binomial Theorem:        Power Series:            Combination and Permutation        "
 },
 {
-  "id": "append_math-2",
+  "id": "sec-formula-2",
   "level": "2",
-  "url": "append_math.html#append_math-2",
+  "url": "sec-formula.html#sec-formula-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Algebric: Logerithmic Formulae: Quadratic Formula: "
-},
-{
-  "id": "append_math-3",
-  "level": "2",
-  "url": "append_math.html#append_math-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Geometric Formulae: "
-},
-{
-  "id": "trig-ident",
-  "level": "2",
-  "url": "append_math.html#trig-ident",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "Trigonometric Identities",
-  "body": "Trigonometric Identities: "
-},
-{
-  "id": "append_math-7",
-  "level": "2",
-  "url": "append_math.html#append_math-7",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Co-function Identities "
-},
-{
-  "id": "trig_laws",
-  "level": "2",
-  "url": "append_math.html#trig_laws",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "Trigonometric Laws",
-  "body": "Trigonometric Laws: "
-},
-{
-  "id": "binomial_th",
-  "level": "2",
-  "url": "append_math.html#binomial_th",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "Binomial Theorem",
-  "body": "Binomial Theorem: "
-},
-{
-  "id": "power_series",
-  "level": "2",
-  "url": "append_math.html#power_series",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Power Series: "
+  "body": "Logerithmic Formulae: Remember: Quadratic Formula: Trigonometric Identities: Co-function Identities Trigonometric Laws: Binomial Theorem: Power Series: "
 },
 {
   "id": "append_physTable",
@@ -3958,7 +3904,7 @@ var ptx_lunr_docs = [
   "type": "References",
   "number": "",
   "title": "References",
-  "body": " References      James  Stewart    Calculus (Cengage Learning)         Edwin  Herman    Gilbert  Strang    Calculus I (OpenStax)      Robert  Beezer    Derivatives and Integrals: An annotated discourse   "
+  "body": " References     James  Stewart    Calculus (Cengage Learning)      Edwin  Herman    Gilbert  Strang    Calculus I (OpenStax)      Robert  Beezer    Derivatives and Integrals: An annotated discourse   "
 },
 {
   "id": "backmatter-7",
