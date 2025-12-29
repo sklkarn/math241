@@ -129,6 +129,18 @@ eBookConfig.enable_chatcodes =  false;
 <script src="_static/prefix-runtime.42217a82c75796c8.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.7e141ad8414abf4a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.f4ab138da65f4203.css">
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script><script>// Make *any* div with class 'sagecell-sage' an executable Sage cell
+// Their results will be linked, only within language type
+sagecell.makeSagecell({
+  "inputLocation": "div.sagecell-sage",
+  "linked": true,
+  "linkKey": "linked-sage",
+  "autoeval": false,
+  "languages": [
+    "sage"
+  ],
+  "evalButtonText": "Evaluate (Sage)"
+});
 </script>
 </head>
 <body id="changeme" class="pretext book ignore-math">
@@ -451,16 +463,23 @@ f(x)=\frac{3x^2+2}{2x^2-1}
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="observation remark-like" id="sec_first-asympt-2-3"><h3 class="heading">
+<div class="para" id="sec_first-asympt-2-3">Plot function below by adjusting your p2.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div id="sec_first-asympt-2-4" class="ptx-sagecell sagecell-sage"><script type="text/x-sage">f=x/(x^2-1)+1 
+p1 = plot(f,(-5,5), detect_poles='show',color='green', ymin=-10,ymax=10) 
+p2 = plot(1,(-5,5), color='red', linestyle='--') 
+show(p1+p2)
+</script></div>
+<article class="observation remark-like" id="sec_first-asympt-2-5"><h3 class="heading">
 <span class="type">Observation</span><span class="space"> </span><span class="codenumber">1.7.1</span><span class="period">.</span>
 </h3>
-<div class="para" id="sec_first-asympt-2-3-1">For vertical asymptote denominator <span class="process-math">\(=0\)</span> but numerator <span class="process-math">\(\neq 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-asympt-2-5-1">For vertical asymptote denominator <span class="process-math">\(=0\)</span> but numerator <span class="process-math">\(\neq 0\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-asympt-2-3-2">Horizontal asymptotes describe the end behavior as <span class="process-math">\(x \to \pm \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-asympt-2-5-2">Horizontal asymptotes describe the end behavior as <span class="process-math">\(x \to \pm \infty\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-5-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-asympt-2-3-3">A hole (or removable discontinuity) in a rational function occurs at a point <span class="process-math">\(x = c\)</span> where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at <span class="process-math">\(c\text{,}\)</span> but the "gap" can be filled by simplifying.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-3-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-asympt-2-5-3">A hole (or removable discontinuity) in a rational function occurs at a point <span class="process-math">\(x = c\)</span> where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at <span class="process-math">\(c\text{,}\)</span> but the "gap" can be filled by simplifying.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-5-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Observation 1.7.1"><a href="#sec_first-asympt-2-3" title="Copy heading and permalink for Observation 1.7.1">🔗</a></div></article></section><section class="subsection" id="subsec-asympt_gr"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Observation 1.7.1"><a href="#sec_first-asympt-2-5" title="Copy heading and permalink for Observation 1.7.1">🔗</a></div></article></section><section class="subsection" id="subsec-asympt_gr"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.7.1</span><span class="space"> </span><span class="title">Graph of Asymptotic Functions</span>
 </h3>
 <div class="para" id="subsec-asympt_gr-2">Draw  graph of the following functions:<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -580,6 +599,17 @@ f(x) = \frac{1}{x+4}+1
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div id="subsec-asympt_gr-3-2-2" class="ptx-sagecell sagecell-sage"><script type="text/x-sage">f=4/(x-2)
+p1 = plot(f,(-5,5), detect_poles='show',color='green', ymin=-10,ymax=10) 
+p2 = plot(0,(-5,5), color='red', linestyle='--')
+
+for curve in p1: 
+    if len(curve)==2: 
+      opt = curve.options() 
+      opt["rgbcolor"] = "red" 
+      curve.set_options(opt) 
+show(p1+p2)
+</script></div>
 <div class="autopermalink" data-description="Solution 1.7.2.1"><a href="#subsec-asympt_gr-3-2" title="Copy heading and permalink for Solution 1.7.2.1">🔗</a></div>
 </div></details></div>
 <div class="autopermalink" data-description="Example 1.7.2"><a href="#subsec-asympt_gr-3" title="Copy heading and permalink for Example 1.7.2">🔗</a></div></article><article class="example example-like" id="subsec-asympt_gr-4"><h4 class="heading">
@@ -699,6 +729,22 @@ f(x) = -\frac{x^2+1}{x^2+5x+4} = \frac{(1-x)(1+x)}{(x+4)(x+1)} = \frac{1-x}{x+4}
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-7-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div id="subsec-asympt_gr-7-2-2" class="ptx-sagecell sagecell-sage"><script type="text/x-sage">      var('x')
+
+      def g(x):
+          return x + 2
+      
+      x_hole = 2
+      y_hole = g(x_hole)
+      hole_coords = (x_hole, y_hole)
+      
+      line_plot = plot(g(x), (x, 0, 4), ymin=0, ymax=7, plot_points=500)
+      
+      hole_plot = point(hole_coords, marker='o', size=50, rgbcolor=(0, 0, 0), markerfacecolor='white')
+      
+      full_plot = line_plot + hole_plot
+      full_plot.show(title="Plot of f(x) with a hole at {}".format(hole_coords))
+</script></div>
 <div class="autopermalink" data-description="Solution 1.7.6.1"><a href="#subsec-asympt_gr-7-2" title="Copy heading and permalink for Solution 1.7.6.1">🔗</a></div>
 </div></details></div>
 <div class="autopermalink" data-description="Example 1.7.6"><a href="#subsec-asympt_gr-7" title="Copy heading and permalink for Example 1.7.6">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.7.1: Graph of Asymptotic Functions"><a href="#subsec-asympt_gr" title="Copy heading and permalink for Subsection 1.7.1: Graph of Asymptotic Functions">🔗</a></div></section><div class="autopermalink" data-description="Section 1.7: Asymptote"><a href="#sec_first-asympt" title="Copy heading and permalink for Section 1.7: Asymptote">🔗</a></div></section></div>
