@@ -2752,7 +2752,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.2",
   "title": "Derivative (short cut rule)",
-  "body": " Derivative (short cut rule)   It is the process of finding the derivative derivative of a function, which tells us the instantaneous rate of change of that function at any point. Geometrically, the derivative is the slope of the tangent line to the curve at that point.  Imagine you are driving a car. Your position as a function of time is . The average speed over an interval is . The instantaneous speed at exactly seconds is the derivative  .  In real life, we care about instantaneous rates: how fast a population is growing right now, how sensitive profit is to a price change, the acceleration of a rocket at lift-off, etc.  Once a function is known to be differentiable, we can compute its derivative using established rules rather than the limit definition every time.   Basic Rules of Differentiation      Constant Rule: If (constant), then              Power Rule  Power Rule: If where is a real number and is defined, then provided if .     Constant Multiple Rule: If and is differentiable, then      Sum Rule  Sum Rule: If and both are differentiable, then      Product Rule  Product Rule: If and both are differentiable, then or, or,      Quotient Rule  Quotient Rule: If with and both differentiable, then      Chain Rule  Chain Rule: The chain rule allows differentiation of composite functions. If and , with differentiable at and differentiable at , then   or,      Exponent and Logarithimic Rule  Exponent Rule            Standard Derivatives               Find the derivative of     Differentiate     Find if     Differentiate           [ ] and [ ]      [ ]         [ ]          [ ]                    If is a positive integer, then .    Let        Find the first and second derivatives of the functions                     Let        If and then find and     Let  Hence, and       If then find .            The equation of motion of a particle is given by , where is in meters and is in seconds.   Find the velocity and acceleration of the particle in terms of     Find the acceleration after second.    Graph the position, velocity and acceleration of the function on the same plot.       We have                        Exponential differentition If find .    [ ]        when exponents are complicated use Logarithimic differentiation Differentiate     Take of both sides: Differentiate implicitly:        Higher-order derivatives. Let       The second derivative as tells us concavity and as acceleration.         Differentiate     Let         Differentiate     Let              If find             Differentiate:                     [ ]       [ ]          If prove that              If and , find      Differentiate w.r.t. \"x\" Remember                                        Find the derivative of            "
+  "body": " Derivative (short cut rule)   It is the process of finding the derivative derivative of a function, which tells us the instantaneous rate of change of that function at any point. Geometrically, the derivative is the slope of the tangent line to the curve at that point.  Imagine you are driving a car. Your position as a function of time is . The average speed over an interval is . The instantaneous speed at exactly seconds is the derivative  .  In real life, we care about instantaneous rates: how fast a population is growing right now, how sensitive profit is to a price change, the acceleration of a rocket at lift-off, etc.  Once a function is known to be differentiable, we can compute its derivative using established rules rather than the limit definition every time.   Basic Rules of Differentiation      Constant Rule: If (constant), then              Power Rule  Power Rule: If where is a real number and is defined, then provided if .     Constant Multiple Rule: If and is differentiable, then      Sum Rule  Sum Rule: If and both are differentiable, then      Product Rule  Product Rule: If and both are differentiable, then or, or,      Quotient Rule  Quotient Rule: If with and both differentiable, then      Chain Rule  Chain Rule: The chain rule allows differentiation of composite functions. If and , with differentiable at and differentiable at , then   or,      Exponent and Logarithimic Rule  Exponent Rule            Standard Derivatives               Find the derivative of     Differentiate     Find if     Differentiate           [ ] and [ ]      [ ]        [ ]          [ ]                    If is a positive integer, then .    Let        Find the first and second derivatives of the functions                     Let        If and then find and     Let  Hence, and       If then find .            The equation of motion of a particle is given by , where is in meters and is in seconds.   Find the velocity and acceleration of the particle in terms of     Find the acceleration after second.    Graph the position, velocity and acceleration of the function on the same plot.       We have                        Exponential differentition If find .    [ ]        when exponents are complicated use Logarithimic differentiation Differentiate     Take of both sides: Differentiate implicitly:        Higher-order derivatives. Let       The second derivative as tells us concavity and as acceleration.         Differentiate     Let         Differentiate     Let              If find             Differentiate:                     [ ]       [ ]          If prove that              If and , find      Differentiate w.r.t. \"x\" Remember                                        Find the derivative of            "
 },
 {
   "id": "sec_third-diff-2-5-2",
@@ -2770,7 +2770,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.2.1",
   "title": "",
-  "body": "     Find the derivative of     Differentiate     Find if     Differentiate           [ ] and [ ]      [ ]         [ ]          [ ]                 "
+  "body": "     Find the derivative of     Differentiate     Find if     Differentiate           [ ] and [ ]      [ ]        [ ]          [ ]                 "
 },
 {
   "id": "subsec-st_derv-4",
@@ -3121,7 +3121,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Application of Derivative",
-  "body": " Application of Derivative    derivative    Rate measurement. rate measurement     Approximatation and error analysis. error analysis     Tangent and Normal to the curve at a point. tangent and normal     Rolle's Theorem Rolle's Theorem     Mean Value Theorem. Mean Value Theorem     Maxima and Minima on curve. Maxima and Minima        Measurement of Rate    A spherical baloon is expanding. If the radius is increasing at the rate of inch per minute. Find the rate at which the volume increases (in cubic inches per minute) when the radius is 10 inch.     Differentiate w.r.t. \"x\", we get -        If the radius of a circle is decreasing at uniform rate of , then find the rate of change of area the circle when     Given . For a circle Differentiate w.r.t. \"x\", we get -  i.e., the rate of area of the circle is decreasing by .      The tangent of an angle increases four times as the angle itself. At what rate the sine of the angle increaseses w.r.t. the angle?    Given       Hence,       A particle moves along a curve find the points on the curve at which coordinate is changing 8 times as fast as coordinate.    Given:    Therefore,  Now,  Hence the points are .      Water is dripping out of a conical funnel at a uniform rate of through a tiny hole at the vertex in bottom, when the slant height of water is , find rate of decrease of slant height, it is given that the vertical angle is .     Given:     From figure, here is slant height of water.             A light source is at center of circle, the circumference of which a horse is runing with speed of . A fence is along the tangent to the circle at the point from where horse starts running. Find the speed with which the shadow of horse move along the fence at the moment when it covers of the circle.     Given:       do your self.      A man 2 m high walks at a uniform speed of away from lamppost, 5 m high. Find rate at which length of its shadow increases.     Given:   From similar triangles           A variable triangle is inscribed in a circle of radius when rate of change of particular side is times the rate of change of opposite angle, then find that angle at that instant.    Given:   From sine formula      Note:    The inscribed angles subtended by the same arc are equal. That is, Now area of but from right angled we have         Approximatation and error analysis   Remember      Errors  The term is derivative at certain point. Also, and     Find the approximate value of       here is the closest value of 36.6 whose square root is known. hence,       Find approximate value of at        where closest point and and         Find approximate value of        also         Approximate value of is ....      Now convert into real number, i.e., hence, and          If radius of sphere is measured with an error of , then find approximate error in its volume.      we have         Find the approximate change in the volume of a cube of side meters caused by increaseing the side by 2%.    For a cube      alternately, from physics if        Find approximate valume of metal in a hollow spherical shell whose internal and external radii are 3 and 3.0005 cm respectively.             In if side length remain constant such that is the eroor in then find relative error in its area.    Given: then . From sine formula of a triangle            Tangent and Normal at a Point  Equation of tangent at a point (x_1,y_1) with slope of is given as and an equation of normal at tangent at the given point is given as     Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line         Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as       Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is       Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.        Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.       If find equation of tangent line at        Hence, the equation of tangent line,       Find the point on which is nearest to      which is equation of eclipse. The shortest distance from a point to a line is measured along the common normal (perpendicular). Therefore, the point of minimum distance on the ellipse must have its tangent parallel to the line (i.e., same normal direction). The line has normal vector , so the tangent to the ellipse at the closest point must also have normal vector parallel to .       Rolle's Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in     and         then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of function at point\/s is parallel to the slope of horizontal secant line through       Mean Value Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in    then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of tangent at points and are parallel to the slope of secant line through       Maxima and Minima    Important points on plot   Local maxima points are     Local maxima values are     Absolute maximum point is     Absolute maximum value is     Local minima points are     Local minima values are     Absolute minimum point is     Absolute minimum value is             A function is said to have local maxima (or, local extrema) at if value of function at that point is greater than or equal to values of function in some neighbourhood of     A function is said to have local minima (or, local extrema) at if value of function at that point is less than or equal to values of function in some neighbourhood of     A function is said to have global maxima (or, absolute maxima) at if in domain of     A function is said to have global minima (or, absolute minima) at if in domain of         Critical Point  Critical Points: It is a collection of points for which is either zero or undefined. Critical points are interior points within the given inetrval Critical points are contenders for giving maxima and minima.       Inflection Point  Inflection Point: It is the point at which a smooth graph has tangent about which concavity changes.    Points at which is either zero or undefined are contenders for inflection point. The always changes its sign at inflection point.     Local Maxima   If tangent is drawn at left of local maxima, , then it's angle ( ) with x-axis falls in first quadrant i.e.,  is      On the other hand, if tangent is drawn at right to the local maxima, then it's angle ( ) with x-axis falls in second quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.    Local Minima   If tangent is drawn at left of local minima , then it's angle ( ) with x-axis falls in second quadrant i.e.,  is      On the other hand, if tangent is drawn at right of the local minima, then it's angle ( ) with x-axis falls in the first quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.   In summary,    If sign of changes from to then the point is minima.    If sign of changes from to then the point is maxima.    Tangent line at any maxima or minima points is always parallel to the i.e., at all maxima or minima points.     Maxima or minima points (or points of any extrema) can also be determined by using second derivative as: if then we get extremum points as . Now if or then point gives place of minima (curve opens up) and or then point gives place of maxima (curve opens down).    Find critical points of                     For critical points, set   But, should not be a critical point because it is one of the interval points of the function [ ].  Hence, is a critical point.     If the interval is not given then it is taken as  set for critical points.   here, gives but makes undefined. Thus the critical points are          Find the inflection point of the funciton      set we get - and . Now draw sign of on interval line as shown below:   At points and the is changings its sign from to to We get points of maxima and minima where changes sign and we get inflection point where changes sign.      Find the points of maxima and minima of          draw a number line and see how is changing sign.   If sign has changes alternatively around -2 to +2 then they must be extremum points. Around maximum point changes sign from +ve to -ve, and around minimum point it changes sign from -ve to +ve.      "
+  "body": " Application of Derivative    derivative    Rate measurement. rate measurement     Approximatation and error analysis. error analysis     Tangent and Normal to the curve at a point. tangent and normal     Rolle's Theorem Rolle's Theorem     Mean Value Theorem. Mean Value Theorem     Maxima and Minima on curve. Maxima and Minima        Measurement of Rate    A spherical baloon is expanding. If the radius is increasing at the rate of inch per minute. Find the rate at which the volume increases (in cubic inches per minute) when the radius is 10 inch.     Differentiate w.r.t. \"x\", we get -        If the radius of a circle is decreasing at uniform rate of , then find the rate of change of area the circle when     Given . For a circle Differentiate w.r.t. \"x\", we get -  i.e., the rate of area of the circle is decreasing by .      The tangent of an angle increases four times as the angle itself. At what rate the sine of the angle increaseses w.r.t. the angle?    Given       Hence,       A particle moves along a curve find the points on the curve at which coordinate is changing 8 times as fast as coordinate.    Given:    Therefore,  Now,  Hence the points are .      Water is dripping out of a conical funnel at a uniform rate of through a tiny hole at the vertex in bottom, when the slant height of water is , find rate of decrease of slant height, it is given that the vertical angle is .     Given:     From figure, here is slant height of water.             A light source is at center of circle, the circumference of which a horse is runing with speed of . A fence is along the tangent to the circle at the point from where horse starts running. Find the speed with which the shadow of horse move along the fence at the moment when it covers of the circle.     Given:       do your self.      A man 2 m high walks at a uniform speed of away from lamppost, 5 m high. Find rate at which length of its shadow increases.     Given:   From similar triangles           A variable triangle is inscribed in a circle of radius when rate of change of particular side is times the rate of change of opposite angle, then find that angle at that instant.    Given:   From sine formula      Note:    The inscribed angles subtended by the same arc are equal. That is, Now area of but from right angled we have         Approximatation and error analysis   Remember      Errors  The term is derivative at certain point. Also, and     Find the approximate value of       here is the closest value of 36.6 whose square root is known. hence,       Find approximate value of at        where closest point and and         Find approximate value of        also         Approximate value of is ....      Now convert into real number, i.e., hence, and          If radius of sphere is measured with an error of , then find approximate error in its volume.      we have         Find the approximate change in the volume of a cube of side meters caused by increaseing the side by 2%.    For a cube      alternately, from physics if        Find approximate valume of metal in a hollow spherical shell whose internal and external radii are 3 and 3.0005 cm respectively.             In if side length remain constant such that is the eroor in then find relative error in its area.    Given: then . From sine formula of a triangle            Tangent and Normal at a Point  Equation of tangent at a point (x_1,y_1) with slope of is given as and an equation of normal at tangent at the given point is given as      The slope of a tangent line through a given point is given by  by taking as and as   Now from figure, we have and the slope for normal line Hence, the equation of normal line through is given as      Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line         Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as       Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is       Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.        Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.       If find equation of tangent line at        Hence, the equation of tangent line,       Find the point on which is nearest to      which is equation of eclipse. The shortest distance from a point to a line is measured along the common normal (perpendicular). Therefore, the point of minimum distance on the ellipse must have its tangent parallel to the line (i.e., same normal direction). The line has normal vector , so the tangent to the ellipse at the closest point must also have normal vector parallel to .       Rolle's Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in     and         then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of function at point\/s is parallel to the slope of horizontal secant line through       Mean Value Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in    then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of tangent at points and are parallel to the slope of secant line through       Maxima and Minima    Important points on plot   Local maxima points are     Local maxima values are     Absolute maximum point is     Absolute maximum value is     Local minima points are     Local minima values are     Absolute minimum point is     Absolute minimum value is             A function is said to have local maxima (or, local extrema) at if value of function at that point is greater than or equal to values of function in some neighbourhood of     A function is said to have local minima (or, local extrema) at if value of function at that point is less than or equal to values of function in some neighbourhood of     A function is said to have global maxima (or, absolute maxima) at if in domain of     A function is said to have global minima (or, absolute minima) at if in domain of         Critical Point  Critical Points: It is a collection of points for which is either zero or undefined. Critical points are interior points within the given inetrval Critical points are contenders for giving maxima and minima.       Inflection Point  Inflection Point: It is the point at which a smooth graph has tangent about which concavity changes.    Points at which is either zero or undefined are contenders for inflection point. The always changes its sign at inflection point.     Local Maxima   If tangent is drawn at left of local maxima, , then it's angle ( ) with x-axis falls in first quadrant i.e.,  is      On the other hand, if tangent is drawn at right to the local maxima, then it's angle ( ) with x-axis falls in second quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.    Local Minima   If tangent is drawn at left of local minima , then it's angle ( ) with x-axis falls in second quadrant i.e.,  is      On the other hand, if tangent is drawn at right of the local minima, then it's angle ( ) with x-axis falls in the first quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.   In summary,    If sign of changes from to then the point is minima.    If sign of changes from to then the point is maxima.    Tangent line at any maxima or minima points is always parallel to the i.e., at all maxima or minima points.     Maxima or minima points (or points of any extrema) can also be determined by using second derivative as: if then we get extremum points as . Now if or then point gives place of minima (curve opens up) and or then point gives place of maxima (curve opens down).    Find critical points of                     For critical points, set   But, should not be a critical point because it is one of the interval points of the function [ ].  Hence, is a critical point.     If the interval is not given then it is taken as  set for critical points.   here, gives but makes undefined. Thus the critical points are          Find the inflection point of the funciton      set we get - and . Now draw sign of on interval line as shown below:   At points and the is changings its sign from to to We get points of maxima and minima where changes sign and we get inflection point where changes sign.      Find the points of maxima and minima of          draw a number line and see how is changing sign.   If sign has changes alternatively around -2 to +2 then they must be extremum points. Around maximum point changes sign from +ve to -ve, and around minimum point it changes sign from -ve to +ve.      "
 },
 {
   "id": "subsec-rate-msr-2",
@@ -3280,60 +3280,69 @@ var ptx_lunr_docs = [
   "id": "subsec-tngnt-3",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-3",
-  "type": "Example",
-  "number": "3.6.17",
+  "type": "Proof",
+  "number": "3.6.3.1",
   "title": "",
-  "body": "  Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line      "
+  "body": "   The slope of a tangent line through a given point is given by  by taking as and as   Now from figure, we have and the slope for normal line Hence, the equation of normal line through is given as   "
 },
 {
   "id": "subsec-tngnt-4",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-4",
   "type": "Example",
-  "number": "3.6.18",
+  "number": "3.6.17",
   "title": "",
-  "body": "  Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as    "
+  "body": "  Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line      "
 },
 {
   "id": "subsec-tngnt-5",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-5",
   "type": "Example",
-  "number": "3.6.19",
+  "number": "3.6.18",
   "title": "",
-  "body": "  Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is    "
+  "body": "  Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as    "
 },
 {
   "id": "subsec-tngnt-6",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-6",
   "type": "Example",
-  "number": "3.6.20",
+  "number": "3.6.19",
   "title": "",
-  "body": "  Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.     "
+  "body": "  Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is    "
 },
 {
   "id": "subsec-tngnt-7",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-7",
   "type": "Example",
-  "number": "3.6.21",
+  "number": "3.6.20",
   "title": "",
-  "body": "  Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.    "
+  "body": "  Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.     "
 },
 {
   "id": "subsec-tngnt-8",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-8",
   "type": "Example",
-  "number": "3.6.22",
+  "number": "3.6.21",
   "title": "",
-  "body": "  If find equation of tangent line at        Hence, the equation of tangent line,    "
+  "body": "  Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.    "
 },
 {
   "id": "subsec-tngnt-9",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-9",
+  "type": "Example",
+  "number": "3.6.22",
+  "title": "",
+  "body": "  If find equation of tangent line at        Hence, the equation of tangent line,    "
+},
+{
+  "id": "subsec-tngnt-10",
+  "level": "2",
+  "url": "sec_third-appl-drvt.html#subsec-tngnt-10",
   "type": "Example",
   "number": "3.6.23",
   "title": "",
@@ -3418,7 +3427,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.7",
   "title": "Examples",
-  "body": " Examples    Find the derivative of the function given below using first principles.                                           Find an equation of the tangent line to the curve at the given point.     Using first principle    Now, equation of tangent line is [ ]  or       If a ball is thrown into the air with a velocity of , its height ( in feet) after t seconds is given by . Find the velocity when .    here Using first principle [ ]            The displacement of a particle moving in a straight line is given by where is time in seconds and is displacement in meters.   Find the average velocity of the particle over the time interval .    Find the instantaneous velocity at        here,    From [ ]        From [ ]           Find an equation of the tangent line if the graph of at , and     From eqn.           If the tangent line to at passes through the point find and     The function passes through the point , so The tangent line at has slope and passes through . Hence from equation of secant         Find an equation of a tangent line to the curve at the point (1,2).    The tangent line at has slope and at . Hence from the equation of tangent line at point (1,2) or solve   Now the equation of tangent line is [ ]       Determine whether exists for       Hence, the limit does not exist because oscillates between and       Find the points on the curve where the tangent line is horizontal.    If tangent line is horizontal then its slope is zero. i.e., or,   evaluating at points  at points  at points    Hence, The points are , , and .      Find equation of the tangent line and normal line to the curve at the given point.                  if slope of the tangent line then normal line to the tangent is given by         At what points on the hyperbola is the tangent line parallel to the line ?      Now from the given line  slope,   Since tangent line is parallel to the given line their slopes must be equal. i.e.,    Hence the rquired points are as       If differential . For what values of does the graph of have a horizontal tangent?      Since , and to be to get hrizontal slope, we must need to set  i.e.,                              If     If                                            If the equation of motion of an oscillation object with a horizontal spring is find   the horizontal velocity and acceleration at time     the position, velocity, and acceleration of the mass at time In what direction is it moving at that time?                               It is moving to the left at as velocity is negative. [Negative velocty and negative acceleration means the object is speeding up]         Find so that possess critical point.      Now if as at critical point. we have - But    Hence, the interval is  Point at which is called a stationary point.       Find the stationary point of .          or, alternately,  Hence the stationary point is as at       Prove that has no extremum.       At  gives zero value but its graph is increasing continuously. Hence, does not give any extremum point.   Here is not changing sign, so there is no maxima and minima.    "
+  "body": " Examples    From the curve of given plots identify the functions and explain your reasoning.      select one curve as a function of and starts ploting its higher derivative curve as .  The main function is similar to which is the last red curve (d), is blue curve (c), is green curve (b), and the first purple curve (a) is similar to       Match the curve of each function with its derivative curve.    (a)      (i)        (b)      (ii)        (c)      (iii)         If is a position function then plot its velocity function , its acceleration function , and finally its jerk function      Find the derivative of the function given below using first principles (or by the definition of derivative).                                                       Find an equation of the tangent line to the curve at the given point.     Using first principle    Now, equation of tangent line is [ ]  or       If a ball is thrown into the air with a velocity of , its height ( in feet) after t seconds is given by . Find the velocity when .    here Using first principle [ ]            The displacement of a particle moving in a straight line is given by where is time in seconds and is displacement in meters.   Find the average velocity of the particle over the time interval .    Find the instantaneous velocity at        here,    From [ ]        From [ ]           Find an equation of the tangent line if the graph of at , and     From eqn.           If the tangent line to at passes through the point find and     The function passes through the point , so The tangent line at has slope and passes through . Hence from equation of secant         Find an equation of a tangent line to the curve at the point (1,2).    The tangent line at has slope and at . Hence from the equation of tangent line at point (1,2) or solve   Now the equation of tangent line is [ ]       Determine whether exists for       Hence, the limit does not exist because oscillates between and       Find the points on the curve where the tangent line is horizontal.    If tangent line is horizontal then its slope is zero. i.e., or,   evaluating at points  at points  at points    Hence, The points are , , and .      Find equation of the tangent line and normal line to the curve at the given point.                  if slope of the tangent line then normal line to the tangent is given by         At what points on the hyperbola is the tangent line parallel to the line ?      Now from the given line  slope,   Since tangent line is parallel to the given line their slopes must be equal. i.e.,    Hence the rquired points are as       If differential . For what values of does the graph of have a horizontal tangent?      Since , and to be to get hrizontal slope, we must need to set  i.e.,                              If     If                                            If the equation of motion of an oscillation object with a horizontal spring is find   the horizontal velocity and acceleration at time     the position, velocity, and acceleration of the mass at time In what direction is it moving at that time?                               It is moving to the left at as velocity is negative. [Negative velocty and negative acceleration means the object is speeding up]         Find so that possess critical point.      Now if as at critical point. we have - But    Hence, the interval is  Point at which is called a stationary point.       Find the stationary point of .          or, alternately,  Hence the stationary point is as at       Prove that has no extremum.       At  gives zero value but its graph is increasing continuously. Hence, does not give any extremum point.   Here is not changing sign, so there is no maxima and minima.    "
 },
 {
   "id": "sec_third-examples-2",
@@ -3427,7 +3436,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.7.1",
   "title": "",
-  "body": "  Find the derivative of the function given below using first principles.                                        "
+  "body": "  From the curve of given plots identify the functions and explain your reasoning.      select one curve as a function of and starts ploting its higher derivative curve as .  The main function is similar to which is the last red curve (d), is blue curve (c), is green curve (b), and the first purple curve (a) is similar to    "
 },
 {
   "id": "sec_third-examples-3",
@@ -3436,140 +3445,167 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.7.2",
   "title": "",
-  "body": "  Find an equation of the tangent line to the curve at the given point.     Using first principle    Now, equation of tangent line is [ ]  or    "
+  "body": "  Match the curve of each function with its derivative curve.    (a)      (i)        (b)      (ii)        (c)      (iii)       "
 },
 {
   "id": "sec_third-examples-4",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-4",
-  "type": "Example",
-  "number": "3.7.3",
+  "type": "Checkpoint",
+  "number": "3.7.9",
   "title": "",
-  "body": "  If a ball is thrown into the air with a velocity of , its height ( in feet) after t seconds is given by . Find the velocity when .    here Using first principle [ ]         "
+  "body": " If is a position function then plot its velocity function , its acceleration function , and finally its jerk function   "
 },
 {
   "id": "sec_third-examples-5",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-5",
   "type": "Example",
-  "number": "3.7.4",
+  "number": "3.7.10",
   "title": "",
-  "body": "  The displacement of a particle moving in a straight line is given by where is time in seconds and is displacement in meters.   Find the average velocity of the particle over the time interval .    Find the instantaneous velocity at        here,    From [ ]        From [ ]        "
+  "body": "  Find the derivative of the function given below using first principles (or by the definition of derivative).                                                    "
 },
 {
   "id": "sec_third-examples-6",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-6",
   "type": "Example",
-  "number": "3.7.5",
+  "number": "3.7.11",
   "title": "",
-  "body": "  Find an equation of the tangent line if the graph of at , and     From eqn.        "
+  "body": "  Find an equation of the tangent line to the curve at the given point.     Using first principle    Now, equation of tangent line is [ ]  or    "
 },
 {
   "id": "sec_third-examples-7",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-7",
   "type": "Example",
-  "number": "3.7.6",
+  "number": "3.7.12",
   "title": "",
-  "body": "  If the tangent line to at passes through the point find and     The function passes through the point , so The tangent line at has slope and passes through . Hence from equation of secant      "
+  "body": "  If a ball is thrown into the air with a velocity of , its height ( in feet) after t seconds is given by . Find the velocity when .    here Using first principle [ ]         "
 },
 {
   "id": "sec_third-examples-8",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-8",
   "type": "Example",
-  "number": "3.7.7",
+  "number": "3.7.13",
   "title": "",
-  "body": "  Find an equation of a tangent line to the curve at the point (1,2).    The tangent line at has slope and at . Hence from the equation of tangent line at point (1,2) or solve   Now the equation of tangent line is [ ]    "
+  "body": "  The displacement of a particle moving in a straight line is given by where is time in seconds and is displacement in meters.   Find the average velocity of the particle over the time interval .    Find the instantaneous velocity at        here,    From [ ]        From [ ]        "
 },
 {
   "id": "sec_third-examples-9",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-9",
   "type": "Example",
-  "number": "3.7.8",
+  "number": "3.7.14",
   "title": "",
-  "body": "  Determine whether exists for       Hence, the limit does not exist because oscillates between and    "
+  "body": "  Find an equation of the tangent line if the graph of at , and     From eqn.        "
 },
 {
   "id": "sec_third-examples-10",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-10",
   "type": "Example",
-  "number": "3.7.9",
+  "number": "3.7.15",
   "title": "",
-  "body": "  Find the points on the curve where the tangent line is horizontal.    If tangent line is horizontal then its slope is zero. i.e., or,   evaluating at points  at points  at points    Hence, The points are , , and .   "
+  "body": "  If the tangent line to at passes through the point find and     The function passes through the point , so The tangent line at has slope and passes through . Hence from equation of secant      "
 },
 {
   "id": "sec_third-examples-11",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-11",
   "type": "Example",
-  "number": "3.7.10",
+  "number": "3.7.16",
   "title": "",
-  "body": "  Find equation of the tangent line and normal line to the curve at the given point.                  if slope of the tangent line then normal line to the tangent is given by      "
+  "body": "  Find an equation of a tangent line to the curve at the point (1,2).    The tangent line at has slope and at . Hence from the equation of tangent line at point (1,2) or solve   Now the equation of tangent line is [ ]    "
 },
 {
   "id": "sec_third-examples-12",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-12",
   "type": "Example",
-  "number": "3.7.11",
+  "number": "3.7.17",
   "title": "",
-  "body": "  At what points on the hyperbola is the tangent line parallel to the line ?      Now from the given line  slope,   Since tangent line is parallel to the given line their slopes must be equal. i.e.,    Hence the rquired points are as    "
+  "body": "  Determine whether exists for       Hence, the limit does not exist because oscillates between and    "
 },
 {
   "id": "sec_third-examples-13",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-13",
   "type": "Example",
-  "number": "3.7.12",
+  "number": "3.7.18",
   "title": "",
-  "body": "  If differential . For what values of does the graph of have a horizontal tangent?      Since , and to be to get hrizontal slope, we must need to set  i.e.,    "
+  "body": "  Find the points on the curve where the tangent line is horizontal.    If tangent line is horizontal then its slope is zero. i.e., or,   evaluating at points  at points  at points    Hence, The points are , , and .   "
 },
 {
   "id": "sec_third-examples-14",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-14",
   "type": "Example",
-  "number": "3.7.13",
+  "number": "3.7.19",
   "title": "",
-  "body": "                         If     If                                         "
+  "body": "  Find equation of the tangent line and normal line to the curve at the given point.                  if slope of the tangent line then normal line to the tangent is given by      "
 },
 {
   "id": "sec_third-examples-15",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-15",
   "type": "Example",
-  "number": "3.7.14",
+  "number": "3.7.20",
   "title": "",
-  "body": "  If the equation of motion of an oscillation object with a horizontal spring is find   the horizontal velocity and acceleration at time     the position, velocity, and acceleration of the mass at time In what direction is it moving at that time?                               It is moving to the left at as velocity is negative. [Negative velocty and negative acceleration means the object is speeding up]      "
+  "body": "  At what points on the hyperbola is the tangent line parallel to the line ?      Now from the given line  slope,   Since tangent line is parallel to the given line their slopes must be equal. i.e.,    Hence the rquired points are as    "
 },
 {
   "id": "sec_third-examples-16",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-16",
   "type": "Example",
-  "number": "3.7.15",
+  "number": "3.7.21",
   "title": "",
-  "body": "  Find so that possess critical point.      Now if as at critical point. we have - But    Hence, the interval is  Point at which is called a stationary point.    "
+  "body": "  If differential . For what values of does the graph of have a horizontal tangent?      Since , and to be to get hrizontal slope, we must need to set  i.e.,    "
 },
 {
   "id": "sec_third-examples-17",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-17",
   "type": "Example",
-  "number": "3.7.16",
+  "number": "3.7.22",
   "title": "",
-  "body": "  Find the stationary point of .          or, alternately,  Hence the stationary point is as at    "
+  "body": "                         If     If                                         "
 },
 {
   "id": "sec_third-examples-18",
   "level": "2",
   "url": "sec_third-examples.html#sec_third-examples-18",
   "type": "Example",
-  "number": "3.7.17",
+  "number": "3.7.23",
+  "title": "",
+  "body": "  If the equation of motion of an oscillation object with a horizontal spring is find   the horizontal velocity and acceleration at time     the position, velocity, and acceleration of the mass at time In what direction is it moving at that time?                               It is moving to the left at as velocity is negative. [Negative velocty and negative acceleration means the object is speeding up]      "
+},
+{
+  "id": "sec_third-examples-19",
+  "level": "2",
+  "url": "sec_third-examples.html#sec_third-examples-19",
+  "type": "Example",
+  "number": "3.7.24",
+  "title": "",
+  "body": "  Find so that possess critical point.      Now if as at critical point. we have - But    Hence, the interval is  Point at which is called a stationary point.    "
+},
+{
+  "id": "sec_third-examples-20",
+  "level": "2",
+  "url": "sec_third-examples.html#sec_third-examples-20",
+  "type": "Example",
+  "number": "3.7.25",
+  "title": "",
+  "body": "  Find the stationary point of .          or, alternately,  Hence the stationary point is as at    "
+},
+{
+  "id": "sec_third-examples-21",
+  "level": "2",
+  "url": "sec_third-examples.html#sec_third-examples-21",
+  "type": "Example",
+  "number": "3.7.26",
   "title": "",
   "body": "  Prove that has no extremum.       At  gives zero value but its graph is increasing continuously. Hence, does not give any extremum point.   Here is not changing sign, so there is no maxima and minima.   "
 },
