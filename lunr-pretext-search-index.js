@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Number Line <span class=\"process-math\">\\(\\&amp;\\)<\/span> Intervals",
-  "body": " Number Line Intervals   In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval: or,        unfilled circle represents the number is not included.      Closed Interval: or,       filled circle represents the number is included.      Closed - open Interval: or,       including but excluding       Open - closed Interval: (a, b] or,       excluding but including        Inequality Rules  Summary of inequality rules inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:        Modulus Functions  Basics of Modulus functions: modulus functions The general representation of the modulus function is where                          Rememebr: Mod always gives a single value, if there is one.    Solve the following:                       For         For  or,     Solve the following inequalities:                                           "
+  "body": " Number Line Intervals   In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval: or,        unfilled circle represents the number is not included.      Closed Interval: or,       filled circle represents the number is included.      Closed - open Interval: or,       including but excluding       Open - closed Interval: (a, b] or,       excluding but including        Inequality Rules  Summary of inequality rules inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:        Modulus Functions  Basics of Modulus functions: modulus functions The general representation of the modulus function is where   If we get only one solution as distance of zero from zero is 0.  If number, we get no solution as mod of any number is never negative.  If number, we get two solution as described in defintion above.                         Find if     From definition: We have - or       Find if     We get only one solution as        Find if     We get two solution as  Also,      Find if No solution as mod never gives any negative output.     Rememebr: Mod always gives a single value, if there is one.    Solve the following:                       For         For  or,     Solve the following inequalities:                                           "
 },
 {
   "id": "sec_first-intervals-2-1",
@@ -118,47 +118,83 @@ var ptx_lunr_docs = [
   "body": "Open Interval: or,  Closed Interval: or, Closed - open Interval: or, Open - closed Interval: (a, b] or, "
 },
 {
-  "id": "subsec-mod_fn-3",
+  "id": "subsec-mod_fn-6",
   "level": "2",
-  "url": "sec_first-intervals.html#subsec-mod_fn-3",
+  "url": "sec_first-intervals.html#subsec-mod_fn-6",
   "type": "Example",
   "number": "1.3.1",
   "title": "",
   "body": "                    "
 },
 {
-  "id": "subsec-mod_fn-4",
-  "level": "2",
-  "url": "sec_first-intervals.html#subsec-mod_fn-4",
-  "type": "Example",
-  "number": "1.3.2",
-  "title": "",
-  "body": "  Rememebr: Mod always gives a single value, if there is one.  "
-},
-{
-  "id": "subsec-mod_fn-5",
-  "level": "2",
-  "url": "sec_first-intervals.html#subsec-mod_fn-5",
-  "type": "Example",
-  "number": "1.3.3",
-  "title": "",
-  "body": " Solve the following:                     "
-},
-{
-  "id": "subsec-mod_fn-6",
-  "level": "2",
-  "url": "sec_first-intervals.html#subsec-mod_fn-6",
-  "type": "Observation",
-  "number": "1.3.4",
-  "title": "",
-  "body": " For         For  or,   "
-},
-{
   "id": "subsec-mod_fn-7",
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-7",
   "type": "Example",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Find if     From definition: We have - or    "
+},
+{
+  "id": "subsec-mod_fn-8",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-8",
+  "type": "Example",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  Find if     We get only one solution as     "
+},
+{
+  "id": "subsec-mod_fn-9",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-9",
+  "type": "Example",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Find if     We get two solution as  Also,    "
+},
+{
+  "id": "subsec-mod_fn-10",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-10",
+  "type": "Example",
   "number": "1.3.5",
+  "title": "",
+  "body": " Find if No solution as mod never gives any negative output.  "
+},
+{
+  "id": "subsec-mod_fn-11",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-11",
+  "type": "Example",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  Rememebr: Mod always gives a single value, if there is one.  "
+},
+{
+  "id": "subsec-mod_fn-12",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-12",
+  "type": "Example",
+  "number": "1.3.7",
+  "title": "",
+  "body": " Solve the following:                     "
+},
+{
+  "id": "subsec-mod_fn-13",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-13",
+  "type": "Observation",
+  "number": "1.3.8",
+  "title": "",
+  "body": " For         For  or,   "
+},
+{
+  "id": "subsec-mod_fn-14",
+  "level": "2",
+  "url": "sec_first-intervals.html#subsec-mod_fn-14",
+  "type": "Example",
+  "number": "1.3.9",
   "title": "",
   "body": " Solve the following inequalities:                                         "
 },
@@ -853,7 +889,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.9",
   "title": "The Graph of Functions",
-  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Functions  [ ] [ ] If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].       vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis       Some Standard Graphs  Some Standard Graphs   Check graphs of and some more. [ ]                                                                                                    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.      Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at          Draw the graph of                 Draw the graph of       Special Graphs                                            Draw graph of                      Also,      Draw graph of and reflect negative of about            Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:       Draw graph of                        in class work         "
+  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Functions  [ ] [ ] If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].       vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis       Some Standard Graphs  Some Standard Graphs Graphs of can be seen here [ ].                                                                                                    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.      Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at          Draw the graph of                 Draw the graph of       Special Graphs                                            Draw graph of                      Also,      Draw graph of and reflect negative of about            Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:       Draw graph of                        in class work         "
 },
 {
   "id": "subsec-trnsform-13",
@@ -892,9 +928,9 @@ var ptx_lunr_docs = [
   "body": "Some Standard Graphs "
 },
 {
-  "id": "subsec-gr_transf-9",
+  "id": "subsec-gr_transf-8",
   "level": "2",
-  "url": "sec_second-funct-gr.html#subsec-gr_transf-9",
+  "url": "sec_second-funct-gr.html#subsec-gr_transf-8",
   "type": "Observation",
   "number": "1.9.4",
   "title": "",
@@ -3880,29 +3916,83 @@ var ptx_lunr_docs = [
   "body": " Find the integration of      put        put        put                               "
 },
 {
-  "id": "sec-formula",
+  "id": "sec-math_rel",
   "level": "1",
-  "url": "sec-formula.html",
+  "url": "sec-math_rel.html",
   "type": "Section",
   "number": "A.1",
-  "title": "Some Formulae:",
-  "body": " Some Formulae:      Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If and if also   Similarly we can obtain the relations for natural log (ln). Remember:  mean and mean .     Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant. Vertex of quadratic plot is given by     Geometric Formulae:  Circumference of a circle of circle of radius r,   Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Trigonometric Identities  Trigonometric Identities: in right angled triangle                                      If then                                                                                                                Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.   In Quadrant I & II:   In Quadrant II & III:   In Quadrant III & IV:   In Quadrant IV & I:      Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and        Law of sines:     Law of cosines:         Binomial Theorem  Binomial Theorem:        Power Series:            Combination and Permutation        "
+  "title": "Mathematical Relations",
+  "body": " Mathematical Relations      Logerithmic Formulae: A common logerithim is defined for a logerithm of base 10 and natural logerithm is defined for a base . If and if also   Similarly we can obtain the relations for natural log (ln). Remember:  mean and mean .     Quadratic Formula: If then the root of quadratic equation is given by where is called discriminant. Vertex of quadratic plot is given by     Geometric Formulae:  Circumference of a circle of circle of radius r,   Area of a circle of circle of radius r,   Volume of a sphere of radius r,   Surface area of a sphere of radius r,   Volume area of a cylinder of radius r and height h,   Cylindrical surface area of a cylinder of radius r and height h,    Congruent Triangles: In two triangles if corresponding SAS (side angle side) or SSS (side side side) are equal then triangles are congruent.   Similar Triangles: If corresponding AAA (angle angle angle) of two triangles are equal then the triangles are called similar triangles. In that case the ratio of corresponding sides of these triangles are equal.     Combination and Permutation        "
 },
 {
-  "id": "sec-formula-2",
+  "id": "sec-math_rel-2",
   "level": "2",
-  "url": "sec-formula.html#sec-formula-2",
+  "url": "sec-math_rel.html#sec-math_rel-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Logerithmic Formulae: Remember: Quadratic Formula: Trigonometric Identities: Co-function Identities Trigonometric Laws: Binomial Theorem: Power Series: "
+  "body": "Logerithmic Formulae: Remember: Quadratic Formula: "
+},
+{
+  "id": "sec-binom_exp",
+  "level": "1",
+  "url": "sec-binom_exp.html",
+  "type": "Section",
+  "number": "A.2",
+  "title": "Binomial and Power Series Expansion",
+  "body": " Binomial and Power Series Expansion      Binomial Theorem  Binomial Theorem:        Power Series:            "
+},
+{
+  "id": "sec-binom_exp-2",
+  "level": "2",
+  "url": "sec-binom_exp.html#sec-binom_exp-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Binomial Theorem: Power Series: "
+},
+{
+  "id": "sec-trig_ratio",
+  "level": "1",
+  "url": "sec-trig_ratio.html",
+  "type": "Section",
+  "number": "B.1",
+  "title": "Trigonometric Ratio",
+  "body": " Trigonometric Ratio   Table for Trigonometric Ratio     Co-Function Identity   Co-function Identities Cofunction identities relate trigonometric functions of complementary angles. The ASTC rule All, sine, tan, cos. meaning: In Quadrant 1 All functions are positive. In Quadrant II, Sine function is positive. In Quadrant III, Tangent function is positive. In Quadrant 4, Cosine function is positive.    In Quadrant I & II:   In Quadrant II & III:     In Quadrant III & IV:   In Quadrant IV & I:     "
+},
+{
+  "id": "subsec-co_func-2",
+  "level": "2",
+  "url": "sec-trig_ratio.html#subsec-co_func-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Co-function Identities "
+},
+{
+  "id": "sec-math_rel2",
+  "level": "1",
+  "url": "sec-math_rel2.html",
+  "type": "Section",
+  "number": "B.2",
+  "title": "Trigonometric Formulae",
+  "body": " Trigonometric Formulae      Trigonometric Identities  Trigonometric Identities: in right angled triangle                                      If then                                                                                                                Trigonometric Laws  Trigonometric Laws: in any with sides and and angles and        Law of sines:     Law of cosines:         "
+},
+{
+  "id": "sec-math_rel2-2",
+  "level": "2",
+  "url": "sec-math_rel2.html#sec-math_rel2-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Trigonometric Identities: Trigonometric Laws: "
 },
 {
   "id": "append_physTable",
   "level": "1",
   "url": "append_physTable.html",
   "type": "Appendix",
-  "number": "B",
+  "number": "C",
   "title": "Greek Letters",
   "body": " Greek Letters   Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta       "
 },
@@ -3911,23 +4001,23 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "append_physTable.html#append_physTable-2",
   "type": "Table",
-  "number": "B.0.1",
+  "number": "C.0.1",
   "title": "Greek Alphabet",
   "body": " Greek Alphabet    Name  Capital Letter  Small Letter    Alpha  A     Beta  B     Gamma      Delta      Epsilon      Eta      Iota      Kappa      Theta      Mu      Nu      Omicron      Rho      Sigma      Tau      Phi      Psi      Pi      Chi      Lambda      Omega      Upsilon      Xi      Zeta      "
-},
-{
-  "id": "backmatter-4",
-  "level": "1",
-  "url": "backmatter-4.html",
-  "type": "Appendix",
-  "number": "C",
-  "title": "List of Symbols",
-  "body": " List of Symbols   "
 },
 {
   "id": "backmatter-5",
   "level": "1",
   "url": "backmatter-5.html",
+  "type": "Appendix",
+  "number": "D",
+  "title": "List of Symbols",
+  "body": " List of Symbols   "
+},
+{
+  "id": "backmatter-6",
+  "level": "1",
+  "url": "backmatter-6.html",
   "type": "Index",
   "number": "",
   "title": "Index",
@@ -3943,9 +4033,9 @@ var ptx_lunr_docs = [
   "body": " References     James  Stewart    Calculus (Cengage Learning)      Edwin  Herman    Gilbert  Strang    Calculus I (OpenStax)      Robert  Beezer    Derivatives and Integrals: An annotated discourse   "
 },
 {
-  "id": "backmatter-7",
+  "id": "backmatter-8",
   "level": "1",
-  "url": "backmatter-7.html",
+  "url": "backmatter-8.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
