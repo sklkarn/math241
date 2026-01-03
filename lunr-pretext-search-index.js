@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.1",
   "title": "Review",
-  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          Sage Cells             "
+  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          Sage Cells            Graphing Calculator    Scientific Calculator      "
 },
 {
   "id": "sec_first-review-2-1",
@@ -199,11 +199,173 @@ var ptx_lunr_docs = [
   "body": " Solve the following inequalities:                                         "
 },
 {
+  "id": "sec_first-inequal",
+  "level": "1",
+  "url": "sec_first-inequal.html",
+  "type": "Section",
+  "number": "1.4",
+  "title": "Inequality",
+  "body": " Inequality   Wavy Curve Inequalities can be solved easily if wavy curve is drawn from the given equation. To draw wavy curve: Make sure that right hand side (RHS) is zero and coefficient of in all the factors is positive. Then in  Step I: Put all factors equal to zero and mark corresponding values of on the real line  Step II: Put on extreme right and change the sign alternatively by moving toward left as shown in figure below.       Solve for the value of                                                                       Solve for                                    Ans:        do your self     Ans:        Ans:        Ans: Mark 0 on number line for lonly           If find           ans:                                      Ans:                                   so      so      Find the common between these two values of . Here,           Solve for     Remember: we cannot write here , because this does not make any sense due to inequality sign. So  Hence,       Solve the following inequalities:     Follow the same rule as described in [ ], starting with sign at extreme right, but also look at the power of factors for the given points, if the power is even do not change the sign or if it is odd change sign of to and to , as shown in below.   The sign has not changed between points and starting from extereme right sign as the power of is even. But the sign has changed between and as the power of is odd. Similarly all the other sign has adjusted. Hence,       Solve the following:      Hence,      Solve for x.    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:    here, otherwise becomes negative. Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:          Solve the following:     here should not be negative.    "
+},
+{
+  "id": "sec_first-inequal-6",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-6",
+  "type": "Example",
+  "number": "1.4.1",
+  "title": "",
+  "body": "  Solve for the value of                                                                    "
+},
+{
+  "id": "sec_first-inequal-7",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-7",
+  "type": "Example",
+  "number": "1.4.2",
+  "title": "",
+  "body": "  Solve for                                    Ans:        do your self     Ans:        Ans:        Ans: Mark 0 on number line for lonly        "
+},
+{
+  "id": "sec_first-inequal-8",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-8",
+  "type": "Example",
+  "number": "1.4.3",
+  "title": "",
+  "body": "  If find           ans:    "
+},
+{
+  "id": "sec_first-inequal-9",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-9",
+  "type": "Example",
+  "number": "1.4.4",
+  "title": "",
+  "body": "                                 Ans:       "
+},
+{
+  "id": "sec_first-inequal-10",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-10",
+  "type": "Example",
+  "number": "1.4.5",
+  "title": "",
+  "body": "                           so      so      Find the common between these two values of . Here,        "
+},
+{
+  "id": "sec_first-inequal-11",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-11",
+  "type": "Example",
+  "number": "1.4.6",
+  "title": "",
+  "body": "  Solve for     Remember: we cannot write here , because this does not make any sense due to inequality sign. So  Hence,    "
+},
+{
+  "id": "sec_first-inequal-12",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-12",
+  "type": "Example",
+  "number": "1.4.7",
+  "title": "",
+  "body": "  Solve the following inequalities:     Follow the same rule as described in [ ], starting with sign at extreme right, but also look at the power of factors for the given points, if the power is even do not change the sign or if it is odd change sign of to and to , as shown in below.   The sign has not changed between points and starting from extereme right sign as the power of is even. But the sign has changed between and as the power of is odd. Similarly all the other sign has adjusted. Hence,    "
+},
+{
+  "id": "sec_first-inequal-13",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-13",
+  "type": "Example",
+  "number": "1.4.8",
+  "title": "",
+  "body": "  Solve the following:      Hence,    "
+},
+{
+  "id": "sec_first-inequal-14",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-14",
+  "type": "Checkpoint",
+  "number": "1.4.9",
+  "title": "",
+  "body": " Solve for x.    Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-15",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-15",
+  "type": "Checkpoint",
+  "number": "1.4.10",
+  "title": "",
+  "body": " Solve the following:    Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-16",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-16",
+  "type": "Checkpoint",
+  "number": "1.4.11",
+  "title": "",
+  "body": " Solve the following:    Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-17",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-17",
+  "type": "Checkpoint",
+  "number": "1.4.12",
+  "title": "",
+  "body": " Solve the following:     Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-18",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-18",
+  "type": "Checkpoint",
+  "number": "1.4.13",
+  "title": "",
+  "body": " Solve the following:     Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-19",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-19",
+  "type": "Checkpoint",
+  "number": "1.4.14",
+  "title": "",
+  "body": " Solve the following:    here, otherwise becomes negative. Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-20",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-20",
+  "type": "Checkpoint",
+  "number": "1.4.15",
+  "title": "",
+  "body": " Solve the following:    Draw number line by yourself.    "
+},
+{
+  "id": "sec_first-inequal-21",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-21",
+  "type": "Checkpoint",
+  "number": "1.4.16",
+  "title": "",
+  "body": " Solve the following:        "
+},
+{
+  "id": "sec_first-inequal-22",
+  "level": "2",
+  "url": "sec_first-inequal.html#sec_first-inequal-22",
+  "type": "Checkpoint",
+  "number": "1.4.17",
+  "title": "",
+  "body": " Solve the following:     here should not be negative.   "
+},
+{
   "id": "sec_first-functions",
   "level": "1",
   "url": "sec_first-functions.html",
   "type": "Section",
-  "number": "1.4",
+  "number": "1.5",
   "title": "Function",
   "body": " Function       function Function is a relationship between two variables where each input corresponds to exactly one output. For every, input, there is a unique output, .   For every or all    All possible real values of input for which the function is definded are called a domain and the corresponding output values are called a Range . Each input produces exactly one output    Notation:    function of  A function is often written as where is the input and is the output. For example, Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test vertical line test in graphical form. (No vertical line intersects the graph more than once.)   Vertical line test: if any vertical line (drawn parallel to the y-axis) intersects the graph at more than one point, then the realtion is not a function, because it means a single x-value produces multiple y-values. i.e. a function is a relation when a vertical line intersects the graph at most once.   For a graph, any vertial line at intersects the parabola at exactly one point at .       For a circle , a vertical line at intersects at two points and Hence, is not a function. The expression actually represents two separate functions. However, is a function (upper half circle) and is also a function (lower half circle).      For a function we have the and its corresponding values are given in a table below. We can see that every value is producing only unique value. Hence, y is a function.      For a function we have the and its corresponding values are given in a table below. We can see that when , it is giving either or which are not unique. Hence, y is not a function.        Types of Functions  Functions map inputs to outputs and they can be categorized based on their properties, behavior, or structure.    By Algebraic Structure:     Polynomial Functions: Functions defined by polynomials, e.g., For examples: Linear function, quadratic function cubic function, etc.     Rational Functions: Ratios of two polynomial functions, e.g.,      Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,         By Continuity and Differentiability     Continuous Functions: Functions with no breaks or jumps in their graphs, e.g.,      Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g.,      Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g.,      Piecewise Functions: Functions defined by different rules on different intervals, e.g.,         By Behavior    A function is strictly increasing over an interval        While it is said to be increasing (or, non-decreasing)     A function is strictly decreasing over an interval if: While it is said to be decreasing (or, non-increasing) if:     Monotonic Functions: a function is monotonic in an interval if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [ ]     Periodic Functions: Functions that repeat values at regular intervals, e.g., (period of function is ).     Even Functions: Symmetric about the y-axis, i.e., e.g., .     Odd Functions: Symmetric about the origin, i.e., e.g., .        By Specific Type     Trigonometric Functions: Functions like      Exponential Functions: Functions of the form e.g., .     Logarithmic Functions: Functions like Inverse of exponential functions, defined for      Hyperbolic Functions: Functions like , , defined using exponentials, e.g.,         By Domain and Range     Explicit Functions: Defined directly, e.g.,      Implicit Functions: Defined by an equation, e.g., or      Parametric Functions: Defined using a parameter, e.g.,      inverse function  Inverse Functions: Functions that reverse the input-output relationship, e.g., if  This kind of function exists if original function is one-to-one and onto [ ].   The inverse function:  must satisfy:     One-to-one (injective): Every element in the codomain is mapped to by at most one element in the domain. No two distinct inputs produce the same output: if , then .   Onto (surjective): Every element in the codomain is mapped to by at least one element in the domain. The range equals the codomain.   Bijective: A function that is both one-to-one and onto.          By Application in Calculus    Elementary Functions: Combinations of polynomials, rationals, trigonometric, exponential, and logarithmic functions.    Transcendental Functions: Functions that are not algebraic, e.g.,     Vector-Valued Functions: Functions that map scalars to vectors, e.g., Used in multivariable calculus for curves in space.    Multivariable Functions: Functions of several variables, e.g., Studied in multivariable calculus for surfaces and fields.          Graph of some Functions     Piecewise function:          Algebric function: parabolic             Algebric function: cubic             Square root function          Cube root function          Rational function             Trigonometric function             Exponential function          Logarithmic function          Inverse function   inverse function reverses another function . If   Graphically, is reflected across If then graph of can be seen below.   The graph of       The graph of  Now on Swaping to we have -           GIF and FPF   Greatest Integer Function (GIF): The GIF, also known as Floor Function is denoted by , and is defined as the greatest integer less than or equal to . For any real number , , where is an integer and . It essentially \"rounds down\" ( ) to the nearest integer.            (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)             Fractional Part Function (FPF): The fractional part of a real number ( ), denoted by , is the part \"after the decimal point\", defined as: . It satisfies . It is always non-negative.                            Any real number ( ) can be expressed as:    "
 },
@@ -230,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#sec_first-functions-2-6",
   "type": "Example",
-  "number": "1.4.1",
+  "number": "1.5.1",
   "title": "",
   "body": " For a graph, any vertial line at intersects the parabola at exactly one point at .     "
 },
@@ -239,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#sec_first-functions-2-7",
   "type": "Example",
-  "number": "1.4.2",
+  "number": "1.5.2",
   "title": "",
   "body": " For a circle , a vertical line at intersects at two points and Hence, is not a function. The expression actually represents two separate functions. However, is a function (upper half circle) and is also a function (lower half circle).     "
 },
@@ -257,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#parab_f1",
   "type": "Figure",
-  "number": "1.4.5",
+  "number": "1.5.5",
   "title": "",
   "body": "   "
 },
@@ -266,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#odd_f1",
   "type": "Figure",
-  "number": "1.4.6",
+  "number": "1.5.6",
   "title": "",
   "body": "   "
 },
@@ -275,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#rational_f1",
   "type": "Figure",
-  "number": "1.4.7",
+  "number": "1.5.7",
   "title": "",
   "body": "   "
 },
@@ -284,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#trig_f1",
   "type": "Figure",
-  "number": "1.4.8",
+  "number": "1.5.8",
   "title": "",
   "body": "   "
 },
@@ -302,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-3",
   "type": "Example",
-  "number": "1.4.9",
+  "number": "1.5.9",
   "title": "",
   "body": "          (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)          "
 },
@@ -320,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-6",
   "type": "Example",
-  "number": "1.4.10",
+  "number": "1.5.10",
   "title": "",
   "body": "                         "
 },
@@ -329,9 +491,9 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-domain.html",
   "type": "Section",
-  "number": "1.5",
+  "number": "1.6",
   "title": "Domain",
-  "body": " Domain   The set of all possible number (input values), typically for which the function is defined and produces a real number output is called a domain domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.   Strategy of Finding the Domain:    Polynomials: The domain is all real numbers because polynomials are defined for every . Example: For the domain is .    Rational Functions: Exclude values where the denominator is zero. Example: For solve , so . The domain is .    Square Roots (or Even Roots): The expression inside the root must be non-negative . Example: For solve , so . The domain is .    Logarithms: The argument of a logarithm must be positive . Example: For solve , so . The domain is .    Trigonometric Functions: Most trigonometric functions (e.g., ) have a domain of all real numbers, but others like or exclude points where the function is undefined. Example: For the function is undefined at , where ( k ) is an integer. The domain is .    Piecewise Functions: Consider the domain of each piece and combine them, ensuring no overlap unless specified. Example: For the domain of is , and the domain of is . Since for the second piece, the domain is .    Composite Functions: The domain of requires to be in the domain of , and to be in the domain of . Example: For and , find the domain of . Solve , so . The domain is .      Steps to Determine the Domain: Identify the function type (polynomial, rational, radical, logarithmic, etc.). Find restrictions: Denominators cannot be zero. Expressions under even roots must be non-negative. Arguments of logarithms must be positive. Express the domain in interval notation or set notation, combining intervals if necessary.  Let Here the function will accept all non-negative real numbers.    Determining Domain:  For a real number in function:   we cannot divide function by zero.    We cannot take the square root of a negative number.       Domain: domain opens a function. Domain is like a key and function is like a lock. For examples:  Example 1. If we can set in . Hence, is a domain which defines  in a real number.  Again, set in undefined or . Hence, is a not a domain of the given in a real number.  Example 2. If we can set in . Hence, is a domain which defines  in a real number.  Again, set in imaginary. Hence, is a not a domain of the given in a real number.  Domain is any input values that defines a function in real number.      Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.       Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator        Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or        Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding        Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .      Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .     Rational Functions:         For rational funciton, . Hence, set  Remember and stands for number not included.            Here,  Hence, Domain,             Here, Since square of real number cannot be negative, as Thus  Domain;            Set,  Hence, Domain,        Radical Functions   Here expression is any real number and is odd . The domain of radical functions with an odd index is all real numbers.  For example: or,   If is even , then . The domain of radical functions with an even index and expression , is all real numbers.  For example: or,          Here, is even, hence, set, Hence, Domain,             Here, is even, hence, set, or, Hence, Domain,             Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if             Here, is odd, hence, is defined for every real number. The domain is a set of every real number.       Domain of Fractional function with radicals.     For radical in numerator, set and     Set, and Hence, Domain, or,         For radical in denominator, set .    Set, Hence, Domain, or,         If both terms are radical, then    Set, Now, we have also, Test the sign of the fraction in each interval. Hence, Domain: or,         Draw graph of the given function , its domain and Range.     Now replace y to x and x to y.          Domain: and Range:       "
+  "body": " Domain   The set of all possible number (input values), typically for which the function is defined and produces a real number output is called a domain domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.   Steps to Determine the Domain: Identify the function type (polynomial, rational, radical, logarithmic, etc.). Find restrictions: Denominators cannot be zero. Expressions under even roots must be non-negative. Arguments of logarithms must be positive. Express the domain in interval notation or set notation.     Polynomials: The domain is all real numbers because polynomials are defined for every . Example: For the domain is .    Rational Functions: Exclude values where the denominator is zero. Example: For solve , so . The domain is .    Square Roots (or Even Roots): The expression inside the root must be non-negative . Example: For solve , so . The domain is .    Logarithms: The argument of a logarithm must be positive . Example: For solve , so . The domain is .    Trigonometric Functions: Most trigonometric functions (e.g., ) have a domain of all real numbers, but others like or exclude points where the function is undefined. Example: For the function is undefined at , where is an integer. The domain is .    Piecewise Functions: Consider the domain of each piece and combine them, ensuring no overlap unless specified. Example: For the domain of is , and the domain of is . Since for the second piece, the domain is .    Composite Functions: The domain of requires to be in the domain of , and to be in the domain of . Example: For and , find the domain of . Solve , so . The domain is .       Determining Domain:  Example 1. we can set in . Hence, is a domain which defines  in a real number. Again, set in undefined or . Hence, is a not a domain of the given in a real number.  Example 2. we can set in . Hence, is a domain which defines  in a real number. Again, set in imaginary. Hence, is a not a domain of the given in a real number.   Domain is any input values that defines a function in real number.      Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.       Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator        Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or        Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding        Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .      Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .     Rational Functions:         For rational funciton, . Hence, set  Remember and stands for number not included.            Here,  Hence, Domain,             Here, Since square of real number cannot be negative, as Thus  Domain;            Set,  Hence, Domain,        Radical Functions   Here expression is any real number and is odd . The domain of radical functions with an odd index is all real numbers.  For example: or,   If is even , then . The domain of radical functions with an even index and expression , is all real numbers.  For example: or,          Here, is even, hence, set, Hence, Domain,             Here, is even, hence, set, or, Hence, Domain,             Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if             Here, is odd, hence, is defined for every real number. The domain is a set of every real number.       Domain of Fractional function with radicals.     For radical in numerator, set and     Set, and Hence, Domain, or,         For radical in denominator, set .    Set, Hence, Domain, or,         If both terms are radical, then    Set, Now, we have also, Test the sign of the fraction in each interval. Hence, Domain: or,        "
 },
 {
   "id": "sec_first-domain-2-2",
@@ -340,196 +502,169 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Strategy of Finding the Domain: "
-},
-{
-  "id": "sec_first-domain-2-3",
-  "level": "2",
-  "url": "sec_first-domain.html#sec_first-domain-2-3",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
   "body": "Steps to Determine the Domain: "
-},
-{
-  "id": "subsec-dom_ex-3",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-3",
-  "type": "Note",
-  "number": "1.5.1",
-  "title": "",
-  "body": "  Domain: domain opens a function. Domain is like a key and function is like a lock. For examples:  Example 1. If we can set in . Hence, is a domain which defines  in a real number.  Again, set in undefined or . Hence, is a not a domain of the given in a real number.  Example 2. If we can set in . Hence, is a domain which defines  in a real number.  Again, set in imaginary. Hence, is a not a domain of the given in a real number.  Domain is any input values that defines a function in real number.  "
-},
-{
-  "id": "subsec-dom_ex-4",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-4",
-  "type": "Example",
-  "number": "1.5.2",
-  "title": "",
-  "body": "   Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.   "
 },
 {
   "id": "subsec-dom_ex-5",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-5",
   "type": "Example",
-  "number": "1.5.3",
+  "number": "1.6.1",
   "title": "",
-  "body": "   Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator    "
+  "body": "   Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.   "
 },
 {
   "id": "subsec-dom_ex-6",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-6",
   "type": "Example",
-  "number": "1.5.4",
+  "number": "1.6.2",
   "title": "",
-  "body": "   Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or    "
+  "body": "   Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator    "
 },
 {
   "id": "subsec-dom_ex-7",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-7",
   "type": "Example",
-  "number": "1.5.5",
+  "number": "1.6.3",
   "title": "",
-  "body": "   Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding    "
+  "body": "   Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or    "
 },
 {
   "id": "subsec-dom_ex-8",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-8",
   "type": "Example",
-  "number": "1.5.6",
+  "number": "1.6.4",
   "title": "",
-  "body": "   Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .   "
+  "body": "   Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding    "
 },
 {
   "id": "subsec-dom_ex-9",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-9",
   "type": "Example",
-  "number": "1.5.7",
+  "number": "1.6.5",
+  "title": "",
+  "body": "   Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .   "
+},
+{
+  "id": "subsec-dom_ex-10",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-10",
+  "type": "Example",
+  "number": "1.6.6",
   "title": "",
   "body": "  Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .   "
 },
 {
-  "id": "subsec-dom_ex-10-2",
+  "id": "subsec-dom_ex-11-2",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-10-2",
+  "url": "sec_first-domain.html#subsec-dom_ex-11-2",
   "type": "Example",
-  "number": "1.5.8",
+  "number": "1.6.7",
   "title": "",
   "body": "       For rational funciton, . Hence, set  Remember and stands for number not included.    "
 },
 {
-  "id": "subsec-dom_ex-10-3",
+  "id": "subsec-dom_ex-11-3",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-10-3",
+  "url": "sec_first-domain.html#subsec-dom_ex-11-3",
   "type": "Example",
-  "number": "1.5.9",
+  "number": "1.6.8",
   "title": "",
   "body": "       Here,  Hence, Domain,     "
 },
 {
-  "id": "subsec-dom_ex-10-4",
+  "id": "subsec-dom_ex-11-4",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-10-4",
+  "url": "sec_first-domain.html#subsec-dom_ex-11-4",
   "type": "Example",
-  "number": "1.5.10",
+  "number": "1.6.9",
   "title": "",
   "body": "       Here, Since square of real number cannot be negative, as Thus  Domain;    "
 },
 {
-  "id": "subsec-dom_ex-10-5",
+  "id": "subsec-dom_ex-11-5",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-10-5",
+  "url": "sec_first-domain.html#subsec-dom_ex-11-5",
   "type": "Example",
-  "number": "1.5.11",
+  "number": "1.6.10",
   "title": "",
   "body": "       Set,  Hence, Domain,     "
 },
 {
-  "id": "subsec-dom_ex-11-6",
+  "id": "subsec-dom_ex-12-6",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-11-6",
+  "url": "sec_first-domain.html#subsec-dom_ex-12-6",
   "type": "Example",
-  "number": "1.5.12",
+  "number": "1.6.11",
   "title": "",
   "body": "       Here, is even, hence, set, Hence, Domain,     "
 },
 {
-  "id": "subsec-dom_ex-11-7",
+  "id": "subsec-dom_ex-12-7",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-11-7",
+  "url": "sec_first-domain.html#subsec-dom_ex-12-7",
   "type": "Example",
-  "number": "1.5.13",
+  "number": "1.6.12",
   "title": "",
   "body": "       Here, is even, hence, set, or, Hence, Domain,     "
 },
 {
-  "id": "subsec-dom_ex-11-8",
+  "id": "subsec-dom_ex-12-8",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-11-8",
+  "url": "sec_first-domain.html#subsec-dom_ex-12-8",
   "type": "Example",
-  "number": "1.5.14",
+  "number": "1.6.13",
   "title": "",
   "body": "       Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if     "
 },
 {
-  "id": "subsec-dom_ex-11-9",
+  "id": "subsec-dom_ex-12-9",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-11-9",
+  "url": "sec_first-domain.html#subsec-dom_ex-12-9",
   "type": "Example",
-  "number": "1.5.15",
+  "number": "1.6.14",
   "title": "",
   "body": "       Here, is odd, hence, is defined for every real number. The domain is a set of every real number.    "
 },
 {
-  "id": "subsec-dom_ex-12-2",
+  "id": "subsec-dom_ex-13-2",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-2",
+  "url": "sec_first-domain.html#subsec-dom_ex-13-2",
   "type": "Example",
-  "number": "1.5.16",
+  "number": "1.6.15",
   "title": "",
   "body": "   For radical in numerator, set and     Set, and Hence, Domain, or,     "
 },
 {
-  "id": "subsec-dom_ex-12-3",
+  "id": "subsec-dom_ex-13-3",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-3",
+  "url": "sec_first-domain.html#subsec-dom_ex-13-3",
   "type": "Example",
-  "number": "1.5.17",
+  "number": "1.6.16",
   "title": "",
   "body": "   For radical in denominator, set .    Set, Hence, Domain, or,     "
 },
 {
-  "id": "subsec-dom_ex-12-4",
+  "id": "subsec-dom_ex-13-4",
   "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-4",
+  "url": "sec_first-domain.html#subsec-dom_ex-13-4",
   "type": "Example",
-  "number": "1.5.18",
+  "number": "1.6.17",
   "title": "",
   "body": "   If both terms are radical, then    Set, Now, we have also, Test the sign of the fraction in each interval. Hence, Domain: or,     "
-},
-{
-  "id": "subsec-dom_ex-13",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-13",
-  "type": "Example",
-  "number": "1.5.19",
-  "title": "",
-  "body": "  Draw graph of the given function , its domain and Range.     Now replace y to x and x to y.          Domain: and Range:     "
 },
 {
   "id": "sec_first-range",
   "level": "1",
   "url": "sec_first-range.html",
   "type": "Section",
-  "number": "1.6",
+  "number": "1.7",
   "title": "Range",
-  "body": " Range   The set of all possible output of as runs over the domain is called a range range of the function. The same always leads to the same In other words, the set of all possible output values for which the is defined.  Range of    Steps to Find the Range:    Identify the domain: Determine the set of all valid inputs.    Analyze the function: Determine what output values are possible by applying the function to all inputs in the domain.    Express the range: Describe the set of all possible outputs, often using interval notation or set notation.       Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,        Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .      Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .      Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).      Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .      Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .      Range of     Convert this equation to get in terms of   Since . Hence       Range of     Convert this equation to get in terms of   Since . Hence       Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:          Find the range of following:                          Hence the range:       Hence the range:               Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.         Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .       Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:         "
+  "body": " Range   The set of all possible output of as runs over the domain is called a range range of the function. The same always leads to the same In other words, the set of all possible output values for which the is defined.  Range of    Steps to Find the Range:    Identify the domain: Determine the set of all valid inputs.    Analyze the function: Determine what output values are possible by applying the function to all inputs in the domain.    Express the range: Describe the set of all possible outputs, often using interval notation or set notation.       Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,        Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .      Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .      Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).      Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .      Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .      Find the domain and range of the following functions.                                                                            Range of     Convert this equation to get in terms of   Since . Hence       Range of     Convert this equation to get in terms of   Since . Hence       Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:          Find the range of following:                          Hence the range:       Hence the range:               Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.         Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .       Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:         "
 },
 {
   "id": "sec_first-range-2-3",
@@ -545,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-4",
   "type": "Example",
-  "number": "1.6.1",
+  "number": "1.7.1",
   "title": "",
   "body": "  Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,     "
 },
@@ -554,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-5",
   "type": "Example",
-  "number": "1.6.2",
+  "number": "1.7.2",
   "title": "",
   "body": "  Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .   "
 },
@@ -563,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-6",
   "type": "Example",
-  "number": "1.6.3",
+  "number": "1.7.3",
   "title": "",
   "body": "  Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .   "
 },
@@ -572,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-7",
   "type": "Example",
-  "number": "1.6.4",
+  "number": "1.7.4",
   "title": "",
   "body": "  Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).   "
 },
@@ -581,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-8",
   "type": "Example",
-  "number": "1.6.5",
+  "number": "1.7.5",
   "title": "",
   "body": "  Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .   "
 },
@@ -590,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-9",
   "type": "Example",
-  "number": "1.6.6",
+  "number": "1.7.6",
   "title": "",
   "body": "  Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .   "
 },
@@ -599,16 +734,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-10",
   "type": "Example",
-  "number": "1.6.7",
+  "number": "1.7.7",
   "title": "",
-  "body": "  Range of     Convert this equation to get in terms of   Since . Hence    "
+  "body": "  Find the domain and range of the following functions.                                                                         "
 },
 {
   "id": "sec_first-range-2-11",
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-11",
   "type": "Example",
-  "number": "1.6.8",
+  "number": "1.7.8",
   "title": "",
   "body": "  Range of     Convert this equation to get in terms of   Since . Hence    "
 },
@@ -617,43 +752,52 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-12",
   "type": "Example",
-  "number": "1.6.9",
+  "number": "1.7.9",
   "title": "",
-  "body": "  Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:       "
+  "body": "  Range of     Convert this equation to get in terms of   Since . Hence    "
 },
 {
   "id": "sec_first-range-2-13",
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-13",
   "type": "Example",
-  "number": "1.6.10",
+  "number": "1.7.10",
   "title": "",
-  "body": "  Find the range of following:                          Hence the range:       Hence the range:            "
+  "body": "  Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:       "
 },
 {
   "id": "sec_first-range-2-14",
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-14",
   "type": "Example",
-  "number": "1.6.11",
+  "number": "1.7.11",
   "title": "",
-  "body": "  Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.      "
+  "body": "  Find the range of following:                          Hence the range:       Hence the range:            "
 },
 {
   "id": "sec_first-range-2-15",
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-15",
   "type": "Example",
-  "number": "1.6.12",
+  "number": "1.7.12",
   "title": "",
-  "body": "  Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .    "
+  "body": "  Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.      "
 },
 {
   "id": "sec_first-range-2-16",
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-16",
   "type": "Example",
-  "number": "1.6.13",
+  "number": "1.7.13",
+  "title": "",
+  "body": "  Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .    "
+},
+{
+  "id": "sec_first-range-2-17",
+  "level": "2",
+  "url": "sec_first-range.html#sec_first-range-2-17",
+  "type": "Example",
+  "number": "1.7.14",
   "title": "",
   "body": "  Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:       "
 },
@@ -662,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-asympt.html",
   "type": "Section",
-  "number": "1.7",
+  "number": "1.8",
   "title": "Asymptote",
   "body": " Asymptote   An asymptote is a line that a curve (function) approaches but never touches as it extends toward infinity. Asymptotes describe the behavior of functions, especially rational functions, as their input (or output) grows very large or very small. There are three main types: horizontal, vertical, and oblique (slant).      Vertical Asymptote: A vertical asymptote is a vertical line where the function approaches infinity (or negative infinity) as approaches . It occurs where the function is undefined, typically at values that make the denominator zero. i.e., For example: If then, Vertical asymptote (VA) lies at by setting denominator to , so .  As , ; as , . The graph shoots upward on one side and downward on the other.   If VA: at and       Horizontal Asymptote: A horizontal asymptote is a horizontal line for a function as or . It describes the function's behavior at the extremes of the x-axis. For a rational function compare the degrees of the numerator and denominator :  If the degree of , the horizontal asymptote (HA) is .  If the degrees are equal, the horizontal asymptote is , where and are the leading coefficients of and .  If the degree of degree of , there is no horizontal asymptote.  For    Degree of numerator: 1 (from ( )).    Degree of denominator: 2 (from ).    Since 1 2, the horizontal asymptote is .    As , the denominator grows faster, so . The graph flattens toward the x-axis.      For    Degrees are equal: both .    Leading coefficients: 3 (numerator) and 2 (denominator).    Horizontal asymptote: .    As , , so the graph approaches .        Oblique Asymptote An oblique asymptote is a slanted line that the graph approaches when the degree of the numerator is exactly one more than the degree of the denominator.  There may be an oblique asymptote if degree of is more than the degree of , i.e., the difference in degrees is No discussion of oblique asymptote here.     Plot function below by adjusting your p2.    For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at , but the \"gap\" can be filled by simplifying.     Graph of Asymptotic Functions  Draw graph of the following functions:                                         VA: as   HA: as i.e., degree of numerator is less than degree of denominator.  draw one point at your convenient location at  Now from the standard graph [ ]        VA: , HA: , Point(x,y) =       vertical shift = 1 unit upward, VA: , HA = , point (x,y)=           Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and         Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.         "
 },
@@ -680,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#sec_first-asympt-2-5",
   "type": "Observation",
-  "number": "1.7.1",
+  "number": "1.8.1",
   "title": "",
   "body": " For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at , but the \"gap\" can be filled by simplifying.  "
 },
@@ -689,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-3",
   "type": "Example",
-  "number": "1.7.2",
+  "number": "1.8.2",
   "title": "",
   "body": "                                       VA: as   HA: as i.e., degree of numerator is less than degree of denominator.  draw one point at your convenient location at  Now from the standard graph [ ]        VA: , HA: , Point(x,y) =       vertical shift = 1 unit upward, VA: , HA = , point (x,y)=         "
 },
@@ -698,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-4",
   "type": "Example",
-  "number": "1.7.3",
+  "number": "1.8.3",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .  "
 },
@@ -707,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-5",
   "type": "Example",
-  "number": "1.7.4",
+  "number": "1.8.4",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At HA at .  "
 },
@@ -716,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-6",
   "type": "Example",
-  "number": "1.7.5",
+  "number": "1.8.5",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and   "
 },
@@ -725,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-7",
   "type": "Example",
-  "number": "1.7.6",
+  "number": "1.8.6",
   "title": "",
   "body": "     Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.       "
 },
@@ -734,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-log.html",
   "type": "Section",
-  "number": "1.8",
+  "number": "1.9",
   "title": "Logarithm",
   "body": " Logarithm   A function that gives the exponent to which a fixed number (base) must be raised to produce a given number (argument) is called a logarithmic function. logarithmic function  In the above expression is argument and is called the base of logarithm. The condition in logarithm and   In real numbers, the base must be a positive number and not equal to 1. The argument of a logarithm must also be a positive number.  Examples:                    Common Logarithm:     Natural Logarithm:      Evaluate:                                Logarithm to Exponent Conversion:                     Exponent to Logarithm Conversion:                      Graph of Lagarithimic Function:          Domain:     Logarithmic Rules   Power Rule:                               Product Rule:                     Quotient Rule:          Other Rules or Tricks:              If then,                                       Solving Exponential Equations.                          Solving Logarithmic Equations.       but in logarithm argument is always positive, hence need to be excluded for .            Since, makes negative argument, hence this value must be excluded for the solution.       Applications of Logarithmic Expression  Logarithms can be used to analyze either very small or very large numbers. It has wide applications in science such as represent earthquake magnitude (Richter scale), sound intensity (decibels), and chemical acidity (pH scale).    "
 },
@@ -761,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-6",
   "type": "Example",
-  "number": "1.8.1",
+  "number": "1.9.1",
   "title": "",
   "body": "  Evaluate:                              "
 },
@@ -779,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-8",
   "type": "Example",
-  "number": "1.8.2",
+  "number": "1.9.2",
   "title": "",
   "body": "               "
 },
@@ -797,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-10",
   "type": "Example",
-  "number": "1.8.3",
+  "number": "1.9.3",
   "title": "",
   "body": "               "
 },
@@ -806,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_plot-3",
   "type": "Figure",
-  "number": "1.8.4",
+  "number": "1.9.4",
   "title": "",
   "body": "   "
 },
@@ -824,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-3",
   "type": "Example",
-  "number": "1.8.5",
+  "number": "1.9.5",
   "title": "",
   "body": "                         "
 },
@@ -842,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-5",
   "type": "Example",
-  "number": "1.8.6",
+  "number": "1.9.6",
   "title": "",
   "body": "               "
 },
@@ -860,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-7",
   "type": "Example",
-  "number": "1.8.7",
+  "number": "1.9.7",
   "title": "",
   "body": "    "
 },
@@ -878,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-9",
   "type": "Example",
-  "number": "1.8.8",
+  "number": "1.9.8",
   "title": "",
   "body": "                    "
 },
@@ -887,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_second-funct-gr.html",
   "type": "Section",
-  "number": "1.9",
+  "number": "1.10",
   "title": "The Graph of Functions",
   "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Functions  [ ] [ ] If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].       vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis       Some Standard Graphs  Some Standard Graphs Graphs of can be seen here [ ].                                                                                                    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.      Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at          Draw the graph of                 Draw the graph of       Special Graphs                                            Draw graph of                      Also,      Draw graph of and reflect negative of about            Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:       Draw graph of                        in class work         "
 },
@@ -896,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-trnsform-13",
   "type": "Example",
-  "number": "1.9.1",
+  "number": "1.10.1",
   "title": "",
   "body": "  If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for       "
 },
@@ -905,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_transf-4",
   "type": "Remark",
-  "number": "1.9.2",
+  "number": "1.10.2",
   "title": "",
   "body": "  vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left     "
 },
@@ -914,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_transf-5",
   "type": "Remark",
-  "number": "1.9.3",
+  "number": "1.10.3",
   "title": "",
   "body": "  vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis     "
 },
@@ -932,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_transf-8",
   "type": "Observation",
-  "number": "1.9.4",
+  "number": "1.10.4",
   "title": "",
   "body": "    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].      "
 },
@@ -941,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-4",
   "type": "Remark",
-  "number": "1.9.5",
+  "number": "1.10.5",
   "title": "",
   "body": " To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.      "
 },
@@ -950,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-5",
   "type": "Remark",
-  "number": "1.9.6",
+  "number": "1.10.6",
   "title": "",
   "body": " To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.   "
 },
@@ -959,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-6",
   "type": "Remark",
-  "number": "1.9.7",
+  "number": "1.10.7",
   "title": "",
   "body": " To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about    "
 },
@@ -968,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-7",
   "type": "Remark",
-  "number": "1.9.8",
+  "number": "1.10.8",
   "title": "",
   "body": " To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.   "
 },
@@ -977,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-8",
   "type": "Remark",
-  "number": "1.9.9",
+  "number": "1.10.9",
   "title": "",
   "body": " To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.   "
 },
@@ -986,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-9",
   "type": "Remark",
-  "number": "1.9.10",
+  "number": "1.10.10",
   "title": "",
   "body": " To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.   "
 },
@@ -995,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-10",
   "type": "Example",
-  "number": "1.9.11",
+  "number": "1.10.11",
   "title": "",
   "body": "  Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at        "
 },
@@ -1004,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-11",
   "type": "Example",
-  "number": "1.9.12",
+  "number": "1.10.12",
   "title": "",
   "body": " Draw the graph of               "
 },
@@ -1013,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-12",
   "type": "Example",
-  "number": "1.9.13",
+  "number": "1.10.13",
   "title": "",
   "body": " Draw the graph of    "
 },
@@ -1031,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-3",
   "type": "Example",
-  "number": "1.9.14",
+  "number": "1.10.14",
   "title": "",
   "body": "  Draw graph of                      Also,      Draw graph of and reflect negative of about         "
 },
@@ -1040,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-4",
   "type": "Example",
-  "number": "1.9.15",
+  "number": "1.10.15",
   "title": "",
   "body": "  Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:    "
 },
@@ -1049,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-5",
   "type": "Example",
-  "number": "1.9.16",
+  "number": "1.10.16",
   "title": "",
   "body": "  Draw graph of                        in class work      "
 },
@@ -1058,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-comp.html",
   "type": "Section",
-  "number": "1.10",
+  "number": "1.11",
   "title": "Combinations of Functions",
   "body": " Combinations of Functions    The function , read as of is a composition of and where here, all in the domain of is also in the domain of .  If then is inverse function of      When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.       Notice: is different then .     If and then find the composite functions and      This is the value of function at . Hence, replace of with  This is the value of function at . Hence, replace of with       If and then find                                  If and , then find the value of for which            Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain          If and find     By definition: First apply , then plug the result into :       If , then find (a) and (b) .  If , and find .         "
 },
@@ -1067,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#def-com_func",
   "type": "Definition",
-  "number": "1.10.1",
+  "number": "1.11.1",
   "title": "",
   "body": "  The function , read as of is a composition of and where here, all in the domain of is also in the domain of .  If then is inverse function of    "
 },
@@ -1076,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-3",
   "type": "Note",
-  "number": "1.10.2",
+  "number": "1.11.2",
   "title": "",
   "body": " When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.       Notice: is different then .  "
 },
@@ -1085,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-4",
   "type": "Example",
-  "number": "1.10.3",
+  "number": "1.11.3",
   "title": "",
   "body": "  If and then find the composite functions and      This is the value of function at . Hence, replace of with  This is the value of function at . Hence, replace of with    "
 },
@@ -1094,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-5",
   "type": "Example",
-  "number": "1.10.4",
+  "number": "1.11.4",
   "title": "",
   "body": "  If and then find                               "
 },
@@ -1103,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-6",
   "type": "Example",
-  "number": "1.10.5",
+  "number": "1.11.5",
   "title": "",
   "body": "  If and , then find the value of for which         "
 },
@@ -1112,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-7",
   "type": "Example",
-  "number": "1.10.6",
+  "number": "1.11.6",
   "title": "",
   "body": "  Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain       "
 },
@@ -1121,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-8",
   "type": "Example",
-  "number": "1.10.7",
+  "number": "1.11.7",
   "title": "",
   "body": "  If and find     By definition: First apply , then plug the result into :    "
 },
@@ -1130,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-9",
   "type": "Example",
-  "number": "1.10.8",
+  "number": "1.11.8",
   "title": "",
   "body": "  If , then find (a) and (b) .  If , and find .        "
 },
@@ -1139,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-inverse.html",
   "type": "Section",
-  "number": "1.11",
+  "number": "1.12",
   "title": "Inverse Functions",
   "body": " Inverse Functions  [ ], [ ]  A function assigns to each element in its domain exactly one element in its codomain . The inverse function inverse function of , denoted , is a function that \"reverses\" the action of . It maps elements from the codomain back to the domain in such a way that applying and then (or vice versa) returns the original input. Formally, is the inverse of if both of these composition properties hold:  that are in the range of   Not every function has an inverse. For a function to have an inverse that is itself a function: must be injective (one-to-one): Different inputs produce different outputs. No two distinct have    must be surjective (onto) relative to its codomain: Every element in the codomain is hit by some input (i.e., the range equals the codomain).  If both hold, is bijective, and an inverse function exists.  To find the inverse of a function :   Solve for in terms of : Express as a function of .    Swap and : The resulting expression is .       Find inverse, domian and range of the given functions:                                       Let Now, interchange to      Let interchange to      Let interchange to    Domain: so the domain is   Range: Find in terms of   This is polynomial function. Now to obey the original square root function, should not be negative rather Hence range is     do yourself           Domain:   Range:             Domain:   Range:          Find the inverse of the following functions:                    swap x and y. let , we have       swap x and y.          Find the inverse function of:            Find the domain, range, and inverse of a function and sketch the graphs of function and its inverse.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) =   Intercept:   y-intercept: set      x-intercept: set        The final graph looks like: Remember the graph of inverse function is a reflection of about line.     "
 },
@@ -1148,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inverse.html#sec_first-inverse-8",
   "type": "Example",
-  "number": "1.11.1",
+  "number": "1.12.1",
   "title": "",
   "body": "  Find inverse, domian and range of the given functions:                                       Let Now, interchange to      Let interchange to      Let interchange to    Domain: so the domain is   Range: Find in terms of   This is polynomial function. Now to obey the original square root function, should not be negative rather Hence range is     do yourself           Domain:   Range:             Domain:   Range:       "
 },
@@ -1157,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inverse.html#sec_first-inverse-9",
   "type": "Example",
-  "number": "1.11.2",
+  "number": "1.12.2",
   "title": "",
   "body": "  Find the inverse of the following functions:                    swap x and y. let , we have       swap x and y.       "
 },
@@ -1166,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inverse.html#sec_first-inverse-10",
   "type": "Example",
-  "number": "1.11.3",
+  "number": "1.12.3",
   "title": "",
   "body": "  Find the inverse function of:         "
 },
@@ -1175,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inverse.html#sec_first-inverse-11",
   "type": "Example",
-  "number": "1.11.4",
+  "number": "1.12.4",
   "title": "",
   "body": "  Find the domain, range, and inverse of a function and sketch the graphs of function and its inverse.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) =   Intercept:   y-intercept: set      x-intercept: set        The final graph looks like: Remember the graph of inverse function is a reflection of about line.    "
 },
@@ -1184,16 +1328,16 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_first.html",
   "type": "Exercises",
-  "number": "1.12",
+  "number": "1.13",
   "title": "Exercise",
-  "body": " Exercise   Sage Plot       Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                             Find the range of the following functions                               Find range of:                        Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:    "
+  "body": " Exercise   Sage Plot       Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                                Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:    "
 },
 {
   "id": "ex_first-3",
   "level": "2",
   "url": "ex_first.html#ex_first-3",
   "type": "Exercise",
-  "number": "1.12.1",
+  "number": "1.13.1",
   "title": "",
   "body": " Determine whether the curve is the graph of a function of x.                "
 },
@@ -1202,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-4",
   "type": "Exercise",
-  "number": "1.12.2",
+  "number": "1.13.2",
   "title": "",
   "body": " Determine whether each of the following function is even, odd or neither even nor odd.                                              "
 },
@@ -1211,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-5",
   "type": "Exercise",
-  "number": "1.12.3",
+  "number": "1.13.3",
   "title": "",
   "body": " Find the domain of the following functions                                       "
 },
@@ -1220,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-6",
   "type": "Exercise",
-  "number": "1.12.4",
+  "number": "1.13.4",
   "title": "",
   "body": " Draw graph of the given function and find its domain and Range.  "
 },
@@ -1229,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-7",
   "type": "Exercise",
-  "number": "1.12.5",
+  "number": "1.13.5",
   "title": "",
   "body": " Find the domain of     . Domain: (0,4)   "
 },
@@ -1238,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-8",
   "type": "Exercise",
-  "number": "1.12.6",
+  "number": "1.13.6",
   "title": "",
   "body": " Find the domain and sketch the graph of the following functions:                                       Define function,          "
 },
@@ -1247,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-9",
   "type": "Exercise",
-  "number": "1.12.7",
+  "number": "1.13.7",
   "title": "",
   "body": " Find the domain and sketch the graph of the following functions:                               "
 },
@@ -1256,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-10",
   "type": "Exercise",
-  "number": "1.12.8",
+  "number": "1.13.8",
   "title": "",
   "body": " Match each equation with its graph:                    "
 },
@@ -1265,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-11",
   "type": "Exercise",
-  "number": "1.12.9",
+  "number": "1.13.9",
   "title": "",
   "body": " Match each equation with its graph:                         "
 },
@@ -1274,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-12",
   "type": "Exercise",
-  "number": "1.12.10",
+  "number": "1.13.10",
   "title": "",
   "body": " Graph each function:                                                           "
 },
@@ -1283,79 +1427,61 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-13",
   "type": "Exercise",
-  "number": "1.12.11",
+  "number": "1.13.11",
   "title": "",
-  "body": " Find the range of the following functions                             "
+  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
 },
 {
   "id": "ex_first-14",
   "level": "2",
   "url": "ex_first.html#ex_first-14",
   "type": "Exercise",
-  "number": "1.12.12",
+  "number": "1.13.12",
   "title": "",
-  "body": " Find range of:                   "
+  "body": " Match each equation with its graph.                    "
 },
 {
   "id": "ex_first-15",
   "level": "2",
   "url": "ex_first.html#ex_first-15",
   "type": "Exercise",
-  "number": "1.12.13",
+  "number": "1.13.13",
   "title": "",
-  "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
+  "body": " Match each equation with its graph.                         "
 },
 {
   "id": "ex_first-16",
   "level": "2",
   "url": "ex_first.html#ex_first-16",
   "type": "Exercise",
-  "number": "1.12.14",
+  "number": "1.13.14",
   "title": "",
-  "body": " Match each equation with its graph.                    "
+  "body": "  Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                       "
 },
 {
   "id": "ex_first-17",
   "level": "2",
   "url": "ex_first.html#ex_first-17",
   "type": "Exercise",
-  "number": "1.12.15",
+  "number": "1.13.15",
   "title": "",
-  "body": " Match each equation with its graph.                         "
+  "body": " Find the functions and their domains.   "
 },
 {
   "id": "ex_first-18",
   "level": "2",
   "url": "ex_first.html#ex_first-18",
   "type": "Exercise",
-  "number": "1.12.16",
+  "number": "1.13.16",
   "title": "",
-  "body": "  Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                       "
+  "body": " Find the and their domains.   "
 },
 {
   "id": "ex_first-19",
   "level": "2",
   "url": "ex_first.html#ex_first-19",
   "type": "Exercise",
-  "number": "1.12.17",
-  "title": "",
-  "body": " Find the functions and their domains.   "
-},
-{
-  "id": "ex_first-20",
-  "level": "2",
-  "url": "ex_first.html#ex_first-20",
-  "type": "Exercise",
-  "number": "1.12.18",
-  "title": "",
-  "body": " Find the and their domains.   "
-},
-{
-  "id": "ex_first-21",
-  "level": "2",
-  "url": "ex_first.html#ex_first-21",
-  "type": "Exercise",
-  "number": "1.12.19",
+  "number": "1.13.17",
   "title": "",
   "body": " Plot the function and its inverse:   "
 },
@@ -3157,7 +3283,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Application of Derivative",
-  "body": " Application of Derivative    derivative    Rate measurement. rate measurement     Approximatation and error analysis. error analysis     Tangent and Normal to the curve at a point. tangent and normal     Rolle's Theorem Rolle's Theorem     Mean Value Theorem. Mean Value Theorem     Maxima and Minima on curve. Maxima and Minima        Measurement of Rate    A spherical baloon is expanding. If the radius is increasing at the rate of inch per minute. Find the rate at which the volume increases (in cubic inches per minute) when the radius is 10 inch.     Differentiate w.r.t. \"x\", we get -        If the radius of a circle is decreasing at uniform rate of , then find the rate of change of area the circle when     Given . For a circle Differentiate w.r.t. \"x\", we get -  i.e., the rate of area of the circle is decreasing by .      The tangent of an angle increases four times as the angle itself. At what rate the sine of the angle increaseses w.r.t. the angle?    Given       Hence,       A particle moves along a curve find the points on the curve at which coordinate is changing 8 times as fast as coordinate.    Given:    Therefore,  Now,  Hence the points are .      Water is dripping out of a conical funnel at a uniform rate of through a tiny hole at the vertex in bottom, when the slant height of water is , find rate of decrease of slant height, it is given that the vertical angle is .     Given:     From figure, here is slant height of water.             A light source is at center of circle, the circumference of which a horse is runing with speed of . A fence is along the tangent to the circle at the point from where horse starts running. Find the speed with which the shadow of horse move along the fence at the moment when it covers of the circle.     Given:       do your self.      A man 2 m high walks at a uniform speed of away from lamppost, 5 m high. Find rate at which length of its shadow increases.     Given:   From similar triangles           A variable triangle is inscribed in a circle of radius when rate of change of particular side is times the rate of change of opposite angle, then find that angle at that instant.    Given:   From sine formula      Note:    The inscribed angles subtended by the same arc are equal. That is, Now area of but from right angled we have         Approximatation and error analysis   Remember      Errors  The term is derivative at certain point. Also, and     Find the approximate value of       here is the closest value of 36.6 whose square root is known. hence,       Find approximate value of at        where closest point and and         Find approximate value of        also         Approximate value of is ....      Now convert into real number, i.e., hence, and          If radius of sphere is measured with an error of , then find approximate error in its volume.      we have         Find the approximate change in the volume of a cube of side meters caused by increaseing the side by 2%.    For a cube      alternately, from physics if        Find approximate valume of metal in a hollow spherical shell whose internal and external radii are 3 and 3.0005 cm respectively.             In if side length remain constant such that is the eroor in then find relative error in its area.    Given: then . From sine formula of a triangle            Tangent and Normal at a Point  Equation of tangent at a point (x_1,y_1) with slope of is given as and an equation of normal at tangent at the given point is given as      The slope of a tangent line through a given point is given by  by taking as and as   Now from figure, we have and the slope for normal line Hence, the equation of normal line through is given as      Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line         Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as       Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is       Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.        Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.       If find equation of tangent line at        Hence, the equation of tangent line,       Find the point on which is nearest to      which is equation of eclipse. The shortest distance from a point to a line is measured along the common normal (perpendicular). Therefore, the point of minimum distance on the ellipse must have its tangent parallel to the line (i.e., same normal direction). The line has normal vector , so the tangent to the ellipse at the closest point must also have normal vector parallel to .       Rolle's Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in     and         then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of function at point\/s is parallel to the slope of horizontal secant line through       Mean Value Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in    then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of tangent at points and are parallel to the slope of secant line through       Maxima and Minima    Important points on plot   Local maxima points are     Local maxima values are     Absolute maximum point is     Absolute maximum value is     Local minima points are     Local minima values are     Absolute minimum point is     Absolute minimum value is             A function is said to have local maxima (or, local extrema) at if value of function at that point is greater than or equal to values of function in some neighbourhood of     A function is said to have local minima (or, local extrema) at if value of function at that point is less than or equal to values of function in some neighbourhood of     A function is said to have global maxima (or, absolute maxima) at if in domain of     A function is said to have global minima (or, absolute minima) at if in domain of         Critical Point  Critical Points: It is a collection of points for which is either zero or undefined. Critical points are interior points within the given inetrval Critical points are contenders for giving maxima and minima.       Inflection Point  Inflection Point: It is the point at which a smooth graph has tangent about which concavity changes.    Points at which is either zero or undefined are contenders for inflection point. The always changes its sign at inflection point.     Local Maxima   If tangent is drawn at left of local maxima, , then it's angle ( ) with x-axis falls in first quadrant i.e.,  is      On the other hand, if tangent is drawn at right to the local maxima, then it's angle ( ) with x-axis falls in second quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.    Local Minima   If tangent is drawn at left of local minima , then it's angle ( ) with x-axis falls in second quadrant i.e.,  is      On the other hand, if tangent is drawn at right of the local minima, then it's angle ( ) with x-axis falls in the first quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.   In summary,    If sign of changes from to then the point is minima.    If sign of changes from to then the point is maxima.    Tangent line at any maxima or minima points is always parallel to the i.e., at all maxima or minima points.     Maxima or minima points (or points of any extrema) can also be determined by using second derivative as: if then we get extremum points as . Now if or then point gives place of minima (curve opens up) and or then point gives place of maxima (curve opens down).    Find critical points of                     For critical points, set   But, should not be a critical point because it is one of the interval points of the function [ ].  Hence, is a critical point.     If the interval is not given then it is taken as  set for critical points.   here, gives but makes undefined. Thus the critical points are          Find the inflection point of the funciton      set we get - and . Now draw sign of on interval line as shown below:   At points and the is changings its sign from to to We get points of maxima and minima where changes sign and we get inflection point where changes sign.      Find the points of maxima and minima of          draw a number line and see how is changing sign.   If sign has changes alternatively around -2 to +2 then they must be extremum points. Around maximum point changes sign from +ve to -ve, and around minimum point it changes sign from -ve to +ve.      "
+  "body": " Application of Derivative    derivative    Rate measurement. rate measurement     Approximatation and error analysis. error analysis     Tangent and Normal to the curve at a point. tangent and normal     Rolle's Theorem Rolle's Theorem     Mean Value Theorem. Mean Value Theorem     Maxima and Minima on curve. Maxima and Minima        Measurement of Rate    If the sides of a square decreasing at the rate of . Find the rate of decrease of its perimeter.       Given:  .        The median of an equilateral triangle is increasing at the rate of Find the rate at which its side is increasing.       Given:  .       A spherical baloon is expanding. If the radius is increasing at the rate of inch per minute. Find the rate at which the volume increases (in cubic inches per minute) when the radius is 10 inch.     Differentiate w.r.t. \"x\", we get -        If the radius of a circle is decreasing at uniform rate of , then find the rate of change of area the circle when     Given . For a circle Differentiate w.r.t. \"x\", we get -  i.e., the rate of area of the circle is decreasing by .      The tangent of an angle increases four times as the angle itself. At what rate the sine of the angle increaseses w.r.t. the angle?    Given       Hence,       A ladder initially leaning against the vertical wall starts slidding on the floor at the rate of How fast is the height of ladder on the wall is decreasing when the foot of the ladder is away form the wall?       Given: , ,      Now from , when , we get -        A particle moves along a curve find the points on the curve at which coordinate is changing 8 times as fast as coordinate.    Given:    Therefore,  Now,  Hence the points are .      Water is dripping out of a conical funnel at a uniform rate of through a tiny hole at the vertex in bottom, when the slant height of water is , find rate of decrease of slant height, it is given that the vertical angle is .     Given:     From figure, here is slant height of water.             A light source is at center of circle, the circumference of which a horse is runing with speed of . A fence is along the tangent to the circle at the point from where horse starts running. Find the speed with which the shadow of horse move along the fence at the moment when it covers of the circle.     Given:       do your self.      A man high walks at a uniform speed of away from lamppost, high. Find rate at which length of its shadow increases.     Given:   From similar triangles           A variable triangle is inscribed in a circle of radius when rate of change of particular side is times the rate of change of opposite angle, then find that angle at that instant.    Given:   From sine formula      Note:    The inscribed angles subtended by the same arc are equal. That is, Now area of but from right angled we have         Approximatation and error analysis   Remember      Errors  The term is derivative at certain point. Also, and     Find the approximate value of       here is the closest value of 36.6 whose square root is known. hence,       Find approximate value of at        where closest point and and         Find approximate value of        also         Approximate value of is ....      Now convert into real number, i.e., hence, and          If radius of sphere is measured with an error of , then find approximate error in its volume.      we have         Find the approximate change in the volume of a cube of side meters caused by increaseing the side by 2%.    For a cube      alternately, from physics if        Find approximate valume of metal in a hollow spherical shell whose internal and external radii are 3 and 3.0005 cm respectively.             In if side length remain constant such that is the eroor in then find relative error in its area.    Given: then . From sine formula of a triangle            Tangent and Normal at a Point  Equation of tangent at a point (x_1,y_1) with slope of is given as and an equation of normal at tangent at the given point is given as      The slope of a tangent line through a given point is given by  by taking as and as   Now from figure, we have and the slope for normal line Hence, the equation of normal line through is given as      Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line         Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as       Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is       Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.        Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.       If find equation of tangent line at        Hence, the equation of tangent line,       Find the point on which is nearest to      which is equation of eclipse. The shortest distance from a point to a line is measured along the common normal (perpendicular). Therefore, the point of minimum distance on the ellipse must have its tangent parallel to the line (i.e., same normal direction). The line has normal vector , so the tangent to the ellipse at the closest point must also have normal vector parallel to .       Rolle's Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in     and         then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of function at point\/s is parallel to the slope of horizontal secant line through       Mean Value Theorem   If a function is defined in an interval such that:    is continuous in      is also differentiable in    then there must exist at least one point such that where . Or, in other words has a critical point in . Here, slope of tangent at points and are parallel to the slope of secant line through       Maxima and Minima    Important points on plot   Local maxima points are     Local maxima values are     Absolute maximum point is     Absolute maximum value is     Local minima points are     Local minima values are     Absolute minimum point is     Absolute minimum value is             A function is said to have local maxima (or, local extrema) at if value of function at that point is greater than or equal to values of function in some neighbourhood of     A function is said to have local minima (or, local extrema) at if value of function at that point is less than or equal to values of function in some neighbourhood of     A function is said to have global maxima (or, absolute maxima) at if in domain of     A function is said to have global minima (or, absolute minima) at if in domain of         Critical Point  Critical Points: It is a collection of points for which is either zero or undefined. Critical points are interior points within the given inetrval Critical points are contenders for giving maxima and minima.       Inflection Point  Inflection Point: It is the point at which a smooth graph has tangent about which concavity changes.    Points at which is either zero or undefined are contenders for inflection point. The always changes its sign at inflection point.     Local Maxima   If tangent is drawn at left of local maxima, , then it's angle ( ) with x-axis falls in first quadrant i.e.,  is      On the other hand, if tangent is drawn at right to the local maxima, then it's angle ( ) with x-axis falls in second quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.    Local Minima   If tangent is drawn at left of local minima , then it's angle ( ) with x-axis falls in second quadrant i.e.,  is      On the other hand, if tangent is drawn at right of the local minima, then it's angle ( ) with x-axis falls in the first quadrant i.e.,  is   So, around local maxima slope of tangent lines rotates from to as can be seen in the figure above.   In summary,    If sign of changes from to then the point is minima.    If sign of changes from to then the point is maxima.    Tangent line at any maxima or minima points is always parallel to the i.e., at all maxima or minima points.     Maxima or minima points (or points of any extrema) can also be determined by using second derivative as: if then we get extremum points as . Now if or then point gives place of minima (curve opens up) and or then point gives place of maxima (curve opens down).    Examine the nature of the function, at points     Differentiate w.r.t 'x' we get -  Now at  and so the function is decreasing.  At  and . Since both become zero we need to test at and . also, That is is changing its value from -ve to +ve around Hence the function is neither increasing nor decreasing. Note: If and are both zero at any point, and if is +ve around the point then it is increasing and -ve around that point then it is decreasing.  At  and so the function is increasing.      Find critical points of                     For critical points, set   But, should not be a critical point because it is one of the interval points of the function [ ].  Hence, is a critical point.     If the interval is not given then it is taken as  set for critical points.   here, gives but makes undefined. Thus the critical points are          Find the inflection point of the funciton      set we get - and . Now draw sign of on interval line as shown below:   At points and the is changings its sign from to to We get points of maxima and minima where changes sign and we get inflection point where changes sign.      Find the points of maxima and minima of          draw a number line and see how is changing sign.   If sign has changes alternatively around -2 to +2 then they must be extremum points. Around maximum point changes sign from +ve to -ve, and around minimum point it changes sign from -ve to +ve.      "
 },
 {
   "id": "subsec-rate-msr-2",
@@ -3166,7 +3292,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.1",
   "title": "",
-  "body": "  A spherical baloon is expanding. If the radius is increasing at the rate of inch per minute. Find the rate at which the volume increases (in cubic inches per minute) when the radius is 10 inch.     Differentiate w.r.t. \"x\", we get -     "
+  "body": "  If the sides of a square decreasing at the rate of . Find the rate of decrease of its perimeter.       Given:  .     "
 },
 {
   "id": "subsec-rate-msr-3",
@@ -3175,7 +3301,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.2",
   "title": "",
-  "body": "  If the radius of a circle is decreasing at uniform rate of , then find the rate of change of area the circle when     Given . For a circle Differentiate w.r.t. \"x\", we get -  i.e., the rate of area of the circle is decreasing by .   "
+  "body": "  The median of an equilateral triangle is increasing at the rate of Find the rate at which its side is increasing.       Given:  .    "
 },
 {
   "id": "subsec-rate-msr-4",
@@ -3184,7 +3310,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.3",
   "title": "",
-  "body": "  The tangent of an angle increases four times as the angle itself. At what rate the sine of the angle increaseses w.r.t. the angle?    Given       Hence,    "
+  "body": "  A spherical baloon is expanding. If the radius is increasing at the rate of inch per minute. Find the rate at which the volume increases (in cubic inches per minute) when the radius is 10 inch.     Differentiate w.r.t. \"x\", we get -     "
 },
 {
   "id": "subsec-rate-msr-5",
@@ -3193,7 +3319,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.4",
   "title": "",
-  "body": "  A particle moves along a curve find the points on the curve at which coordinate is changing 8 times as fast as coordinate.    Given:    Therefore,  Now,  Hence the points are .   "
+  "body": "  If the radius of a circle is decreasing at uniform rate of , then find the rate of change of area the circle when     Given . For a circle Differentiate w.r.t. \"x\", we get -  i.e., the rate of area of the circle is decreasing by .   "
 },
 {
   "id": "subsec-rate-msr-6",
@@ -3202,7 +3328,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.5",
   "title": "",
-  "body": "  Water is dripping out of a conical funnel at a uniform rate of through a tiny hole at the vertex in bottom, when the slant height of water is , find rate of decrease of slant height, it is given that the vertical angle is .     Given:     From figure, here is slant height of water.          "
+  "body": "  The tangent of an angle increases four times as the angle itself. At what rate the sine of the angle increaseses w.r.t. the angle?    Given       Hence,    "
 },
 {
   "id": "subsec-rate-msr-7",
@@ -3211,7 +3337,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.6",
   "title": "",
-  "body": "  A light source is at center of circle, the circumference of which a horse is runing with speed of . A fence is along the tangent to the circle at the point from where horse starts running. Find the speed with which the shadow of horse move along the fence at the moment when it covers of the circle.     Given:       do your self.   "
+  "body": "  A ladder initially leaning against the vertical wall starts slidding on the floor at the rate of How fast is the height of ladder on the wall is decreasing when the foot of the ladder is away form the wall?       Given: , ,      Now from , when , we get -     "
 },
 {
   "id": "subsec-rate-msr-8",
@@ -3220,7 +3346,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.7",
   "title": "",
-  "body": "  A man 2 m high walks at a uniform speed of away from lamppost, 5 m high. Find rate at which length of its shadow increases.     Given:   From similar triangles         "
+  "body": "  A particle moves along a curve find the points on the curve at which coordinate is changing 8 times as fast as coordinate.    Given:    Therefore,  Now,  Hence the points are .   "
 },
 {
   "id": "subsec-rate-msr-9",
@@ -3228,6 +3354,33 @@ var ptx_lunr_docs = [
   "url": "sec_third-appl-drvt.html#subsec-rate-msr-9",
   "type": "Example",
   "number": "3.6.8",
+  "title": "",
+  "body": "  Water is dripping out of a conical funnel at a uniform rate of through a tiny hole at the vertex in bottom, when the slant height of water is , find rate of decrease of slant height, it is given that the vertical angle is .     Given:     From figure, here is slant height of water.          "
+},
+{
+  "id": "subsec-rate-msr-10",
+  "level": "2",
+  "url": "sec_third-appl-drvt.html#subsec-rate-msr-10",
+  "type": "Example",
+  "number": "3.6.9",
+  "title": "",
+  "body": "  A light source is at center of circle, the circumference of which a horse is runing with speed of . A fence is along the tangent to the circle at the point from where horse starts running. Find the speed with which the shadow of horse move along the fence at the moment when it covers of the circle.     Given:       do your self.   "
+},
+{
+  "id": "subsec-rate-msr-11",
+  "level": "2",
+  "url": "sec_third-appl-drvt.html#subsec-rate-msr-11",
+  "type": "Example",
+  "number": "3.6.10",
+  "title": "",
+  "body": "  A man high walks at a uniform speed of away from lamppost, high. Find rate at which length of its shadow increases.     Given:   From similar triangles         "
+},
+{
+  "id": "subsec-rate-msr-12",
+  "level": "2",
+  "url": "sec_third-appl-drvt.html#subsec-rate-msr-12",
+  "type": "Example",
+  "number": "3.6.11",
   "title": "",
   "body": " A variable triangle is inscribed in a circle of radius when rate of change of particular side is times the rate of change of opposite angle, then find that angle at that instant.    Given:   From sine formula      Note:    The inscribed angles subtended by the same arc are equal. That is, Now area of but from right angled we have      "
 },
@@ -3245,7 +3398,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-4",
   "type": "Example",
-  "number": "3.6.9",
+  "number": "3.6.12",
   "title": "",
   "body": "  Find the approximate value of       here is the closest value of 36.6 whose square root is known. hence,    "
 },
@@ -3254,7 +3407,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-5",
   "type": "Example",
-  "number": "3.6.10",
+  "number": "3.6.13",
   "title": "",
   "body": "  Find approximate value of at        where closest point and and      "
 },
@@ -3263,7 +3416,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-6",
   "type": "Example",
-  "number": "3.6.11",
+  "number": "3.6.14",
   "title": "",
   "body": "  Find approximate value of        also      "
 },
@@ -3272,7 +3425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-7",
   "type": "Example",
-  "number": "3.6.12",
+  "number": "3.6.15",
   "title": "",
   "body": "  Approximate value of is ....      Now convert into real number, i.e., hence, and       "
 },
@@ -3281,7 +3434,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-8",
   "type": "Example",
-  "number": "3.6.13",
+  "number": "3.6.16",
   "title": "",
   "body": "  If radius of sphere is measured with an error of , then find approximate error in its volume.      we have      "
 },
@@ -3290,7 +3443,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-9",
   "type": "Example",
-  "number": "3.6.14",
+  "number": "3.6.17",
   "title": "",
   "body": "  Find the approximate change in the volume of a cube of side meters caused by increaseing the side by 2%.    For a cube      alternately, from physics if     "
 },
@@ -3299,7 +3452,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-10",
   "type": "Example",
-  "number": "3.6.15",
+  "number": "3.6.18",
   "title": "",
   "body": "  Find approximate valume of metal in a hollow spherical shell whose internal and external radii are 3 and 3.0005 cm respectively.          "
 },
@@ -3308,7 +3461,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-apprx-11",
   "type": "Example",
-  "number": "3.6.16",
+  "number": "3.6.19",
   "title": "",
   "body": "  In if side length remain constant such that is the eroor in then find relative error in its area.    Given: then . From sine formula of a triangle         "
 },
@@ -3326,7 +3479,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-4",
   "type": "Example",
-  "number": "3.6.17",
+  "number": "3.6.20",
   "title": "",
   "body": "  Find equation of tangent and normal to at     stepI: Find the point on the curve . at      Also, normal line      "
 },
@@ -3335,7 +3488,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-5",
   "type": "Example",
-  "number": "3.6.18",
+  "number": "3.6.21",
   "title": "",
   "body": "  Find a cubic funciton whose graph has horizontal tangents at the points (-2,6) and (2,0).    Here   But, slope, for a horizontal tangent line. Also, Hence, the equation of tangent line  and Now, collecting all equations from above,   Solving last third and fourth equations, we have  From third equation From first equation From second equation Solving last these two equations  from equation  Again, from , we get - Therefore   , and   Hence, the curve can be written as    "
 },
@@ -3344,7 +3497,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-6",
   "type": "Example",
-  "number": "3.6.19",
+  "number": "3.6.22",
   "title": "",
   "body": "  Find equation of tangent and normal to at     Here, now at    The tangent line is and normal line is    "
 },
@@ -3353,7 +3506,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-7",
   "type": "Example",
-  "number": "3.6.20",
+  "number": "3.6.23",
   "title": "",
   "body": "  Find an equation of tangent line to the curve at the point     Let Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.     "
 },
@@ -3362,7 +3515,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-8",
   "type": "Example",
-  "number": "3.6.21",
+  "number": "3.6.24",
   "title": "",
   "body": "  Find an equation of tangent line and normal line to the curve at the point     We have, Step I: Verify if the point is on the curve. i.e. yes, point lies on the given curve.  Step II: Find derivative.   Step III: Find the slope of tangent line at    Step IV: Find equation of the tangent line.   Step V: Find equation of the normal line.    "
 },
@@ -3371,7 +3524,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-9",
   "type": "Example",
-  "number": "3.6.22",
+  "number": "3.6.25",
   "title": "",
   "body": "  If find equation of tangent line at        Hence, the equation of tangent line,    "
 },
@@ -3380,7 +3533,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-tngnt-10",
   "type": "Example",
-  "number": "3.6.23",
+  "number": "3.6.26",
   "title": "",
   "body": "  Find the point on which is nearest to      which is equation of eclipse. The shortest distance from a point to a line is measured along the common normal (perpendicular). Therefore, the point of minimum distance on the ellipse must have its tangent parallel to the line (i.e., same normal direction). The line has normal vector , so the tangent to the ellipse at the closest point must also have normal vector parallel to .    "
 },
@@ -3389,7 +3542,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#def-max_min",
   "type": "Definition",
-  "number": "3.6.24",
+  "number": "3.6.27",
   "title": "",
   "body": "     A function is said to have local maxima (or, local extrema) at if value of function at that point is greater than or equal to values of function in some neighbourhood of     A function is said to have local minima (or, local extrema) at if value of function at that point is less than or equal to values of function in some neighbourhood of     A function is said to have global maxima (or, absolute maxima) at if in domain of     A function is said to have global minima (or, absolute minima) at if in domain of       "
 },
@@ -3407,7 +3560,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-max_min-2-4",
   "type": "Figure",
-  "number": "3.6.25",
+  "number": "3.6.28",
   "title": "",
   "body": "   "
 },
@@ -3425,7 +3578,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsec-max_min-2-7",
   "type": "Remark",
-  "number": "3.6.26",
+  "number": "3.6.29",
   "title": "",
   "body": " Points at which is either zero or undefined are contenders for inflection point. The always changes its sign at inflection point.  "
 },
@@ -3434,25 +3587,34 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsubsec-loc_min-9",
   "type": "Example",
-  "number": "3.6.27",
+  "number": "3.6.30",
   "title": "",
-  "body": "  Find critical points of                     For critical points, set   But, should not be a critical point because it is one of the interval points of the function [ ].  Hence, is a critical point.     If the interval is not given then it is taken as  set for critical points.   here, gives but makes undefined. Thus the critical points are       "
+  "body": "  Examine the nature of the function, at points     Differentiate w.r.t 'x' we get -  Now at  and so the function is decreasing.  At  and . Since both become zero we need to test at and . also, That is is changing its value from -ve to +ve around Hence the function is neither increasing nor decreasing. Note: If and are both zero at any point, and if is +ve around the point then it is increasing and -ve around that point then it is decreasing.  At  and so the function is increasing.   "
 },
 {
   "id": "subsubsec-loc_min-10",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsubsec-loc_min-10",
   "type": "Example",
-  "number": "3.6.28",
+  "number": "3.6.31",
   "title": "",
-  "body": "  Find the inflection point of the funciton      set we get - and . Now draw sign of on interval line as shown below:   At points and the is changings its sign from to to We get points of maxima and minima where changes sign and we get inflection point where changes sign.   "
+  "body": "  Find critical points of                     For critical points, set   But, should not be a critical point because it is one of the interval points of the function [ ].  Hence, is a critical point.     If the interval is not given then it is taken as  set for critical points.   here, gives but makes undefined. Thus the critical points are       "
 },
 {
   "id": "subsubsec-loc_min-11",
   "level": "2",
   "url": "sec_third-appl-drvt.html#subsubsec-loc_min-11",
   "type": "Example",
-  "number": "3.6.29",
+  "number": "3.6.32",
+  "title": "",
+  "body": "  Find the inflection point of the funciton      set we get - and . Now draw sign of on interval line as shown below:   At points and the is changings its sign from to to We get points of maxima and minima where changes sign and we get inflection point where changes sign.   "
+},
+{
+  "id": "subsubsec-loc_min-12",
+  "level": "2",
+  "url": "sec_third-appl-drvt.html#subsubsec-loc_min-12",
+  "type": "Example",
+  "number": "3.6.33",
   "title": "",
   "body": "  Find the points of maxima and minima of          draw a number line and see how is changing sign.   If sign has changes alternatively around -2 to +2 then they must be extremum points. Around maximum point changes sign from +ve to -ve, and around minimum point it changes sign from -ve to +ve.   "
 },
@@ -3652,7 +3814,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "3.8",
   "title": "Exercise",
-  "body": " Exercise   Find the derivative of using first principle.    Differentiate the following functions using first principle.                                    If find .    If find .    Differentiate:                      Find an equation of the tangent line to the curve at the given point                Differentiate:                               Prove that                Use L'Hospital's Rule to evaluate:                     Find an equation of tangent line to the curve at the point           Find an equation of tangent line to the curve at the point           touches at and cut where its gradient is 3. Find   hint take gradient as slope.  a=-1\/2, b=-3\\4, c=3.      Find equation of tangent of which is parallel to          If tangent at on meets the curve again at , find     A spherical iron ball of 10 cm in radius is coated uniformly with a layer of ice that is melting at the rate of 50 cm\/min. When the thickness of ice remains 5 cm, then find the rate at which the thickness of ice is decreasing.    Differentiate the volume of ice w.r.to \" .\" Consider as a thickness of ice and as radius of iron ball..      The largest value of for occurs at what point.    Find the altitude of cylinder of maximum volume which can be inscribed in a right circular cone of radius and height .    be the height and radius of cylinder, respectively and be the height and radius of cone respectively. Now compare two similar tringles, we get- Now find points from Here is volume of cylinder.     Find two numbers whose sum is 10 and sum of their square is minimum.   x = 5, y = 5.    "
+  "body": " Exercise   Find the derivative of using first principle.    Differentiate the following functions using first principle.                                    If find .    If find .    Differentiate:                      The side of an equilateral triange is increasing at the rate of At what rate is its area increasing when the side 0f triangle is     A ripple in a pond is propagating at the speed of At the instant when the ripple has radius of , how fast is the enclosed area increasing?    Find an equation of the tangent line to the curve at the given point                Differentiate:                               Prove that                Use L'Hospital's Rule to evaluate:                     Find an equation of tangent line to the curve at the point           Find an equation of tangent line to the curve at the point           touches at and cut where its gradient is 3. Find   hint take gradient as slope.  a=-1\/2, b=-3\\4, c=3.      Find equation of tangent of which is parallel to          If tangent at on meets the curve again at , find     A spherical iron ball of 10 cm in radius is coated uniformly with a layer of ice that is melting at the rate of 50 cm\/min. When the thickness of ice remains 5 cm, then find the rate at which the thickness of ice is decreasing.    Differentiate the volume of ice w.r.to \" .\" Consider as a thickness of ice and as radius of iron ball..      The largest value of for occurs at what point.    Find the altitude of cylinder of maximum volume which can be inscribed in a right circular cone of radius and height .    be the height and radius of cylinder, respectively and be the height and radius of cone respectively. Now compare two similar tringles, we get- Now find points from Here is volume of cylinder.     Find two numbers whose sum is 10 and sum of their square is minimum.   x = 5, y = 5.    "
 },
 {
   "id": "ex_third-2",
@@ -3706,7 +3868,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.6",
   "title": "",
-  "body": " Find an equation of the tangent line to the curve at the given point              "
+  "body": " The side of an equilateral triange is increasing at the rate of At what rate is its area increasing when the side 0f triangle is   "
 },
 {
   "id": "ex_third-8",
@@ -3715,7 +3877,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.7",
   "title": "",
-  "body": " Differentiate:                             "
+  "body": " A ripple in a pond is propagating at the speed of At the instant when the ripple has radius of , how fast is the enclosed area increasing?  "
 },
 {
   "id": "ex_third-9",
@@ -3724,7 +3886,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.8",
   "title": "",
-  "body": " Prove that              "
+  "body": " Find an equation of the tangent line to the curve at the given point              "
 },
 {
   "id": "ex_third-10",
@@ -3733,7 +3895,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.9",
   "title": "",
-  "body": " Use L'Hospital's Rule to evaluate:                   "
+  "body": " Differentiate:                             "
 },
 {
   "id": "ex_third-11",
@@ -3742,7 +3904,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.10",
   "title": "",
-  "body": " Find an equation of tangent line to the curve at the point         "
+  "body": " Prove that              "
 },
 {
   "id": "ex_third-12",
@@ -3751,7 +3913,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.11",
   "title": "",
-  "body": " Find an equation of tangent line to the curve at the point        "
+  "body": " Use L'Hospital's Rule to evaluate:                   "
 },
 {
   "id": "ex_third-13",
@@ -3760,7 +3922,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.12",
   "title": "",
-  "body": "  touches at and cut where its gradient is 3. Find   hint take gradient as slope.  a=-1\/2, b=-3\\4, c=3.    "
+  "body": " Find an equation of tangent line to the curve at the point         "
 },
 {
   "id": "ex_third-14",
@@ -3769,7 +3931,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.13",
   "title": "",
-  "body": " Find equation of tangent of which is parallel to        "
+  "body": " Find an equation of tangent line to the curve at the point        "
 },
 {
   "id": "ex_third-15",
@@ -3778,7 +3940,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.14",
   "title": "",
-  "body": " If tangent at on meets the curve again at , find   "
+  "body": "  touches at and cut where its gradient is 3. Find   hint take gradient as slope.  a=-1\/2, b=-3\\4, c=3.    "
 },
 {
   "id": "ex_third-16",
@@ -3787,7 +3949,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.15",
   "title": "",
-  "body": " A spherical iron ball of 10 cm in radius is coated uniformly with a layer of ice that is melting at the rate of 50 cm\/min. When the thickness of ice remains 5 cm, then find the rate at which the thickness of ice is decreasing.    Differentiate the volume of ice w.r.to \" .\" Consider as a thickness of ice and as radius of iron ball..    "
+  "body": " Find equation of tangent of which is parallel to        "
 },
 {
   "id": "ex_third-17",
@@ -3796,7 +3958,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.16",
   "title": "",
-  "body": " The largest value of for occurs at what point.  "
+  "body": " If tangent at on meets the curve again at , find   "
 },
 {
   "id": "ex_third-18",
@@ -3805,7 +3967,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.8.17",
   "title": "",
-  "body": " Find the altitude of cylinder of maximum volume which can be inscribed in a right circular cone of radius and height .    be the height and radius of cylinder, respectively and be the height and radius of cone respectively. Now compare two similar tringles, we get- Now find points from Here is volume of cylinder.   "
+  "body": " A spherical iron ball of 10 cm in radius is coated uniformly with a layer of ice that is melting at the rate of 50 cm\/min. When the thickness of ice remains 5 cm, then find the rate at which the thickness of ice is decreasing.    Differentiate the volume of ice w.r.to \" .\" Consider as a thickness of ice and as radius of iron ball..    "
 },
 {
   "id": "ex_third-19",
@@ -3813,6 +3975,24 @@ var ptx_lunr_docs = [
   "url": "ex_third.html#ex_third-19",
   "type": "Exercise",
   "number": "3.8.18",
+  "title": "",
+  "body": " The largest value of for occurs at what point.  "
+},
+{
+  "id": "ex_third-20",
+  "level": "2",
+  "url": "ex_third.html#ex_third-20",
+  "type": "Exercise",
+  "number": "3.8.19",
+  "title": "",
+  "body": " Find the altitude of cylinder of maximum volume which can be inscribed in a right circular cone of radius and height .    be the height and radius of cylinder, respectively and be the height and radius of cone respectively. Now compare two similar tringles, we get- Now find points from Here is volume of cylinder.   "
+},
+{
+  "id": "ex_third-21",
+  "level": "2",
+  "url": "ex_third.html#ex_third-21",
+  "type": "Exercise",
+  "number": "3.8.20",
   "title": "",
   "body": " Find two numbers whose sum is 10 and sum of their square is minimum.   x = 5, y = 5.   "
 },
