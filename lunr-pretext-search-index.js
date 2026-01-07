@@ -205,7 +205,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.4",
   "title": "Inequality",
-  "body": " Inequality   Wavy Curve Inequalities can be solved easily if wavy curve is drawn from the given equation. To draw wavy curve: Make sure that right hand side (RHS) is zero and coefficient of in all the factors is positive. Then in  Step I: Put all factors equal to zero and mark corresponding values of on the real line  Step II: Put on extreme right and change the sign alternatively by moving toward left as shown in figure below.       Solve for the value of                                                                       Solve for                                    Ans:        do your self     Ans:        Ans:        Ans: Mark 0 on number line for lonly           If find           ans:                                      Ans:                                   so      so      Find the common between these two values of . Here,           Solve for     Remember: we cannot write here , because this does not make any sense due to inequality sign. So  Hence,       Solve the following inequalities:     Follow the same rule as described in [ ], starting with sign at extreme right, but also look at the power of factors for the given points, if the power is even do not change the sign or if it is odd change sign of to and to , as shown in below.   The sign has not changed between points and starting from extereme right sign as the power of is even. But the sign has changed between and as the power of is odd. Similarly all the other sign has adjusted. Hence,       Solve the following:      Hence,      Solve for x.    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:    here, otherwise becomes negative. Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:          Solve the following:     here should not be negative.    "
+  "body": " Inequality   Wavy Curve Inequalities can be solved easily if wavy curve is drawn from the given equation. To draw wavy curve: Make sure that right hand side (RHS) is zero and coefficient of in all the factors is positive. Then in  Step I: Put all factors equal to zero and mark corresponding values of on the real line  Step II: Put on extreme right and change the sign alternatively by moving toward left as shown in figure below.       Solve for the value of                                                                       Solve for                                    Ans:        do your self     Ans:        Ans:        Ans: Mark 0 on number line for lonly           If find           ans:                                      Ans:                                   so      so      Find the common between these two values of . Here,           Solve for     Remember: we cannot write here , because this does not make any sense due to inequality sign. So  Hence,       Solve the following inequalities:     Follow the same rule as described in [ ], starting with sign at extreme right, but also look at the power of factors for the given points, if the power is even do not change the sign or if it is odd change sign of to and to , as shown in below.   The sign has not changed between points and starting from extereme right sign as the power of is even. But the sign has changed between and as the power of is odd. Similarly all the other sign has adjusted. Hence,       Solve the following:      Hence,      Solve for x.    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:    here, otherwise becomes negative. Draw number line by yourself. Note: not in domain or gets undefined and does not satisfy the expression condition.     Solve the following:    Draw number line by yourself.      Solve the following:     answer:      Solve the following:     here should not be negative. answer:     "
 },
 {
   "id": "sec_first-inequal-6",
@@ -331,7 +331,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.4.14",
   "title": "",
-  "body": " Solve the following:    here, otherwise becomes negative. Draw number line by yourself.    "
+  "body": " Solve the following:    here, otherwise becomes negative. Draw number line by yourself. Note: not in domain or gets undefined and does not satisfy the expression condition.   "
 },
 {
   "id": "sec_first-inequal-20",
@@ -349,7 +349,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.4.16",
   "title": "",
-  "body": " Solve the following:        "
+  "body": " Solve the following:     answer:    "
 },
 {
   "id": "sec_first-inequal-22",
@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Checkpoint",
   "number": "1.4.17",
   "title": "",
-  "body": " Solve the following:     here should not be negative.   "
+  "body": " Solve the following:     here should not be negative. answer:    "
 },
 {
   "id": "sec_first-functions",
