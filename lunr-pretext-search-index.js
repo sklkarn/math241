@@ -493,7 +493,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Domain",
-  "body": " Domain   The set of all possible number (input values), typically for which the function is defined and produces a real number output is called a domain domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.   Steps to Determine the Domain: Identify the function type (polynomial, rational, radical, logarithmic, etc.). Find restrictions: Denominators cannot be zero. Expressions under even roots must be non-negative. Arguments of logarithms must be positive. Express the domain in interval notation or set notation.     Polynomials: The domain is all real numbers because polynomials are defined for every . Example: For the domain is .    Rational Functions: Exclude values where the denominator is zero. Example: For solve , so . The domain is .    Square Roots (or Even Roots): The expression inside the root must be non-negative . Example: For solve , so . The domain is .    Logarithms: The argument of a logarithm must be positive . Example: For solve , so . The domain is .    Trigonometric Functions: Most trigonometric functions (e.g., ) have a domain of all real numbers, but others like or exclude points where the function is undefined. Example: For the function is undefined at , where is an integer. The domain is .    Piecewise Functions: Consider the domain of each piece and combine them, ensuring no overlap unless specified. Example: For the domain of is , and the domain of is . Since for the second piece, the domain is .    Composite Functions: The domain of requires to be in the domain of , and to be in the domain of . Example: For and , find the domain of . Solve , so . The domain is .       Determining Domain:  Example 1. we can set in . Hence, is a domain which defines  in a real number. Again, set in undefined or . Hence, is a not a domain of the given in a real number.  Example 2. we can set in . Hence, is a domain which defines  in a real number. Again, set in imaginary. Hence, is a not a domain of the given in a real number.   Domain is any input values that defines a function in real number.      Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.       Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator        Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or        Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding        Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .      Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .     Rational Functions:         For rational funciton, . Hence, set  Remember and stands for number not included.            Here,  Hence, Domain,             Here, Since square of real number cannot be negative, as Thus  Domain;            Set,  Hence, Domain,        Radical Functions   Here expression is any real number and is odd . The domain of radical functions with an odd index is all real numbers.  For example: or,   If is even , then . The domain of radical functions with an even index and expression , is all real numbers.  For example: or,          Here, is even, hence, set, Hence, Domain,             Here, is even, hence, set, or, Hence, Domain,             Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if             Here, is odd, hence, is defined for every real number. The domain is a set of every real number.       Domain of Fractional function with radicals.     For radical in numerator, set and     Set, and Hence, Domain, or,         For radical in denominator, set .    Set, Hence, Domain, or,         If both terms are radical, then    Set, Now, we have also, Test the sign of the fraction in each interval. Hence, Domain: or,        "
+  "body": " Domain   The set of all possible number (input values), typically for which the function is defined and produces a real number output is called a domain domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.   Steps to Determine the Domain: Identify the function type (polynomial, rational, radical, logarithmic, etc.). Find restrictions: Denominators cannot be zero. Expressions under even roots must be non-negative. Arguments of logarithms must be positive. Express the domain in interval notation or set notation.     Polynomials: The domain is all real numbers because polynomials are defined for every . Example: For the domain is .    Rational Functions: Exclude values where the denominator is zero. Example: For solve , so . The domain is .    Square Roots (or Even Roots): The expression inside the root must be non-negative . Example: For solve , so . The domain is .    Logarithms: The argument of a logarithm must be positive . Example: For solve , so . The domain is .    Trigonometric Functions: Most trigonometric functions (e.g., ) have a domain of all real numbers, but others like or exclude points where the function is undefined. Example: For the function is undefined at , where is an integer. The domain is .    Piecewise Functions: Consider the domain of each piece and combine them, ensuring no overlap unless specified. Example: For the domain of is , and the domain of is . Since for the second piece, the domain is .    Composite Functions: The domain of requires to be in the domain of , and to be in the domain of . Example: For and , find the domain of . Solve , so . The domain is .       Determining Domain:                       we can set in . Hence, is a domain which defines  in a real number. Again, set in undefined or . Hence, is a not a domain of the given in a real number.    we can set in . Hence, is a domain which defines  in a real number. Again, set in imaginary. Hence, is a not a domain of the given in a real number.      Domain is any input values that defines a function in real number.        Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.       Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator        Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or        Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding        Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .      Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .     Rational Functions:         For rational funciton, . Hence, set  Remember and stands for number not included.            Here,  Hence, Domain,             Here, Since square of real number cannot be negative, as Thus  Domain;            Set,  Hence, Domain,        Radical Functions   Here expression is any real number and is odd . The domain of radical functions with an odd index is all real numbers.  For example: or,   If is even , then . The domain of radical functions with an even index and expression , is all real numbers.  For example: or,          Here, is even, hence, set, Hence, Domain,             Here, is even, hence, set, or, Hence, Domain,             Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if             Here, is odd, hence, is defined for every real number. The domain is a set of every real number.       Domain of Fractional function with radicals.     For radical in numerator, set and     Set, and Hence, Domain, or,         For radical in denominator, set .    Set, Hence, Domain, or,         If both terms are radical, then    Set, Now, we have also, Test the sign of the fraction in each interval. Hence, Domain: or,        "
 },
 {
   "id": "sec_first-domain-2-2",
@@ -505,155 +505,164 @@ var ptx_lunr_docs = [
   "body": "Steps to Determine the Domain: "
 },
 {
+  "id": "subsec-dom_ex-2",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-2",
+  "type": "Example",
+  "number": "1.6.1",
+  "title": "",
+  "body": "                     we can set in . Hence, is a domain which defines  in a real number. Again, set in undefined or . Hence, is a not a domain of the given in a real number.    we can set in . Hence, is a domain which defines  in a real number. Again, set in imaginary. Hence, is a not a domain of the given in a real number.      Domain is any input values that defines a function in real number.    "
+},
+{
+  "id": "subsec-dom_ex-3",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-3",
+  "type": "Example",
+  "number": "1.6.2",
+  "title": "",
+  "body": "   Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.   "
+},
+{
+  "id": "subsec-dom_ex-4",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-4",
+  "type": "Example",
+  "number": "1.6.3",
+  "title": "",
+  "body": "   Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator    "
+},
+{
   "id": "subsec-dom_ex-5",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-5",
   "type": "Example",
-  "number": "1.6.1",
+  "number": "1.6.4",
   "title": "",
-  "body": "   Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.   "
+  "body": "   Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or    "
 },
 {
   "id": "subsec-dom_ex-6",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-6",
   "type": "Example",
-  "number": "1.6.2",
+  "number": "1.6.5",
   "title": "",
-  "body": "   Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator    "
+  "body": "   Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding    "
 },
 {
   "id": "subsec-dom_ex-7",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-7",
   "type": "Example",
-  "number": "1.6.3",
+  "number": "1.6.6",
   "title": "",
-  "body": "   Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or    "
+  "body": "   Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .   "
 },
 {
   "id": "subsec-dom_ex-8",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-8",
   "type": "Example",
-  "number": "1.6.4",
-  "title": "",
-  "body": "   Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding    "
-},
-{
-  "id": "subsec-dom_ex-9",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-9",
-  "type": "Example",
-  "number": "1.6.5",
-  "title": "",
-  "body": "   Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .   "
-},
-{
-  "id": "subsec-dom_ex-10",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-10",
-  "type": "Example",
-  "number": "1.6.6",
+  "number": "1.6.7",
   "title": "",
   "body": "  Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .   "
+},
+{
+  "id": "subsec-dom_ex-9-2",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-9-2",
+  "type": "Example",
+  "number": "1.6.8",
+  "title": "",
+  "body": "       For rational funciton, . Hence, set  Remember and stands for number not included.    "
+},
+{
+  "id": "subsec-dom_ex-9-3",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-9-3",
+  "type": "Example",
+  "number": "1.6.9",
+  "title": "",
+  "body": "       Here,  Hence, Domain,     "
+},
+{
+  "id": "subsec-dom_ex-9-4",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-9-4",
+  "type": "Example",
+  "number": "1.6.10",
+  "title": "",
+  "body": "       Here, Since square of real number cannot be negative, as Thus  Domain;    "
+},
+{
+  "id": "subsec-dom_ex-9-5",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-9-5",
+  "type": "Example",
+  "number": "1.6.11",
+  "title": "",
+  "body": "       Set,  Hence, Domain,     "
+},
+{
+  "id": "subsec-dom_ex-10-6",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-10-6",
+  "type": "Example",
+  "number": "1.6.12",
+  "title": "",
+  "body": "       Here, is even, hence, set, Hence, Domain,     "
+},
+{
+  "id": "subsec-dom_ex-10-7",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-10-7",
+  "type": "Example",
+  "number": "1.6.13",
+  "title": "",
+  "body": "       Here, is even, hence, set, or, Hence, Domain,     "
+},
+{
+  "id": "subsec-dom_ex-10-8",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-10-8",
+  "type": "Example",
+  "number": "1.6.14",
+  "title": "",
+  "body": "       Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if     "
+},
+{
+  "id": "subsec-dom_ex-10-9",
+  "level": "2",
+  "url": "sec_first-domain.html#subsec-dom_ex-10-9",
+  "type": "Example",
+  "number": "1.6.15",
+  "title": "",
+  "body": "       Here, is odd, hence, is defined for every real number. The domain is a set of every real number.    "
 },
 {
   "id": "subsec-dom_ex-11-2",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-11-2",
   "type": "Example",
-  "number": "1.6.7",
+  "number": "1.6.16",
   "title": "",
-  "body": "       For rational funciton, . Hence, set  Remember and stands for number not included.    "
+  "body": "   For radical in numerator, set and     Set, and Hence, Domain, or,     "
 },
 {
   "id": "subsec-dom_ex-11-3",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-11-3",
   "type": "Example",
-  "number": "1.6.8",
+  "number": "1.6.17",
   "title": "",
-  "body": "       Here,  Hence, Domain,     "
+  "body": "   For radical in denominator, set .    Set, Hence, Domain, or,     "
 },
 {
   "id": "subsec-dom_ex-11-4",
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-11-4",
   "type": "Example",
-  "number": "1.6.9",
-  "title": "",
-  "body": "       Here, Since square of real number cannot be negative, as Thus  Domain;    "
-},
-{
-  "id": "subsec-dom_ex-11-5",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-11-5",
-  "type": "Example",
-  "number": "1.6.10",
-  "title": "",
-  "body": "       Set,  Hence, Domain,     "
-},
-{
-  "id": "subsec-dom_ex-12-6",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-6",
-  "type": "Example",
-  "number": "1.6.11",
-  "title": "",
-  "body": "       Here, is even, hence, set, Hence, Domain,     "
-},
-{
-  "id": "subsec-dom_ex-12-7",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-7",
-  "type": "Example",
-  "number": "1.6.12",
-  "title": "",
-  "body": "       Here, is even, hence, set, or, Hence, Domain,     "
-},
-{
-  "id": "subsec-dom_ex-12-8",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-8",
-  "type": "Example",
-  "number": "1.6.13",
-  "title": "",
-  "body": "       Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if     "
-},
-{
-  "id": "subsec-dom_ex-12-9",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-12-9",
-  "type": "Example",
-  "number": "1.6.14",
-  "title": "",
-  "body": "       Here, is odd, hence, is defined for every real number. The domain is a set of every real number.    "
-},
-{
-  "id": "subsec-dom_ex-13-2",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-13-2",
-  "type": "Example",
-  "number": "1.6.15",
-  "title": "",
-  "body": "   For radical in numerator, set and     Set, and Hence, Domain, or,     "
-},
-{
-  "id": "subsec-dom_ex-13-3",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-13-3",
-  "type": "Example",
-  "number": "1.6.16",
-  "title": "",
-  "body": "   For radical in denominator, set .    Set, Hence, Domain, or,     "
-},
-{
-  "id": "subsec-dom_ex-13-4",
-  "level": "2",
-  "url": "sec_first-domain.html#subsec-dom_ex-13-4",
-  "type": "Example",
-  "number": "1.6.17",
+  "number": "1.6.18",
   "title": "",
   "body": "   If both terms are radical, then    Set, Now, we have also, Test the sign of the fraction in each interval. Hence, Domain: or,     "
 },
@@ -664,7 +673,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.7",
   "title": "Range",
-  "body": " Range   The set of all possible output of as runs over the domain is called a range range of the function. The same always leads to the same In other words, the set of all possible output values for which the is defined.  Range of    Steps to Find the Range:    Identify the domain: Determine the set of all valid inputs.    Analyze the function: Determine what output values are possible by applying the function to all inputs in the domain.    Express the range: Describe the set of all possible outputs, often using interval notation or set notation.       Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,        Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .      Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .      Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).      Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .      Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .      Find the domain and range of the following functions.                                                                            Range of     Convert this equation to get in terms of   Since . Hence       Range of     Convert this equation to get in terms of   Since . Hence       Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:          Find the range of following:                          Hence the range:       Hence the range:               Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.         Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .       Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:         "
+  "body": " Range   The set of all possible output of as runs over the domain is called a range range of the function. The same always leads to the same In other words, the set of all possible output values for which the is defined.  Range of    Steps to Find the Range:    Identify the domain: Determine the set of all valid inputs.    Analyze the function: Determine what output values are possible by applying the function to all inputs in the domain.    Express the range: Describe the set of all possible outputs, often using interval notation or set notation.       Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,        Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .      Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .      Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).      Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .      Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .      Find the domain and range of the following functions.                                                                                                      Range of     Convert this equation to get in terms of   Since . Hence       Range of     Convert this equation to get in terms of   Since . Hence       Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:          Find the range of following:                          Hence the range:       Hence the range:               Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.         Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .       Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:         "
 },
 {
   "id": "sec_first-range-2-3",
@@ -736,7 +745,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.7.7",
   "title": "",
-  "body": "  Find the domain and range of the following functions.                                                                         "
+  "body": "  Find the domain and range of the following functions.                                                                                                   "
 },
 {
   "id": "sec_first-range-2-11",
@@ -1033,7 +1042,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.10",
   "title": "The Graph of Functions",
-  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Functions  [ ] [ ] If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].       vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis       Some Standard Graphs  Some Standard Graphs Graphs of can be seen here [ ].                                                                                                    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.      Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at          Draw the graph of                 Draw the graph of       Special Graphs                                            Draw graph of                      Also,      Draw graph of and reflect negative of about            Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:       Draw graph of                        in class work         "
+  "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Functions  [ ] [ ] If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].       vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis       Some Standard Graphs  Some Standard Graphs Graphs of can be seen here [ ].                                                                                                    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].         Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.      Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at          Draw the graph of                 Draw the graph of       Special Graphs                                            Draw graph of                      Also,      Draw graph of and reflect negative of about            Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:       Draw graph of                        in class work         Examples    State if the following relations are functions and give their domain and range.                                         This is not a function.           Graph looks similar to signaum plot except hole at      Not a function.           Which values of are not included in the domain of the following functions.                    . Hence these values are not included in the domain.      Hence these values are not included in the domain.          "
 },
 {
   "id": "subsec-trnsform-13",
@@ -1198,6 +1207,24 @@ var ptx_lunr_docs = [
   "body": "  Draw graph of                        in class work      "
 },
 {
+  "id": "subsubsec-first_example-2",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsubsec-first_example-2",
+  "type": "Example",
+  "number": "1.10.17",
+  "title": "",
+  "body": "  State if the following relations are functions and give their domain and range.                                         This is not a function.           Graph looks similar to signaum plot except hole at      Not a function.        "
+},
+{
+  "id": "subsubsec-first_example-3",
+  "level": "2",
+  "url": "sec_second-funct-gr.html#subsubsec-first_example-3",
+  "type": "Example",
+  "number": "1.10.18",
+  "title": "",
+  "body": "  Which values of are not included in the domain of the following functions.                    . Hence these values are not included in the domain.      Hence these values are not included in the domain.       "
+},
+{
   "id": "sec_first-comp",
   "level": "1",
   "url": "sec_first-comp.html",
@@ -1330,7 +1357,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "1.13",
   "title": "Exercise",
-  "body": " Exercise   Sage Plot       Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                                Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:    "
+  "body": " Exercise   Sage Plot       Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                                Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:     Draw graph and state the domain and range of                                                              Discuss whether is a function or not?   "
 },
 {
   "id": "ex_first-3",
@@ -1486,13 +1513,31 @@ var ptx_lunr_docs = [
   "body": " Plot the function and its inverse:   "
 },
 {
+  "id": "ex_first-20",
+  "level": "2",
+  "url": "ex_first.html#ex_first-20",
+  "type": "Exercise",
+  "number": "1.13.18",
+  "title": "",
+  "body": " Draw graph and state the domain and range of                                                            "
+},
+{
+  "id": "ex_first-21",
+  "level": "2",
+  "url": "ex_first.html#ex_first-21",
+  "type": "Exercise",
+  "number": "1.13.19",
+  "title": "",
+  "body": " Discuss whether is a function or not?  "
+},
+{
   "id": "sec_second-intro",
   "level": "1",
   "url": "sec_second-intro.html",
   "type": "Section",
   "number": "2.1",
   "title": "Limits",
-  "body": " Limits   A limit limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.    Limits and Derivatives       One-Sided Limits   Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like , , or require special techniques (e.g., L'Hopital's Rule) to evaluate.  Methods of solving indeterminate forms:   Factorization Method    Rationalization Method (involve square root)    Methods of Evaluating Algebric Limit when     Trigonometric Limits    Logarithimic and Exponential Limits    Form     L Hospital's Rule: Find the derivative of the numerator, and the derivative of the denominator, . Re-evaluate the Limit: Find the limit of the new fraction, . Repeat if Necessary: If you still get an indeterminate form, repeat the process (differentiate again) until the limit is solvable.          Definition of Limit  The two small positive numbers and formalizes the idea of a limit. For implies that for every there exists a such that if Here, we do not really determine the value of , rather it is given arbitrarily to show us how close gets to There is no unique rather it satisfies the given     For If then where and     To determine in terms of , the following steps are taken:   Step I: Start with the target inequality     Step II: Express it in terms of by assuming        Prove that     If Now, If Therefore is proved.      Prove     If Now, is little tricky here as it grows infinitely. So, remember Hence,    Therefore, Meaning choose between and  is proved.      How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore      Prove that     Prove that     Prove that      For If then where       For If then where       Evaluate Limit  To evaluate limit of a function always try with direct substitution method first. If you get indeterminate forms then only look for other method to simply the function before apply the limit.     Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       Difference Quotient:  difference quotient   For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.        The average rate of change for on the interval is the slope of the secant line between the two points and          For example: the average rate of change for the on the interval is A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and     One-Sided Limits  The limiting values (LHL, RHL) and functional value could be different or could be same for a given function as can be described below:    Left hand limit:   Right hand limit:  and the function at      The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at        Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.      then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.      and then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .    Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.      Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.      show that exist.     show that does not exist.     Suppose What are possible values of and     Do your self.           Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate               Evaluate      Evaluate      Evaluate       For what value of does the exist if      and     equating these two equations, we get -      Evaluate      Evaluate       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form   indeterminate form When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:          etc. are some oscillatory functions whose limit do not exist at    "
+  "body": " Limits   A limit limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.    Limits and Derivatives       One-Sided Limits   Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like , , or require special techniques (e.g., L'Hopital's Rule) to evaluate.  Methods of solving indeterminate forms:   Factorization Method    Rationalization Method (involve square root)    Methods of Evaluating Algebric Limit when     Trigonometric Limits    Logarithimic and Exponential Limits    Form     L Hospital's Rule: Find the derivative of the numerator, and the derivative of the denominator, . Re-evaluate the Limit: Find the limit of the new fraction, . Repeat if Necessary: If you still get an indeterminate form, repeat the process (differentiate again) until the limit is solvable.          Definition of Limit  The two small positive numbers and formalizes the idea of a limit. For implies that for every there exists a such that if     Here, we do not really determine the value of , rather it is given arbitrarily to show us how close gets to There is no unique rather it satisfies the given     For If then   where and     To determine in terms of , the following steps are taken:   Step I: Start with the target inequality     Step II: Express it in terms of by assuming        Prove that     If Now, If Therefore is proved.      Prove     If Now, is little tricky here as it grows infinitely. So, remember Hence,    Therefore, Meaning choose between and  is proved.      How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore      Prove that     Prove that     Prove that      For If then where       For If then where       Evaluate Limit  To evaluate limit of a function always try with direct substitution method first. If you get indeterminate forms then only look for other method to simply the function before apply the limit.     Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       Difference Quotient:  difference quotient   For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.        The average rate of change for on the interval is the slope of the secant line between the two points and          For example: the average rate of change for the on the interval is A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and     One-Sided Limits  The limiting values (LHL, RHL) and functional value could be different or could be same for a given function as can be described below:    Left hand limit:   Right hand limit:  and the function at      The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at        Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.      then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.      and then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .    Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.      Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.      show that exist.     show that does not exist.     Suppose What are possible values of and     Do your self.           Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate               Evaluate      Evaluate      Evaluate       For what value of does the exist if      and     equating these two equations, we get -      Evaluate      Evaluate       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form   indeterminate form When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:          etc. are some oscillatory functions whose limit do not exist at    "
 },
 {
   "id": "derv_video",
@@ -1510,57 +1555,57 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.1.2",
   "title": "",
-  "body": "  For If then where and    "
-},
-{
-  "id": "subsec-def-limit-5",
-  "level": "2",
-  "url": "sec_second-intro.html#subsec-def-limit-5",
-  "type": "Example",
-  "number": "2.1.3",
-  "title": "",
-  "body": "  Prove that     If Now, If Therefore is proved.   "
-},
-{
-  "id": "subsec-def-limit-6",
-  "level": "2",
-  "url": "sec_second-intro.html#subsec-def-limit-6",
-  "type": "Example",
-  "number": "2.1.4",
-  "title": "",
-  "body": "  Prove     If Now, is little tricky here as it grows infinitely. So, remember Hence,    Therefore, Meaning choose between and  is proved.   "
+  "body": "  For If then   where and    "
 },
 {
   "id": "subsec-def-limit-7",
   "level": "2",
   "url": "sec_second-intro.html#subsec-def-limit-7",
   "type": "Example",
-  "number": "2.1.5",
+  "number": "2.1.3",
   "title": "",
-  "body": "  How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore    "
+  "body": "  Prove that     If Now, If Therefore is proved.   "
 },
 {
   "id": "subsec-def-limit-8",
   "level": "2",
   "url": "sec_second-intro.html#subsec-def-limit-8",
+  "type": "Example",
+  "number": "2.1.4",
+  "title": "",
+  "body": "  Prove     If Now, is little tricky here as it grows infinitely. So, remember Hence,    Therefore, Meaning choose between and  is proved.   "
+},
+{
+  "id": "subsec-def-limit-9",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-9",
+  "type": "Example",
+  "number": "2.1.5",
+  "title": "",
+  "body": "  How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore    "
+},
+{
+  "id": "subsec-def-limit-10",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-def-limit-10",
   "type": "Checkpoint",
   "number": "2.1.6",
   "title": "",
   "body": " Prove that   "
 },
 {
-  "id": "subsec-def-limit-9",
+  "id": "subsec-def-limit-11",
   "level": "2",
-  "url": "sec_second-intro.html#subsec-def-limit-9",
+  "url": "sec_second-intro.html#subsec-def-limit-11",
   "type": "Checkpoint",
   "number": "2.1.7",
   "title": "",
   "body": " Prove that   "
 },
 {
-  "id": "subsec-def-limit-10",
+  "id": "subsec-def-limit-12",
   "level": "2",
-  "url": "sec_second-intro.html#subsec-def-limit-10",
+  "url": "sec_second-intro.html#subsec-def-limit-12",
   "type": "Checkpoint",
   "number": "2.1.8",
   "title": "",
