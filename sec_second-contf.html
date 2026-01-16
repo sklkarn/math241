@@ -249,8 +249,9 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list active">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contFns" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Types of Continuous Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-dscont_type" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Types of Discontinuities</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Continuity on an Interval</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-holes" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Holes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Continuity on an Interval</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Example B</span></a></div></li>
@@ -515,8 +516,70 @@ f(x) = \sin\left(\frac{1}{x}\right) \quad \, \text{ at } x=0.
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-dscont_type-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 2.4.2: Types of Discontinuities"><a href="#subsec-dscont_type" title="Copy heading and permalink for Subsection 2.4.2: Types of Discontinuities">🔗</a></div></section><section class="subsection" id="subsec-int_cont"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.3</span><span class="space"> </span><span class="title">Continuity on an Interval</span>
+<div class="autopermalink" data-description="Subsection 2.4.2: Types of Discontinuities"><a href="#subsec-dscont_type" title="Copy heading and permalink for Subsection 2.4.2: Types of Discontinuities">🔗</a></div></section><section class="subsection" id="subsec-holes"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.3</span><span class="space"> </span><span class="title">Holes</span>
+</h3>
+<div class="para" id="subsec-holes-2">
+<dfn class="terminology">Removal Discontinuity</dfn> While solving some rational functions, we need to restrict some variables from getting function undefined. This resitriction may introduce holes in the plot.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsec-holes-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.4.3</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-holes-3-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{x-3}{x^2+3x-18} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-holes-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-holes-3-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{x-3}{x^2+3x-18} =   \frac{\cancel{(x-3)}}{(x+6)\cancel{(x-3)}}; \, \text{ Restriction } \, x\neq -6,3
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-holes-3-2-2">
+<div class="para">Here <span class="process-math">\(x=3  \)</span> produces hole in the plot, which can be removed by simplyfying the function as</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{1}{x+6}; \, x\neq -6,3.
+\end{equation*}
+</div>
+<div class="para">Here <span class="process-math">\(x=-6\)</span> gives vertical asymptote.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-3-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.4.3.1"><a href="#subsec-holes-3-2" title="Copy heading and permalink for Solution 2.4.3.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.4.3"><a href="#subsec-holes-3" title="Copy heading and permalink for Example 2.4.3">🔗</a></div></article><article class="example example-like" id="subsec-holes-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.4.4</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-holes-4-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{x^2-9}{x^2+7x+12} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-holes-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-holes-4-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x)  = \frac{x^2-9}{x^2+7x+12} =  \frac{\cancel{(x+3)}(x-3)}{(x+4)\cancel{(x+3)}}; \, x\neq -4,-3
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-4-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-holes-4-2-2">Here <span class="process-math">\(x=-3  \)</span> produces hole in the plot and <span class="process-math">\(x=-4\)</span> gives vertical asymptote.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-holes-4-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.4.4.1"><a href="#subsec-holes-4-2" title="Copy heading and permalink for Solution 2.4.4.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.4.4"><a href="#subsec-holes-4" title="Copy heading and permalink for Example 2.4.4">🔗</a></div></article><div class="autopermalink" data-description="Subsection 2.4.3: Holes"><a href="#subsec-holes" title="Copy heading and permalink for Subsection 2.4.3: Holes">🔗</a></div></section><section class="subsection" id="subsec-int_cont"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.4</span><span class="space"> </span><span class="title">Continuity on an Interval</span>
 </h3>
 <div class="para logical" id="subsec-int_cont-2">
 <div class="para">
@@ -528,8 +591,8 @@ f(x) = \sin\left(\frac{1}{x}\right) \quad \, \text{ at } x=0.
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-int_cont-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 2.4.3: Continuity on an Interval"><a href="#subsec-int_cont" title="Copy heading and permalink for Subsection 2.4.3: Continuity on an Interval">🔗</a></div></section><section class="subsection" id="subsec-contf_proprt"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.4</span><span class="space"> </span><span class="title">Properties of Continuous Functions</span>
+<div class="autopermalink" data-description="Subsection 2.4.4: Continuity on an Interval"><a href="#subsec-int_cont" title="Copy heading and permalink for Subsection 2.4.4: Continuity on an Interval">🔗</a></div></section><section class="subsection" id="subsec-contf_proprt"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.4.5</span><span class="space"> </span><span class="title">Properties of Continuous Functions</span>
 </h3>
 <div class="para logical" id="subsec-contf_proprt-2">
 <div class="para">If <span class="process-math">\(f\)</span> and <span class="process-math">\(g\)</span> are two continuous functions at real number <span class="process-math">\(c\text{,}\)</span> then</div>
@@ -573,7 +636,7 @@ f(x) = \sin\left(\frac{1}{x}\right) \quad \, \text{ at } x=0.
 </ul>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-contf_proprt-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 2.4.4: Properties of Continuous Functions"><a href="#subsec-contf_proprt" title="Copy heading and permalink for Subsection 2.4.4: Properties of Continuous Functions">🔗</a></div></section><div class="autopermalink" data-description="Section 2.4: Continuity"><a href="#sec_second-contf" title="Copy heading and permalink for Section 2.4: Continuity">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 2.4.5: Properties of Continuous Functions"><a href="#subsec-contf_proprt" title="Copy heading and permalink for Subsection 2.4.5: Properties of Continuous Functions">🔗</a></div></section><div class="autopermalink" data-description="Section 2.4: Continuity"><a href="#sec_second-contf" title="Copy heading and permalink for Section 2.4: Continuity">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_second-exampleA.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_second-exampleB.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

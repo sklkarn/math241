@@ -88,7 +88,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.3",
   "title": "Number Line <span class=\"process-math\">\\(\\&amp;\\)<\/span> Intervals",
-  "body": " Number Line Intervals   In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval:       e.g.,  unfilled circle represents the number is not included.      Closed Interval:       e.g.,  filled circle represents the number is included.      Closed - open Interval:       e.g.,  including but excluding       Open - closed Interval: (a, b]      e.g.,  excluding but including        Inequality Rules  Summary of inequality rules inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:        Modulus Functions  Basics of Modulus functions: modulus functions The general representation of the modulus function is where   If we get only one solution as distance of zero from zero is 0.  If number, we get no solution as mod of any number is never negative.  If number, we get two solution as described in defintion above.                         Find if     From definition: We have - or       Find if     We get only one solution as        Find if     We get two solution as  Also,      Find if No solution as mod never gives any negative output.     Rememebr: Mod always gives a single value, if there is one.    Solve the following:                       For         For  or,     Solve the following inequalities:                                           "
+  "body": " Number Line Intervals   In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval:       e.g.,  unfilled circle represents the number is not included.      Closed Interval:       e.g.,  filled circle represents the number is included.      Closed - open Interval:       e.g.,  including but excluding       Open - closed Interval: (a, b]      e.g.,  excluding but including        Inequality Rules  Summary of inequality rules inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:        Modulus Functions  Basics of Modulus functions: modulus functions The general representation of the modulus function is where   If we get only one solution as distance of zero from zero is 0.  If number, we get no solution as mod of any number is never negative.  If number, we get two solution as described in defintion above.                         Find if     From definition: We have - or       Find if     We get only one solution as        Find if     We get two solution as  Also,      Find if No solution as mod never gives any negative output.     Rememebr: Mod always gives a single value, if there is one.    Solve the following:                       For         For  or,     Solve the following inequalities:                                              "
 },
 {
   "id": "sec_first-intervals-2-1",
@@ -196,7 +196,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.3.9",
   "title": "",
-  "body": " Solve the following inequalities:                                         "
+  "body": " Solve the following inequalities:                                            "
 },
 {
   "id": "sec_first-inequal",
@@ -817,7 +817,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.8",
   "title": "Asymptote",
-  "body": " Asymptote   An asymptote is a line that a curve (function) approaches but never touches as it extends toward infinity. Asymptotes describe the behavior of functions, especially rational functions, as their input (or output) grows very large or very small. There are three main types: horizontal, vertical, and oblique (slant).      Vertical Asymptote: A vertical asymptote is a vertical line where the function approaches infinity (or negative infinity) as approaches . It occurs where the function is undefined, typically at values that make the denominator zero. i.e., For example: If then, Vertical asymptote (VA) lies at by setting denominator to , so .  As , ; as , . The graph shoots upward on one side and downward on the other.   If VA: at and       Horizontal Asymptote: A horizontal asymptote is a horizontal line for a function as or . It describes the function's behavior at the extremes of the x-axis. For a rational function compare the degrees of the numerator and denominator :  If the degree of , the horizontal asymptote (HA) is .  If the degrees are equal, the horizontal asymptote is , where and are the leading coefficients of and .  If the degree of degree of , there is no horizontal asymptote.  For    Degree of numerator: 1 (from ( )).    Degree of denominator: 2 (from ).    Since 1 2, the horizontal asymptote is .    As , the denominator grows faster, so . The graph flattens toward the x-axis.      For    Degrees are equal: both .    Leading coefficients: 3 (numerator) and 2 (denominator).    Horizontal asymptote: .    As , , so the graph approaches .        Oblique Asymptote An oblique asymptote is a slanted line that the graph approaches when the degree of the numerator is exactly one more than the degree of the denominator.  There may be an oblique asymptote if degree of is more than the degree of , i.e., the difference in degrees is No discussion of oblique asymptote here.     Plot function below by adjusting your p2.    For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at , but the \"gap\" can be filled by simplifying.     Graph of Asymptotic Functions  Draw graph of the following functions:                                         VA: as   HA: as i.e., degree of numerator is less than degree of denominator.  draw one point at your convenient location at  Now from the standard graph [ ]        VA: , HA: , Point(x,y) =       vertical shift = 1 unit upward, VA: , HA = , point (x,y)=           Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and         Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.         "
+  "body": " Asymptote   An asymptote is a line that a curve (function) approaches but never touches as it extends toward infinity. Asymptotes describe the behavior of functions, especially rational functions, as their input (or output) grows very large or very small. There are three main types: horizontal, vertical, and oblique (slant).      Vertical Asymptote: A vertical asymptote is a vertical line where the function approaches infinity (or negative infinity) as approaches . It occurs where the function is undefined, typically at values that make the denominator zero. i.e., For example: If then, Vertical asymptote (VA) lies at by setting denominator to , so .  As , ; as , . The graph shoots upward on one side and downward on the other.   If VA: at and       Horizontal Asymptote: A horizontal asymptote is a horizontal line for a function as or . It describes the function's behavior at the extremes of the x-axis. For a rational function compare the degrees of the numerator and denominator :  If the degree of , the horizontal asymptote (HA) is .  If the degrees are equal, the horizontal asymptote is , where and are the leading coefficients of and .  If the degree of degree of , there is no horizontal asymptote.  For    Degree of numerator: 1 (from ( )).    Degree of denominator: 2 (from ).    Since 1 2, the horizontal asymptote is .    As , the denominator grows faster, so . The graph flattens toward the x-axis.      For    Degrees are equal: both .    Leading coefficients: 3 (numerator) and 2 (denominator).    Horizontal asymptote: .    As , , so the graph approaches .     Horizontal asymptote may or may not touch by the curve as      Oblique Asymptote An oblique asymptote is a slanted line that the graph approaches when the degree of the numerator is exactly one more than the degree of the denominator.  There may be an oblique asymptote if degree of is more than the degree of , i.e., the difference in degrees is   For After long division, Hence, at HA, we have gives a slanted asymptote.     Plot function below by adjusting your p2.    For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at , but the \"gap\" can be filled by simplifying.     Graph of Asymptotic Functions  Draw graph of the following functions:                                         VA: as   HA: as i.e., degree of numerator is less than degree of denominator.  draw one point at your convenient location at  Now from the standard graph [ ]        VA: , HA: , Point(x,y) =       vertical shift = 1 unit upward, VA: , HA = , point (x,y)=           Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and         Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.          Find VA and draw graph.      Hence, VA @        Find HA and draw graph.      Now as then Hence, HA @   In this function degree of denominator degree of numerator.      Find HA and draw graph.      Hence, HA @   In this function degree of numerator degree of denominator.      "
 },
 {
   "id": "sec_first-asympt-2-2",
@@ -881,6 +881,33 @@ var ptx_lunr_docs = [
   "number": "1.8.6",
   "title": "",
   "body": "     Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.       "
+},
+{
+  "id": "subsec-asympt_gr-8",
+  "level": "2",
+  "url": "sec_first-asympt.html#subsec-asympt_gr-8",
+  "type": "Example",
+  "number": "1.8.7",
+  "title": "",
+  "body": "  Find VA and draw graph.      Hence, VA @     "
+},
+{
+  "id": "subsec-asympt_gr-9",
+  "level": "2",
+  "url": "sec_first-asympt.html#subsec-asympt_gr-9",
+  "type": "Example",
+  "number": "1.8.8",
+  "title": "",
+  "body": "  Find HA and draw graph.      Now as then Hence, HA @   In this function degree of denominator degree of numerator.   "
+},
+{
+  "id": "subsec-asympt_gr-10",
+  "level": "2",
+  "url": "sec_first-asympt.html#subsec-asympt_gr-10",
+  "type": "Example",
+  "number": "1.8.9",
+  "title": "",
+  "body": "  Find HA and draw graph.      Hence, HA @   In this function degree of numerator degree of denominator.    "
 },
 {
   "id": "sec_first-log",
@@ -2401,7 +2428,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Continuity",
-  "body": " Continuity   A function is continuous at a point if there are no breaks, jumps, or holes on its graph. Intuitively, you can draw the graph without lifting your pencil.  A function is said to be continuous continuous at if [ ] i.e.,   To see if the given function is continuous or not needs the following three conditions:    is defined.         The limit equals the function value, i.e., .   If any one fails, is discontinuous discontinuous at .   Alternatively, using the difference quotient  difference quotient [ ], continuity at (c) means:     Types of Continuous Functions     Polynomial (linear, square, cubic, etc. ) functions are continuous everywhere (in ).    Exponential ( ) functions are continuous everywhere (in ).    Rational functions are continuous everywhere (in ) except where .    The mode function is continuous everywhere.    Logarithmic ( ) functions are continuous where they are defined (i.e., ).    Trigonometric functions ( ) are continuous everywhere but , are continuous except at     The GIF and FPF functions are continuous      From geometry or [ ] Squeeze theorem , we have some standard limits [ ]:     Types of Discontinuities      Removable Discontinuity Limit exists, but is missing or wrong.          Jump Discontinuity Left and right limits exist but differ.          Infinite Discontinuity Limit is .      Oscillatory Discontinuity Limit fails due to wild oscillation.        Continuity on an Interval   is continuous on if continuous at every point in , and right-continuous at , left-continuous at . That is:     Properties of Continuous Functions  If and are two continuous functions at real number , then    is continuous at      is continuous at      is continuous at where is any scalar.     is continuous at      is continuous at       is continuous at       "
+  "body": " Continuity   A function is continuous at a point if there are no breaks, jumps, or holes on its graph. Intuitively, you can draw the graph without lifting your pencil.  A function is said to be continuous continuous at if [ ] i.e.,   To see if the given function is continuous or not needs the following three conditions:    is defined.         The limit equals the function value, i.e., .   If any one fails, is discontinuous discontinuous at .   Alternatively, using the difference quotient  difference quotient [ ], continuity at (c) means:     Types of Continuous Functions     Polynomial (linear, square, cubic, etc. ) functions are continuous everywhere (in ).    Exponential ( ) functions are continuous everywhere (in ).    Rational functions are continuous everywhere (in ) except where .    The mode function is continuous everywhere.    Logarithmic ( ) functions are continuous where they are defined (i.e., ).    Trigonometric functions ( ) are continuous everywhere but , are continuous except at     The GIF and FPF functions are continuous      From geometry or [ ] Squeeze theorem , we have some standard limits [ ]:     Types of Discontinuities      Removable Discontinuity Limit exists, but is missing or wrong.          Jump Discontinuity Left and right limits exist but differ.          Infinite Discontinuity Limit is .      Oscillatory Discontinuity Limit fails due to wild oscillation.        Holes   Removal Discontinuity While solving some rational functions, we need to restrict some variables from getting function undefined. This resitriction may introduce holes in the plot.            Here produces hole in the plot, which can be removed by simplyfying the function as Here gives vertical asymptote.              Here produces hole in the plot and gives vertical asymptote.      Continuity on an Interval   is continuous on if continuous at every point in , and right-continuous at , left-continuous at . That is:     Properties of Continuous Functions  If and are two continuous functions at real number , then    is continuous at      is continuous at      is continuous at where is any scalar.     is continuous at      is continuous at       is continuous at       "
 },
 {
   "id": "sec_second-contf-2-4",
@@ -2429,6 +2456,33 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "",
   "body": "Removable Discontinuity Jump Discontinuity Infinite Discontinuity Oscillatory Discontinuity "
+},
+{
+  "id": "subsec-holes-2",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-holes-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Removal Discontinuity "
+},
+{
+  "id": "subsec-holes-3",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-holes-3",
+  "type": "Example",
+  "number": "2.4.3",
+  "title": "",
+  "body": "          Here produces hole in the plot, which can be removed by simplyfying the function as Here gives vertical asymptote.   "
+},
+{
+  "id": "subsec-holes-4",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-holes-4",
+  "type": "Example",
+  "number": "2.4.4",
+  "title": "",
+  "body": "          Here produces hole in the plot and gives vertical asymptote.   "
 },
 {
   "id": "sec_second-exampleB",

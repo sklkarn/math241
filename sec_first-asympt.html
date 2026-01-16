@@ -261,8 +261,9 @@ sagecell.makeSagecell({
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contFns" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Types of Continuous Functions</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-dscont_type" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Types of Discontinuities</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Continuity on an Interval</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-holes" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Holes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Continuity on an Interval</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Example B</span></a></div></li>
@@ -470,13 +471,31 @@ f(x)=\frac{3x^2+2}{2x^2-1}
 </ul>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2-1-2-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
+<div class="para" id="sec_first-asympt-2-2-1-2-8">Horizontal asymptote may or may not touch by the curve as <span class="process-math">\(x\to \infty.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2-1-2-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
 <div class="autopermalink" data-description="Item ii"><a href="#sec_first-asympt-2-2-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
 </li>
 <li id="sec_first-asympt-2-2-1-3">
 <div class="para" id="sec_first-asympt-2-2-1-3-1">
 <dfn class="terminology">Oblique Asymptote</dfn> An oblique asymptote is a slanted line <span class="process-math">\(y = mx + b\)</span> that the graph approaches when the degree of the numerator is exactly one more than the degree of the denominator.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para" id="sec_first-asympt-2-2-1-3-2">There may be an oblique asymptote if degree of <span class="process-math">\(p(x)\)</span> is <span class="process-math">\(1\)</span> more than the degree of <span class="process-math">\(q(x)\text{,}\)</span> i.e., the difference in degrees is <span class="process-math">\(1.\)</span> No discussion of oblique asymptote here.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2-1-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="sec_first-asympt-2-2-1-3-2">There may be an oblique asymptote if degree of <span class="process-math">\(p(x)\)</span> is <span class="process-math">\(1\)</span> more than the degree of <span class="process-math">\(q(x)\text{,}\)</span> i.e., the difference in degrees is <span class="process-math">\(1.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2-1-3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_first-asympt-2-2-1-3-3">
+<div class="para">For</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{x^2+4x+10}{x-2}  
+\end{equation*}
+</div>
+<div class="para">After long division,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x)= (x+6)+\frac{22}{x-2}
+\end{equation*}
+</div>
+<div class="para">Hence, at <span class="process-math">\(x=2:\)</span> HA, we have <span class="process-math">\(y=f(x) = x+6\)</span> gives a slanted asymptote.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-asympt-2-2-1-3-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item iii"><a href="#sec_first-asympt-2-2-1-3" title="Copy heading and permalink for Item iii">🔗</a></div>
 </li>
@@ -767,7 +786,94 @@ f(x) = -\frac{x^2+1}{x^2+5x+4} = \frac{(1-x)(1+x)}{(x+4)(x+1)} = \frac{1-x}{x+4}
 </script></div>
 <div class="autopermalink" data-description="Solution 1.8.6.1"><a href="#subsec-asympt_gr-7-2" title="Copy heading and permalink for Solution 1.8.6.1">🔗</a></div>
 </div></details></div>
-<div class="autopermalink" data-description="Example 1.8.6"><a href="#subsec-asympt_gr-7" title="Copy heading and permalink for Example 1.8.6">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.8.1: Graph of Asymptotic Functions"><a href="#subsec-asympt_gr" title="Copy heading and permalink for Subsection 1.8.1: Graph of Asymptotic Functions">🔗</a></div></section><div class="autopermalink" data-description="Section 1.8: Asymptote"><a href="#sec_first-asympt" title="Copy heading and permalink for Section 1.8: Asymptote">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Example 1.8.6"><a href="#subsec-asympt_gr-7" title="Copy heading and permalink for Example 1.8.6">🔗</a></div></article><article class="example example-like" id="subsec-asympt_gr-8"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.7</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-asympt_gr-8-1-1">
+<div class="para">Find VA and draw graph.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{1}{x^2-2x-8}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-8-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-asympt_gr-8-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-asympt_gr-8-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{1}{(x-4)(x+2)}; \, x\neq 4,-2
+\end{equation*}
+</div>
+<div class="para">Hence, VA @  <span class="process-math">\(x = 4,-2.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-8-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/asmpt1.png" class="contained"></div>
+<div class="autopermalink" data-description="Solution 1.8.7.1"><a href="#subsec-asympt_gr-8-2" title="Copy heading and permalink for Solution 1.8.7.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.8.7"><a href="#subsec-asympt_gr-8" title="Copy heading and permalink for Example 1.8.7">🔗</a></div></article><article class="example example-like" id="subsec-asympt_gr-9"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.8</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-asympt_gr-9-1-1">
+<div class="para">Find HA and draw graph.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{x-3}{x^2-5x+4}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-9-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-asympt_gr-9-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-asympt_gr-9-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = x^2\frac{\frac{1}{x}-\frac{3}{x^2}}{(1-\frac{5}{x}+\frac{4}{x^2})}
+\end{equation*}
+</div>
+<div class="para">Now as <span class="process-math">\(x\to \infty\)</span>then</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) \to \frac{0}{1}=0.
+\end{equation*}
+</div>
+<div class="para">Hence, HA @ <span class="process-math">\(y=0.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-9-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-asympt_gr-9-2-2">In this function degree of denominator <span class="process-math">\(\gt \)</span> degree of numerator.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-9-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 1.8.8.1"><a href="#subsec-asympt_gr-9-2" title="Copy heading and permalink for Solution 1.8.8.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.8.8"><a href="#subsec-asympt_gr-9" title="Copy heading and permalink for Example 1.8.8">🔗</a></div></article><article class="example example-like" id="subsec-asympt_gr-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.9</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-asympt_gr-10-1-1">
+<div class="para">Find HA and draw graph.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+f(x) = \frac{3x+2}{x-4}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-10-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-asympt_gr-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-asympt_gr-10-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to \infty} f(x) = \lim_{x\to \infty} \frac{3+2/x}{1-4/x} =  \frac{3}{1} =3
+\end{equation*}
+</div>
+<div class="para">Hence, HA @ <span class="process-math">\(y=3.\)</span>
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-10-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsec-asympt_gr-10-2-2">In this function degree of numerator <span class="process-math">\(=\)</span> degree of denominator.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-asympt_gr-10-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 40%; margin-left: 30%; margin-right: 30%;"><img src="external/asmpt2.png" class="contained"></div>
+<div class="autopermalink" data-description="Solution 1.8.9.1"><a href="#subsec-asympt_gr-10-2" title="Copy heading and permalink for Solution 1.8.9.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 1.8.9"><a href="#subsec-asympt_gr-10" title="Copy heading and permalink for Example 1.8.9">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.8.1: Graph of Asymptotic Functions"><a href="#subsec-asympt_gr" title="Copy heading and permalink for Subsection 1.8.1: Graph of Asymptotic Functions">🔗</a></div></section><div class="autopermalink" data-description="Section 1.8: Asymptote"><a href="#sec_first-asympt" title="Copy heading and permalink for Section 1.8: Asymptote">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-range.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_first-log.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
