@@ -916,16 +916,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.9",
   "title": "Logarithm",
-  "body": " Logarithm   A function that gives the exponent to which a fixed number (base) must be raised to produce a given number (argument) is called a logarithmic function. logarithmic function  In the above expression is argument and is called the base of logarithm. The condition in logarithm and   In real numbers, the base must be a positive number and not equal to 1. The argument of a logarithm must also be a positive number.  Examples:                    Common Logarithm:     Natural Logarithm:      Evaluate:                                Logarithm to Exponent Conversion:                     Exponent to Logarithm Conversion:                      Graph of Lagarithimic Function:          Domain:     Logarithmic Rules   Power Rule:                               Product Rule:                     Quotient Rule:          Other Rules or Tricks:              If then,                                       Solving Exponential Equations.                          Solving Logarithmic Equations.       but in logarithm argument is always positive, hence need to be excluded for .            Since, makes negative argument, hence this value must be excluded for the solution.       Applications of Logarithmic Expression  Logarithms can be used to analyze either very small or very large numbers. It has wide applications in science such as represent earthquake magnitude (Richter scale), sound intensity (decibels), and chemical acidity (pH scale).    "
-},
-{
-  "id": "sec_first-log-2-4",
-  "level": "2",
-  "url": "sec_first-log.html#sec_first-log-2-4",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Common Logarithm: "
+  "body": " Logarithm   A function that gives the exponent to which a fixed number (base) must be raised to produce a given number (argument) is called a logarithmic function. logarithmic function  In the above expression is argument and is called the base of logarithm. The condition in logarithm and   In real numbers, the base must be a positive number and not equal to 1. The argument of a logarithm must also be a positive number.  We know that Hence, Or, in general: if then,   Examples:                    Common Logarithm:     Natural Logarithm:      Evaluate:                                Logarithm to Exponent Conversion:                     Exponent to Logarithm Conversion:                      Graph of Lagarithimic Function:          Domain:     Logarithmic Rules   Power Rule:                                Product Rule:                     Quotient Rule:          Other Rules or Tricks:              If then,                                            Solving Exponential Equations.                          Solving Logarithmic Equations.       but in logarithm argument is always positive, hence need to be excluded for .            Since, makes negative argument, hence this value must be excluded for the solution.    Prove that:            Applications of Logarithmic Expression  Logarithms can be used to analyze either very small or very large numbers. It has wide applications in science such as represent earthquake magnitude (Richter scale), sound intensity (decibels), and chemical acidity (pH scale).    "
 },
 {
   "id": "sec_first-log-2-5",
@@ -934,48 +925,57 @@ var ptx_lunr_docs = [
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
-  "body": "Natural Logarithm: "
+  "body": "Common Logarithm: "
 },
 {
   "id": "sec_first-log-2-6",
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-6",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Natural Logarithm: "
+},
+{
+  "id": "sec_first-log-2-7",
+  "level": "2",
+  "url": "sec_first-log.html#sec_first-log-2-7",
   "type": "Example",
   "number": "1.9.1",
   "title": "",
   "body": "  Evaluate:                              "
 },
 {
-  "id": "sec_first-log-2-7",
+  "id": "sec_first-log-2-8",
   "level": "2",
-  "url": "sec_first-log.html#sec_first-log-2-7",
+  "url": "sec_first-log.html#sec_first-log-2-8",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Logarithm to Exponent Conversion: "
 },
 {
-  "id": "sec_first-log-2-8",
+  "id": "sec_first-log-2-9",
   "level": "2",
-  "url": "sec_first-log.html#sec_first-log-2-8",
+  "url": "sec_first-log.html#sec_first-log-2-9",
   "type": "Example",
   "number": "1.9.2",
   "title": "",
   "body": "               "
 },
 {
-  "id": "sec_first-log-2-9",
+  "id": "sec_first-log-2-10",
   "level": "2",
-  "url": "sec_first-log.html#sec_first-log-2-9",
+  "url": "sec_first-log.html#sec_first-log-2-10",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Exponent to Logarithm Conversion: "
 },
 {
-  "id": "sec_first-log-2-10",
+  "id": "sec_first-log-2-11",
   "level": "2",
-  "url": "sec_first-log.html#sec_first-log-2-10",
+  "url": "sec_first-log.html#sec_first-log-2-11",
   "type": "Example",
   "number": "1.9.3",
   "title": "",
@@ -1006,7 +1006,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "1.9.5",
   "title": "",
-  "body": "                         "
+  "body": "                          "
 },
 {
   "id": "subsec-log_rule-4",

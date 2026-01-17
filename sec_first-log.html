@@ -119,15 +119,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.11.9';
+eBookConfig.runestone_version = '7.11.10';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.991c135ccf182bf5.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.1c010553c35c544c.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.677a75a9120449ff.css">
+<script src="_static/prefix-runtime.3dca4b99808f4053.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.80892ed1280c2803.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.6ec5960970d8b364.css">
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><script>// Make *any* div with class 'sagecell-sage' an executable Sage cell
 // Their results will be linked, only within language type
@@ -373,165 +373,192 @@ sagecell.makeSagecell({
 <div class="para" id="sec_first-log-2-2">In real numbers, the base must be a positive number and not equal to 1. The argument of a logarithm must also be a positive number.<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_first-log-2-3">
-<div class="para">Examples:</div>
-<ol class="decimal" id="sec_first-log-2-3-1">
-<li id="sec_first-log-2-3-1-1">
-<div class="para" id="sec_first-log-2-3-1-1-1">
-<span class="process-math">\(\displaystyle \log_{3}{(9)} =\log_{3}{(3)^2}= 2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-3-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">We know that</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2^5=32
+\end{equation*}
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-3-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
-</li>
-<li id="sec_first-log-2-3-1-2">
-<div class="para" id="sec_first-log-2-3-1-2-1">
-<span class="process-math">\(\displaystyle \log_{2}{(8)} =\log_{2}{(2)^3}= 3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-3-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">Hence,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_2{32} = 5
+\end{equation*}
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-3-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
-</li>
-<li id="sec_first-log-2-3-1-3">
-<div class="para" id="sec_first-log-2-3-1-3-1">
-<span class="process-math">\(\displaystyle \log_{2}{(\frac{1}{8})} =\log_{2}{(\frac{1}{2^3})} =\log_{2}{(2)^{-3}} = -3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-3-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">Or, in general: if</div>
+<div class="displaymath process-math">
+\begin{equation*}
+a^x=y
+\end{equation*}
 </div>
-<div class="autopermalink" data-description="Item 3"><a href="#sec_first-log-2-3-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
-</li>
-</ol>
+<div class="para">then,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_a{y} = x.
+\end{equation*}
+</div>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="sec_first-log-2-4">
+<div class="para">Examples:</div>
+<ol class="decimal" id="sec_first-log-2-4-1">
+<li id="sec_first-log-2-4-1-1">
+<div class="para" id="sec_first-log-2-4-1-1-1">
+<span class="process-math">\(\displaystyle \log_{3}{(9)} =\log_{3}{(3)^2}= 2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-4-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-4-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="sec_first-log-2-4-1-2">
+<div class="para" id="sec_first-log-2-4-1-2-1">
+<span class="process-math">\(\displaystyle \log_{2}{(8)} =\log_{2}{(2)^3}= 3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-4-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-4-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+<li id="sec_first-log-2-4-1-3">
+<div class="para" id="sec_first-log-2-4-1-3-1">
+<span class="process-math">\(\displaystyle \log_{2}{(\frac{1}{8})} =\log_{2}{(\frac{1}{2^3})} =\log_{2}{(2)^{-3}} = -3\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-4-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 3"><a href="#sec_first-log-2-4-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec_first-log-2-5">
 <div class="para"><dfn class="terminology">Common Logarithm:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
 \log_{10}{(x)} =\log{x}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="para logical" id="sec_first-log-2-5">
+<div class="para logical" id="sec_first-log-2-6">
 <div class="para"><dfn class="terminology">Natural Logarithm:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
 \log_{e}{(x)} =\ln{x}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="sec_first-log-2-6"><h3 class="heading">
+<article class="example example-like" id="sec_first-log-2-7"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9.1</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="sec_first-log-2-6-1">
+<div class="para logical" id="sec_first-log-2-7-1">
 <div class="para"><dfn class="terminology">Evaluate:</dfn></div>
-<ol class="decimal" id="sec_first-log-2-6-1-2">
-<li id="sec_first-log-2-6-1-2-1">
-<div class="para" id="sec_first-log-2-6-1-2-1-1">
-<span class="process-math">\(\displaystyle \log {(100)} = \log_{10} {(100)} = \log_{10} {(10)^2} =2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6-1-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<ol class="decimal" id="sec_first-log-2-7-1-2">
+<li id="sec_first-log-2-7-1-2-1">
+<div class="para" id="sec_first-log-2-7-1-2-1-1">
+<span class="process-math">\(\displaystyle \log {(100)} = \log_{10} {(100)} = \log_{10} {(10)^2} =2\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-6-1-2-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-7-1-2-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="sec_first-log-2-6-1-2-2">
-<div class="para" id="sec_first-log-2-6-1-2-2-1">
-<span class="process-math">\(\displaystyle \log {(10)} = \log_{10} {(10)} = \log_{10} {(10)^1} =1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6-1-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec_first-log-2-7-1-2-2">
+<div class="para" id="sec_first-log-2-7-1-2-2-1">
+<span class="process-math">\(\displaystyle \log {(10)} = \log_{10} {(10)} = \log_{10} {(10)^1} =1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1-2-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-6-1-2-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-7-1-2-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
-<li id="sec_first-log-2-6-1-2-3">
-<div class="para" id="sec_first-log-2-6-1-2-3-1">
-<span class="process-math">\(\displaystyle \log {(1)} = \log_{10} {(1)} = \log_{10} {(10)^{0} } =0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6-1-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec_first-log-2-7-1-2-3">
+<div class="para" id="sec_first-log-2-7-1-2-3-1">
+<span class="process-math">\(\displaystyle \log {(1)} = \log_{10} {(1)} = \log_{10} {(10)^{0} } =0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 3"><a href="#sec_first-log-2-6-1-2-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+<div class="autopermalink" data-description="Item 3"><a href="#sec_first-log-2-7-1-2-3" title="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
-<li id="sec_first-log-2-6-1-2-4">
-<div class="para" id="sec_first-log-2-6-1-2-4-1">
-<span class="process-math">\(\displaystyle \log {(0.1)} = \log_{10} {(0.1)} = \log_{10} {(10)^{-1} } =-1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6-1-2-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec_first-log-2-7-1-2-4">
+<div class="para" id="sec_first-log-2-7-1-2-4-1">
+<span class="process-math">\(\displaystyle \log {(0.1)} = \log_{10} {(0.1)} = \log_{10} {(10)^{-1} } =-1\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1-2-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 4"><a href="#sec_first-log-2-6-1-2-4" title="Copy heading and permalink for Item 4">🔗</a></div>
+<div class="autopermalink" data-description="Item 4"><a href="#sec_first-log-2-7-1-2-4" title="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
-<li id="sec_first-log-2-6-1-2-5">
-<div class="para" id="sec_first-log-2-6-1-2-5-1">
-<span class="process-math">\(\displaystyle \log {(2)} = \log_{10} {(2)} = \log_{10} {(10)^{0.30103} } \approx 0.30103\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6-1-2-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<li id="sec_first-log-2-7-1-2-5">
+<div class="para" id="sec_first-log-2-7-1-2-5-1">
+<span class="process-math">\(\displaystyle \log {(2)} = \log_{10} {(2)} = \log_{10} {(10)^{0.30103} } \approx 0.30103\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1-2-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 5"><a href="#sec_first-log-2-6-1-2-5" title="Copy heading and permalink for Item 5">🔗</a></div>
+<div class="autopermalink" data-description="Item 5"><a href="#sec_first-log-2-7-1-2-5" title="Copy heading and permalink for Item 5">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.9.1"><a href="#sec_first-log-2-6" title="Copy heading and permalink for Example 1.9.1">🔗</a></div></article><div class="para logical" id="sec_first-log-2-7">
+<div class="autopermalink" data-description="Example 1.9.1"><a href="#sec_first-log-2-7" title="Copy heading and permalink for Example 1.9.1">🔗</a></div></article><div class="para logical" id="sec_first-log-2-8">
 <div class="para"><dfn class="terminology">Logarithm to Exponent Conversion:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
 y=\log_{b}{(x)} \rightarrow \, x= b^y
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="sec_first-log-2-8"><h3 class="heading">
+<article class="example example-like" id="sec_first-log-2-9"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9.2</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="sec_first-log-2-8-1">
-<ol class="decimal" id="sec_first-log-2-8-1-1">
-<li id="sec_first-log-2-8-1-1-1">
-<div class="para logical" id="sec_first-log-2-8-1-1-1-1">
+<div class="para logical" id="sec_first-log-2-9-1">
+<ol class="decimal" id="sec_first-log-2-9-1-1">
+<li id="sec_first-log-2-9-1-1-1">
+<div class="para logical" id="sec_first-log-2-9-1-1-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
 5=\log_{2}{(32)} \rightarrow \, 32 = 2^5
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-8-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-9-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-8-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-9-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="sec_first-log-2-8-1-1-2">
-<div class="para logical" id="sec_first-log-2-8-1-1-2-1">
+<li id="sec_first-log-2-9-1-1-2">
+<div class="para logical" id="sec_first-log-2-9-1-1-2-1">
 <div class="displaymath process-math">
 \begin{equation*}
 2=\log_{7}{(x)} \rightarrow \, x = 7^2
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-8-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-9-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-8-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-9-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-8-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-9-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.9.2"><a href="#sec_first-log-2-8" title="Copy heading and permalink for Example 1.9.2">🔗</a></div></article><div class="para logical" id="sec_first-log-2-9">
+<div class="autopermalink" data-description="Example 1.9.2"><a href="#sec_first-log-2-9" title="Copy heading and permalink for Example 1.9.2">🔗</a></div></article><div class="para logical" id="sec_first-log-2-10">
 <div class="para"><dfn class="terminology">Exponent to Logarithm Conversion:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
 b^m=n \rightarrow \, m= \log_{b}{(n)}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-9" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-10" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<article class="example example-like" id="sec_first-log-2-10"><h3 class="heading">
+<article class="example example-like" id="sec_first-log-2-11"><h3 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">1.9.3</span><span class="period">.</span>
 </h3>
-<div class="para logical" id="sec_first-log-2-10-1">
-<ol class="decimal" id="sec_first-log-2-10-1-1">
-<li id="sec_first-log-2-10-1-1-1">
-<div class="para logical" id="sec_first-log-2-10-1-1-1-1">
+<div class="para logical" id="sec_first-log-2-11-1">
+<ol class="decimal" id="sec_first-log-2-11-1-1">
+<li id="sec_first-log-2-11-1-1-1">
+<div class="para logical" id="sec_first-log-2-11-1-1-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
 4^3= 64 \rightarrow \, 3 = \log_{4}{(64)}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-10-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-11-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-10-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec_first-log-2-11-1-1-1" title="Copy heading and permalink for Item 1">🔗</a></div>
 </li>
-<li id="sec_first-log-2-10-1-1-2">
-<div class="para logical" id="sec_first-log-2-10-1-1-2-1">
+<li id="sec_first-log-2-11-1-1-2">
+<div class="para logical" id="sec_first-log-2-11-1-1-2-1">
 <div class="displaymath process-math">
 \begin{equation*}
 2^5= 32 \rightarrow \, 5 = \log_{2}{(32)}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-10-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-11-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-10-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec_first-log-2-11-1-1-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-10-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-11-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.9.3"><a href="#sec_first-log-2-10" title="Copy heading and permalink for Example 1.9.3">🔗</a></div></article></section><section class="subsection" id="subsec-log_plot"><h3 class="heading hide-type">
+<div class="autopermalink" data-description="Example 1.9.3"><a href="#sec_first-log-2-11" title="Copy heading and permalink for Example 1.9.3">🔗</a></div></article></section><section class="subsection" id="subsec-log_plot"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.9.1</span><span class="space"> </span><span class="title">Graph of Lagarithimic Function:</span>
 </h3>
 <div class="para logical" id="subsec-log_plot-2">
@@ -590,13 +617,15 @@ x &amp; y  \\ \hline
 </li>
 <li id="subsec-log_rule-3-1-1-4">
 <div class="para logical" id="subsec-log_rule-3-1-1-4-1">
-<div class="displaymath process-math" id="subsec-log_rule-3-1-1-4-1-1">
-\begin{align*}
-100 \amp =2^y\\
-\log{100} \amp = \log{(2^y)}\\
-2 \amp = y\log{2}\\
-y  \amp = \frac{2}{\log{2}} \approx 6.64 
-\end{align*}
+<div class="displaymath process-math">
+\begin{equation*}
+100 =2^y \, \text{ or, } \,  \log{100}  = \log{(2^y)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+2 = y\log{2}; \, \therefore \,  y  = \frac{2}{\log{2}} \approx 6.64  
+\end{equation*}
 </div>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-3-1-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -670,7 +699,7 @@ y  \amp = \frac{2}{\log{2}} \approx 6.64
 <div class="autopermalink" data-description="Item 2"><a href="#subsec-log_rule-8-2-2" title="Copy heading and permalink for Item 2">🔗</a></div>
 </li>
 <li id="subsec-log_rule-8-2-3">
-<div class="para" id="subsec-log_rule-8-2-3-1">If <span class="process-math">\(\log_{b}{m} = \log_{b}{n}\)</span> then, <span class="process-math">\(m=n.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-8-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para" id="subsec-log_rule-8-2-3-1">If <span class="process-math">\(\log_{b}{m} = \log_{b}{n} \, \)</span>  then, <span class="process-math">\(\, m=n.\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-8-2-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#subsec-log_rule-8-2-3" title="Copy heading and permalink for Item 3">🔗</a></div>
 </li>
@@ -685,6 +714,12 @@ y  \amp = \frac{2}{\log{2}} \approx 6.64
 <span class="process-math">\(\displaystyle \log_{b}{(1)} =0\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-8-2-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 5"><a href="#subsec-log_rule-8-2-5" title="Copy heading and permalink for Item 5">🔗</a></div>
+</li>
+<li id="subsec-log_rule-8-2-6">
+<div class="para" id="subsec-log_rule-8-2-6-1">
+<span class="process-math">\(\displaystyle \log_a{x} = \frac{1}{\log_x{a}}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-8-2-6-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 6"><a href="#subsec-log_rule-8-2-6" title="Copy heading and permalink for Item 6">🔗</a></div>
 </li>
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -840,6 +875,31 @@ or, 10^1 \amp = x^2+9x+18 \, \text{ on removing log }\\
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_eqn-2-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="autopermalink" data-description="Item 3"><a href="#subsec-log_eqn-2-1-3" title="Copy heading and permalink for Item 3">🔗</a></div>
+</li>
+<li id="subsec-log_eqn-2-1-4">
+<div class="para logical" id="subsec-log_eqn-2-1-4-1">
+<div class="para">Prove that:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_{ab}{x} = \frac{\log_{a}{x}\times \log_{b}{x}}{\log_{a}{x} + \log_{b}{x}}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_eqn-2-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-log_eqn-2-1-4-2">
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{\log_{a}{x}\times \log_{b}{x}}{\log_{a}{x} + \log_{b}{x}} = \frac{\frac{1}{\log_{x}{a}}\times \frac{1}{\log_{x}{b}}}{\frac{1}{\log_{x}{a}}+ \frac{1}{\log_{x}{b}}} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\qquad \, = \frac{1}{\log_{x}{a}+\log_{x}{b}} = \frac{1}{\log_x{ab}} = \log_{ab}{x}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_eqn-2-1-4-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 4"><a href="#subsec-log_eqn-2-1-4" title="Copy heading and permalink for Item 4">🔗</a></div>
 </li>
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_eqn-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
