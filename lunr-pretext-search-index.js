@@ -10,81 +10,63 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec_first-review",
+  "id": "sec_first-intro",
   "level": "1",
-  "url": "sec_first-review.html",
+  "url": "sec_first-intro.html",
   "type": "Section",
   "number": "1.1",
   "title": "Review",
-  "body": " Review    Evaluate:                     Simplify                     Factor each expression                                    Rationalize the expression                Solve the following equations                          Sage Cells            Graphing Calculator    Scientific Calculator      "
+  "body": " Review     Evaluate:                     Simplify                       Factor each expression                                    Rationalize the expression                 Solve the following equations                           Quadratic Equations   Quadratic equation always has two roots, and The roots of quadratic equation can be found by using formula: Here is called Discriminant and the roots and  and . If Discriminant, then the two roots are real and unequal and the graph of quadratic function crosses the x-axis at two points. If Discriminant, then the two roots are real and equal and the graph of quadratic function touches the x-axis. If Discriminant, then the two roots are complex and the graph of quadratic function does not touches the x-axis. If the coefficient of , then graph is upward open parabola, if then it is downward looking parabola. Draw graph of the following quadratic function and solve the equation using factorization method if possible.   Desmos                                                                      Number Systems   A number is a mathematical value used for counting, measuring, or labelling objects. In our daily life, we use these numbers to perform all the mathematical operations like addition, subtraction, multiplication, and division.      Natural Numbers:  Natural numbers starts from 1 which is the first number to begin counting and continue endlessly. It is also called counting numbers. Each number in natural number can be obtained by adding 1 to the previous number. It may contain 10, 20, 100, etc. but not mare zero . Natural numbers are all positive numbers.     Whole Numbers:  . Whole numbers also contain zero, ( ) and every numbers in natural numbers. Whole numbers are also all positive.     Integers:  . Integers are the Whole numbers with both positive and negative numbers. Hence, we have positive inegers as and negative integers as .     Rational Numbers: Rational numbers can be expressed as a fraction in the form of where and are any integer but . Rational numbers are positive, negative, and zero. Rational numbers can be converted to both terminating and non-terminating decimal numbers but with repeating value. Examples:    To show a repeating digits in a decimal number, we put either a dot or a line above the repeating digit as shown above.   Note: The sum of two rational numbers or the product of two rational numbers is also rational. Examples:       Irrational Numbers: The numbers which are not rational numbers are called irrational numbers. Irrational numbers could be written in decimals but not in the form of fractions, which means they cannot be written as the ratio of two integers. Irrational numbers are non-terminating and non-repeating digits after decimal point. Examples:    are irrational numbers.   Note: The sum of two irrational numbers or the product of two irrational numbers is not always irrational. Examples:       Rational numbers are finite and repeating decimals whereas irrational numbers are infinite and non-repeating.    Some irrational numbers are also special numbers like Pi ( ), Euler number ( ), golden ratio ( ), and square root of 2 ( ).      Real Numbers: A real number real number is any rational or irrational number, including positive and negative whole numbers, integers, decimals, fractions, and numbers such as pi and Euler's number .   Infinity and negative infinity are not real numbers. Because infinity and negative infinity can have different values. For example, the set of whole numbers is infinite. So is the set of integers. But, the two sets are not of the same size.  The four main properties of real numbers are the commutative property, associative property, distributive property, and identity property. If and are real numbers, then:     Complex Numbers: The complex number is the combination of a real number and an imaginary number. The complex number is in the form of , where = real number and = imaginary number. Also, belongs to real numbers and This numbers are very useful in analysing phasor diagram in electricity.  The numbers which are not real are imaginary numbers. When we square an imaginary number, it gives a negative result. It is represented as . Example: are all imaginary numbers. The roots of equation is an imaginary number.       Standard Notations of Number Systems:   .   the natural numbers    the integers    the rational numbers    the real numbers    the complex numbers    The symbol ' ' read as 'belongs to' or 'is an element of', where as ' ' stands for 'does not belong to' or 'is not an element of'. Example:     "
 },
 {
-  "id": "sec_first-review-2-1",
+  "id": "sec_first-intro-2-1-1",
   "level": "2",
-  "url": "sec_first-review.html#sec_first-review-2-1",
+  "url": "sec_first-intro.html#sec_first-intro-2-1-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Evaluate: "
 },
 {
-  "id": "sec_first-review-2-2",
+  "id": "sec_first-intro-2-1-2",
   "level": "2",
-  "url": "sec_first-review.html#sec_first-review-2-2",
+  "url": "sec_first-intro.html#sec_first-intro-2-1-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Simplify "
 },
 {
-  "id": "sec_first-review-2-3",
+  "id": "sec_first-intro-2-2-1",
   "level": "2",
-  "url": "sec_first-review.html#sec_first-review-2-3",
+  "url": "sec_first-intro.html#sec_first-intro-2-2-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Factor each expression "
 },
 {
-  "id": "sec_first-review-2-4",
+  "id": "sec_first-intro-2-2-2",
   "level": "2",
-  "url": "sec_first-review.html#sec_first-review-2-4",
+  "url": "sec_first-intro.html#sec_first-intro-2-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Rationalize the expression "
 },
 {
-  "id": "sec_first-review-2-5",
+  "id": "sec_first-intro-2-3",
   "level": "2",
-  "url": "sec_first-review.html#sec_first-review-2-5",
+  "url": "sec_first-intro.html#sec_first-intro-2-3",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
   "body": "Solve the following equations "
 },
 {
-  "id": "sec_first-quadratic",
-  "level": "1",
-  "url": "sec_first-quadratic.html",
-  "type": "Section",
-  "number": "1.2",
-  "title": "Quadratic Equations",
-  "body": " Quadratic Equations    Quadratic equation always has two roots, and The roots of quadratic equation can be found by using formula: Here is called Discriminant and the roots and  and . If Discriminant, then the two roots are real and unequal and the graph of quadratic function crosses the x-axis at two points. If Discriminant, then the two roots are real and equal and the graph of quadratic function touches the x-axis. If Discriminant, then the two roots are complex and the graph of quadratic function does not touches the x-axis. If the coefficient of , then graph is upward open parabola, if then it is downward looking parabola. Draw graph of the following quadratic function and solve the equation using factorization method.  Desmos                                                                   "
-},
-{
-  "id": "sec_first-intro",
-  "level": "1",
-  "url": "sec_first-intro.html",
-  "type": "Section",
-  "number": "1.3",
-  "title": "Number Systems",
-  "body": " Number Systems   A number is a mathematical value used for counting, measuring, or labelling objects. In our daily life, we use these numbers to perform all the mathematical operations like addition, subtraction, multiplication, and division.      Natural Numbers:  Natural numbers starts from 1 which is the first number to begin counting and continue endlessly. It is also called counting numbers. Each number in natural number can be obtained by adding 1 to the previous number. It may contain 10, 20, 100, etc. but not mare zero . Natural numbers are all positive numbers.     Whole Numbers:  . Whole numbers also contain zero, ( ) and every numbers in natural numbers. Whole numbers are also all positive.     Integers:  . Integers are the Whole numbers with both positive and negative numbers. Hence, we have positive inegers as and negative integers as .     Rational Numbers: Rational numbers can be expressed as a fraction in the form of where and are any integer but . Rational numbers are positive, negative, and zero. Rational numbers can be converted to both terminating and non-terminating decimal numbers but with repeating value. Examples:    To show a repeating digits in a decimal number, we put either a dot or a line above the repeating digit as shown above.   Note: The sum of two rational numbers or the product of two rational numbers is also rational. Examples:       Irrational Numbers: The numbers which are not rational numbers are called irrational numbers. Irrational numbers could be written in decimals but not in the form of fractions, which means they cannot be written as the ratio of two integers. Irrational numbers are non-terminating and non-repeating digits after decimal point. Examples:    are irrational numbers.   Note: The sum of two irrational numbers or the product of two irrational numbers is not always irrational. Examples:       Rational numbers are finite and repeating decimals whereas irrational numbers are infinite and non-repeating.    Some irrational numbers are also special numbers like Pi ( ), Euler number ( ), golden ratio ( ), and square root of 2 ( ).      Real Numbers: A real number real number is any rational or irrational number, including positive and negative whole numbers, integers, decimals, fractions, and numbers such as pi and Euler's number .   Infinity and negative infinity are not real numbers. Because infinity and negative infinity can have different values. For example, the set of whole numbers is infinite. So is the set of integers. But, the two sets are not of the same size.  The four main properties of real numbers are the commutative property, associative property, distributive property, and identity property. If and are real numbers, then:     Complex Numbers: The complex number is the combination of a real number and an imaginary number. The complex number is in the form of , where = real number and = imaginary number. Also, belongs to real numbers and This numbers are very useful in analysing phasor diagram in electricity.  The numbers which are not real are imaginary numbers. When we square an imaginary number, it gives a negative result. It is represented as . Example: are all imaginary numbers. The roots of equation is an imaginary number.       Standard Notations of Number Systems:   .   the natural numbers    the integers    the rational numbers    the real numbers    the complex numbers    The symbol ' ' read as 'belongs to' or 'is an element of', where as ' ' stands for 'does not belong to' or 'is not an element of'. Example:    "
-},
-{
-  "id": "sec_first-intro-2-2",
+  "id": "subsec-numb_syst-2-2",
   "level": "2",
-  "url": "sec_first-intro.html#sec_first-intro-2-2",
+  "url": "sec_first-intro.html#subsec-numb_syst-2-2",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -95,7 +77,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-intervals.html",
   "type": "Section",
-  "number": "1.4",
+  "number": "1.2",
   "title": "Number Line <span class=\"process-math\">\\(\\&amp;\\)<\/span> Intervals",
   "body": " Number Line Intervals   In mathematics, an interval can be defined as a set of real numbers which contains all real numbers lying within any two specific numbers of the set . Interval Notation uses inequalities to represent a subset of real numbers by those numbers that bound them.  Consider an interval signified as , which means a set of numbers lying between 0 and 5 (excluding 0 but including 5) represent the value of x.   Types of Interval Notation: There are different types of notations of intervals that are classified based on the endpoints of intervals. They are: Open intervals, Closed intervals, Half-open intervals, Degenerate intervals, and Bounded and Unbounded intervals.      Open Interval:       e.g.,  unfilled circle represents the number is not included.      Closed Interval:       e.g.,  filled circle represents the number is included.      Closed - open Interval:       e.g.,  including but excluding       Open - closed Interval: (a, b]      e.g.,  excluding but including        Inequality Rules  Summary of inequality rules inequality rules in mathematical operation:   When adding or subtracting or number on both sides of inequality there is no sign change of inequality. For example: and     When multiplying or dividing number on both sides of inequality there is no sign change of inequality. For example:     When multiplying or dividing number on both sides of inequality there is sign change of inequality. For example: Do not forget to flip sign, even if you are cross multiplying both side by number. Hence, it is true as .    When taking reciprocal of inequality having same or number on both sides, there is sign change of inequality. For example: or, However, When taking reciprocal of inequality having one side and another side number then, there is no sign change of inequality. For example:        Modulus Functions  Basics of Modulus functions: modulus functions The general representation of the modulus function is where   If we get only one solution as distance of zero from zero is 0.  If number, we get no solution as mod of any number is never negative.  If number, we get two solution as described in defintion above.                         Find if     From definition: We have - or       Find if     We get only one solution as        Find if     We get two solution as  Also,      Find if No solution as mod never gives any negative output.     Rememebr: Mod always gives a single value, if there is one.    Solve the following:                       For         For  or,     Solve the following inequalities:                                              "
 },
@@ -131,7 +113,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-6",
   "type": "Example",
-  "number": "1.4.1",
+  "number": "1.2.1",
   "title": "",
   "body": "                    "
 },
@@ -140,7 +122,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-7",
   "type": "Example",
-  "number": "1.4.2",
+  "number": "1.2.2",
   "title": "",
   "body": "  Find if     From definition: We have - or    "
 },
@@ -149,7 +131,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-8",
   "type": "Example",
-  "number": "1.4.3",
+  "number": "1.2.3",
   "title": "",
   "body": "  Find if     We get only one solution as     "
 },
@@ -158,7 +140,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-9",
   "type": "Example",
-  "number": "1.4.4",
+  "number": "1.2.4",
   "title": "",
   "body": "  Find if     We get two solution as  Also,    "
 },
@@ -167,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-10",
   "type": "Example",
-  "number": "1.4.5",
+  "number": "1.2.5",
   "title": "",
   "body": " Find if No solution as mod never gives any negative output.  "
 },
@@ -176,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-11",
   "type": "Example",
-  "number": "1.4.6",
+  "number": "1.2.6",
   "title": "",
   "body": "  Rememebr: Mod always gives a single value, if there is one.  "
 },
@@ -185,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-12",
   "type": "Example",
-  "number": "1.4.7",
+  "number": "1.2.7",
   "title": "",
   "body": " Solve the following:                     "
 },
@@ -194,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-13",
   "type": "Observation",
-  "number": "1.4.8",
+  "number": "1.2.8",
   "title": "",
   "body": " For         For  or,   "
 },
@@ -203,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-intervals.html#subsec-mod_fn-14",
   "type": "Example",
-  "number": "1.4.9",
+  "number": "1.2.9",
   "title": "",
   "body": " Solve the following inequalities:                                            "
 },
@@ -212,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-inequal.html",
   "type": "Section",
-  "number": "1.5",
+  "number": "1.3",
   "title": "Inequality",
   "body": " Inequality   Wavy Curve Inequalities can be solved easily if wavy curve is drawn from the given equation. To draw wavy curve: Make sure that right hand side (RHS) is zero and coefficient of in all the factors is positive. Then in  Step I: Put all factors equal to zero and mark corresponding values of on the real line  Step II: Put on extreme right and change the sign alternatively by moving toward left as shown in figure below.       Solve for the value of                                                                       Solve for                               Ans:        do your self     Ans:        Ans: Mark 0 on number line for lonly           If find           ans:                                      Ans:                                   so      so      Find the common between these two values of . Here,           Solve for     Remember: we cannot write here , because this does not make any sense due to inequality sign. So  Hence,       Solve the following inequalities:     Follow the same rule as described in [ ], starting with sign at extreme right, but also look at the power of factors for the given points, if the power is even do not change the sign or if it is odd change sign of to and to , as shown in below.   The sign has not changed between points and starting from extereme right sign as the power of is even. But the sign has changed between and as the power of is odd. Similarly all the other sign has adjusted. Hence,       Solve the following:      Hence,      Solve for x.    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:    Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:     Draw number line by yourself.      Solve the following:    here, otherwise becomes negative. Draw number line by yourself. Note: not in domain or gets undefined and does not satisfy the expression condition.     Solve the following:    Draw number line by yourself.      Solve the following:     answer:      Solve the following:     here should not be negative. answer:                                  "
 },
@@ -221,7 +203,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-6",
   "type": "Example",
-  "number": "1.5.1",
+  "number": "1.3.1",
   "title": "",
   "body": "  Solve for the value of                                                                    "
 },
@@ -230,7 +212,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-7",
   "type": "Example",
-  "number": "1.5.2",
+  "number": "1.3.2",
   "title": "",
   "body": "  Solve for                               Ans:        do your self     Ans:        Ans: Mark 0 on number line for lonly        "
 },
@@ -239,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-8",
   "type": "Example",
-  "number": "1.5.3",
+  "number": "1.3.3",
   "title": "",
   "body": "  If find           ans:    "
 },
@@ -248,7 +230,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-9",
   "type": "Example",
-  "number": "1.5.4",
+  "number": "1.3.4",
   "title": "",
   "body": "                                 Ans:       "
 },
@@ -257,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-10",
   "type": "Example",
-  "number": "1.5.5",
+  "number": "1.3.5",
   "title": "",
   "body": "                           so      so      Find the common between these two values of . Here,        "
 },
@@ -266,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-11",
   "type": "Example",
-  "number": "1.5.6",
+  "number": "1.3.6",
   "title": "",
   "body": "  Solve for     Remember: we cannot write here , because this does not make any sense due to inequality sign. So  Hence,    "
 },
@@ -275,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-12",
   "type": "Example",
-  "number": "1.5.7",
+  "number": "1.3.7",
   "title": "",
   "body": "  Solve the following inequalities:     Follow the same rule as described in [ ], starting with sign at extreme right, but also look at the power of factors for the given points, if the power is even do not change the sign or if it is odd change sign of to and to , as shown in below.   The sign has not changed between points and starting from extereme right sign as the power of is even. But the sign has changed between and as the power of is odd. Similarly all the other sign has adjusted. Hence,    "
 },
@@ -284,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-13",
   "type": "Example",
-  "number": "1.5.8",
+  "number": "1.3.8",
   "title": "",
   "body": "  Solve the following:      Hence,    "
 },
@@ -293,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-14",
   "type": "Checkpoint",
-  "number": "1.5.9",
+  "number": "1.3.9",
   "title": "",
   "body": " Solve for x.    Draw number line by yourself.    "
 },
@@ -302,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-15",
   "type": "Checkpoint",
-  "number": "1.5.10",
+  "number": "1.3.10",
   "title": "",
   "body": " Solve the following:    Draw number line by yourself.    "
 },
@@ -311,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-16",
   "type": "Checkpoint",
-  "number": "1.5.11",
+  "number": "1.3.11",
   "title": "",
   "body": " Solve the following:    Draw number line by yourself.    "
 },
@@ -320,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-17",
   "type": "Checkpoint",
-  "number": "1.5.12",
+  "number": "1.3.12",
   "title": "",
   "body": " Solve the following:     Draw number line by yourself.    "
 },
@@ -329,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-18",
   "type": "Checkpoint",
-  "number": "1.5.13",
+  "number": "1.3.13",
   "title": "",
   "body": " Solve the following:     Draw number line by yourself.    "
 },
@@ -338,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-19",
   "type": "Checkpoint",
-  "number": "1.5.14",
+  "number": "1.3.14",
   "title": "",
   "body": " Solve the following:    here, otherwise becomes negative. Draw number line by yourself. Note: not in domain or gets undefined and does not satisfy the expression condition.   "
 },
@@ -347,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-20",
   "type": "Checkpoint",
-  "number": "1.5.15",
+  "number": "1.3.15",
   "title": "",
   "body": " Solve the following:    Draw number line by yourself.    "
 },
@@ -356,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-21",
   "type": "Checkpoint",
-  "number": "1.5.16",
+  "number": "1.3.16",
   "title": "",
   "body": " Solve the following:     answer:    "
 },
@@ -365,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-22",
   "type": "Checkpoint",
-  "number": "1.5.17",
+  "number": "1.3.17",
   "title": "",
   "body": " Solve the following:     here should not be negative. answer:    "
 },
@@ -374,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-inequal.html#sec_first-inequal-23",
   "type": "Checkpoint",
-  "number": "1.5.18",
+  "number": "1.3.18",
   "title": "",
   "body": "                            "
 },
@@ -383,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-functions.html",
   "type": "Section",
-  "number": "1.6",
+  "number": "1.4",
   "title": "Function",
   "body": " Function       function Function is a relationship between two variables where each input corresponds to exactly one output. For every, input, there is a unique output, .   For every or all    All possible real values of input for which the function is definded are called a domain and the corresponding output values are called a Range . Each input produces exactly one output    Notation:    function of  A function is often written as where is the input and is the output. For example, Functions describe how quantities are changing. Functions can be represented algebrically, graphically, or numerically and they must pass the vertical line test vertical line test in graphical form. (No vertical line intersects the graph more than once.)   Vertical line test: if any vertical line (drawn parallel to the y-axis) intersects the graph at more than one point, then the realtion is not a function, because it means a single x-value produces multiple y-values. i.e. a function is a relation when a vertical line intersects the graph at most once.   For a graph, any vertial line at intersects the parabola at exactly one point at .       For a circle , a vertical line at intersects at two points and Hence, is not a function. The expression actually represents two separate functions. However, is a function (upper half circle) and is also a function (lower half circle).      For a function we have the and its corresponding values are given in a table below. We can see that every value is producing only unique value. Hence, y is a function.      For a function we have the and its corresponding values are given in a table below. We can see that when , it is giving either or which are not unique. Hence, y is not a function.        Types of Functions  Functions map inputs to outputs and they can be categorized based on their properties, behavior, or structure.    By Algebraic Structure:     Polynomial Functions: Functions defined by polynomials, e.g., For examples: Linear function, quadratic function cubic function, etc.     Rational Functions: Ratios of two polynomial functions, e.g.,      Algebraic Functions: Functions defined by algebraic operations (addition, subtraction, multiplication, division, roots), e.g.,         By Continuity and Differentiability     Continuous Functions: Functions with no breaks or jumps in their graphs, e.g.,      Discontinuous Functions: Functions with breaks, jumps, or asymptotes, e.g.,      Differentiable Functions: Functions with a defined derivative at every point in their domain, e.g.,      Piecewise Functions: Functions defined by different rules on different intervals, e.g.,         By Behavior    A function is strictly increasing over an interval        While it is said to be increasing (or, non-decreasing)     A function is strictly decreasing over an interval if: While it is said to be decreasing (or, non-increasing) if:     Monotonic Functions: a function is monotonic in an interval if it is either only strictly increasing or only strictly decreasing in that interval. i.e., it has single behavior in that interval. [ ]     Periodic Functions: Functions that repeat values at regular intervals, e.g., (period of function is ).     Even Functions: Symmetric about the y-axis, i.e., e.g., .     Odd Functions: Symmetric about the origin, i.e., e.g., .        By Specific Type     Trigonometric Functions: Functions like      Exponential Functions: Functions of the form e.g., .     Logarithmic Functions: Functions like Inverse of exponential functions, defined for      Hyperbolic Functions: Functions like , , defined using exponentials, e.g.,         By Domain and Range     Explicit Functions: Defined directly, e.g.,      Implicit Functions: Defined by an equation, e.g., or      Parametric Functions: Defined using a parameter, e.g.,      inverse function  Inverse Functions: Functions that reverse the input-output relationship, e.g., if  This kind of function exists if original function is one-to-one and onto [ ].   The inverse function:  must satisfy:     One-to-one (injective): Every element in the codomain is mapped to by at most one element in the domain. No two distinct inputs produce the same output: if , then .   Onto (surjective): Every element in the codomain is mapped to by at least one element in the domain. The range equals the codomain.   Bijective: A function that is both one-to-one and onto.          By Application in Calculus    Elementary Functions: Combinations of polynomials, rationals, trigonometric, exponential, and logarithmic functions.    Transcendental Functions: Functions that are not algebraic, e.g.,     Vector-Valued Functions: Functions that map scalars to vectors, e.g., Used in multivariable calculus for curves in space.    Multivariable Functions: Functions of several variables, e.g., Studied in multivariable calculus for surfaces and fields.          Graph of some Functions     Piecewise function:          Algebric function: parabolic             Algebric function: cubic             Square root function          Cube root function          Rational function             Trigonometric function             Exponential function          Logarithmic function          Inverse function   inverse function reverses another function . If   Graphically, is reflected across If then graph of can be seen below.   The graph of       The graph of  Now on Swaping to we have -           GIF and FPF   Greatest Integer Function (GIF): The GIF, also known as Floor Function is denoted by , and is defined as the greatest integer less than or equal to . For any real number , , where is an integer and . It essentially \"rounds down\" ( ) to the nearest integer.            (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)             Fractional Part Function (FPF): The fractional part of a real number ( ), denoted by , is the part \"after the decimal point\", defined as: . It satisfies . It is always non-negative.                            Any real number ( ) can be expressed as:    "
 },
@@ -410,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#sec_first-functions-2-6",
   "type": "Example",
-  "number": "1.6.1",
+  "number": "1.4.1",
   "title": "",
   "body": " For a graph, any vertial line at intersects the parabola at exactly one point at .     "
 },
@@ -419,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#sec_first-functions-2-7",
   "type": "Example",
-  "number": "1.6.2",
+  "number": "1.4.2",
   "title": "",
   "body": " For a circle , a vertical line at intersects at two points and Hence, is not a function. The expression actually represents two separate functions. However, is a function (upper half circle) and is also a function (lower half circle).     "
 },
@@ -437,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#parab_f1",
   "type": "Figure",
-  "number": "1.6.5",
+  "number": "1.4.5",
   "title": "",
   "body": "   "
 },
@@ -446,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#odd_f1",
   "type": "Figure",
-  "number": "1.6.6",
+  "number": "1.4.6",
   "title": "",
   "body": "   "
 },
@@ -455,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#rational_f1",
   "type": "Figure",
-  "number": "1.6.7",
+  "number": "1.4.7",
   "title": "",
   "body": "   "
 },
@@ -464,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#trig_f1",
   "type": "Figure",
-  "number": "1.6.8",
+  "number": "1.4.8",
   "title": "",
   "body": "   "
 },
@@ -482,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-3",
   "type": "Example",
-  "number": "1.6.9",
+  "number": "1.4.9",
   "title": "",
   "body": "          (since -3 is less than -2.1, but it's the greatest integer -2.1)     (exact integer)          "
 },
@@ -500,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-functions.html#subsec-gif-fpf-6",
   "type": "Example",
-  "number": "1.6.10",
+  "number": "1.4.10",
   "title": "",
   "body": "                         "
 },
@@ -509,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-domain.html",
   "type": "Section",
-  "number": "1.7",
+  "number": "1.5",
   "title": "Domain",
   "body": " Domain   The set of all possible number (input values), typically for which the function is defined and produces a real number output is called a domain domain. Determining the domain is a fundamental step in analyzing functions, as it identifies the values where the function is valid.   Steps to Determine the Domain: Identify the function type (polynomial, rational, radical, logarithmic, etc.). Find restrictions: Denominators cannot be zero. Expressions under even roots must be non-negative. Arguments of logarithms must be positive. Express the domain in interval notation or set notation.     Polynomials: The domain is all real numbers because polynomials are defined for every . Example: For the domain is .    Rational Functions: Exclude values where the denominator is zero. Example: For solve , so . The domain is .    Square Roots (or Even Roots): The expression inside the root must be non-negative . Example: For solve , so . The domain is .    Logarithms: The argument of a logarithm must be positive . Example: For solve , so . The domain is .    Trigonometric Functions: Most trigonometric functions (e.g., ) have a domain of all real numbers, but others like or exclude points where the function is undefined. Example: For the function is undefined at , where is an integer. The domain is .    Piecewise Functions: Consider the domain of each piece and combine them, ensuring no overlap unless specified. Example: For the domain of is , and the domain of is . Since for the second piece, the domain is .    Composite Functions: The domain of requires to be in the domain of , and to be in the domain of . Example: For and , find the domain of . Solve , so . The domain is .       Determining Domain:                       we can set in . Hence, is a domain which defines  in a real number. Again, set in undefined or . Hence, is a not a domain of the given in a real number.    we can set in . Hence, is a domain which defines  in a real number. Again, set in imaginary. Hence, is a not a domain of the given in a real number.      Domain is any input values that defines a function in real number.        Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.       Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator        Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or        Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding        Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .      Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .     Rational Functions:         For rational funciton, . Hence, set  Remember and stands for number not included.            Here,  Hence, Domain,             Here, Since square of real number cannot be negative, as Thus  Domain;            Set,  Hence, Domain,        Radical Functions   Here expression is any real number and is odd . The domain of radical functions with an odd index is all real numbers.  For example: or,   If is even , then . The domain of radical functions with an even index and expression , is all real numbers.  For example: or,          Here, is even, hence, set, Hence, Domain,             Here, is even, hence, set, or, Hence, Domain,             Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if             Here, is odd, hence, is defined for every real number. The domain is a set of every real number.       Domain of Fractional function with radicals.     For radical in numerator, set and     Set, and Hence, Domain, or,         For radical in denominator, set .    Set, Hence, Domain, or,         If both terms are radical, then    Set, Test the sign of the fraction in each interval. Domain: or,        "
 },
@@ -527,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-2",
   "type": "Example",
-  "number": "1.7.1",
+  "number": "1.5.1",
   "title": "",
   "body": "                     we can set in . Hence, is a domain which defines  in a real number. Again, set in undefined or . Hence, is a not a domain of the given in a real number.    we can set in . Hence, is a domain which defines  in a real number. Again, set in imaginary. Hence, is a not a domain of the given in a real number.      Domain is any input values that defines a function in real number.    "
 },
@@ -536,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-3",
   "type": "Example",
-  "number": "1.7.2",
+  "number": "1.5.2",
   "title": "",
   "body": "   Type I: Only Polynomials.        Let , then (defined), hence is a domain of a   let , then (defined), hence is a domain of a   i.e., we can put any value of a domain from real numbers to define the given function      Domain: or all real numbers.   "
 },
@@ -545,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-4",
   "type": "Example",
-  "number": "1.7.3",
+  "number": "1.5.3",
   "title": "",
   "body": "   Type II: Only Fractions.        Here, denominator , otherwise the function gets undefined.        Domain: or all real numbers except Because these numbers make denominator    "
 },
@@ -554,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-5",
   "type": "Example",
-  "number": "1.7.4",
+  "number": "1.5.4",
   "title": "",
   "body": "   Type III: Square Root on Bottom.        Here, denominator , otherwise the function gets undefined.     makes undefined, and makes imaginary.     Domain: or    "
 },
@@ -563,7 +545,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-6",
   "type": "Example",
-  "number": "1.7.5",
+  "number": "1.5.5",
   "title": "",
   "body": "   Type IV: Square Root on Top.        Here, denominator and radicand         Domain: or all real numbers of excluding    "
 },
@@ -572,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-7",
   "type": "Example",
-  "number": "1.7.6",
+  "number": "1.5.6",
   "title": "",
   "body": "   Type V: Only Square Root.        Here, radicand        set , and in regions and respectively, as shown in graph.  Check:   A region: at any value e.g.,      B region: at any value e.g.,      C region: at any value e.g.,       Since, value of radicand is not allowed as we cannot have number. our domain looks like: Domain: .   "
 },
@@ -581,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-8",
   "type": "Example",
-  "number": "1.7.7",
+  "number": "1.5.7",
   "title": "",
   "body": "  Find the domain of the following functions:                          Since all these functions are polynomial functions their domain lie under real number. Hence Domain; .   "
 },
@@ -590,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-9-2",
   "type": "Example",
-  "number": "1.7.8",
+  "number": "1.5.8",
   "title": "",
   "body": "       For rational funciton, . Hence, set  Remember and stands for number not included.    "
 },
@@ -599,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-9-3",
   "type": "Example",
-  "number": "1.7.9",
+  "number": "1.5.9",
   "title": "",
   "body": "       Here,  Hence, Domain,     "
 },
@@ -608,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-9-4",
   "type": "Example",
-  "number": "1.7.10",
+  "number": "1.5.10",
   "title": "",
   "body": "       Here, Since square of real number cannot be negative, as Thus  Domain;    "
 },
@@ -617,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-9-5",
   "type": "Example",
-  "number": "1.7.11",
+  "number": "1.5.11",
   "title": "",
   "body": "       Set,  Hence, Domain,     "
 },
@@ -626,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-10-6",
   "type": "Example",
-  "number": "1.7.12",
+  "number": "1.5.12",
   "title": "",
   "body": "       Here, is even, hence, set, Hence, Domain,     "
 },
@@ -635,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-10-7",
   "type": "Example",
-  "number": "1.7.13",
+  "number": "1.5.13",
   "title": "",
   "body": "       Here, is even, hence, set, or, Hence, Domain,     "
 },
@@ -644,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-10-8",
   "type": "Example",
-  "number": "1.7.14",
+  "number": "1.5.14",
   "title": "",
   "body": "       Here, is even, hence, set, Hence, and but, for gives function expression negative and for gives positive expression. Hence, we concluded . Hence, Domain, If , becomes square root of negative expression and same will be seen if     "
 },
@@ -653,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-10-9",
   "type": "Example",
-  "number": "1.7.15",
+  "number": "1.5.15",
   "title": "",
   "body": "       Here, is odd, hence, is defined for every real number. The domain is a set of every real number.    "
 },
@@ -662,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-11-2",
   "type": "Example",
-  "number": "1.7.16",
+  "number": "1.5.16",
   "title": "",
   "body": "   For radical in numerator, set and     Set, and Hence, Domain, or,     "
 },
@@ -671,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-11-3",
   "type": "Example",
-  "number": "1.7.17",
+  "number": "1.5.17",
   "title": "",
   "body": "   For radical in denominator, set .    Set, Hence, Domain, or,     "
 },
@@ -680,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-domain.html#subsec-dom_ex-11-4",
   "type": "Example",
-  "number": "1.7.18",
+  "number": "1.5.18",
   "title": "",
   "body": "   If both terms are radical, then    Set, Test the sign of the fraction in each interval. Domain: or,     "
 },
@@ -689,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-range.html",
   "type": "Section",
-  "number": "1.8",
+  "number": "1.6",
   "title": "Range",
   "body": " Range   The set of all possible output of as runs over the domain is called a range range of the function. The same always leads to the same In other words, the set of all possible output values for which the is defined.  Range of    Steps to Find the Range:    Identify the domain: Determine the set of all valid inputs.    Analyze the function: Determine what output values are possible by applying the function to all inputs in the domain.    Express the range: Describe the set of all possible outputs, often using interval notation or set notation.       Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,        Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .      Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .      Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).      Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .      Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .      Find the domain and range of the following functions.                                                                                                      Range of     Convert this equation to get in terms of   Since . Hence       Range of     Convert this equation to get in terms of   Since . Hence       Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:          Find the range of following:                          Hence the range:       Hence the range:               Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.         Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .       Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:         "
 },
@@ -707,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-4",
   "type": "Example",
-  "number": "1.8.1",
+  "number": "1.6.1",
   "title": "",
   "body": "  Example 1: Linear Function     Domain: All real numbers, for any polynomials.  Finding the Range: let Now, obtain interms of as Since, this is also a polynomials, ranges over all real numbers.  Range: All real numbers,     "
 },
@@ -716,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-5",
   "type": "Example",
-  "number": "1.8.2",
+  "number": "1.6.2",
   "title": "",
   "body": "  Quadratic Function:     Domain: All real numbers, .  Finding the Range: Since   Range: All non-negative real numbers, .   "
 },
@@ -725,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-6",
   "type": "Example",
-  "number": "1.8.3",
+  "number": "1.6.3",
   "title": "",
   "body": "  Square Root Function:     Domain: (since the square root is undefined for negative numbers in the real numbers), .  Finding the Range:   For , .  For , .  For , .  As increases, produces larger non-negative numbers. The output is always non-negative since the square root of a non-negative number is non-negative.  Range: All non-negative real numbers, .   "
 },
@@ -734,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-7",
   "type": "Example",
-  "number": "1.8.4",
+  "number": "1.6.4",
   "title": "",
   "body": "  Constant Function:     Domain: All real numbers, .  Finding the Range: The function always outputs 5, regardless of the input ( ).  Range: (a single value, as the output is constant).   "
 },
@@ -743,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-8",
   "type": "Example",
-  "number": "1.8.5",
+  "number": "1.6.5",
   "title": "",
   "body": "  Rational Function:     Domain: All real numbers except , i.e., .  Finding the Range: We need to determine what values can take. Solve for ( ) in terms of ( ): . For ( ) to be defined, (since is undefined when ). For any , there exists an (which is not zero) such that . Thus, the range includes all real numbers except .  Range: or .   "
 },
@@ -752,7 +734,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-9",
   "type": "Example",
-  "number": "1.8.6",
+  "number": "1.6.6",
   "title": "",
   "body": "  Sine Function:     Domain: All real numbers, .  Finding the Range: The sine function oscillates between and for all ( ). For example, , , .  Range: .   "
 },
@@ -761,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-10",
   "type": "Example",
-  "number": "1.8.7",
+  "number": "1.6.7",
   "title": "",
   "body": "  Find the domain and range of the following functions.                                                                                                   "
 },
@@ -770,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-11",
   "type": "Example",
-  "number": "1.8.8",
+  "number": "1.6.8",
   "title": "",
   "body": "  Range of     Convert this equation to get in terms of   Since . Hence    "
 },
@@ -779,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-12",
   "type": "Example",
-  "number": "1.8.9",
+  "number": "1.6.9",
   "title": "",
   "body": "  Range of     Convert this equation to get in terms of   Since . Hence    "
 },
@@ -788,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-13",
   "type": "Example",
-  "number": "1.8.10",
+  "number": "1.6.10",
   "title": "",
   "body": "  Find the range of                         Hence, the Range:      Hence, the Range:      Hence, the Range:       "
 },
@@ -797,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-14",
   "type": "Example",
-  "number": "1.8.11",
+  "number": "1.6.11",
   "title": "",
   "body": "  Find the range of following:                          Hence the range:       Hence the range:            "
 },
@@ -806,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-15",
   "type": "Example",
-  "number": "1.8.12",
+  "number": "1.6.12",
   "title": "",
   "body": "  Find the range of following quadratic equations:                               For a quadratic equation here is a discriminant.    Hence, the range:     For a quadratic equation here is a discriminant. Hence, the range:     Find the Now find the value of function corresponding to the vertex and at These value give the range of these functions.      "
 },
@@ -815,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-16",
   "type": "Example",
-  "number": "1.8.13",
+  "number": "1.6.13",
   "title": "",
   "body": "  Find the range of and .    Arithmatic Mean (AM) Geometric Mean (GM). Therefore   so the range is   find another by yourself. sum of the number and its reciprocal is always .    "
 },
@@ -824,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-range.html#sec_first-range-2-17",
   "type": "Example",
-  "number": "1.8.14",
+  "number": "1.6.14",
   "title": "",
   "body": "  Find the range of                                       For let, and we know that Range:     For let, and we know that Range:     For let, and we know that Range:       "
 },
@@ -833,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-asympt.html",
   "type": "Section",
-  "number": "1.9",
+  "number": "1.7",
   "title": "Asymptote",
   "body": " Asymptote   An asymptote is a line that a curve (function) approaches but never touches as it extends toward infinity. Asymptotes describe the behavior of functions, especially rational functions, as their input (or output) grows very large or very small. There are three main types: horizontal, vertical, and oblique (slant).      Vertical Asymptote: A vertical asymptote is a vertical line where the function approaches infinity (or negative infinity) as approaches . It occurs where the function is undefined, typically at values that make the denominator zero. i.e., For example: If then, Vertical asymptote (VA) lies at by setting denominator to , so .  As , ; as , . The graph shoots upward on one side and downward on the other.   If VA: at and       Horizontal Asymptote: A horizontal asymptote is a horizontal line for a function as or . It describes the function's behavior at the extremes of the x-axis. For a rational function compare the degrees of the numerator and denominator :  If the degree of , the horizontal asymptote (HA) is .  If the degrees are equal, the horizontal asymptote is , where and are the leading coefficients of and .  If the degree of degree of , there is no horizontal asymptote.  For    Degree of numerator: 1 (from ( )).    Degree of denominator: 2 (from ).    Since 1 2, the horizontal asymptote is .    As , the denominator grows faster, so . The graph flattens toward the x-axis.      For    Degrees are equal: both .    Leading coefficients: 3 (numerator) and 2 (denominator).    Horizontal asymptote: .    As , , so the graph approaches .     Horizontal asymptote may or may not touch by the curve as      Oblique Asymptote An oblique asymptote is a slanted line that the graph approaches when the degree of the numerator is exactly one more than the degree of the denominator.  There may be an oblique asymptote if degree of is more than the degree of , i.e., the difference in degrees is   For After long division, Hence, at HA, we have gives a slanted asymptote.     Plot function below by adjusting your p2.    For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at , but the \"gap\" can be filled by simplifying.     Graph of Asymptotic Functions  Draw graph of the following functions:                                         VA: as   HA: as i.e., degree of numerator is less than degree of denominator.  draw one point at your convenient location at  Now from the standard graph [ ]        VA: , HA: , Point(x,y) =       vertical shift = 1 unit upward, VA: , HA = , point (x,y)=           Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At HA at .    Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and         Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.          Find VA and draw graph.      Hence, VA @        Find HA and draw graph.      Now as then Hence, HA @   In this function degree of denominator degree of numerator.      Find HA and draw graph.      Hence, HA @   In this function degree of numerator degree of denominator.      "
 },
@@ -851,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#sec_first-asympt-2-5",
   "type": "Observation",
-  "number": "1.9.1",
+  "number": "1.7.1",
   "title": "",
   "body": " For vertical asymptote denominator but numerator .  Horizontal asymptotes describe the end behavior as .  A hole (or removable discontinuity) in a rational function occurs at a point where both the numerator and denominator are zero (i.e., a common factor), but the limit exists. The function is undefined at , but the \"gap\" can be filled by simplifying.  "
 },
@@ -860,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-3",
   "type": "Example",
-  "number": "1.9.2",
+  "number": "1.7.2",
   "title": "",
   "body": "                                       VA: as   HA: as i.e., degree of numerator is less than degree of denominator.  draw one point at your convenient location at  Now from the standard graph [ ]        VA: , HA: , Point(x,y) =       vertical shift = 1 unit upward, VA: , HA = , point (x,y)=         "
 },
@@ -869,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-4",
   "type": "Example",
-  "number": "1.9.3",
+  "number": "1.7.3",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At  Therefore HA at .  "
 },
@@ -878,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-5",
   "type": "Example",
-  "number": "1.9.4",
+  "number": "1.7.4",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. At HA at .  "
 },
@@ -887,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-6",
   "type": "Example",
-  "number": "1.9.5",
+  "number": "1.7.5",
   "title": "",
   "body": " Find horizontal asymptote: Look at higher power terms in numerator and denomirator. no HA. As and   "
 },
@@ -896,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-7",
   "type": "Example",
-  "number": "1.9.6",
+  "number": "1.7.6",
   "title": "",
   "body": "     Draw hole in a graph of     Draw hole in a graph of              VA: , HA: , point(x,y) = , hole: because in original function,      do your self.       "
 },
@@ -905,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-8",
   "type": "Example",
-  "number": "1.9.7",
+  "number": "1.7.7",
   "title": "",
   "body": "  Find VA and draw graph.      Hence, VA @     "
 },
@@ -914,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-9",
   "type": "Example",
-  "number": "1.9.8",
+  "number": "1.7.8",
   "title": "",
   "body": "  Find HA and draw graph.      Now as then Hence, HA @   In this function degree of denominator degree of numerator.   "
 },
@@ -923,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-asympt.html#subsec-asympt_gr-10",
   "type": "Example",
-  "number": "1.9.9",
+  "number": "1.7.9",
   "title": "",
   "body": "  Find HA and draw graph.      Hence, HA @   In this function degree of numerator degree of denominator.    "
 },
@@ -932,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-log.html",
   "type": "Section",
-  "number": "1.10",
+  "number": "1.8",
   "title": "Logarithm",
   "body": " Logarithm   A function that gives the exponent to which a fixed number (base) must be raised to produce a given number (argument) is called a logarithmic function. logarithmic function  In the above expression is argument and is called the base of logarithm. The condition in logarithm and   In real numbers, the base must be a positive number and not equal to 1. The argument of a logarithm must also be a positive number.  We know that Hence, Or, in general: if then,   Examples:                    Common Logarithm:     Natural Logarithm:      Evaluate:                                Logarithm to Exponent Conversion:                     Exponent to Logarithm Conversion:                      Graph of Lagarithimic Function:          Domain:     Logarithmic Rules   Power Rule:                                Product Rule:                     Quotient Rule:          Other Rules or Tricks:              If then,                                            Solving Exponential Equations.                          Solving Logarithmic Equations.       but in logarithm argument is always positive, hence need to be excluded for .            Since, makes negative argument, hence this value must be excluded for the solution.    Prove that:            Applications of Logarithmic Expression  Logarithms can be used to analyze either very small or very large numbers. It has wide applications in science such as represent earthquake magnitude (Richter scale), sound intensity (decibels), and chemical acidity (pH scale).    "
 },
@@ -959,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-7",
   "type": "Example",
-  "number": "1.10.1",
+  "number": "1.8.1",
   "title": "",
   "body": "  Evaluate:                              "
 },
@@ -977,7 +959,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-9",
   "type": "Example",
-  "number": "1.10.2",
+  "number": "1.8.2",
   "title": "",
   "body": "               "
 },
@@ -995,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#sec_first-log-2-11",
   "type": "Example",
-  "number": "1.10.3",
+  "number": "1.8.3",
   "title": "",
   "body": "               "
 },
@@ -1004,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_plot-3",
   "type": "Figure",
-  "number": "1.10.4",
+  "number": "1.8.4",
   "title": "",
   "body": "   "
 },
@@ -1022,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-3",
   "type": "Example",
-  "number": "1.10.5",
+  "number": "1.8.5",
   "title": "",
   "body": "                          "
 },
@@ -1040,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-5",
   "type": "Example",
-  "number": "1.10.6",
+  "number": "1.8.6",
   "title": "",
   "body": "               "
 },
@@ -1058,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-7",
   "type": "Example",
-  "number": "1.10.7",
+  "number": "1.8.7",
   "title": "",
   "body": "    "
 },
@@ -1076,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-log.html#subsec-log_rule-9",
   "type": "Example",
-  "number": "1.10.8",
+  "number": "1.8.8",
   "title": "",
   "body": "                    "
 },
@@ -1085,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_second-funct-gr.html",
   "type": "Section",
-  "number": "1.11",
+  "number": "1.9",
   "title": "The Graph of Functions",
   "body": " The Graph of Functions   The graph of a function is a tool that can help determine several key properties of the function, such as its domain, range, even\/odd nature, symmetry, and whether it is one-to-one (injective), onto (surjective), or bijective, increasing or decreasing, etc. Let's break down how the graph can be used to analyze each of these properties:     Domain:   Look at the x-axis. The domain consists of all x-values where the graph exists. For example: If the graph extends infinitely left and right, the domain is all real numbers, .  If the graph has gaps, vertical asymptotes, or endpoints, the domain excludes those points. For instance, the graph of [ ] has a vertical asymptote at , so the domain is (read as domain is all real number except zero).    Range:   Examine the y-axis. The range includes all y-values covered by the graph. For example: For , [ ] the graph is a parabola opening upward with a vertex at the origin, so the range is .  For , [ ] the graph oscillates between -1 and 1, so the range is .    Even\/Odd Function:  A function is even if , implying symmetry about the y-axis. Check if the graph is symmetric with respect to the y-axis (i.e., the left side mirrors the right side). Example: [ ] is even because its graph is symmetric about the y-axis.  A function is odd if , implying symmetry about the origin. Check if rotating the graph by around the origin leaves it unchanged. Example: [ ] is odd because its graph is symmetric about the origin.    Symmetry:  Y-Axis Symmetry: Indicates an even function, as described above.  Origin Symmetry: Indicates an odd function.  Other Symmetries: Some functions may have other forms of symmetry, like periodicity (e.g., [ ] has translational symmetry for every ).    One-to-One (Injective): A function is one-to-one if each output value corresponds to exactly one input value (i.e., no two different x-values produce the same y-value).  Using the Graph: Apply the Horizontal Line Test. If any horizontal line intersects the graph at most once, the function is one-to-one. For example: The graph of [ ] passes the horizontal line test (one-to-one). The graph of [ ] fails the test (not one-to-one, as ).    Onto (Surjective): A function is onto if every possible output value in the codomain has at least one corresponding input value in the domain.  Using the Graph: Check if the graph covers the entire codomain (often assumed to be unless specified). For example: For , [ ] the graph extends from to on the y-axis, so it is onto . For , [ ] the graph only covers , so it is not onto , but it is onto .    Bijective: A function is bijective if it is both one-to-one and onto.  Using the Graph: The function must pass the Horizontal Line Test (injective) and cover the entire codomain (surjective). For example: The graph of (a straight line with slope 1) is bijective because it passes the horizontal line test and covers all of .     The graph of [ ] is neither one-to-one nor onto , so it is not bijective.     Draw the graph of function and define its domain, range, symmetricity, and see if the function is injective (one-one) and surjective (onto).  Here, Hence, the graph looks like:   Domain,   Range,   It is also an even function, not a one to one function (or a many - one function), Not an Onto function, symmetric function. It is decreasing from and increasing from .    Transformation of Functions  [ ] [ ] If then the graph of can be obtained from the graph of by applying these transformation rule.   , up   , down   , right   , left   , or , vertical stretch,    , or , vertical compression,    , vertical reflection,    , or , then horizontal compression,    , or , then horizontal stretch,    , then horizontal reflection,     If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for          Transformation of Graph  To transform a graph we need to know how to plot the graph of a basic function [ ].       vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left        vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis       Some Standard Graphs  Some Standard Graphs Graphs of can also be seen here [ ].                                                                                                                Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].        Some more graphs:  Transform the given graph about y-axis, x-axis, and its modulus functions.                                     Graph of Quadratic Function    For graph open up and has the vertex at where discriminant, . For graph open down and has the vertex at .   The above graphs are drawn for and .   To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.        To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.     To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about      To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.     To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.     To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.      Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at          Draw the graph of                 Draw the graph of       Special Graphs                                 In I quadrant, .  draw this line graph in I quadrant.  In II quadrant, .  draw this line graph in II quadrant.  In III quadrant, .  draw this line graph in III quadrant.  In IV quadrant, .  draw this line graph in IV quadrant.             Draw graph of                      Also,      Draw graph of and reflect negative of about            Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian: (Use number line for details understanding)  For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:       Draw graph of                        in class work         Examples    State if the following relations are functions and give their domain and range.                                            This is not a function.     In I quadrant, .  draw this line graph in I quadrant.  In II quadrant, .  draw this line graph in II quadrant.  In III quadrant, .  draw this line graph in III quadrant.  In IV quadrant, .  draw this line graph in IV quadrant.               Graph looks similar to signaum plot with hole at        Not a function.                  Which values of are not included in the domain of the following functions.                    . Hence these values are not included in the domain.      Hence these values are not included in the domain.          "
 },
@@ -1094,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-trnsform-13",
   "type": "Example",
-  "number": "1.11.1",
+  "number": "1.9.1",
   "title": "",
   "body": "  If then graph     Here, , then graph go to vertical compression, by as .   , then graph shifts right by 2 units as .   , then graph shifts down by 1 units as .   Table for    Table for       "
 },
@@ -1103,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_transf-4",
   "type": "Remark",
-  "number": "1.11.2",
+  "number": "1.9.2",
   "title": "",
   "body": "  vh_shift [ ] Vertical and Horizontal Shifts: If then to obtain the graph of    , shift the graph of a distance units upward     , shift the graph of a distance units downward     , shift the graph of a distance units to the right     , shift the graph of a distance units to the left     "
 },
@@ -1112,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_transf-5",
   "type": "Remark",
-  "number": "1.11.3",
+  "number": "1.9.3",
   "title": "",
   "body": "  vh_stretch  Vertical and Horizontal Stretch and Reflection: If then to obtain the graph of    , stretch the graph of vertically by a factor units     , shrink the graph of vertically by a factor units     , shrink the graph of horizontally by a factor units     , stretch the graph of horizontally by a factor units     , reflect the graph of about the x-axis     , reflect the graph of about the y-axis     "
 },
@@ -1130,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_transf-8",
   "type": "Observation",
-  "number": "1.11.4",
+  "number": "1.9.4",
   "title": "",
   "body": "    Any line passing through origin can cross the log graph at two points, no matter how small is its slope.     As approaches closer to zero, the value of goes more and more negative and ultimatley reaches to at [blue curve in figure below]. Opposite will be true for graph [see graph of ].      "
 },
@@ -1139,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-4",
   "type": "Remark",
-  "number": "1.11.5",
+  "number": "1.9.5",
   "title": "",
   "body": " To draw a graph of , shift the graph of base function upward or downward respectively by ' ' units.      "
 },
@@ -1148,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-5",
   "type": "Remark",
-  "number": "1.11.6",
+  "number": "1.9.6",
   "title": "",
   "body": " To draw a graph of , shift the graph of base function to the left or right respectively by ' ' units.   "
 },
@@ -1157,7 +1139,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-6",
   "type": "Remark",
-  "number": "1.11.7",
+  "number": "1.9.7",
   "title": "",
   "body": " To draw a graph of , inflate or deflate the graph of base function by ' ' units depending on either or [(Vertical stretch, or Vertical shrink)]   To draw reflect the graph about    "
 },
@@ -1166,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-7",
   "type": "Remark",
-  "number": "1.11.8",
+  "number": "1.9.8",
   "title": "",
   "body": " To draw a graph of , stretch or compress the graph of base function depending on either or respectively.   For in , we have period calculated as    For in , we have period calculated as    To draw a graph of , reflect the graph of base function about y-axis.   "
 },
@@ -1175,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-8",
   "type": "Remark",
-  "number": "1.11.9",
+  "number": "1.9.9",
   "title": "",
   "body": " To draw a graph of , keep the graph of as such where while reflecting it about x-axis where . about y-axis.   "
 },
@@ -1184,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-9",
   "type": "Remark",
-  "number": "1.11.10",
+  "number": "1.9.10",
   "title": "",
   "body": " To draw a graph of , keep the graph of as such on +ve x-axis and also take a reflection copy of graph on the +ve x -axis about y-axis. If there is some part of graph on on the -ve x-axis, then erase it first to draw about y-axis.   "
 },
@@ -1193,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-10",
   "type": "Example",
-  "number": "1.11.11",
+  "number": "1.9.11",
   "title": "",
   "body": "  Plot:                           Domain: at very large at , hence horizontal asymptote,   y-intercept: at so point is   x-intercept: at so points are and   Range: Now,    Symmetry: so the function is even function.         Domain: at very large at , hence horizontal asymptote,   y-intercept: x-intercept:   Range: Symmetry: so even function.        [ ]  In , the domain: and the Range:   Now at   at   at   at   at        "
 },
@@ -1202,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-11",
   "type": "Example",
-  "number": "1.11.12",
+  "number": "1.9.12",
   "title": "",
   "body": " Draw the graph of               "
 },
@@ -1211,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsec-gr_funct-2-12",
   "type": "Example",
-  "number": "1.11.13",
+  "number": "1.9.13",
   "title": "",
   "body": " Draw the graph of    "
 },
@@ -1229,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-3",
   "type": "Example",
-  "number": "1.11.14",
+  "number": "1.9.14",
   "title": "",
   "body": "  Draw graph of                      Also,      Draw graph of and reflect negative of about         "
 },
@@ -1238,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-4",
   "type": "Example",
-  "number": "1.11.15",
+  "number": "1.9.15",
   "title": "",
   "body": "  Find the domain, range, and inverse of a function and sketch the graphs of function.     Let   For Domain: Hence, the domian: (Use number line for details understanding)  For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) = and   Intercept:   y-intercept: set      x-intercept: set       The final graph looks like:    "
 },
@@ -1247,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-spcl_gr-5",
   "type": "Example",
-  "number": "1.11.16",
+  "number": "1.9.16",
   "title": "",
   "body": "  Draw graph of                        in class work      "
 },
@@ -1256,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-first_example-2",
   "type": "Example",
-  "number": "1.11.17",
+  "number": "1.9.17",
   "title": "",
   "body": "  State if the following relations are functions and give their domain and range.                                            This is not a function.     In I quadrant, .  draw this line graph in I quadrant.  In II quadrant, .  draw this line graph in II quadrant.  In III quadrant, .  draw this line graph in III quadrant.  In IV quadrant, .  draw this line graph in IV quadrant.               Graph looks similar to signaum plot with hole at        Not a function.               "
 },
@@ -1265,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-funct-gr.html#subsubsec-first_example-3",
   "type": "Example",
-  "number": "1.11.18",
+  "number": "1.9.18",
   "title": "",
   "body": "  Which values of are not included in the domain of the following functions.                    . Hence these values are not included in the domain.      Hence these values are not included in the domain.       "
 },
@@ -1274,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-comp.html",
   "type": "Section",
-  "number": "1.12",
+  "number": "1.10",
   "title": "Combinations of Functions",
   "body": " Combinations of Functions    The function , read as of is a composition of and where here, all in the domain of is also in the domain of .  If then is inverse function of      When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.       Notice: is different then .     If and then find the composite functions and      This is the value of function at . Hence, replace of with  This is the value of function at . Hence, replace of with       If and then find                                  If and , then find the value of for which            Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain          If and find     By definition: First apply , then plug the result into :       If , then find (a) and (b) .  If , and find .         "
 },
@@ -1283,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#def-com_func",
   "type": "Definition",
-  "number": "1.12.1",
+  "number": "1.10.1",
   "title": "",
   "body": "  The function , read as of is a composition of and where here, all in the domain of is also in the domain of .  If then is inverse function of    "
 },
@@ -1292,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-3",
   "type": "Note",
-  "number": "1.12.2",
+  "number": "1.10.2",
   "title": "",
   "body": " When two functions and are defined on some common domain, you can create new functions by adding, subtracting, multiplying, or dividing them.       Notice: is different then .  "
 },
@@ -1301,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-4",
   "type": "Example",
-  "number": "1.12.3",
+  "number": "1.10.3",
   "title": "",
   "body": "  If and then find the composite functions and      This is the value of function at . Hence, replace of with  This is the value of function at . Hence, replace of with    "
 },
@@ -1310,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-5",
   "type": "Example",
-  "number": "1.12.4",
+  "number": "1.10.4",
   "title": "",
   "body": "  If and then find                               "
 },
@@ -1319,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-6",
   "type": "Example",
-  "number": "1.12.5",
+  "number": "1.10.5",
   "title": "",
   "body": "  If and , then find the value of for which         "
 },
@@ -1328,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-7",
   "type": "Example",
-  "number": "1.12.6",
+  "number": "1.10.6",
   "title": "",
   "body": "  Let    and        Sum:  Domain = domain of  domain of .    Product: Domain =     Quotient: Domain = excluding where denominator = 0 at So domain =     Composition:   First apply . Then apply inside square root must be     . Domain       "
 },
@@ -1337,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-8",
   "type": "Example",
-  "number": "1.12.7",
+  "number": "1.10.7",
   "title": "",
   "body": "  If and find     By definition: First apply , then plug the result into :    "
 },
@@ -1346,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_first-comp.html#sec_first-comp-9",
   "type": "Example",
-  "number": "1.12.8",
+  "number": "1.10.8",
   "title": "",
   "body": "  If , then find (a) and (b) .  If , and find .        "
 },
@@ -1355,43 +1337,43 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "sec_first-inverse.html",
   "type": "Section",
-  "number": "1.13",
+  "number": "1.11",
   "title": "Inverse Functions",
-  "body": " Inverse Functions  [ ], [ ]  A function assigns to each element in its domain exactly one element in its codomain . The inverse function inverse function of , denoted , is a function that \"reverses\" the action of . It maps elements from the codomain back to the domain in such a way that applying and then (or vice versa) returns the original input. Formally, is the inverse of if both of these composition properties hold:  that are in the range of   Not every function has an inverse. For a function to have an inverse that is itself a function: must be injective (one-to-one): Different inputs produce different outputs. No two distinct have    must be surjective (onto) relative to its codomain: Every element in the codomain is hit by some input (i.e., the range equals the codomain).  If both hold, is bijective, and an inverse function exists.  To find the inverse of a function :   Solve for in terms of : Express as a function of .    Swap and : The resulting expression is .       Find inverse, domian and range of the given functions:                                       Let Now, interchange to      Let interchange to      Let interchange to    Domain: so the domain is   Range: Find in terms of   This is polynomial function. Now to obey the original square root function, should not be negative rather Hence range is     do yourself           Domain:   Range:             Domain:   Range:          Find the inverse of the following functions:                    swap x and y. let , we have       swap x and y.          Find the inverse function of:            Find the domain, range, and inverse of a function and sketch the graphs of function and its inverse.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) =   Intercept:   y-intercept: set      x-intercept: set        The final graph looks like: Remember the graph of inverse function is a reflection of about line.     "
+  "body": " Inverse Functions   A function assigns to each element in its domain exactly one element in its codomain . The inverse function inverse function of , denoted , is a function that \"reverses\" the action of . It maps elements from the codomain back to the domain in such a way that applying and then (or vice versa) returns the original input. Formally, is the inverse of if both of these composition properties hold:  that are in the range of [ ], [ ]  Not every function has an inverse. For a function to have an inverse  must be injective (one-to-one): Different inputs produce different outputs. No two distinct have  Horizontal line Test: if any horizontal line intersects the graph of at most once.   must be surjective (onto) relative to its codomain: Every element in the codomain is hit by some input (i.e., the range equals the codomain).  If both hold, is bijective, and an inverse function exists. Inverse function graph is a mirror image of its function about line. Some times, we may need to restrict the function for a perticular interval to make it one-to-one and onto so that inverse function exists.  If a function is invertible, its inverse can be found by solving the equation for in terms of , and then swapping and .  To find the inverse of a function :   Solve for in terms of : Express as a function of .    Swap and : The resulting expression is .       Find inverse, domian and range of the given functions:                                       Let Now, interchange to      Let interchange to      Let interchange to    Domain: so the domain is   Range: Find in terms of   This is polynomial function. Now to obey the original square root function, should not be negative rather Hence range is     do yourself           Domain:   Range:             Domain:   Range:          Find the inverse of the following functions:                    swap x and y. let , we have       swap x and y.          Find the inverse function of:            Find the domain, range, and inverse of a function and sketch the graphs of function and its inverse.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) =   Intercept:   y-intercept: set      x-intercept: set        The final graph looks like: Remember the graph of inverse function is a reflection of about line.       Inverse Trigonometric Functions  The inverse trigonometric functions are the inverses of the basic trigonometric functions, defined on restricted domains to ensure they are one-to-one and onto. The six inverse trigonometric functions are:    Arcsine ( ): Inverse of sine function, defined on           Arccosine ( ): Inverse of cosine function, defined on          Arctangent ( ): Inverse of tangent function, defined on          Arccotangent ( ): Inverse of cotangent function, defined on          Arcsecant ( ): Inverse of secant function, defined on           Arccosecant ( ): Inverse of cosecant function, defined on         These functions return angles corresponding to given trigonometric ratios within their specified domains.   "
 },
 {
-  "id": "sec_first-inverse-8",
+  "id": "sec_first-inverse-2-7",
   "level": "2",
-  "url": "sec_first-inverse.html#sec_first-inverse-8",
+  "url": "sec_first-inverse.html#sec_first-inverse-2-7",
   "type": "Example",
-  "number": "1.13.1",
+  "number": "1.11.1",
   "title": "",
   "body": "  Find inverse, domian and range of the given functions:                                       Let Now, interchange to      Let interchange to      Let interchange to    Domain: so the domain is   Range: Find in terms of   This is polynomial function. Now to obey the original square root function, should not be negative rather Hence range is     do yourself           Domain:   Range:             Domain:   Range:       "
 },
 {
-  "id": "sec_first-inverse-9",
+  "id": "sec_first-inverse-2-8",
   "level": "2",
-  "url": "sec_first-inverse.html#sec_first-inverse-9",
+  "url": "sec_first-inverse.html#sec_first-inverse-2-8",
   "type": "Example",
-  "number": "1.13.2",
+  "number": "1.11.2",
   "title": "",
   "body": "  Find the inverse of the following functions:                    swap x and y. let , we have       swap x and y.       "
 },
 {
-  "id": "sec_first-inverse-10",
+  "id": "sec_first-inverse-2-9",
   "level": "2",
-  "url": "sec_first-inverse.html#sec_first-inverse-10",
+  "url": "sec_first-inverse.html#sec_first-inverse-2-9",
   "type": "Example",
-  "number": "1.13.3",
+  "number": "1.11.3",
   "title": "",
   "body": "  Find the inverse function of:         "
 },
 {
-  "id": "sec_first-inverse-11",
+  "id": "sec_first-inverse-2-10",
   "level": "2",
-  "url": "sec_first-inverse.html#sec_first-inverse-11",
+  "url": "sec_first-inverse.html#sec_first-inverse-2-10",
   "type": "Example",
-  "number": "1.13.4",
+  "number": "1.11.4",
   "title": "",
   "body": "  Find the domain, range, and inverse of a function and sketch the graphs of function and its inverse.     Let   For Domain: Hence, the domian:   For Range: For to be the Range: As  and as    For Inverse: Interchange and      To draw graph of a function: determine its shape:   sign of x     sign of y     standard plot of       Find Point (x,y): set     Hence, point (x,y) =   Intercept:   y-intercept: set      x-intercept: set        The final graph looks like: Remember the graph of inverse function is a reflection of about line.    "
 },
@@ -1400,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ex_first.html",
   "type": "Exercises",
-  "number": "1.14",
+  "number": "1.12",
   "title": "Exercise",
   "body": " Exercise   Sage Plot       Determine whether the curve is the graph of a function of x.                  Determine whether each of the following function is even, odd or neither even nor odd.                                                Find the domain of the following functions                                         Draw graph of the given function and find its domain and Range.    Find the domain of     . Domain: (0,4)     Find the domain and sketch the graph of the following functions:                                       Define function,            Find the domain and sketch the graph of the following functions:                                 Match each equation with its graph:                      Match each equation with its graph:                           Graph each function:                                                                Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.         Match each equation with its graph.                      Match each equation with its graph.                            Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                         Discuss whether is a function or not?    Find the range of the following functions:                          Find the functions and their domains.     Find the and their domains.     Plot the function and its inverse:     Draw graph and state the domain and range of                                                              Draw graph of    "
 },
@@ -1409,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-3",
   "type": "Exercise",
-  "number": "1.14.1",
+  "number": "1.12.1",
   "title": "",
   "body": " Determine whether the curve is the graph of a function of x.                "
 },
@@ -1418,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-4",
   "type": "Exercise",
-  "number": "1.14.2",
+  "number": "1.12.2",
   "title": "",
   "body": " Determine whether each of the following function is even, odd or neither even nor odd.                                              "
 },
@@ -1427,7 +1409,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-5",
   "type": "Exercise",
-  "number": "1.14.3",
+  "number": "1.12.3",
   "title": "",
   "body": " Find the domain of the following functions                                       "
 },
@@ -1436,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-6",
   "type": "Exercise",
-  "number": "1.14.4",
+  "number": "1.12.4",
   "title": "",
   "body": " Draw graph of the given function and find its domain and Range.  "
 },
@@ -1445,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-7",
   "type": "Exercise",
-  "number": "1.14.5",
+  "number": "1.12.5",
   "title": "",
   "body": " Find the domain of     . Domain: (0,4)   "
 },
@@ -1454,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-8",
   "type": "Exercise",
-  "number": "1.14.6",
+  "number": "1.12.6",
   "title": "",
   "body": " Find the domain and sketch the graph of the following functions:                                       Define function,          "
 },
@@ -1463,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-9",
   "type": "Exercise",
-  "number": "1.14.7",
+  "number": "1.12.7",
   "title": "",
   "body": " Find the domain and sketch the graph of the following functions:                               "
 },
@@ -1472,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-10",
   "type": "Exercise",
-  "number": "1.14.8",
+  "number": "1.12.8",
   "title": "",
   "body": " Match each equation with its graph:                    "
 },
@@ -1481,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-11",
   "type": "Exercise",
-  "number": "1.14.9",
+  "number": "1.12.9",
   "title": "",
   "body": " Match each equation with its graph:                         "
 },
@@ -1490,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-12",
   "type": "Exercise",
-  "number": "1.14.10",
+  "number": "1.12.10",
   "title": "",
   "body": " Graph each function:                                                           "
 },
@@ -1499,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-13",
   "type": "Exercise",
-  "number": "1.14.11",
+  "number": "1.12.11",
   "title": "",
   "body": "    Part A: Multiple Choice (2 points each)     What is the domain of ?                    All real numbers       The range of is:        Find the domain of     For , the domain and range are:    The function has domain:    What is the range of ?    The domain of is:    For the piecewise function the range is:        Part B: Free Response (show work, 5 points each)     Find the domain and range of . Write in interval notation.   domain = [-3, 3]  range = [0, 3]     Find the domain of . Write in interval notation.   Domain:      Find the domain and range of     For the function , state the domain and range in interval notation.       "
 },
@@ -1508,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-14",
   "type": "Exercise",
-  "number": "1.14.12",
+  "number": "1.12.12",
   "title": "",
   "body": " Match each equation with its graph.                    "
 },
@@ -1517,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-15",
   "type": "Exercise",
-  "number": "1.14.13",
+  "number": "1.12.13",
   "title": "",
   "body": " Match each equation with its graph.                         "
 },
@@ -1526,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-16",
   "type": "Exercise",
-  "number": "1.14.14",
+  "number": "1.12.14",
   "title": "",
   "body": "  Find the range of:                         change the equation in quadratic in . Now quadratic equations in are defined for                       "
 },
@@ -1535,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-17",
   "type": "Exercise",
-  "number": "1.14.15",
+  "number": "1.12.15",
   "title": "",
   "body": " Discuss whether is a function or not?  "
 },
@@ -1544,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-18",
   "type": "Exercise",
-  "number": "1.14.16",
+  "number": "1.12.16",
   "title": "",
   "body": " Find the range of the following functions:                        "
 },
@@ -1553,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-19",
   "type": "Exercise",
-  "number": "1.14.17",
+  "number": "1.12.17",
   "title": "",
   "body": " Find the functions and their domains.   "
 },
@@ -1562,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-20",
   "type": "Exercise",
-  "number": "1.14.18",
+  "number": "1.12.18",
   "title": "",
   "body": " Find the and their domains.   "
 },
@@ -1571,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-21",
   "type": "Exercise",
-  "number": "1.14.19",
+  "number": "1.12.19",
   "title": "",
   "body": " Plot the function and its inverse:   "
 },
@@ -1580,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-22",
   "type": "Exercise",
-  "number": "1.14.20",
+  "number": "1.12.20",
   "title": "",
   "body": " Draw graph and state the domain and range of                                                            "
 },
@@ -1589,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "ex_first.html#ex_first-23",
   "type": "Exercise",
-  "number": "1.14.21",
+  "number": "1.12.21",
   "title": "",
   "body": " Draw graph of   "
 },
@@ -3409,7 +3391,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.3",
   "title": "Derivatives of Inverse Functions",
-  "body": " Derivatives of Inverse Functions   inverse functions If a function is differentiable and has an inverse function , then the derivative of the inverse function at a point is the reciprocal of the derivative of the original function at the corresponding point.  Let , then Now differentiate on both side w.r.t. \" \" using chain rule. Then: but, , thus, provided    Let , Now, take logarithm on both sides, we get Replacing and , we get the corresponding point:     Derivatives of Inverse Functions                                     Find the derivative of     Let so Differentiate w.r.t \"x\", we get-  To simplify, within the given boundary, consider a right angled triangle with hypoteneous equal to and perpendicular equals as shown in figure below.            Find if                             where and          Let be the inverse of If and then find      diff. w.r.t. \"x\"  At  From       "
+  "body": " Derivatives of Inverse Functions   inverse functions If a function is differentiable and has an inverse function , then the derivative of the inverse function at a point is the reciprocal of the derivative of the original function at the corresponding point.  Let , then Now differentiate on both side w.r.t. \" \" using chain rule. Then: but, , thus, provided    Let , Now, take logarithm on both sides, we get Replacing and , we get the corresponding point:     Derivatives of Inverse Functions                                     Find the derivative of using first principle.    If   Let               Find the derivative of using first principle.          Find the derivative of using first principle.          Find the derivative of     Let so Differentiate w.r.t \"x\", we get-  To simplify, within the given boundary, consider a right angled triangle with hypoteneous equal to and perpendicular equals as shown in figure below.            Find if                             where and          Let be the inverse of If and then find      diff. w.r.t. \"x\"  At  From       "
 },
 {
   "id": "sec_third-invrse-4",
@@ -3436,7 +3418,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.3.2",
   "title": "",
-  "body": "  Find the derivative of     Let so Differentiate w.r.t \"x\", we get-  To simplify, within the given boundary, consider a right angled triangle with hypoteneous equal to and perpendicular equals as shown in figure below.         "
+  "body": "  Find the derivative of using first principle.    If   Let            "
 },
 {
   "id": "sec_third-invrse-7",
@@ -3445,7 +3427,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.3.3",
   "title": "",
-  "body": "  Find if                             where and       "
+  "body": "  Find the derivative of using first principle.       "
 },
 {
   "id": "sec_third-invrse-8",
@@ -3453,6 +3435,33 @@ var ptx_lunr_docs = [
   "url": "sec_third-invrse.html#sec_third-invrse-8",
   "type": "Example",
   "number": "3.3.4",
+  "title": "",
+  "body": "  Find the derivative of using first principle.       "
+},
+{
+  "id": "sec_third-invrse-9",
+  "level": "2",
+  "url": "sec_third-invrse.html#sec_third-invrse-9",
+  "type": "Example",
+  "number": "3.3.5",
+  "title": "",
+  "body": "  Find the derivative of     Let so Differentiate w.r.t \"x\", we get-  To simplify, within the given boundary, consider a right angled triangle with hypoteneous equal to and perpendicular equals as shown in figure below.         "
+},
+{
+  "id": "sec_third-invrse-10",
+  "level": "2",
+  "url": "sec_third-invrse.html#sec_third-invrse-10",
+  "type": "Example",
+  "number": "3.3.6",
+  "title": "",
+  "body": "  Find if                             where and       "
+},
+{
+  "id": "sec_third-invrse-11",
+  "level": "2",
+  "url": "sec_third-invrse.html#sec_third-invrse-11",
+  "type": "Example",
+  "number": "3.3.7",
   "title": "",
   "body": "  Let be the inverse of If and then find      diff. w.r.t. \"x\"  At  From      "
 },
