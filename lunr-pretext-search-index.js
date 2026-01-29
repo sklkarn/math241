@@ -2050,7 +2050,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.2",
   "title": "Limit Laws",
-  "body": " Limit Laws    limit laws   If is a constant and the limits and exist as finite numbers not as or , then                            If then   e.g., if then but then .          Evaluating Limits: If f(x) and g(x) tends to zero as then              e.g., , , ,            If exists and as then as Meaning, if limit exists between and , then as , also goes to zero at     If and then could be  or, limit does not exist.    If and , then could exist or could not exist.        Find:            If exist then find     At then ,   or,       Evaluate:                Remember: if numerator or denominator or both contains square roots then we need to rationalize the function.           Let , then at            Evaluate:     Let , so as , we have .       form:     Rationalize:      Alternate:    Therefore,          Squeeze Theorem  The Squeeze Theorem Squeeze Theorem (also known as the Sandwich Theorem or Pinching Theorem) is a tool for evaluating limits, especially when direct substitution leads to indeterminate forms like or .  Let and be functions defined on some open interval containing , and suppose: for all in that interval (except possibly at ). If and then   In words: If is squeezed between two functions and that both approach the same limit , then must also approach .    Evaluate:     Let's consider a unit circle: From right angled   From right angled triangle, we have Now from figure,     Area of  Area of  Area of     Area of sector =    For angle area subtends by radius . Hence, area subtends by radius for an angle   Now from eqn 3,       Hence, from eqns. 8 and 9.      Alternate: use L'Hospital rule       Find:     from squeeze theorem,          Some Standard Limits      Algebric Function       Trigonometric Functions  Trigonometric Functions                            Logarithimic and Exponential  Logarithimic and Exponential                                   Solution:       Find:                 Step 1: Analyze the behavior as    (since base 1)   oscillates between -1 and +1 for all real , because the argument grows exponentially, and sine is periodic. So the fraction is:   Step 2: Apply the Squeeze Theorem  We know:   Divide by (for large): Now take the limit, and Hence, from squeeze theorem        Evaluate the following:           degree is not a real number, so convert it into radian first.          Find:     At          Find:             Find:              Find:            where and as       Form Evaluate:                         and Forms  If forms of limit are then convert it into either formate or format before solving the limit.            use L Hospital's rule:                   where as            for form convert into form.                   use L hospital rule,       As                           Whenever function under consideration has one of the following traits, always check RHL, LHL for the existance of limit.     It has , , or mod    It is piecewise defind function    It has and        "
+  "body": " Limit Laws    limit laws   If is a constant and the limits and exist as finite numbers not as or , then                            If then   e.g., if then but then .          Evaluating Limits: If f(x) and g(x) tends to zero as then              e.g., , , ,            If exists and as then as Meaning, if limit exists between and , then as , also goes to zero at     If and then could be  or, limit does not exist.    If and , then could exist or could not exist.        Find:            If exist then find     At then ,   or,       Evaluate:                Remember: if numerator or denominator or both contains square roots then we need to rationalize the function.           Let , then at            Evaluate:     Let , so as , we have .       form:     Rationalize:      Alternate:    Therefore,          Squeeze Theorem  The Squeeze Theorem Squeeze Theorem (also known as the Sandwich Theorem or Pinching Theorem) is a tool for evaluating limits, especially when direct substitution leads to indeterminate forms like or .  Let and be functions defined on some open interval containing , and suppose: for all in that interval (except possibly at ). If and then   In words: If is squeezed between two functions and that both approach the same limit , then must also approach .    Evaluate:     Let's consider a unit circle: From right angled   From right angled triangle, we have Now from figure,     Area of  Area of  Area of     Area of sector =    For angle area subtends by radius . Hence, area subtends by radius for an angle   Now from eqn 3,       Hence, from eqns. 8 and 9.      Alternate: use L'Hospital rule       Find:     from squeeze theorem,          Some Standard Limits      Algebric Function       Trigonometric Functions  Trigonometric Functions                            Logarithimic and Exponential  Logarithimic and Exponential                                   Solution:       Find:                 Step 1: Analyze the behavior as    (since base 1)   oscillates between -1 and +1 for all real , because the argument grows exponentially, and sine is periodic. So the fraction is:   Step 2: Apply the Squeeze Theorem  We know:   Divide by (for large): Now take the limit, and Hence, from squeeze theorem        Evaluate the following:           degree is not a real number, so convert it into radian first.          Find:     At          Find:             Find:              Find:            where and as       Form Evaluate:                         and Forms  If forms of limit are then convert it into either formate or format before solving the limit.            use L Hospital's rule:                   where as            for form convert into form.                   use L hospital rule,       As                           Whenever function under consideration has one of the following traits, always check RHL, LHL for the existance of limit.     It has , , or mod    It is piecewise defind function    It has and         The value of     After factorization, we get  This is form.         Evaluate: This is form.             Evaluate:     Use L'Hospital's rule:           Forms  We need to convert this form into form first.    Evaluate:     Always set in this form, so as This substitution converts [ form into [ form].  Now,          If     Set in this form, so as This substitution converts [ form into [ form].  If the above form is in 0\/0 form, we must set         "
 },
 {
   "id": "thm-lmt_lws",
@@ -2312,6 +2312,51 @@ var ptx_lunr_docs = [
   "number": "2.2.29",
   "title": "",
   "body": " Whenever function under consideration has one of the following traits, always check RHL, LHL for the existance of limit.     It has , , or mod    It is piecewise defind function    It has and      "
+},
+{
+  "id": "subsec-inderForm2-10",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-inderForm2-10",
+  "type": "Example",
+  "number": "2.2.30",
+  "title": "",
+  "body": "  The value of     After factorization, we get  This is form.      "
+},
+{
+  "id": "subsec-inderForm2-11",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-inderForm2-11",
+  "type": "Example",
+  "number": "2.2.31",
+  "title": "",
+  "body": "  Evaluate: This is form.          "
+},
+{
+  "id": "subsec-inderForm2-12",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-inderForm2-12",
+  "type": "Example",
+  "number": "2.2.32",
+  "title": "",
+  "body": "  Evaluate:     Use L'Hospital's rule:        "
+},
+{
+  "id": "subsec-inderForm3-3",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-inderForm3-3",
+  "type": "Example",
+  "number": "2.2.33",
+  "title": "",
+  "body": "  Evaluate:     Always set in this form, so as This substitution converts [ form into [ form].  Now,       "
+},
+{
+  "id": "subsec-inderForm3-4",
+  "level": "2",
+  "url": "sec_second-lmtlaws.html#subsec-inderForm3-4",
+  "type": "Example",
+  "number": "2.2.34",
+  "title": "",
+  "body": "  If     Set in this form, so as This substitution converts [ form into [ form].  If the above form is in 0\/0 form, we must set       "
 },
 {
   "id": "sec_second-exampleA",

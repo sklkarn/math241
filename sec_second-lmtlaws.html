@@ -250,6 +250,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-sqzt" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Squeeze Theorem</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-std_lmt" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Some Standard Limits</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm2" class="internal"><span class="codenumber">2.2.3</span> <span class="title"><span class="process-math">\(0\times\infty, \infty^0, \)</span> and <span class="process-math">\(0^0\)</span> Forms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm3" class="internal"><span class="codenumber">2.2.4</span> <span class="title"><span class="process-math">\(\infty-\infty \)</span> Forms</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleA.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Example A</span></a></div></li>
@@ -1547,7 +1548,222 @@ but, \,  \lim_{x\to 0} x^2 =0 =  \lim_{x\to 0} (-x^2)
 </ul>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-9-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Note 2.2.29"><a href="#subsec-inderForm2-9" title="Copy heading and permalink for Note 2.2.29">🔗</a></div></article><div class="autopermalink" data-description="Subsection 2.2.3: 0\times\infty, \infty^0,  and 0^0 Forms"><a href="#subsec-inderForm2" title="Copy heading and permalink for Subsection 2.2.3: 0\times\infty, \infty^0,  and 0^0 Forms">🔗</a></div></section><div class="autopermalink" data-description="Section 2.2: Limit Laws"><a href="#sec_second-lmtlaws" title="Copy heading and permalink for Section 2.2: Limit Laws">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Note 2.2.29"><a href="#subsec-inderForm2-9" title="Copy heading and permalink for Note 2.2.29">🔗</a></div></article><article class="example example-like" id="subsec-inderForm2-10"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.30</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-inderForm2-10-1-1">
+<div class="para">The value of</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to 1} \frac{(x^2-1)\sin^2 (\pi x)}{x^4-2x^3+2x-1}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-10-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-inderForm2-10-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-inderForm2-10-2-1">
+<div class="para">After factorization, we get</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to 1} \frac{(x^2-1)\sin^2 (\pi x)}{(x^2-1)(x^2-2x+1)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x \to 1} \frac{\sin^2 (\pi x)}{(x-1)^2}
+\end{equation*}
+</div>
+<div class="para">This is <span class="process-math">\(\frac{0}{0}\)</span> form.</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{h \to 0} \frac{\sin^2 \pi (1+h)}{(1+h-1)^2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{h \to 0} \frac{\sin^2 \pi (1+h)}{h^2[\pi (1+h)]^2}\times [\pi (1+h)]^2
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{h \to 0} \frac{\pi^2 (1+h)^2}{h^2} = \pi^2.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-10-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.2.30.1"><a href="#subsec-inderForm2-10-2" title="Copy heading and permalink for Solution 2.2.30.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.2.30"><a href="#subsec-inderForm2-10" title="Copy heading and permalink for Example 2.2.30">🔗</a></div></article><article class="example example-like" id="subsec-inderForm2-11"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.31</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-inderForm2-11-1-1">
+<div class="para">Evaluate:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to 0} \left[ \left(\frac{1-\cos^2 (3x)}{\cos^3 (4x)}\right) \left(\frac{\sin^3 (4x)}{(\ln (2x+1))^5}\right) \right] 
+\end{equation*}
+</div>
+<div class="para">This is <span class="process-math">\(\frac{0}{0}\)</span> form.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-11-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-inderForm2-11-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-inderForm2-11-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+=  \lim_{x \to 0} \left[ \left(\frac{\sin^2 (3x)}{\cos^3 (4x)}\right) \left(\frac{\sin^3 (4x)}{(\ln (2x+1))^5}\right) \right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x \to 0} \left[ \left(\frac{\sin^2 (3x)}{(3x)^2}\times (3x)^2 \right) \left(\frac{\sin^3 (4x)}{(4x)^3}\times (4x)^3 \right) \left(\frac{1}{\cos^3(4x)}\right) \left(\frac{(2x)^5}{(\ln (2x+1))^5 (2x)^5}\right) \right] 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x \to 0} \left[\left(\frac{(3x)^2 \times (4x)^3}{\cos^3(4x)}\right) \times \frac{1}{(2x)^5} \right] = \frac{9\times 64}{32} =18.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-11-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.2.31.1"><a href="#subsec-inderForm2-11-2" title="Copy heading and permalink for Solution 2.2.31.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.2.31"><a href="#subsec-inderForm2-11" title="Copy heading and permalink for Example 2.2.31">🔗</a></div></article><article class="example example-like" id="subsec-inderForm2-12"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.32</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-inderForm2-12-1-1">
+<div class="para">Evaluate:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x\to \frac{\pi}{4}} \frac{8\sqrt{2}-(\cos x +\sin x)^7}{\sqrt{2}-\sqrt{2}\sin(2x)}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-12-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-inderForm2-12-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-inderForm2-12-2-1">
+<div class="para">Use L’Hospital’s rule:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+=\lim_{x\to \frac{\pi}{4}} \frac{0-7(\cos x +\sin x)^6(-\sin x +\cos x)}{0-\sqrt{2}\cdot 2\cos(2x)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x\to \frac{\pi}{4}} \frac{7(\cos x +\sin x)^6(\cos x-\sin x)}{2\sqrt{2}\cos(2x)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x\to \frac{\pi}{4}} \frac{7(\cos x +\sin x)^6(\cos x-\sin x)}{2\sqrt{2}(\cos^2 x -\sin^2 x)}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x\to \frac{\pi}{4}} \frac{7\cancelto{5}{(\cos x +\sin x)^6} \cancel{(\cos x-\sin x)}}{2\sqrt{2}\cancel{(\cos x -\sin x)}\cancel{(\cos x +\sin x)}}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{x\to \frac{\pi}{4}} \frac{7(\cos x +\sin x)^5}{2\sqrt{2}} = \frac{7(1/\sqrt{2} +1/\sqrt{2})^5}{2\sqrt{2}} = 14.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm2-12-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.2.32.1"><a href="#subsec-inderForm2-12-2" title="Copy heading and permalink for Solution 2.2.32.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.2.32"><a href="#subsec-inderForm2-12" title="Copy heading and permalink for Example 2.2.32">🔗</a></div></article><div class="autopermalink" data-description="Subsection 2.2.3: 0\times\infty, \infty^0,  and 0^0 Forms"><a href="#subsec-inderForm2" title="Copy heading and permalink for Subsection 2.2.3: 0\times\infty, \infty^0,  and 0^0 Forms">🔗</a></div></section><section class="subsection" id="subsec-inderForm3"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.2.4</span><span class="space"> </span><span class="title"><span class="process-math">\(\infty-\infty \)</span> Forms</span>
+</h3>
+<div class="para" id="subsec-inderForm3-2">We need to convert this form into <span class="process-math">\(0/0\)</span> form first.<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm3-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsec-inderForm3-3"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.33</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-inderForm3-3-1-1">
+<div class="para">Evaluate:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to \infty} \left(\sqrt{25 x^2-3x}-5x\right) 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm3-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-inderForm3-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para" id="subsec-inderForm3-3-2-1">Always set <span class="process-math">\(x=\frac{1}{t}\)</span> in this form, so as <span class="process-math">\(x \to \infty, t \to 0.\)</span> This substitution converts [<span class="process-math">\(\infty-\infty \)</span> form into [<span class="process-math">\(0/0\)</span> form].<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm3-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="subsec-inderForm3-3-2-2">
+<div class="para">Now,</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{t \to 0} \left(\sqrt{\frac{25}{t^2} -\frac{3}{t}}-\frac{5}{t}\right) 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, \quad  \lim_{t \to 0} \frac{\sqrt{\frac{25-3t}} -5}{t} \, \quad [0/0 \, form]
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, \quad  \lim_{t \to 0} \frac{\sqrt{\frac{25-3t}} -5}{t} \times \frac{\sqrt{\frac{25-3t}} +5}{\sqrt{\frac{25-3t}} +5} 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{t \to 0} \frac{(25-3t)-25}{t(\sqrt{25-3t} +5)} = \lim_{t \to 0} \frac{-3}{\sqrt{25-3t} +5} = -\frac{3}{10}.
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm3-3-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.2.33.1"><a href="#subsec-inderForm3-3-2" title="Copy heading and permalink for Solution 2.2.33.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.2.33"><a href="#subsec-inderForm3-3" title="Copy heading and permalink for Example 2.2.33">🔗</a></div></article><article class="example example-like" id="subsec-inderForm3-4"><h4 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.2.34</span><span class="period">.</span>
+</h4>
+<div class="para logical" id="subsec-inderForm3-4-1-1">
+<div class="para">If</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to \infty} \left(\sqrt{x^2-x+1}-ax\right)=b, then ordered pair (a,b) is?
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm3-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsec-inderForm3-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsec-inderForm3-4-2-1">
+<div class="para">Set <span class="process-math">\(x=\frac{1}{t}\)</span> in this form, so as <span class="process-math">\(x \to \infty, t \to 0.\)</span> This substitution converts [<span class="process-math">\(\infty-\infty \)</span> form into [<span class="process-math">\(0/0\)</span> form].</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\lim_{x \to \infty} \left(\sqrt{x^2-x+1}-ax\right) = \lim_{t \to 0} \left(\sqrt{\frac{1}{t^2}-\frac{1}{t}+1}-\frac{a}{t}\right)
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{t \to 0} \frac{\sqrt{1 -t +t^2}-a}{t} \, [0/0 \, form]
+\end{equation*}
+</div>
+<div class="para">If the above form is in 0/0 form, we must set <span class="process-math">\(a=1.\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{t \to 0} \frac{\sqrt{1 -t +t^2}-1}{t} \times \frac{\sqrt{1 -t +t^2}+1}{\sqrt{1 -t +t^2}+1}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \lim_{t \to 0} \frac{1 -t +t^2-1}{t[\sqrt{1 -t +t^2}+1]} = \lim_{t \to 0} \frac{-t +t^2}{t[\sqrt{1 -t +t^2}+1]} = \lim_{t \to 0} \frac{-1 +t}{\sqrt{1 -t +t^2}+1} = -\frac{1}{2}.
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, b= -\frac{1}{2} \, and \, (a,b) = (1,-\frac{1}{2}).
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsec-inderForm3-4-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 2.2.34.1"><a href="#subsec-inderForm3-4-2" title="Copy heading and permalink for Solution 2.2.34.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 2.2.34"><a href="#subsec-inderForm3-4" title="Copy heading and permalink for Example 2.2.34">🔗</a></div></article><div class="autopermalink" data-description="Subsection 2.2.4: \infty-\infty  Forms"><a href="#subsec-inderForm3" title="Copy heading and permalink for Subsection 2.2.4: \infty-\infty  Forms">🔗</a></div></section><div class="autopermalink" data-description="Section 2.2: Limit Laws"><a href="#sec_second-lmtlaws" title="Copy heading and permalink for Section 2.2: Limit Laws">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_second-intro.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_second-exampleA.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
