@@ -2563,7 +2563,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Continuity",
-  "body": " Continuity   A function is continuous at a point if there are no breaks, jumps, or holes on its graph. Intuitively, you can draw the graph without lifting your pencil.  A function is said to be continuous continuous at if [ ] i.e.,   To see if the given function is continuous or not needs the following three conditions:    is defined.         The limit equals the function value, i.e., .   If any one fails, is discontinuous discontinuous at .   Alternatively, using the difference quotient  difference quotient [ ], continuity at (c) means:     Types of Continuous Functions     Polynomial (linear, square, cubic, etc. ) functions are continuous everywhere (in ).    Exponential ( ) functions are continuous everywhere (in ).    Rational functions are continuous everywhere (in ) except where .    The mode function is continuous everywhere.    Logarithmic ( ) functions are continuous where they are defined (i.e., ).    Trigonometric functions ( ) are continuous everywhere but , are continuous except at     The GIF and FPF functions are continuous      From geometry or [ ] Squeeze theorem , we have some standard limits [ ]:     Types of Discontinuities      Removable Discontinuity Limit exists, but is missing or wrong.          Jump Discontinuity Left and right limits exist but differ.          Infinite Discontinuity Limit is .      Oscillatory Discontinuity Limit fails due to wild oscillation.        Holes   Removal Discontinuity While solving some rational functions, we need to restrict some variables from getting function undefined. This resitriction may introduce holes in the plot.            Here produces hole in the plot, which can be removed by simplyfying the function as Here gives vertical asymptote.              Here produces hole in the plot and gives vertical asymptote.      Continuity on an Interval   is continuous on if continuous at every point in , and right-continuous at , left-continuous at . That is:     Properties of Continuous Functions  If and are two continuous functions at real number , then    is continuous at      is continuous at      is continuous at where is any scalar.     is continuous at      is continuous at       is continuous at       "
+  "body": " Continuity   A function is continuous at a point if there are no breaks, jumps, or holes on its graph. Intuitively, you can draw the graph without lifting your pencil.  A function is said to be continuous continuous at if [ ] i.e.,   To see if the given function is continuous or not needs the following three conditions:    is defined.         The limit equals the function value, i.e., .   If any one fails, is discontinuous discontinuous at .   Alternatively, using the difference quotient  difference quotient [ ], continuity at (c) means:     Types of Continuous Functions     Polynomial (linear, square, cubic, etc. ) functions are continuous everywhere (in ).    Exponential ( ) functions are continuous everywhere (in ).    Rational functions are continuous everywhere (in ) except where .    The mode function is continuous everywhere.    Logarithmic ( ) functions are continuous where they are defined (i.e., ).    Trigonometric functions ( ) are continuous everywhere but , are continuous except at     The GIF and FPF functions are continuous      From geometry or [ ] Squeeze theorem , we have some standard limits [ ]:     Types of Discontinuities      Removable Discontinuity Limit exists, but is missing or wrong.          Jump Discontinuity Left and right limits exist but differ.          Infinite Discontinuity Limit is .      Oscillatory Discontinuity Limit fails due to wild oscillation.        Holes   Removal Discontinuity While solving some rational functions, we need to restrict some variables from getting function undefined. This resitriction may introduce holes in the plot.            Here produces hole in the plot, which can be removed by simplyfying the function as Here gives vertical asymptote.              Here produces hole in the plot and gives vertical asymptote.      Continuity on an Interval   is continuous on if continuous at every point in , and right-continuous at , left-continuous at . That is:     Properties of Continuous Functions  If and are two continuous functions at real number , then    is continuous at      is continuous at      is continuous at where is any scalar.     is continuous at      is continuous at       is continuous at        Intermediate Value Theorem  If is continuous on the closed interval and is any number between and where then there exists at least one number such that   We use it to prove equations have roots (solutions) by showing f(a) and f(b) have opposite signs (so N = 0 is between them).    Basic root existence (polynomial) Consider on the interval . Does the equation have a solution in ? Evaluate the endpoints:  Both positive → doesn't help directly for root. But let's check a better interval or adjust.  Better example (classic one): on   Since is continuous (polynomial) and , by IVT there is at least one such that  Both positive → doesn't help directly for root.  But let's check a better interval or adjust. Better example (classic one): on .  Since is continuous (polynomial) and , by IVT there is at least one such that      Finding a specific value (not zero) Let on . Show there exists such that   Since and is continuous, by IVT there exists such that      Trigonometric function Consider on . Show there is a solution to .  (actually exactly 0) — bad choice. Better interval: (radians)  Both 0.7 → not helpful. Try   Since , by IVT there exists such that      Showing a root in a narrower interval Let on .  → root exists in . Now narrow it: → actually a root at ! (But if we didn't notice, , so another sign change in .)     Transcendental equation (mix of functions) Show that has a solution. Let .   Since and is continuous (composition of continuous functions), by IVT there is at least one such that Thus,    f is continuous (composition of continuous functions), sign change → there is with →     "
 },
 {
   "id": "sec_second-contf-2-4",
@@ -2618,6 +2618,51 @@ var ptx_lunr_docs = [
   "number": "2.4.4",
   "title": "",
   "body": "          Here produces hole in the plot and gives vertical asymptote.   "
+},
+{
+  "id": "subsec-ivt-4",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-ivt-4",
+  "type": "Example",
+  "number": "2.4.5",
+  "title": "",
+  "body": "  Basic root existence (polynomial) Consider on the interval . Does the equation have a solution in ? Evaluate the endpoints:  Both positive → doesn't help directly for root. But let's check a better interval or adjust.  Better example (classic one): on   Since is continuous (polynomial) and , by IVT there is at least one such that  Both positive → doesn't help directly for root.  But let's check a better interval or adjust. Better example (classic one): on .  Since is continuous (polynomial) and , by IVT there is at least one such that   "
+},
+{
+  "id": "subsec-ivt-5",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-ivt-5",
+  "type": "Example",
+  "number": "2.4.6",
+  "title": "",
+  "body": "  Finding a specific value (not zero) Let on . Show there exists such that   Since and is continuous, by IVT there exists such that   "
+},
+{
+  "id": "subsec-ivt-6",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-ivt-6",
+  "type": "Example",
+  "number": "2.4.7",
+  "title": "",
+  "body": "  Trigonometric function Consider on . Show there is a solution to .  (actually exactly 0) — bad choice. Better interval: (radians)  Both 0.7 → not helpful. Try   Since , by IVT there exists such that   "
+},
+{
+  "id": "subsec-ivt-7",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-ivt-7",
+  "type": "Example",
+  "number": "2.4.8",
+  "title": "",
+  "body": "  Showing a root in a narrower interval Let on .  → root exists in . Now narrow it: → actually a root at ! (But if we didn't notice, , so another sign change in .)  "
+},
+{
+  "id": "subsec-ivt-8",
+  "level": "2",
+  "url": "sec_second-contf.html#subsec-ivt-8",
+  "type": "Example",
+  "number": "2.4.9",
+  "title": "",
+  "body": "  Transcendental equation (mix of functions) Show that has a solution. Let .   Since and is continuous (composition of continuous functions), by IVT there is at least one such that Thus,    f is continuous (composition of continuous functions), sign change → there is with →   "
 },
 {
   "id": "sec_second-exampleB",
@@ -2914,7 +2959,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "2.6",
   "title": "Exercise",
-  "body": " Exercise   Examine the continuity of the function at     Find the value of function at          Evaluate the function at      Evaluate:     Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2        Evaluate:   Answer: 2.    Evaluate:     Find the relationship between and so that the function defined by is continuous at     Evaluate:                               Find all points of discontinuity of , where     Examine the following funcitons for the continuity                             Answer: 8\/5.                   Find:     Calculate:                Evaluate:         Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)    Determine if is continuous at .  Answer: (No, undefined at .)    Check continuity at :   Answer: (Yes, both sides and .)    For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)      Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)    Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)      Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at       Discuss the continuity of     Discuss the continuity of at and     Let denote the greatest integer and The function is discontinuous when            Discuss the continuity of the following functions                    "
+  "body": " Exercise   Examine the continuity of the function at     Find the value of function at          Evaluate the function at      Evaluate:     Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2          Prove that   Prove that   Prove that   Prove that   Prove that       How close to do we have to take so that is within a distance of (a) and (b) from ?    Evaluate:   Answer: 2.    Evaluate:     If then find     Evaluate:                              Evaluate LHL and RHL of the given function:               then show that exist.  Prove that       Find the relationship between and so that the function defined by is continuous at     Evaluate:                               Find all points of discontinuity of , where     Examine the following funcitons for the continuity                             Answer: 8\/5.                   Find:     Calculate:                Evaluate : If               Evaluate the following:                                       Find points of discontinuity if any in the following functions:              Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use       Evaluate:         Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)    Determine if is continuous at .  Answer: (No, undefined at .)    Check continuity at :   Answer: (Yes, both sides and .)    For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)      Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)    Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)      Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at       Discuss the continuity of     Discuss the continuity of at and     Let denote the greatest integer and The function is discontinuous when            Discuss the continuity of the following functions                    "
 },
 {
   "id": "ex_second-2",
@@ -2968,7 +3013,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.6",
   "title": "",
-  "body": " Evaluate:   Answer: 2.  "
+  "body": "   Prove that   Prove that   Prove that   Prove that   Prove that     "
 },
 {
   "id": "ex_second-8",
@@ -2977,7 +3022,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.7",
   "title": "",
-  "body": " Evaluate:   "
+  "body": " How close to do we have to take so that is within a distance of (a) and (b) from ?  "
 },
 {
   "id": "ex_second-9",
@@ -2986,7 +3031,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.8",
   "title": "",
-  "body": " Find the relationship between and so that the function defined by is continuous at   "
+  "body": " Evaluate:   Answer: 2.  "
 },
 {
   "id": "ex_second-10",
@@ -2995,7 +3040,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.9",
   "title": "",
-  "body": " Evaluate:                             "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-11",
@@ -3004,7 +3049,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.10",
   "title": "",
-  "body": " Find all points of discontinuity of , where   "
+  "body": " If then find   "
 },
 {
   "id": "ex_second-12",
@@ -3013,7 +3058,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.11",
   "title": "",
-  "body": " Examine the following funcitons for the continuity                        "
+  "body": " Evaluate:                            "
 },
 {
   "id": "ex_second-13",
@@ -3022,7 +3067,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.12",
   "title": "",
-  "body": "    Answer: 8\/5.  "
+  "body": " Evaluate LHL and RHL of the given function:          "
 },
 {
   "id": "ex_second-14",
@@ -3031,7 +3076,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.13",
   "title": "",
-  "body": "    "
+  "body": "    then show that exist.  Prove that     "
 },
 {
   "id": "ex_second-15",
@@ -3040,7 +3085,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.14",
   "title": "",
-  "body": "    "
+  "body": " Find the relationship between and so that the function defined by is continuous at   "
 },
 {
   "id": "ex_second-16",
@@ -3049,7 +3094,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.15",
   "title": "",
-  "body": "    "
+  "body": " Evaluate:                             "
 },
 {
   "id": "ex_second-17",
@@ -3058,7 +3103,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.16",
   "title": "",
-  "body": " Find:   "
+  "body": " Find all points of discontinuity of , where   "
 },
 {
   "id": "ex_second-18",
@@ -3067,7 +3112,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.17",
   "title": "",
-  "body": " Calculate:              "
+  "body": " Examine the following funcitons for the continuity                        "
 },
 {
   "id": "ex_second-19",
@@ -3076,7 +3121,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.18",
   "title": "",
-  "body": " Evaluate:       "
+  "body": "    Answer: 8\/5.  "
 },
 {
   "id": "ex_second-20",
@@ -3085,7 +3130,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.19",
   "title": "",
-  "body": " Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)  "
+  "body": "    "
 },
 {
   "id": "ex_second-21",
@@ -3094,7 +3139,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.20",
   "title": "",
-  "body": " Determine if is continuous at .  Answer: (No, undefined at .)  "
+  "body": "    "
 },
 {
   "id": "ex_second-22",
@@ -3103,7 +3148,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.21",
   "title": "",
-  "body": " Check continuity at :   Answer: (Yes, both sides and .)  "
+  "body": "    "
 },
 {
   "id": "ex_second-23",
@@ -3112,7 +3157,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.22",
   "title": "",
-  "body": " For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)    "
+  "body": " Find:   "
 },
 {
   "id": "ex_second-24",
@@ -3121,7 +3166,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.23",
   "title": "",
-  "body": " Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)  "
+  "body": " Calculate:              "
 },
 {
   "id": "ex_second-25",
@@ -3130,7 +3175,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.24",
   "title": "",
-  "body": " Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)    "
+  "body": " Evaluate : If             "
 },
 {
   "id": "ex_second-26",
@@ -3139,7 +3184,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.25",
   "title": "",
-  "body": " Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at     "
+  "body": " Evaluate the following:                                     "
 },
 {
   "id": "ex_second-27",
@@ -3148,7 +3193,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.26",
   "title": "",
-  "body": " Discuss the continuity of   "
+  "body": " Find points of discontinuity if any in the following functions:          "
 },
 {
   "id": "ex_second-28",
@@ -3157,7 +3202,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.27",
   "title": "",
-  "body": " Discuss the continuity of at and   "
+  "body": "   Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use     "
 },
 {
   "id": "ex_second-29",
@@ -3166,7 +3211,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.28",
   "title": "",
-  "body": " Let denote the greatest integer and The function is discontinuous when          "
+  "body": " Evaluate:       "
 },
 {
   "id": "ex_second-30",
@@ -3174,6 +3219,96 @@ var ptx_lunr_docs = [
   "url": "ex_second.html#ex_second-30",
   "type": "Exercise",
   "number": "2.6.29",
+  "title": "",
+  "body": " Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)  "
+},
+{
+  "id": "ex_second-31",
+  "level": "2",
+  "url": "ex_second.html#ex_second-31",
+  "type": "Exercise",
+  "number": "2.6.30",
+  "title": "",
+  "body": " Determine if is continuous at .  Answer: (No, undefined at .)  "
+},
+{
+  "id": "ex_second-32",
+  "level": "2",
+  "url": "ex_second.html#ex_second-32",
+  "type": "Exercise",
+  "number": "2.6.31",
+  "title": "",
+  "body": " Check continuity at :   Answer: (Yes, both sides and .)  "
+},
+{
+  "id": "ex_second-33",
+  "level": "2",
+  "url": "ex_second.html#ex_second-33",
+  "type": "Exercise",
+  "number": "2.6.32",
+  "title": "",
+  "body": " For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)    "
+},
+{
+  "id": "ex_second-34",
+  "level": "2",
+  "url": "ex_second.html#ex_second-34",
+  "type": "Exercise",
+  "number": "2.6.33",
+  "title": "",
+  "body": " Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)  "
+},
+{
+  "id": "ex_second-35",
+  "level": "2",
+  "url": "ex_second.html#ex_second-35",
+  "type": "Exercise",
+  "number": "2.6.34",
+  "title": "",
+  "body": " Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)    "
+},
+{
+  "id": "ex_second-36",
+  "level": "2",
+  "url": "ex_second.html#ex_second-36",
+  "type": "Exercise",
+  "number": "2.6.35",
+  "title": "",
+  "body": " Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at     "
+},
+{
+  "id": "ex_second-37",
+  "level": "2",
+  "url": "ex_second.html#ex_second-37",
+  "type": "Exercise",
+  "number": "2.6.36",
+  "title": "",
+  "body": " Discuss the continuity of   "
+},
+{
+  "id": "ex_second-38",
+  "level": "2",
+  "url": "ex_second.html#ex_second-38",
+  "type": "Exercise",
+  "number": "2.6.37",
+  "title": "",
+  "body": " Discuss the continuity of at and   "
+},
+{
+  "id": "ex_second-39",
+  "level": "2",
+  "url": "ex_second.html#ex_second-39",
+  "type": "Exercise",
+  "number": "2.6.38",
+  "title": "",
+  "body": " Let denote the greatest integer and The function is discontinuous when          "
+},
+{
+  "id": "ex_second-40",
+  "level": "2",
+  "url": "ex_second.html#ex_second-40",
+  "type": "Exercise",
+  "number": "2.6.39",
   "title": "",
   "body": " Discuss the continuity of the following functions                   "
 },
