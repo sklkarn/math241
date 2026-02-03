@@ -1582,7 +1582,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Limits",
-  "body": " Limits   A limit limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.   Let's say we have a function like , can I write this function as , the answer is no, I can not. Okay check if these simplification are correct: . How about . Good, so you know unless is non-zero numbers we can not cancel them out. Meaning because at our is not defined. However, we can find the value of function just near to we call them if approacing from right and if approaching from left. That is can be approximated to some finite value as or .   Here makes a hole in the graph of which is a straight line passing through origin.     Limits and Derivatives                                                One-Sided Limits      Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like , , or require special techniques (e.g., L'Hopital's Rule) to evaluate.  Methods of solving indeterminate forms:   Factorization Method    Rationalization Method ( involve square root )    Methods of Evaluating Algebric Limit when     Trigonometric Limits    Logarithimic and Exponential Limits    Form     L Hospital's Rule: If the indeterminate form of functions are either or , then we can use this rule. Here we can find the derivative of the numerator, and the derivative of the denominator, .  Re-evaluate the Limit: Find the limit of the new fraction, . Repeat if Necessary: If you still get an indeterminate form, repeat the process (differentiate again) until the limit is solvable.          Definition of Limit  The two small positive numbers and formalizes the idea of a limit. For implies that for every there exists a such that if     Here, we do not really determine the value of , rather it is given arbitrarily to show us how close gets to There is no unique rather it satisfies the given      for every , there exists a such that if then     To determine in terms of , the following steps are taken:   Step I: Start with the target inequality     Step II: Express it in terms of by assuming        Prove that     If Therefore       Prove that      Hence, is proved.      Prove     If Remember and also in if is decreasing then starts increasing accordingly.  Note:     we can take any value but since we are interested in smaller value of we can choose Meaning choose between and Therefore,     Hence,       How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore      Prove that     Prove that     Prove     Prove that      For If then where       For If then where       Evaluate Limit  To evaluate limit of a function always try with direct substitution method first. If you get indeterminate forms then only look for other method to simply the function before apply the limit.     Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       Difference Quotient:  difference quotient   For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.        The average rate of change for on the interval is the slope of the secant line between the two points and          For example: the average rate of change for the on the interval is A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and     One-Sided Limits  The limiting values (LHL, RHL) and functional value could be different or could be same for a given function as can be described below:    Left hand limit:   Right hand limit:  and the function at      The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at        Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.      then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.      and then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .    Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.      Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.      show that exist.     show that does not exist.     Suppose What are possible values of and     Do your self.           Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate               Evaluate      Evaluate      Evaluate       For what value of does the exist if      and     equating these two equations, we get -      Evaluate      Evaluate       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form   indeterminate form When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:          etc. are some oscillatory functions whose limit do not exist at    "
+  "body": " Limits   A limit limit describes the behavior of a function as its input (or variable) approaches a specific value or infinity. It is a fundamental concept used to define continuity, derivatives, and integrals. The limit of a function as approaches a value is denoted as: This means that as gets arbitrarily close to , gets arbitrarily close to , provided the limit exists.   Let's say we have a function like , can I write this function as , the answer is no, I can not. Okay check if these simplification are correct: . How about . Good, so you know unless is non-zero numbers we can not cancel them out. Meaning because at our is not defined. However, we can find the value of function just near to we call them if approacing from right and if approaching from left. That is can be approximated to some finite value as or .   Here makes a hole in the graph of which is a straight line passing through origin.     Limits and Derivatives           Direct substitution gives: Thus, .           Direct substitution gives: Since division by zero is undefined, the limit does not exist in the finite sense. However, we can analyze the behavior as approaches from the left and right to determine if it approaches infinity or negative infinity.           Direct substitution gives: This is an indeterminate form, so we simplify the function first: Since , we have:            Direct substitution gives: This is an indeterminate form, so we simplify the function first by rationalizing the denominator: Since , we have:            Direct substitution gives: This is an indeterminate form, so we simplify the function first using the small-angle approximation:            To evaluate this limit as approaches infinity, we divide the numerator and denominator by , the highest power of in the denominator: Thus, .      One-Sided Limits      Left-hand limit:  considers values of approaching from the left (smaller values).   Right-hand limit:  considers values of approaching from the right (larger values).  For to exist, the left-hand and right-hand limits must equal each other.    Limits at Infinity  These describe the behavior of as approaches or . Denoted as or .    Non-Existent Limits  A limit does not exist if the function's values do not approach a single finite number (e.g., due to oscillation or undefined behavior).    Indeterminate Forms  Forms like [ ] are called indeterminate forms, such as , require special techniques to evaluate as shown below     Factorization Method:    Rationalization Method ( involve square root ):    L Hospital's Rule: If the indeterminate form of functions are either or , then we can use this rule. Here we can find the derivative of the numerator, and the derivative of the denominator, .  Re-evaluate the Limit: Find the limit of the new fraction, . Repeat if Necessary: If you still get an indeterminate form, repeat the process (differentiate again) until the limit is solvable.          Definition of Limit  The two small positive numbers and formalizes the idea of a limit. For implies that for every there exists a such that if     Here, we do not really determine the value of , rather it is given arbitrarily to show us how close gets to There is no unique rather it satisfies the given      for every , there exists a such that if then     To determine in terms of , the following steps are taken:   Step I: Start with the target inequality     Step II: Express it in terms of by assuming        Prove that     If Therefore       Prove that      Hence, is proved.      Prove     If Remember and also in if is decreasing then starts increasing accordingly.  Note:     we can take any value but since we are interested in smaller value of we can choose   Meaning choose between and Therefore,     Hence,       How close to do we have to take so that is within a distance of (a) and (b) from ?    If then     Now (a)   Therefore      Prove that     Prove that     Prove     Prove that      For If then where       For If then where       Evaluate Limit  To evaluate limit of a function always try with direct substitution method first. If you get indeterminate forms then only look for other method to simply the function before apply the limit.     Basic Polynomial Limit: Consider the function . Find .    Substitute directly since the function is a polynomial (continuous everywhere): Thus, .  Polynomials are continuous, so the limit at any point is simply the function's value at that point.       Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,       One-Sided Limits  The limit of a function as approaches a value from the left side is called the left-hand limit (LHL) and is denoted as Similarly, the limit of as approaches from the right side is called the right-hand limit (RHL) and is denoted as   The limiting values (LHL, RHL) and functional value could be different or could be same for a given function as can be described below:    Left hand limit:   Right hand limit:  and the function at      The filled circle represents the functional value of the given function and open circle represents its limiting value .    Left hand limit:   Right hand limit:  and the function at        Left hand limit:   Right hand limit:  and the function at  Note: the small increment, is always positive number.      then, we say the limit exist for the function at . Here, the limiting value of function is and the functional value of at is For the limit to exist, The functional value may or may not be the same as the limiting value.      and i.e., the limiting value is same as the functional value, then also the limit of the function exist and function is called a continuous function .       The filled circle represents the functional value of the given function and open circle represents its limiting value .   one sided limit  is an example of one sided limit where the function is defined only for   The left-hand limit does not exist as is not defined for   Hence, the limit does exist only for and the function is continuous for . Left side limit is ignored here.   Point functions are continuous.  Here, the function is defined only at and undefined elsewhere. Hence, both LHL and RHL do not exist still the limit exist at and function is continuous at that point.       Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.      Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.      show that exist.     show that does not exist.     Suppose What are possible values of and     Do your self.           Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.      Evaluate:      or, or,       Evaluate:      or,  . or,       Evaluate: where, is FPF [ ].     or,  .      Evaluate: where, is FPF [ ].     or,  and = = .      Evaluate               Evaluate      Evaluate      Evaluate       For what value of does the exist if      and     equating these two equations, we get -      Evaluate      Evaluate       Limit at Infinity  The limit of a function as approaches infinity (denoted ) describes the behavior of as grows without bound. It equals (a real number, or ) if gets arbitrarily close to for sufficiently large .   On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.        Evaluate the following.                                                                 as                 Evaluate:            Indeterminate Form   indeterminate form When evaluating limits of the form , direct substitution of sometimes yields an indeterminate form. It is an expression that doesn't immediately reveal the limit's value (or existence). These forms require algebraic manipulation, L'Hôpital's rule, or other techniques to resolve.   Common Indeterminate Forms     : Numerator and denominator both approach 0.     (or , etc.): Both approach infinity in absolute value.     : One factor approaches 0, the other .     : Difference of two terms approaching infinity.     : Base approaches 1, exponent approaches .     : Base approaches 0, exponent approaches 0.     : Base approaches , exponent approaches 0.     Note: and is undefined (or if considering one-sided) these are not ndeterminate.   Techniques to Resolve Indeterminate Forms     Algebraic Simplification Factor, rationalize, or use trig identities.    L'Hôpital's Rule (for or )    Series Expansions or Known Limits    Rewrite Other Forms                                Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,           Oscillating Function  Some functions oscillate (repeatedly go up and down) as (x) approaches a point or infinity. This can cause the limit to not exist, even if the function is bounded.   Find:          etc. are some oscillatory functions whose limit do not exist at     Difference Quotient:  difference quotient   For a curve of given function a Secant line is a line stretches between the two points on the given curve as shown in figure.        The average rate of change for on the interval is the slope of the secant line between the two points and          For example: the average rate of change for the on the interval is A difference quotient represents the average rate of change of a function on the interval i.e., slope of secant line between the points and    "
 },
 {
   "id": "sec_second-intro-2-2",
@@ -1609,7 +1609,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.3",
   "title": "",
-  "body": "      "
+  "body": "       Direct substitution gives: Thus, .   "
 },
 {
   "id": "sec_second-intro-2-5",
@@ -1618,7 +1618,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.4",
   "title": "",
-  "body": "      "
+  "body": "       Direct substitution gives: Since division by zero is undefined, the limit does not exist in the finite sense. However, we can analyze the behavior as approaches from the left and right to determine if it approaches infinity or negative infinity.   "
 },
 {
   "id": "sec_second-intro-2-6",
@@ -1627,7 +1627,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.5",
   "title": "",
-  "body": "      "
+  "body": "       Direct substitution gives: This is an indeterminate form, so we simplify the function first: Since , we have:    "
 },
 {
   "id": "sec_second-intro-2-7",
@@ -1636,7 +1636,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.6",
   "title": "",
-  "body": "      "
+  "body": "       Direct substitution gives: This is an indeterminate form, so we simplify the function first by rationalizing the denominator: Since , we have:    "
 },
 {
   "id": "sec_second-intro-2-8",
@@ -1645,7 +1645,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.7",
   "title": "",
-  "body": "      "
+  "body": "       Direct substitution gives: This is an indeterminate form, so we simplify the function first using the small-angle approximation:    "
 },
 {
   "id": "sec_second-intro-2-9",
@@ -1654,7 +1654,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.8",
   "title": "",
-  "body": "      "
+  "body": "       To evaluate this limit as approaches infinity, we divide the numerator and denominator by , the highest power of in the denominator: Thus, .   "
 },
 {
   "id": "def-limit1",
@@ -1690,7 +1690,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.1.12",
   "title": "",
-  "body": "  Prove     If Remember and also in if is decreasing then starts increasing accordingly.  Note:     we can take any value but since we are interested in smaller value of we can choose Meaning choose between and Therefore,     Hence,    "
+  "body": "  Prove     If Remember and also in if is decreasing then starts increasing accordingly.  Note:     we can take any value but since we are interested in smaller value of we can choose   Meaning choose between and Therefore,     Hence,    "
 },
 {
   "id": "subsec-def-limit-10",
@@ -1774,36 +1774,9 @@ var ptx_lunr_docs = [
   "body": "   Rational Function with a Hole: Find .    Direct substitution gives: This is an indeterminate form, so simplify the function.  Simplify the function using all possible mathematical means: Since, we have,    "
 },
 {
-  "id": "subsec-tangnt-3-1",
+  "id": "subsec-onesd_lmt-9-1",
   "level": "2",
-  "url": "sec_second-intro.html#subsec-tangnt-3-1",
-  "type": "Paragraph (with a defined term)",
-  "number": "",
-  "title": "",
-  "body": "Secant line "
-},
-{
-  "id": "scnt",
-  "level": "2",
-  "url": "sec_second-intro.html#scnt",
-  "type": "Figure",
-  "number": "2.1.22",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "scnt2",
-  "level": "2",
-  "url": "sec_second-intro.html#scnt2",
-  "type": "Figure",
-  "number": "2.1.23",
-  "title": "",
-  "body": "   "
-},
-{
-  "id": "subsec-onesd_lmt-8-1",
-  "level": "2",
-  "url": "sec_second-intro.html#subsec-onesd_lmt-8-1",
+  "url": "sec_second-intro.html#subsec-onesd_lmt-9-1",
   "type": "Paragraph (with a defined term)",
   "number": "",
   "title": "",
@@ -1814,160 +1787,178 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#crv5",
   "type": "Figure",
-  "number": "2.1.24",
+  "number": "2.1.22",
   "title": "",
   "body": "   "
-},
-{
-  "id": "subsec-onesd_lmt-10",
-  "level": "2",
-  "url": "sec_second-intro.html#subsec-onesd_lmt-10",
-  "type": "Example",
-  "number": "2.1.25",
-  "title": "",
-  "body": "  Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.   "
 },
 {
   "id": "subsec-onesd_lmt-11",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-11",
-  "type": "Example",
-  "number": "2.1.26",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "  Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.   "
-},
-{
-  "id": "subsec-onesd_lmt-12",
-  "level": "2",
-  "url": "sec_second-intro.html#subsec-onesd_lmt-12",
-  "type": "Checkpoint",
-  "number": "2.1.27",
-  "title": "",
-  "body": "  show that exist.  "
-},
-{
-  "id": "subsec-onesd_lmt-13",
-  "level": "2",
-  "url": "sec_second-intro.html#subsec-onesd_lmt-13",
-  "type": "Checkpoint",
-  "number": "2.1.28",
-  "title": "",
-  "body": "  show that does not exist.  "
+  "body": "one sided limit "
 },
 {
   "id": "subsec-onesd_lmt-14",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-14",
-  "type": "Example",
-  "number": "2.1.29",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
   "title": "",
-  "body": "  Suppose What are possible values of and     Do your self.        "
+  "body": "Point functions are continuous. "
 },
 {
   "id": "subsec-onesd_lmt-15",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-15",
   "type": "Example",
-  "number": "2.1.30",
+  "number": "2.1.23",
   "title": "",
-  "body": "  Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.   "
+  "body": "  Evaluate LHL and RHL of the given function.     LHL, RHL, Since LHL RHL, limit does not exist.   "
 },
 {
   "id": "subsec-onesd_lmt-16",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-16",
   "type": "Example",
-  "number": "2.1.31",
+  "number": "2.1.24",
   "title": "",
-  "body": "  Evaluate:      or, or,    "
+  "body": "  Evaluate LHL and RHL of the given function. Also, show that does not exist.    LHL, RHL, Again, Since, , limit does not exist.   "
 },
 {
   "id": "subsec-onesd_lmt-17",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-17",
-  "type": "Example",
-  "number": "2.1.32",
+  "type": "Checkpoint",
+  "number": "2.1.25",
   "title": "",
-  "body": "  Evaluate:      or,  . or,    "
+  "body": "  show that exist.  "
 },
 {
   "id": "subsec-onesd_lmt-18",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-18",
-  "type": "Example",
-  "number": "2.1.33",
+  "type": "Checkpoint",
+  "number": "2.1.26",
   "title": "",
-  "body": "  Evaluate: where, is FPF [ ].     or,  .   "
+  "body": "  show that does not exist.  "
 },
 {
   "id": "subsec-onesd_lmt-19",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-19",
   "type": "Example",
-  "number": "2.1.34",
+  "number": "2.1.27",
   "title": "",
-  "body": "  Evaluate: where, is FPF [ ].     or,  and = = .   "
+  "body": "  Suppose What are possible values of and     Do your self.        "
 },
 {
   "id": "subsec-onesd_lmt-20",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-20",
   "type": "Example",
-  "number": "2.1.35",
+  "number": "2.1.28",
   "title": "",
-  "body": "  Evaluate             "
+  "body": "  Evaluate: where is GIF [ ].     or,    is from right of , e.g., = = . Remeber, GIF ( ) always gives lower integer value.   "
 },
 {
   "id": "subsec-onesd_lmt-21",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-21",
-  "type": "Checkpoint",
-  "number": "2.1.36",
+  "type": "Example",
+  "number": "2.1.29",
   "title": "",
-  "body": " Evaluate    "
+  "body": "  Evaluate:      or, or,    "
 },
 {
   "id": "subsec-onesd_lmt-22",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-22",
-  "type": "Checkpoint",
-  "number": "2.1.37",
+  "type": "Example",
+  "number": "2.1.30",
   "title": "",
-  "body": " Evaluate    "
+  "body": "  Evaluate:      or,  . or,    "
 },
 {
   "id": "subsec-onesd_lmt-23",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-23",
-  "type": "Checkpoint",
-  "number": "2.1.38",
+  "type": "Example",
+  "number": "2.1.31",
   "title": "",
-  "body": " Evaluate    "
+  "body": "  Evaluate: where, is FPF [ ].     or,  .   "
 },
 {
   "id": "subsec-onesd_lmt-24",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-24",
   "type": "Example",
-  "number": "2.1.39",
+  "number": "2.1.32",
   "title": "",
-  "body": "  For what value of does the exist if      and     equating these two equations, we get -    "
+  "body": "  Evaluate: where, is FPF [ ].     or,  and = = .   "
 },
 {
   "id": "subsec-onesd_lmt-25",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-25",
-  "type": "Checkpoint",
-  "number": "2.1.40",
+  "type": "Example",
+  "number": "2.1.33",
   "title": "",
-  "body": " Evaluate    "
+  "body": "  Evaluate             "
 },
 {
   "id": "subsec-onesd_lmt-26",
   "level": "2",
   "url": "sec_second-intro.html#subsec-onesd_lmt-26",
   "type": "Checkpoint",
-  "number": "2.1.41",
+  "number": "2.1.34",
+  "title": "",
+  "body": " Evaluate    "
+},
+{
+  "id": "subsec-onesd_lmt-27",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-onesd_lmt-27",
+  "type": "Checkpoint",
+  "number": "2.1.35",
+  "title": "",
+  "body": " Evaluate    "
+},
+{
+  "id": "subsec-onesd_lmt-28",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-onesd_lmt-28",
+  "type": "Checkpoint",
+  "number": "2.1.36",
+  "title": "",
+  "body": " Evaluate    "
+},
+{
+  "id": "subsec-onesd_lmt-29",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-onesd_lmt-29",
+  "type": "Example",
+  "number": "2.1.37",
+  "title": "",
+  "body": "  For what value of does the exist if      and     equating these two equations, we get -    "
+},
+{
+  "id": "subsec-onesd_lmt-30",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-onesd_lmt-30",
+  "type": "Checkpoint",
+  "number": "2.1.38",
+  "title": "",
+  "body": " Evaluate    "
+},
+{
+  "id": "subsec-onesd_lmt-31",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-onesd_lmt-31",
+  "type": "Checkpoint",
+  "number": "2.1.39",
   "title": "",
   "body": " Evaluate    "
 },
@@ -1976,7 +1967,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-3",
   "type": "Remark",
-  "number": "2.1.42",
+  "number": "2.1.40",
   "title": "",
   "body": " On solving a limit at :   Take common and try to eliminate the biggest terms from numerator and denominator.    Evaluating the limit, when , try substituting and take .    If and are two polynomials of degree and respectively, then try:     If numerator and denominator or both contain square roots then rationalize them.     "
 },
@@ -1985,7 +1976,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-4",
   "type": "Example",
-  "number": "2.1.43",
+  "number": "2.1.41",
   "title": "",
   "body": "  Evaluate the following.                                         "
 },
@@ -1994,7 +1985,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-5",
   "type": "Example",
-  "number": "2.1.44",
+  "number": "2.1.42",
   "title": "",
   "body": "                       as              "
 },
@@ -2003,7 +1994,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-linfty-6",
   "type": "Example",
-  "number": "2.1.45",
+  "number": "2.1.43",
   "title": "",
   "body": "  Evaluate:         "
 },
@@ -2030,7 +2021,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-lindet-6",
   "type": "Example",
-  "number": "2.1.46",
+  "number": "2.1.44",
   "title": "",
   "body": "                           Numerator: ,  Denominator: .  This is the indeterminate form . Factor both polynomials.  Denominator: .  Numerator: .  Use the factor theorem: test : , so is a factor.  Now, Numerator: .              Let, or, Hence, as we have Therefore,        "
 },
@@ -2039,9 +2030,36 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec_second-intro.html#subsec-losc-3",
   "type": "Example",
-  "number": "2.1.47",
+  "number": "2.1.45",
   "title": "",
   "body": " Find:        "
+},
+{
+  "id": "subsec-tangnt-3-1",
+  "level": "2",
+  "url": "sec_second-intro.html#subsec-tangnt-3-1",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "Secant line "
+},
+{
+  "id": "scnt",
+  "level": "2",
+  "url": "sec_second-intro.html#scnt",
+  "type": "Figure",
+  "number": "2.1.46",
+  "title": "",
+  "body": "   "
+},
+{
+  "id": "scnt2",
+  "level": "2",
+  "url": "sec_second-intro.html#scnt2",
+  "type": "Figure",
+  "number": "2.1.47",
+  "title": "",
+  "body": "   "
 },
 {
   "id": "sec_second-lmtlaws",
@@ -2563,7 +2581,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Continuity",
-  "body": " Continuity   A function is continuous at a point if there are no breaks, jumps, or holes on its graph. Intuitively, you can draw the graph without lifting your pencil.  A function is said to be continuous continuous at if [ ] i.e.,   To see if the given function is continuous or not needs the following three conditions:    is defined.         The limit equals the function value, i.e., .   If any one fails, is discontinuous discontinuous at .   Alternatively, using the difference quotient  difference quotient [ ], continuity at (c) means:     Types of Continuous Functions     Polynomial (linear, square, cubic, etc. ) functions are continuous everywhere (in ).    Exponential ( ) functions are continuous everywhere (in ).    Rational functions are continuous everywhere (in ) except where .    The mode function is continuous everywhere.    Logarithmic ( ) functions are continuous where they are defined (i.e., ).    Trigonometric functions ( ) are continuous everywhere but , are continuous except at     The GIF and FPF functions are continuous      From geometry or [ ] Squeeze theorem , we have some standard limits [ ]:     Types of Discontinuities      Removable Discontinuity Limit exists, but is missing or wrong.          Jump Discontinuity Left and right limits exist but differ.          Infinite Discontinuity Limit is .      Oscillatory Discontinuity Limit fails due to wild oscillation.        Holes   Removal Discontinuity While solving some rational functions, we need to restrict some variables from getting function undefined. This resitriction may introduce holes in the plot.            Here produces hole in the plot, which can be removed by simplyfying the function as Here gives vertical asymptote.              Here produces hole in the plot and gives vertical asymptote.      Continuity on an Interval   is continuous on if continuous at every point in , and right-continuous at , left-continuous at . That is:     Properties of Continuous Functions  If and are two continuous functions at real number , then    is continuous at      is continuous at      is continuous at where is any scalar.     is continuous at      is continuous at       is continuous at        Intermediate Value Theorem  If is continuous on the closed interval and is any number between and where then there exists at least one number such that   We use it to prove equations have roots (solutions) by showing f(a) and f(b) have opposite signs (so N = 0 is between them).    Basic root existence (polynomial) Consider on the interval . Does the equation have a solution in ? Evaluate the endpoints:  Both positive → doesn't help directly for root. But let's check a better interval or adjust.  Better example (classic one): on   Since is continuous (polynomial) and , by IVT there is at least one such that  Both positive → doesn't help directly for root.  But let's check a better interval or adjust. Better example (classic one): on .  Since is continuous (polynomial) and , by IVT there is at least one such that      Finding a specific value (not zero) Let on . Show there exists such that   Since and is continuous, by IVT there exists such that      Trigonometric function Consider on . Show there is a solution to .  (actually exactly 0) — bad choice. Better interval: (radians)  Both 0.7 → not helpful. Try   Since , by IVT there exists such that      Showing a root in a narrower interval Let on .  → root exists in . Now narrow it: → actually a root at ! (But if we didn't notice, , so another sign change in .)     Transcendental equation (mix of functions) Show that has a solution. Let .   Since and is continuous (composition of continuous functions), by IVT there is at least one such that Thus,    f is continuous (composition of continuous functions), sign change → there is with →     "
+  "body": " Continuity   A function is continuous at a point if there are no breaks, jumps, or holes on its graph. Intuitively, you can draw the graph without lifting your pencil.  A function is said to be continuous continuous at if [ ] i.e.,   To see if the given function is continuous or not needs the following three conditions:    is defined.         The limit equals the function value, i.e., .   If any one fails, is discontinuous discontinuous at .   Alternatively, using the difference quotient  difference quotient [ ], continuity at (c) means:     Types of Continuous Functions     Polynomial (linear, square, cubic, etc. ) functions are continuous everywhere (in ).    Exponential ( ) functions are continuous everywhere (in ).    Rational functions are continuous everywhere (in ) except where .    The mode function is continuous everywhere.    Logarithmic ( ) functions are continuous where they are defined (i.e., ).    Trigonometric functions ( ) are continuous everywhere but , are continuous except at     The GIF and FPF functions are continuous      From geometry or [ ] Squeeze theorem , we have some standard limits [ ]:     Types of Discontinuities      Removable Discontinuity Limit exists, but is missing or wrong.          Jump Discontinuity Left and right limits exist but differ.          Infinite Discontinuity Limit is .      Oscillatory Discontinuity Limit fails due to wild oscillation.        Holes   Removal Discontinuity While solving some rational functions, we need to restrict some variables from getting function undefined. This resitriction may introduce holes in the plot.            Here produces hole in the plot, which can be removed by simplyfying the function as Here gives vertical asymptote.              Here produces hole in the plot and gives vertical asymptote.      Continuity on an Interval   is continuous on if continuous at every point in , and right-continuous at , left-continuous at . That is:     Properties of Continuous Functions  If and are two continuous functions at real number , then    is continuous at      is continuous at      is continuous at where is any scalar.     is continuous at      is continuous at       is continuous at        Intermediate Value Theorem  If is continuous on the closed interval and is any number between and where then there exists at least one number such that   We use it to prove equations have roots (solutions) by showing f(a) and f(b) have opposite signs (so N = 0 is between them).    Basic root existence (polynomial) Consider on the interval .  Does the equation have a solution in ? Evaluate the endpoints:  Both positive → doesn't help directly for root. But let's check a better interval or adjust.  Better example (classic one): on     Since is continuous (polynomial) and , by IVT there is at least one such that  Both positive → doesn't help directly for root.  But let's check a better interval or adjust. Better example (classic one): on .  Since is continuous (polynomial) and , by IVT there is at least one such that      Finding a specific value (not zero) Let on .  Show there exists such that   Since and is continuous, by IVT there exists such that      Trigonometric function Consider on .  Show there is a solution to .  (actually exactly 0) — bad choice. Better interval: (radians)  Both 0.7 → not helpful. Try   Since , by IVT there exists such that      Showing a root in a narrower interval Let on .  → root exists in . Now narrow it: → actually a root at ! (But if we didn't notice, , so another sign change in .)     Transcendental equation (mix of functions) Show that has a solution. Let .   Since and is continuous (composition of continuous functions), by IVT there is at least one such that Thus,    f is continuous (composition of continuous functions), sign change → there is with →     "
 },
 {
   "id": "sec_second-contf-2-4",
@@ -2626,7 +2644,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.4.5",
   "title": "",
-  "body": "  Basic root existence (polynomial) Consider on the interval . Does the equation have a solution in ? Evaluate the endpoints:  Both positive → doesn't help directly for root. But let's check a better interval or adjust.  Better example (classic one): on   Since is continuous (polynomial) and , by IVT there is at least one such that  Both positive → doesn't help directly for root.  But let's check a better interval or adjust. Better example (classic one): on .  Since is continuous (polynomial) and , by IVT there is at least one such that   "
+  "body": "  Basic root existence (polynomial) Consider on the interval .  Does the equation have a solution in ? Evaluate the endpoints:  Both positive → doesn't help directly for root. But let's check a better interval or adjust.  Better example (classic one): on     Since is continuous (polynomial) and , by IVT there is at least one such that  Both positive → doesn't help directly for root.  But let's check a better interval or adjust. Better example (classic one): on .  Since is continuous (polynomial) and , by IVT there is at least one such that   "
 },
 {
   "id": "subsec-ivt-5",
@@ -2635,7 +2653,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.4.6",
   "title": "",
-  "body": "  Finding a specific value (not zero) Let on . Show there exists such that   Since and is continuous, by IVT there exists such that   "
+  "body": "  Finding a specific value (not zero) Let on .  Show there exists such that   Since and is continuous, by IVT there exists such that   "
 },
 {
   "id": "subsec-ivt-6",
@@ -2644,7 +2662,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.4.7",
   "title": "",
-  "body": "  Trigonometric function Consider on . Show there is a solution to .  (actually exactly 0) — bad choice. Better interval: (radians)  Both 0.7 → not helpful. Try   Since , by IVT there exists such that   "
+  "body": "  Trigonometric function Consider on .  Show there is a solution to .  (actually exactly 0) — bad choice. Better interval: (radians)  Both 0.7 → not helpful. Try   Since , by IVT there exists such that   "
 },
 {
   "id": "subsec-ivt-7",
@@ -2959,7 +2977,7 @@ var ptx_lunr_docs = [
   "type": "Exercises",
   "number": "2.6",
   "title": "Exercise",
-  "body": " Exercise   Examine the continuity of the function at     Find the value of function at          Evaluate the function at      Evaluate:     Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2          Prove that   Prove that   Prove that   Prove that   Prove that       How close to do we have to take so that is within a distance of (a) and (b) from ?    Evaluate:   Answer: 2.    Evaluate:     If then find     Evaluate:                              Evaluate LHL and RHL of the given function:               then show that exist.  Prove that       Find the relationship between and so that the function defined by is continuous at     Evaluate:                               Find all points of discontinuity of , where     Examine the following funcitons for the continuity                             Answer: 8\/5.                   Find:     Calculate:                Evaluate : If               Evaluate the following:                                       Find points of discontinuity if any in the following functions:              Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use       Evaluate:         Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)    Determine if is continuous at .  Answer: (No, undefined at .)    Check continuity at :   Answer: (Yes, both sides and .)    For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)      Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)    Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)      Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at       Discuss the continuity of     Discuss the continuity of at and     Let denote the greatest integer and The function is discontinuous when            Discuss the continuity of the following functions                    "
+  "body": " Exercise   Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2          Prove that   Prove that   Prove that   Prove that   Prove that       How close to do we have to take so that is within a distance of (a) and (b) from ?    Evaluate:   Answer: 2.    Evaluate:     If then find     Evaluate:                              Evaluate LHL and RHL of the given function:               then show that exist.  Prove that       Examine the continuity of the function at     Find the value of function at          Evaluate the function at      Evaluate:     Find the relationship between and so that the function defined by is continuous at     Evaluate:                               Find all points of discontinuity of , where     Examine the following funcitons for the continuity                             Answer: 8\/5.                   Find:     Calculate:                Evaluate : If               Evaluate the following:                                       Find points of discontinuity if any in the following functions:              Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use       Evaluate:         Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)    Determine if is continuous at .  Answer: (No, undefined at .)    Check continuity at :   Answer: (Yes, both sides and .)    For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)      Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)    Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)      Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at       Discuss the continuity of     Discuss the continuity of at and     Let denote the greatest integer and The function is discontinuous when            Discuss the continuity of the following functions                    "
 },
 {
   "id": "ex_second-2",
@@ -2968,7 +2986,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.1",
   "title": "",
-  "body": " Examine the continuity of the function at   "
+  "body": " Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2      "
 },
 {
   "id": "ex_second-3",
@@ -2977,7 +2995,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.2",
   "title": "",
-  "body": " Find the value of function at        "
+  "body": "   Prove that   Prove that   Prove that   Prove that   Prove that     "
 },
 {
   "id": "ex_second-4",
@@ -2986,7 +3004,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.3",
   "title": "",
-  "body": " Evaluate the function at    "
+  "body": " How close to do we have to take so that is within a distance of (a) and (b) from ?  "
 },
 {
   "id": "ex_second-5",
@@ -2995,7 +3013,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.4",
   "title": "",
-  "body": " Evaluate:   "
+  "body": " Evaluate:   Answer: 2.  "
 },
 {
   "id": "ex_second-6",
@@ -3004,7 +3022,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.5",
   "title": "",
-  "body": " Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2      "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-7",
@@ -3013,7 +3031,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.6",
   "title": "",
-  "body": "   Prove that   Prove that   Prove that   Prove that   Prove that     "
+  "body": " If then find   "
 },
 {
   "id": "ex_second-8",
@@ -3022,7 +3040,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.7",
   "title": "",
-  "body": " How close to do we have to take so that is within a distance of (a) and (b) from ?  "
+  "body": " Evaluate:                            "
 },
 {
   "id": "ex_second-9",
@@ -3031,7 +3049,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.8",
   "title": "",
-  "body": " Evaluate:   Answer: 2.  "
+  "body": " Evaluate LHL and RHL of the given function:          "
 },
 {
   "id": "ex_second-10",
@@ -3040,7 +3058,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.9",
   "title": "",
-  "body": " Evaluate:   "
+  "body": "    then show that exist.  Prove that     "
 },
 {
   "id": "ex_second-11",
@@ -3049,7 +3067,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.10",
   "title": "",
-  "body": " If then find   "
+  "body": " Examine the continuity of the function at   "
 },
 {
   "id": "ex_second-12",
@@ -3058,7 +3076,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.11",
   "title": "",
-  "body": " Evaluate:                            "
+  "body": " Find the value of function at        "
 },
 {
   "id": "ex_second-13",
@@ -3067,7 +3085,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.12",
   "title": "",
-  "body": " Evaluate LHL and RHL of the given function:          "
+  "body": " Evaluate the function at    "
 },
 {
   "id": "ex_second-14",
@@ -3076,7 +3094,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.13",
   "title": "",
-  "body": "    then show that exist.  Prove that     "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-15",
