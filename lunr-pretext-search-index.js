@@ -2383,7 +2383,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Example A",
-  "body": " Example A    Find:     convert modulus function modulus function in algebric function as From left hand limit (LHL)  Since,   From right hand limit (RHL)  Since, .  Hence, the limit does not exist as       Indeterminant Forms of Limit  If then we say the exists and   If and , then is in indetrminant form.    , are determinant forms.  However, can not tell whether it is determinant or inderminant without looking at the context.    Evaluate:     Set, and as     Using Binomial Expression    Using L Hosppital's Rule  L Hosppital's Rule        If exists then find the value of     At  then see remark [ ].   or,       If then find the value of     At  , then or,   from L Hospital rule: or, From previous equation, Hence,        Rationalization method:                When or , then just take biggest terms in nemerator and denominator common.              If quotient functions of top and bottom has same power of variable, then we get finite value after substitution of     If bottom function has higher power then the top function, then gives zero.    If top function has higher power then the bottom function, then gives either or, .        If then find the value of and     Solution: Set as or, or, or, To get expression zero, bottom power must be high but it is not the condition here so set the coefficient of and to be zero.  Hence,   and,       Find: here x is a variable as x is going to y.            Evaluate:       Now change limit as so that as        Find:            As  but slightly less than 1.  and as  but slightly greater than 1.                         Rewrite as Use L'Hospital's rule                                         1\/4    1\/2    6    DNE (limit does not exists)    1\/3            3.         5.                   7.         DNE         9.         DNE       A shrinking circle with radius at the origin is defined by Another circle is tangential to the y-axis at the origin is defined by The line intersected to the circles and at What happens to as circle shrinks to .       Find point Q: The fixed circle is defined by The shrinking circle is defined by To find the intersection point , we substitute into the fixed circle equation , giving us , so . Substituting back into the shrinking circle equation, we get  So the coordinates of point to the right are    Find the line PQ:  and   The slope of line is The equation of line through point and is    Find point R: Point occurs where Therefore    Evaluate the limit: As , we have , so the denominator approaches zero.  To evaluate the limit, we can use the conjugate to rationalize the denominator:  Hence, as the circle shrinks, point approaches the point .    "
+  "body": " Example A    Find:     convert modulus function modulus function in algebric function as From left hand limit (LHL)  Since,   From right hand limit (RHL)  Since, .  Hence, the limit does not exist as       Indeterminant Forms of Limit  If then we say the exists and   If and , then is in indetrminant form.    , are determinant forms.  However, can not tell whether it is determinant or inderminant without looking at the context.    Evaluate:     Set, and as     Using Binomial Expression    Using L Hosppital's Rule  L Hosppital's Rule        If exists then find the value of     At  then see remark [ ].   or,        Rationalization method:                When or , then just take biggest terms in nemerator and denominator common.              If quotient functions of top and bottom has same power of variable, then we get finite value after substitution of     If bottom function has higher power then the top function, then gives zero.    If top function has higher power then the bottom function, then gives either or, .        If then find the value of and     Solution: Set as or, or, or, To get expression zero, bottom power must be high but it is not the condition here so set the coefficient of and to be zero.  Hence,   and,       Find: here x is a variable as x is going to y.            Evaluate:       Now change limit as so that as        Find:            As  but slightly less than 1.  and as  but slightly greater than 1.                    If then find the value of     At  , then or,   from L Hospital rule: or, From previous equation, Hence,            Rewrite as Use L'Hospital's rule                                         1\/4    1\/2    6    DNE (limit does not exists)    1\/3            3.         5.                   7.         DNE         9.         DNE       A shrinking circle with radius at the origin is defined by Another circle is tangential to the y-axis at the origin is defined by The line intersected to the circles and at What happens to as circle shrinks to .       Find point Q: The fixed circle is defined by The shrinking circle is defined by To find the intersection point , we substitute into the fixed circle equation , giving us , so . Substituting back into the shrinking circle equation, we get  So the coordinates of point to the right are    Find the line PQ:  and   The slope of line is The equation of line through point and is    Find point R: Point occurs where Therefore    Evaluate the limit: As , we have , so the denominator approaches zero.  To evaluate the limit, we can use the conjugate to rationalize the denominator:  Hence, as the circle shrinks, point approaches the point .    "
 },
 {
   "id": "sec_second-exampleA-2",
@@ -2419,7 +2419,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.4",
   "title": "",
-  "body": "  If then find the value of     At  , then or,   from L Hospital rule: or, From previous equation, Hence,    "
+  "body": "   Rationalization method:            "
 },
 {
   "id": "sec_second-exampleA-3-9",
@@ -2428,25 +2428,25 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.5",
   "title": "",
-  "body": "   Rationalization method:            "
+  "body": "   When or , then just take biggest terms in nemerator and denominator common.         "
 },
 {
   "id": "sec_second-exampleA-3-10",
   "level": "2",
   "url": "sec_second-exampleA.html#sec_second-exampleA-3-10",
-  "type": "Example",
+  "type": "Remark",
   "number": "2.3.6",
   "title": "",
-  "body": "   When or , then just take biggest terms in nemerator and denominator common.         "
+  "body": "    If quotient functions of top and bottom has same power of variable, then we get finite value after substitution of     If bottom function has higher power then the top function, then gives zero.    If top function has higher power then the bottom function, then gives either or, .     "
 },
 {
   "id": "sec_second-exampleA-3-11",
   "level": "2",
   "url": "sec_second-exampleA.html#sec_second-exampleA-3-11",
-  "type": "Remark",
+  "type": "Example",
   "number": "2.3.7",
   "title": "",
-  "body": "    If quotient functions of top and bottom has same power of variable, then we get finite value after substitution of     If bottom function has higher power then the top function, then gives zero.    If top function has higher power then the bottom function, then gives either or, .     "
+  "body": "  If then find the value of and     Solution: Set as or, or, or, To get expression zero, bottom power must be high but it is not the condition here so set the coefficient of and to be zero.  Hence,   and,    "
 },
 {
   "id": "sec_second-exampleA-3-12",
@@ -2455,7 +2455,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.8",
   "title": "",
-  "body": "  If then find the value of and     Solution: Set as or, or, or, To get expression zero, bottom power must be high but it is not the condition here so set the coefficient of and to be zero.  Hence,   and,    "
+  "body": "  Find: here x is a variable as x is going to y.         "
 },
 {
   "id": "sec_second-exampleA-3-13",
@@ -2464,7 +2464,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.9",
   "title": "",
-  "body": "  Find: here x is a variable as x is going to y.         "
+  "body": "  Evaluate:       Now change limit as so that as     "
 },
 {
   "id": "sec_second-exampleA-3-14",
@@ -2473,7 +2473,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.10",
   "title": "",
-  "body": "  Evaluate:       Now change limit as so that as     "
+  "body": "  Find:            As  but slightly less than 1.  and as  but slightly greater than 1.    "
 },
 {
   "id": "sec_second-exampleA-3-15",
@@ -2482,7 +2482,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.11",
   "title": "",
-  "body": "  Find:            As  but slightly less than 1.  and as  but slightly greater than 1.    "
+  "body": "            "
 },
 {
   "id": "sec_second-exampleA-3-16",
@@ -2491,7 +2491,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "2.3.12",
   "title": "",
-  "body": "            "
+  "body": "  If then find the value of     At  , then or,   from L Hospital rule: or, From previous equation, Hence,    "
 },
 {
   "id": "sec_second-exampleA-3-17",
@@ -2698,7 +2698,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.5",
   "title": "Example B",
-  "body": " Example B    Is the function continuous at .    Yes. It is a polynomial, so it is continuous everywhere (including at ).  Check: At , and         Prove that the function is continuous at  and     At  and Hence, the function is continuous at   Similarly check function at and       Examine the continuity of the function at     Check: at    also, Hence, the function is continuous at  Note: The polynomial functions are contnuous everywhere.      Find all points of discontinuity of the given function, where is defined by                                       do your self.    At      for negative and for positive .  now, check: and Since, . The function is continuous at   Again, at   and Since . The function is not contunuous at     do your self.    at     and  Hence, the function is continuous at          Determine if is continuous at .    Yes. , , and , so the limit exists and equals the function value.      Is continuous at ?    No. The function is undefined at , so it cannot be continuous there.      Check continuity of     Yes. Left limit: . Right limit: . Since , the limit does not exist discontinuous.      Is continuous on ?    Yes. It is defined for , and the limit equals the function value at every point (including : ).      For what value of is     Set left limit = function value at 2: For continuity,       Is continuous at ?    Yes. Sine is continuous everywhere.       Determine if is continuous at .    No. The function is undefined at (division by zero), so it is discontinuous there. (Note: removable discontinuity if redefined as .)      Is the function defined by continuous at     At   .   Hence, the function is continuous.      Examine the continuity of function , where is defined by     At      Hence, the function is continuous.      Is the function continuous at ?    Yes. The exponential function is continuous everywhere.       Check continuity of     No. In any neighborhood of 0, takes both values 0 and 1 infinitely often, so does not exist.      Consider the function Is continuous at     Yes. We need to check . Use the squeeze theorem : As , both and , so       Let Find and such that is continuous at     For continuity:     So:   Thus, ,       Determine all values of where is discontinuous. Classify the discontinuities.    A rational function is discontinuous exactly where the denominator is zero and the numerator is not zero at the same point (non-removable discontinuity) or where the numerator and denominator are both zero (potentially removable).  Find points where the denominator is zero   Check the numerator at these pointsNumerator: . At : Both numerator and denominator are zero.  At : Numerator is non-zero.  So the simplified function after factorization:   At   Both numerator and denominator = 0. Limit exists: If we define , the function becomes continuous at .  Removable (hole).  At .  Denominator = 0, numerator 0. Left limit: Right limit:   Non-removable (vertical asymptote).      Let Find such that is continuous at .     So  continuous at 0.      Let for . Can be defined to make continuous at       Left right limit does not exist cannot make continuous.      Find all points of discontinuity of and classify them.    Floor function is discontinuous at integers for (but only )  At :     Discontinuities at integers (jump discontinuities)   : ,    : ,       Find the values of so that the function is continuous at the indicated point.     At     or,    or, Hence, the function is continuous at Therefore,       Find the value of if     At , or,   Also,   and,   Since the function is continuous at , we have       Discuss the continuity of       [See some Standard Limits, ]    at  Hence the function is continuous at       Discuss the continuity of     Step 1: Simplify the expression for and let . The expression becomes   Recall that for any real (y), , so is in . Thus, and   The solution is not as the standard of this class.      Continuity of composite function.      as and             If is continuous and , then     If function is continuous, then Now,       Discuss the continuity of     At     Hence, the function is continuous at   Again     function is discontinuous at       Discuss the continuity of       Since the function is discontinuous.      Discuss contnuity of        [ ] Therefore the function is continuous at       Discuss continuity of  is a GIF.       i.e., the function is discontinuous.      A shrinking circle with radius at the origin is defined by Another circle is tangential to the y-axis at the origin is defined by The line intersected to the circles and at What happens to as circle shrinks to .       Find point Q: The fixed circle is defined by The shrinking circle is defined by To find the intersection point , we substitute into the fixed circle equation , giving us , so . Substituting back into the shrinking circle equation, we get  So the coordinates of point to the right are    Find the line PQ:  and   The slope of line is The equation of line through point and is    Find point R: Point occurs where Therefore    Evaluate the limit: As , we have , so the denominator approaches zero.  To evaluate the limit, we can use the conjugate to rationalize the denominator:  Hence, as the circle shrinks, point approaches the point .    "
+  "body": " Example B    Is the function continuous at .    Yes. It is a polynomial, so it is continuous everywhere (including at ).  Check: At , and         Prove that the function is continuous at  and     At  and Hence, the function is continuous at   Similarly check function at and       Examine the continuity of the function at     Check: at    also, Hence, the function is continuous at  Note: The polynomial functions are contnuous everywhere.      Find all points of discontinuity of the given function, where is defined by                                       do your self.    At      for negative and for positive .  now, check: and Since, . The function is continuous at   Again, at   and Since . The function is not contunuous at     do your self.    at     and  Hence, the function is continuous at          Determine if is continuous at .    Yes. , , and , so the limit exists and equals the function value.      Is continuous at ?    No. The function is undefined at , so it cannot be continuous there.      Check continuity of     Yes. Left limit: . Right limit: . Since , the limit does not exist discontinuous.      Is continuous on ?    Yes. It is defined for , and the limit equals the function value at every point (including : ).      For what value of is     Set left limit = function value at 2: For continuity,       Is continuous at ?    Yes. Sine is continuous everywhere.       Determine if is continuous at .    No. The function is undefined at (division by zero), so it is discontinuous there. (Note: removable discontinuity if redefined as .)      Is the function defined by continuous at     At   .   Hence, the function is continuous.      Examine the continuity of function , where is defined by     At      Hence, the function is continuous.      Is the function continuous at ?    Yes. The exponential function is continuous everywhere.       Check continuity of     No. In any neighborhood of 0, takes both values 0 and 1 infinitely often, so does not exist.      Consider the function Is continuous at     Yes. We need to check . Use the squeeze theorem : As , both and , so       Let Find and such that is continuous at     For continuity:     So:   Thus, ,       Determine all values of where is discontinuous. Classify the discontinuities.    A rational function is discontinuous exactly where the denominator is zero and the numerator is not zero at the same point (non-removable discontinuity) or where the numerator and denominator are both zero (potentially removable).  Find points where the denominator is zero   Check the numerator at these pointsNumerator: . At : Both numerator and denominator are zero.  At : Numerator is non-zero.  So the simplified function after factorization:   At   Both numerator and denominator = 0. Limit exists: If we define , the function becomes continuous at .  Removable (hole).  At .  Denominator = 0, numerator 0. Left limit: Right limit:   Non-removable (vertical asymptote).      Let Find such that is continuous at .     So  continuous at 0.      Let for . Can be defined to make continuous at       Left right limit does not exist cannot make continuous.      Find all points of discontinuity of and classify them.    Floor function is discontinuous at integers for (but only )  At :     Discontinuities at integers (jump discontinuities)   : ,    : ,       Find the values of so that the function is continuous at the indicated point.     At     or,    or, Hence, the function is continuous at Therefore,       Find the value of if     At , or,   Also,   and,   Since the function is continuous at , we have       Discuss the continuity of       [See some Standard Limits, ]    at  Hence the function is continuous at       Discuss the continuity of     Step 1: Simplify the expression for and let . The expression becomes   Recall that for any real (y), , so is in . Thus, and   The solution is not as the standard of this class.      Continuity of composite function.      as and             If is continuous and , then     If function is continuous, then Now,       Discuss the continuity of     At     Hence, the function is continuous at   Again     function is discontinuous at       Discuss the continuity of       Since the function is discontinuous.      Discuss contnuity of        [ ] Therefore the function is continuous at       Discuss continuity of  is a GIF.       i.e., the function is discontinuous.    "
 },
 {
   "id": "sec_second-exampleB-2",
@@ -2980,22 +2980,13 @@ var ptx_lunr_docs = [
   "body": "  Discuss continuity of  is a GIF.       i.e., the function is discontinuous.   "
 },
 {
-  "id": "sec_second-exampleB-33",
-  "level": "2",
-  "url": "sec_second-exampleB.html#sec_second-exampleB-33",
-  "type": "Example",
-  "number": "2.5.33",
-  "title": "",
-  "body": "  A shrinking circle with radius at the origin is defined by Another circle is tangential to the y-axis at the origin is defined by The line intersected to the circles and at What happens to as circle shrinks to .       Find point Q: The fixed circle is defined by The shrinking circle is defined by To find the intersection point , we substitute into the fixed circle equation , giving us , so . Substituting back into the shrinking circle equation, we get  So the coordinates of point to the right are    Find the line PQ:  and   The slope of line is The equation of line through point and is    Find point R: Point occurs where Therefore    Evaluate the limit: As , we have , so the denominator approaches zero.  To evaluate the limit, we can use the conjugate to rationalize the denominator:  Hence, as the circle shrinks, point approaches the point .   "
-},
-{
   "id": "ex_second",
   "level": "1",
   "url": "ex_second.html",
   "type": "Exercises",
   "number": "2.6",
   "title": "Exercise",
-  "body": " Exercise   Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2          Prove that   Prove that   Prove that   Prove that   Prove that       How close to do we have to take so that is within a distance of (a) and (b) from ?    Evaluate:   Answer: 2.    Evaluate:     If then find     Evaluate:                              Evaluate LHL and RHL of the given function:               then show that exist.  Prove that       Examine the continuity of the function at     Find the value of function at          Evaluate the function at      Evaluate:     Find the relationship between and so that the function defined by is continuous at     Evaluate:                               Find all points of discontinuity of , where     Examine the following funcitons for the continuity                             Answer: 8\/5.                   Find:     Calculate:                Evaluate : If               Evaluate the following:                                       Find points of discontinuity if any in the following functions:              Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use       Evaluate:         Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)    Determine if is continuous at .  Answer: (No, undefined at .)    Check continuity at :   Answer: (Yes, both sides and .)    For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)      Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)    Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)      Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at       Discuss the continuity of     Discuss the continuity of at and     Let denote the greatest integer and The function is discontinuous when            Discuss the continuity of the following functions                    "
+  "body": " Exercise      If find .    If find .    If find .    If find .    If find .       Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2        Use , definition of limit to prove the following limits:                     How close to do we have to take so that is within a distance of (a) and (b) from ?    Evaluate:   Answer: 2.    Evaluate:     If then find     Evaluate:                              Let then find                 Explain if the limit exists or not.    Evaluate:     Evaluate:     Evaluate LHL and RHL of the given function:               then show that exist.  Prove that       Examine the continuity of the function at     Find the value of function at          Evaluate the function at      Evaluate:     Find the relationship between and so that the function defined by is continuous at     Evaluate:                               Find all points of discontinuity of , where     Examine the following funcitons for the continuity                             Answer: 8\/5.                   Find:     Calculate:                Evaluate : If               Evaluate the following:                                       Find points of discontinuity if any in the following functions:              Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use       Evaluate:         Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)    Determine if is continuous at .  Answer: (No, undefined at .)    Check continuity at :   Answer: (Yes, both sides and .)    For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)      Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)    Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)      Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at       Discuss the continuity of     Discuss the continuity of at and     Let denote the greatest integer and The function is discontinuous when            Discuss the continuity of the following functions                    "
 },
 {
   "id": "ex_second-2",
@@ -3004,7 +2995,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.1",
   "title": "",
-  "body": " Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2      "
+  "body": "    If find .    If find .    If find .    If find .    If find .     "
 },
 {
   "id": "ex_second-3",
@@ -3013,7 +3004,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.2",
   "title": "",
-  "body": "   Prove that   Prove that   Prove that   Prove that   Prove that     "
+  "body": " Evaluate the Following Limits                                 7 [hint: direct substituion]    -2 [hint: indeterminate form ]    6    1    2      "
 },
 {
   "id": "ex_second-4",
@@ -3022,7 +3013,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.3",
   "title": "",
-  "body": " How close to do we have to take so that is within a distance of (a) and (b) from ?  "
+  "body": " Use , definition of limit to prove the following limits:                   "
 },
 {
   "id": "ex_second-5",
@@ -3031,7 +3022,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.4",
   "title": "",
-  "body": " Evaluate:   Answer: 2.  "
+  "body": " How close to do we have to take so that is within a distance of (a) and (b) from ?  "
 },
 {
   "id": "ex_second-6",
@@ -3040,7 +3031,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.5",
   "title": "",
-  "body": " Evaluate:   "
+  "body": " Evaluate:   Answer: 2.  "
 },
 {
   "id": "ex_second-7",
@@ -3049,7 +3040,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.6",
   "title": "",
-  "body": " If then find   "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-8",
@@ -3058,7 +3049,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.7",
   "title": "",
-  "body": " Evaluate:                            "
+  "body": " If then find   "
 },
 {
   "id": "ex_second-9",
@@ -3067,7 +3058,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.8",
   "title": "",
-  "body": " Evaluate LHL and RHL of the given function:          "
+  "body": " Evaluate:                            "
 },
 {
   "id": "ex_second-10",
@@ -3076,7 +3067,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.9",
   "title": "",
-  "body": "    then show that exist.  Prove that     "
+  "body": " Let then find                 Explain if the limit exists or not.  "
 },
 {
   "id": "ex_second-11",
@@ -3085,7 +3076,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.10",
   "title": "",
-  "body": " Examine the continuity of the function at   "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-12",
@@ -3094,7 +3085,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.11",
   "title": "",
-  "body": " Find the value of function at        "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-13",
@@ -3103,7 +3094,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.12",
   "title": "",
-  "body": " Evaluate the function at    "
+  "body": " Evaluate LHL and RHL of the given function:          "
 },
 {
   "id": "ex_second-14",
@@ -3112,7 +3103,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.13",
   "title": "",
-  "body": " Evaluate:   "
+  "body": "    then show that exist.  Prove that     "
 },
 {
   "id": "ex_second-15",
@@ -3121,7 +3112,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.14",
   "title": "",
-  "body": " Find the relationship between and so that the function defined by is continuous at   "
+  "body": " Examine the continuity of the function at   "
 },
 {
   "id": "ex_second-16",
@@ -3130,7 +3121,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.15",
   "title": "",
-  "body": " Evaluate:                             "
+  "body": " Find the value of function at        "
 },
 {
   "id": "ex_second-17",
@@ -3139,7 +3130,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.16",
   "title": "",
-  "body": " Find all points of discontinuity of , where   "
+  "body": " Evaluate the function at    "
 },
 {
   "id": "ex_second-18",
@@ -3148,7 +3139,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.17",
   "title": "",
-  "body": " Examine the following funcitons for the continuity                        "
+  "body": " Evaluate:   "
 },
 {
   "id": "ex_second-19",
@@ -3157,7 +3148,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.18",
   "title": "",
-  "body": "    Answer: 8\/5.  "
+  "body": " Find the relationship between and so that the function defined by is continuous at   "
 },
 {
   "id": "ex_second-20",
@@ -3166,7 +3157,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.19",
   "title": "",
-  "body": "    "
+  "body": " Evaluate:                             "
 },
 {
   "id": "ex_second-21",
@@ -3175,7 +3166,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.20",
   "title": "",
-  "body": "    "
+  "body": " Find all points of discontinuity of , where   "
 },
 {
   "id": "ex_second-22",
@@ -3184,7 +3175,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.21",
   "title": "",
-  "body": "    "
+  "body": " Examine the following funcitons for the continuity                        "
 },
 {
   "id": "ex_second-23",
@@ -3193,7 +3184,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.22",
   "title": "",
-  "body": " Find:   "
+  "body": "    Answer: 8\/5.  "
 },
 {
   "id": "ex_second-24",
@@ -3202,7 +3193,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.23",
   "title": "",
-  "body": " Calculate:              "
+  "body": "    "
 },
 {
   "id": "ex_second-25",
@@ -3211,7 +3202,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.24",
   "title": "",
-  "body": " Evaluate : If             "
+  "body": "    "
 },
 {
   "id": "ex_second-26",
@@ -3220,7 +3211,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.25",
   "title": "",
-  "body": " Evaluate the following:                                     "
+  "body": "    "
 },
 {
   "id": "ex_second-27",
@@ -3229,7 +3220,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.26",
   "title": "",
-  "body": " Find points of discontinuity if any in the following functions:          "
+  "body": " Find:   "
 },
 {
   "id": "ex_second-28",
@@ -3238,7 +3229,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.27",
   "title": "",
-  "body": "   Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use     "
+  "body": " Calculate:              "
 },
 {
   "id": "ex_second-29",
@@ -3247,7 +3238,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.28",
   "title": "",
-  "body": " Evaluate:       "
+  "body": " Evaluate : If             "
 },
 {
   "id": "ex_second-30",
@@ -3256,7 +3247,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.29",
   "title": "",
-  "body": " Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)  "
+  "body": " Evaluate the following:                                     "
 },
 {
   "id": "ex_second-31",
@@ -3265,7 +3256,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.30",
   "title": "",
-  "body": " Determine if is continuous at .  Answer: (No, undefined at .)  "
+  "body": " Find points of discontinuity if any in the following functions:          "
 },
 {
   "id": "ex_second-32",
@@ -3274,7 +3265,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.31",
   "title": "",
-  "body": " Check continuity at :   Answer: (Yes, both sides and .)  "
+  "body": "   Determine if is contunous at   Determine if is contunous at   Show that the function is contunous.  Let Determine the value of so that is continuous at .  Let is continuous, then prove .  Let Discuss the continuity of at .  Let Find whether the function is continuous at .    For form, use     "
 },
 {
   "id": "ex_second-33",
@@ -3283,7 +3274,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.32",
   "title": "",
-  "body": " For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)    "
+  "body": " Evaluate:       "
 },
 {
   "id": "ex_second-34",
@@ -3292,7 +3283,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.33",
   "title": "",
-  "body": " Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)  "
+  "body": " Is continuous at ?  Answer: (Yes — polynomial, continuous everywhere.)  "
 },
 {
   "id": "ex_second-35",
@@ -3301,7 +3292,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.34",
   "title": "",
-  "body": " Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)    "
+  "body": " Determine if is continuous at .  Answer: (No, undefined at .)  "
 },
 {
   "id": "ex_second-36",
@@ -3310,7 +3301,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.35",
   "title": "",
-  "body": " Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at     "
+  "body": " Check continuity at :   Answer: (Yes, both sides and .)  "
 },
 {
   "id": "ex_second-37",
@@ -3319,7 +3310,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.36",
   "title": "",
-  "body": " Discuss the continuity of   "
+  "body": " For what value of is the function continuous at ?     (Set left limit = right limit: ,  no works. Discontinuous.)    "
 },
 {
   "id": "ex_second-38",
@@ -3328,7 +3319,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.37",
   "title": "",
-  "body": " Discuss the continuity of at and   "
+  "body": " Is continuous at ?  Answer: (Yes,absolute value is continuous everywhere.)  "
 },
 {
   "id": "ex_second-39",
@@ -3337,7 +3328,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.6.38",
   "title": "",
-  "body": " Let denote the greatest integer and The function is discontinuous when          "
+  "body": " Find and classify all discontinuities:     (Removable at ; limit = 2. Define to remove.)    "
 },
 {
   "id": "ex_second-40",
@@ -3345,6 +3336,42 @@ var ptx_lunr_docs = [
   "url": "ex_second.html#ex_second-40",
   "type": "Exercise",
   "number": "2.6.39",
+  "title": "",
+  "body": " Show that the function is continuous.    Take a point where the function is continuous. Then, at   and i.e., the given function is continuous at     "
+},
+{
+  "id": "ex_second-41",
+  "level": "2",
+  "url": "ex_second.html#ex_second-41",
+  "type": "Exercise",
+  "number": "2.6.40",
+  "title": "",
+  "body": " Discuss the continuity of   "
+},
+{
+  "id": "ex_second-42",
+  "level": "2",
+  "url": "ex_second.html#ex_second-42",
+  "type": "Exercise",
+  "number": "2.6.41",
+  "title": "",
+  "body": " Discuss the continuity of at and   "
+},
+{
+  "id": "ex_second-43",
+  "level": "2",
+  "url": "ex_second.html#ex_second-43",
+  "type": "Exercise",
+  "number": "2.6.42",
+  "title": "",
+  "body": " Let denote the greatest integer and The function is discontinuous when          "
+},
+{
+  "id": "ex_second-44",
+  "level": "2",
+  "url": "ex_second.html#ex_second-44",
+  "type": "Exercise",
+  "number": "2.6.43",
   "title": "",
   "body": " Discuss the continuity of the following functions                   "
 },
@@ -4759,7 +4786,7 @@ var ptx_lunr_docs = [
   "type": "References",
   "number": "",
   "title": "References",
-  "body": " References     James  Stewart    Calculus (Cengage Learning)      Edwin  Herman    Gilbert  Strang    Calculus I (OpenStax)      Robert  Beezer    Derivatives and Integrals: An annotated discourse   "
+  "body": " References   James, Stewart  Calculus (Cengage Learning)    Edwin, Herman and Gilbert, Strang  Calculus I (OpenStax)    Robert, Beezer  Derivatives and Integrals: An annotated discourse   "
 },
 {
   "id": "backmatter-8",
