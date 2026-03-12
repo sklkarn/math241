@@ -4816,6 +4816,15 @@ var ptx_lunr_docs = [
   "body": " Index   "
 },
 {
+  "id": "sec-desmos-calc",
+  "level": "1",
+  "url": "sec-desmos-calc.html",
+  "type": "Section",
+  "number": "E.1",
+  "title": "Interactive Graphing Calculator",
+  "body": " Interactive Graphing Calculator   Transformation Graph  Derivative Calculator  Limit, Continuity, & Differentiability Evaluator    "
+},
+{
   "id": "refs-list",
   "level": "1",
   "url": "refs-list.html",
@@ -4825,9 +4834,9 @@ var ptx_lunr_docs = [
   "body": " References   James, Stewart  Calculus (Cengage Learning)    Edwin, Herman and Gilbert, Strang  Calculus I (OpenStax)    Robert, Beezer  Derivatives and Integrals: An annotated discourse.   "
 },
 {
-  "id": "backmatter-8",
+  "id": "backmatter-9",
   "level": "1",
-  "url": "backmatter-8.html",
+  "url": "backmatter-9.html",
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
