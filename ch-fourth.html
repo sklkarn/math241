@@ -136,7 +136,7 @@ eBookConfig.enable_chatcodes =  false;
 <h1 class="heading"><a href="calculus.html"><span class="title">Calculus I</span> <span class="subtitle">Limits and Derivatives</span></a></h1>
 <p class="byline">Sunil Karna</p>
 </div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
-<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-6.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-7.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -339,13 +339,13 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="append_physTable.html" class="internal"><span class="codenumber">C</span> <span class="title">Greek Letters</span></a></div></li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="codenumber">D</span> <span class="title">List of Symbols</span></a></div></li>
-<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Index</span></a></div></li>
 <li class="toc-item toc-appendix">
 <div class="toc-title-box"><a href="appendix-tools.html" class="internal"><span class="codenumber">E</span> <span class="title">Useful Tools</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-desmos-calc.html" class="internal"><span class="codenumber">E.1</span> <span class="title">Interactive Graphing Calculator</span></a></div></li></ul>
 </li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-7.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-8.html" class="internal"><span class="title">Colophon</span></a></div></li>
 <li class="toc-item toc-references"><div class="toc-title-box"><a href="refs-list.html" class="internal"><span class="title">References</span></a></div></li>
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-9.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
@@ -379,7 +379,19 @@ f'(x) = \lim_{h \to 0} \frac{f(x + h) - f(x)}{h}
 <div class="autopermalink" data-description="Paragraph"><a href="#ch-fourth-2-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <div class="para logical" id="ch-fourth-2-3">
-<div class="para">The term antiderivative refers to a function <span class="process-math">\(F(x)\)</span> such that its derivative is the original function <span class="process-math">\(f(x)\text{,}\)</span> i.e.,<span class="process-math">\(F'(x) = f(x)\text{.}\)</span> It’s called "anti" because it reverses the process of differentiation. Just as:Subtraction is the "anti" operation to addition (it reverses it), Division is the "anti" to multiplication, antidifferentiation (finding the antiderivative) is the inverse operation to differentiation. This connection is formalized by the Fundamental Theorem of Calculus, which links derivatives and integrals, showing they are inverse processes. For example: the derivative of <span class="process-math">\(x^3\)</span> is</div>
+<div class="para">If <span class="process-math">\(F(x)\)</span> is an antiderivative of <span class="process-math">\(f(x)\text{,}\)</span> then the most general form of the antiderivative is <span class="process-math">\(F(x) + C\text{,}\)</span> where <span class="process-math">\(C\)</span> is an arbitrary constant. This is because when you differentiate a constant, it becomes zero, so any constant added to the antiderivative will not affect the derivative. If</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\frac{d}{dx}F(x) =f(x)
+\end{equation*}
+</div>
+<div class="para">then we write</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int f(x)\, dx = F(x) + C
+\end{equation*}
+</div>
+<div class="para">to represent the family of all antiderivatives of <span class="process-math">\(f(x)\text{.}\)</span> Here, <span class="process-math">\(f(x)\)</span> is called integrand, <span class="process-math">\(dx\)</span> is the differential of the variable of integration, and <span class="process-math">\(C\)</span> is the constant of integration. Integral is called "antiderivative" because it reverses the process of differentiation. Just as: Subtraction is the "anti" operation to addition (it reverses it), Division is the "anti" to multiplication, antidifferentiation (finding the antiderivative) is the inverse operation to differentiation. <em class="emphasis">Integration is inverse process of differentiation.</em> For example: the derivative of <span class="process-math">\(x^3\)</span> is</div>
 <div class="displaymath process-math">
 \begin{equation*}
 \frac{d}{dx}(x^3) =3x^{3-1} = 3x^2
