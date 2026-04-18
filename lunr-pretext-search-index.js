@@ -4669,79 +4669,124 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Integrations",
-  "body": " Integrations        Methods of Integration  There are basic four methods of doing integration:   Integration by Inspection Method:    Integration by Substitution Method:    Integration using Partial Fractions:    Integration by Parts:       Find the antiderivative (or integral) of the following functions by inspection method.                                     As                               Find the antiderivative (or integral) of the following functions by inspection method.                                                                           Find the integration of             Find the integration of                                                Find the integration of                                                 If such that , then find                     In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -          Integrate the functions:                        Let       put         put           "
+  "body": " Integrations        Methods of Integration   There are basic four methods of doing integration:   Integration by Inspection Method:    Integration by Substitution Method:    Integration using Partial Fractions:    Integration by Parts:       Integration by Inspection Method:    Find the antiderivative (or integral) of the following functions by inspection method.                                     As                               Find the antiderivative (or integral) of the following functions by inspection method.                                                                           Find the integration of             Find the integration of                                                                    Find the integration of                                                   If such that , then find                Find the integration of                                                                                  Find the integration of                                                 Integration by Substitution Method:    Find the antiderivative (or integral) of the following functions by substitution method.                                  Let       Let       Let        Let       Let                 In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -           Integrate the functions:                        Let       put         put            Integration using Partial Fractions:                      Integration by Parts:                 "
 },
 {
-  "id": "subsec-integ_methods-3",
+  "id": "subsubsec-inspection-2",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-3",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-2",
   "type": "Example",
   "number": "4.1.1",
   "title": "",
   "body": "  Find the antiderivative (or integral) of the following functions by inspection method.                                     As                            "
 },
 {
-  "id": "subsec-integ_methods-4",
+  "id": "subsubsec-inspection-3",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-4",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-3",
   "type": "Example",
   "number": "4.1.2",
   "title": "",
   "body": "  Find the antiderivative (or integral) of the following functions by inspection method.                                                                        "
 },
 {
-  "id": "subsec-integ_methods-5",
+  "id": "subsubsec-inspection-4",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-5",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-4",
   "type": "Example",
   "number": "4.1.3",
   "title": "",
   "body": "  Find the integration of          "
 },
 {
-  "id": "subsec-integ_methods-6",
+  "id": "subsubsec-inspection-5",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-6",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-5",
   "type": "Example",
   "number": "4.1.4",
   "title": "",
-  "body": "  Find the integration of                                             "
+  "body": "  Find the integration of                                                                 "
 },
 {
-  "id": "subsec-integ_methods-7",
+  "id": "subsubsec-inspection-6",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-7",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-6",
   "type": "Example",
   "number": "4.1.5",
   "title": "",
-  "body": "  Find the integration of                                              "
+  "body": "  Find the integration of                                                "
 },
 {
-  "id": "subsec-integ_methods-8",
+  "id": "subsubsec-inspection-7",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-8",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-7",
   "type": "Example",
   "number": "4.1.6",
   "title": "",
   "body": "  If such that , then find             "
 },
 {
-  "id": "subsec-integ_methods-9",
+  "id": "subsubsec-inspection-8",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-9",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-8",
   "type": "Example",
   "number": "4.1.7",
   "title": "",
-  "body": "       In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -       "
+  "body": "  Find the integration of                                                                               "
 },
 {
-  "id": "subsec-integ_methods-10",
+  "id": "subsubsec-inspection-9",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsec-integ_methods-10",
+  "url": "sec_fourth-integ.html#subsubsec-inspection-9",
   "type": "Example",
   "number": "4.1.8",
   "title": "",
+  "body": "  Find the integration of                                              "
+},
+{
+  "id": "subsubsec-substitution-2",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsubsec-substitution-2",
+  "type": "Example",
+  "number": "4.1.9",
+  "title": "",
+  "body": "  Find the antiderivative (or integral) of the following functions by substitution method.                                  Let       Let       Let        Let       Let         "
+},
+{
+  "id": "subsubsec-substitution-3",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsubsec-substitution-3",
+  "type": "Example",
+  "number": "4.1.10",
+  "title": "",
+  "body": "       In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -        "
+},
+{
+  "id": "subsubsec-substitution-4",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsubsec-substitution-4",
+  "type": "Example",
+  "number": "4.1.11",
+  "title": "",
   "body": "  Integrate the functions:                        Let       put         put         "
+},
+{
+  "id": "subsubsec-partial_fraction-2",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsubsec-partial_fraction-2",
+  "type": "Example",
+  "number": "4.1.12",
+  "title": "",
+  "body": "                 "
+},
+{
+  "id": "subsubsec-parts-2",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsubsec-parts-2",
+  "type": "Example",
+  "number": "4.1.13",
+  "title": "",
+  "body": "            "
 },
 {
   "id": "ex_fourth",
