@@ -119,14 +119,14 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.13.4';
+eBookConfig.runestone_version = '7.13.5';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b76b8eace4405b9e.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.bbf2283c5c1d4f99.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.52176322e2c1dde5.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.bbf2283c5c1d4f99.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b12a7b3f0773ebcd.css">
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
@@ -1669,57 +1669,358 @@ or, \, \int \frac{1}{x[1+\log x]} \, dx = \int \frac{dt}{t}= \log |t|+C =\log(1+
 <div class="autopermalink" data-description="Example 4.1.11"><a href="#subsubsec-substitution-4" title="Copy heading and permalink for Example 4.1.11">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 4.1.1.2: Integration by Substitution Method:"><a href="#subsubsec-substitution" title="Copy heading and permalink for Subsubsection 4.1.1.2: Integration by Substitution Method:">🔗</a></div></section><section class="subsubsection" id="subsubsec-partial_fraction"><h4 class="heading hide-type">
 <span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.1.3</span><span class="space"> </span><span class="title">Integration using Partial Fractions:</span>
 </h4>
-<article class="example example-like" id="subsubsec-partial_fraction-2"><h5 class="heading">
+<div class="para" id="subsubsec-partial_fraction-2">The method of partial fractions is a technique used to break down a rational function into simpler fractions that can be easily integrated. This method is particularly useful when the degree of the numerator is less than the degree of the denominator. The process involves expressing the rational function as a sum of simpler fractions, which can then be integrated separately.<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsubsec-partial_fraction-3"><h5 class="heading">
 <span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.12</span><span class="period">.</span>
 </h5>
-<div class="para logical" id="subsubsec-partial_fraction-2-1-1">
-<ol class="lower-roman ol-marker-1" id="subsubsec-partial_fraction-2-1-1-1">
-<li id="subsubsec-partial_fraction-2-1-1-1-1">
-<div class="para logical" id="subsubsec-partial_fraction-2-1-1-1-1-1">
+<div class="para logical" id="subsubsec-partial_fraction-3-1-1">
+<ol class="lower-roman ol-marker-1" id="subsubsec-partial_fraction-3-1-1-1">
+<li id="subsubsec-partial_fraction-3-1-1-1-1">
+<div class="para logical" id="subsubsec-partial_fraction-3-1-1-1-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
 \int \frac{3x+11}{x^2-x-6}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-2-1-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-1-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item i"><a href="#subsubsec-partial_fraction-2-1-1-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
+<div class="autopermalink" data-description="Item i"><a href="#subsubsec-partial_fraction-3-1-1-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
 </li>
-<li id="subsubsec-partial_fraction-2-1-1-1-2">
-<div class="para logical" id="subsubsec-partial_fraction-2-1-1-1-2-1">
+<li id="subsubsec-partial_fraction-3-1-1-1-2">
+<div class="para logical" id="subsubsec-partial_fraction-3-1-1-1-2-1">
 <div class="displaymath process-math">
 \begin{equation*}
 \int \frac{5x-2}{(x+3)^2}
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-2-1-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-1-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-partial_fraction-2-1-1-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
+<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-partial_fraction-3-1-1-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 4.1.12"><a href="#subsubsec-partial_fraction-2" title="Copy heading and permalink for Example 4.1.12">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 4.1.1.3: Integration using Partial Fractions:"><a href="#subsubsec-partial_fraction" title="Copy heading and permalink for Subsubsection 4.1.1.3: Integration using Partial Fractions:">🔗</a></div></section><section class="subsubsection" id="subsubsec-parts"><h4 class="heading hide-type">
-<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.1.4</span><span class="space"> </span><span class="title">Integration by Parts:</span>
-</h4>
-<article class="example example-like" id="subsubsec-parts-2"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.13</span><span class="period">.</span>
-</h5>
-<div class="para logical" id="subsubsec-parts-2-1-1">
-<ol class="lower-roman ol-marker-1" id="subsubsec-parts-2-1-1-1"><li id="subsubsec-parts-2-1-1-1-1">
-<div class="para logical" id="subsubsec-parts-2-1-1-1-1-1">
+<div class="solutions"><details id="subsubsec-partial_fraction-3-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-partial_fraction-3-2-1">
+<ol class="lower-roman ol-marker-1" id="subsubsec-partial_fraction-3-2-1-1">
+<li id="subsubsec-partial_fraction-3-2-1-1-1">
+<div class="para logical" id="subsubsec-partial_fraction-3-2-1-1-1-1">
 <div class="displaymath process-math">
 \begin{equation*}
-\int 
+\int \frac{3x+11}{x^2-x-6} 
 \end{equation*}
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-2-1-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para">Step 1: Factor the denominator  <span class="process-math">\(x^2 - x - 6\)</span>  as: <span class="process-math">\((x-3)(x+2)\)</span> Step 2: Partial fraction decomposition of the function <span class="process-math">\(\frac{3x+11}{(x-3)(x+2)}\)</span> is: <span class="process-math">\(\frac{A}{x-3} + \frac{B}{x+2}\)</span> Step 3: Find the values of A and B by multiplying both sides of the equation by the denominator <span class="process-math">\((x-3)(x+2)\)</span> and then equating the coefficients of the powers of x on both sides of the equation. We get: <span class="process-math">\(A(x+2) + B(x-3) = 3x + 11\)</span>
 </div>
-<div class="autopermalink" data-description="Item i"><a href="#subsubsec-parts-2-1-1-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
-</li></ol>
-<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-2-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-2-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 4.1.13"><a href="#subsubsec-parts-2" title="Copy heading and permalink for Example 4.1.13">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 4.1.1.4: Integration by Parts:"><a href="#subsubsec-parts" title="Copy heading and permalink for Subsubsection 4.1.1.4: Integration by Parts:">🔗</a></div></section><div class="autopermalink" data-description="Subsection 4.1.1: Methods of Integration"><a href="#subsec-integ_methods" title="Copy heading and permalink for Subsection 4.1.1: Methods of Integration">🔗</a></div></section><div class="autopermalink" data-description="Section 4.1: Integrations"><a href="#sec_fourth-integ" title="Copy heading and permalink for Section 4.1: Integrations">🔗</a></div></section></div>
+<div class="para logical" id="subsubsec-partial_fraction-3-2-1-1-1-2">
+<div class="para">Expand:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+3x+11=Ax+2A+Bx-3B=(A+B)x+(2A-3B)
+\end{equation*}
+</div>
+<div class="para">Equating the coefficients of x and the constant term, we get: <span class="process-math">\(A+B=3\)</span> and <span class="process-math">\(2A-3B=11\)</span> Solving these equations, we get: <span class="process-math">\(A=4\)</span> and <span class="process-math">\(B=-1\)</span> Step 4: Now, we can write the function as: <span class="process-math">\(\frac{3x+11}{(x-3)(x+2)} = \frac{4}{x-3} - \frac{1}{x+2}\)</span> Step 5: Now, we can integrate the function as:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{3x+11}{x^2-x-6} \, dx = \int \left(\frac{4}{x-3} - \frac{1}{x+2}\right) \, dx 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 4\int \frac{1}{x-3} \, dx - \int \frac{1}{x+2} \, dx = 4\log |x-3| - \log |x+2| +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-2-1-1-1-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item i"><a href="#subsubsec-partial_fraction-3-2-1-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+<li id="subsubsec-partial_fraction-3-2-1-1-2">
+<div class="para logical" id="subsubsec-partial_fraction-3-2-1-1-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{5x-2}{(x+3)^2} 
+\end{equation*}
+</div>
+<div class="para">Step 1: Partial fraction decomposition of the function <span class="process-math">\(\frac{5x-2}{(x+3)^2}\)</span> is: <span class="process-math">\(\frac{A}{x+3} + \frac{B}{(x+3)^2}\)</span> Step 2: Find the values of A and B by multiplying both sides of the equation by the denominator <span class="process-math">\((x+3)^2\)</span> and then equating the coefficients of the powers of x on both sides of the equation. We get: <span class="process-math">\(A(x+3) + B = 5x - 2\)</span> Step 3: Expand:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+5x-2=Ax+3A+B
+\end{equation*}
+</div>
+<div class="para">Equating the coefficients of x and the constant term, we get: <span class="process-math">\(A=5\)</span> and <span class="process-math">\(3A+B=-2\)</span> Solving these equations, we get: <span class="process-math">\(A=5\)</span> and <span class="process-math">\(B=-17\)</span> Step 4: Now, we can write the function as: <span class="process-math">\(\frac{5x-2}{(x+3)^2} = \frac{5}{x+3} - \frac{17}{(x+3)^2}\)</span> Step 5: Now, we can integrate the function as:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int \frac{5x-2}{(x+3)^2} \, dx = \int \left(\frac{5}{x+3} - \frac{17}{(x+3)^2}\right) \, dx 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= 5\int \frac{1}{x+3} \, dx - 17\int \frac{1}{(x+3)^2} \, dx = 5\log |x+3| + \frac{17}{x+3} +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-2-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-partial_fraction-3-2-1-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-partial_fraction-3-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.12.1"><a href="#subsubsec-partial_fraction-3-2" title="Copy heading and permalink for Solution 4.1.12.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.1.12"><a href="#subsubsec-partial_fraction-3" title="Copy heading and permalink for Example 4.1.12">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 4.1.1.3: Integration using Partial Fractions:"><a href="#subsubsec-partial_fraction" title="Copy heading and permalink for Subsubsection 4.1.1.3: Integration using Partial Fractions:">🔗</a></div></section><section class="subsubsection" id="subsubsec-parts"><h4 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">4.1.1.4</span><span class="space"> </span><span class="title">Integration by Parts:</span>
+</h4>
+<div class="para logical" id="subsubsec-parts-2">
+<div class="para">The integration by parts is a method of integration which is used to integrate the product of two functions. The formula for integration by parts is given by:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int u \, dv = uv - \int v \, du
+\end{equation*}
+</div>
+<div class="para">where <span class="process-math">\(u\)</span> and <span class="process-math">\(dv\)</span> are two functions of <span class="process-math">\(x\text{,}\)</span> and <span class="process-math">\(du\)</span> and <span class="process-math">\(v\)</span> are their respective derivatives and antiderivatives.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="subsubsec-parts-3">A commonly used mnemonics for choosing u (the function to differentiate) and dv (the function to integrate) in integration by parts is the <dfn class="terminology">ILATE</dfn> rule (choose u in this priority order): <em class="emphasis">Inverse trigonometric, Logarithmic, Algebraic (polynomials), Trigonometric, Exponential.</em><div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="subsubsec-parts-4"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">4.1.13</span><span class="period">.</span>
+</h5>
+<div class="para logical" id="subsubsec-parts-4-1-1">
+<ol class="lower-roman ol-marker-1" id="subsubsec-parts-4-1-1-1">
+<li id="subsubsec-parts-4-1-1-1-1">
+<div class="para logical" id="subsubsec-parts-4-1-1-1-1-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\int x \sin x \, dx 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-1-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item i"><a href="#subsubsec-parts-4-1-1-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-1-1-1-2">
+<div class="para logical" id="subsubsec-parts-4-1-1-1-2-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\int x^2 e^x \, dx 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-1-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-parts-4-1-1-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-1-1-1-3">
+<div class="para logical" id="subsubsec-parts-4-1-1-1-3-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\int x \log x \, dx 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-1-1-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item iii"><a href="#subsubsec-parts-4-1-1-1-3" title="Copy heading and permalink for Item iii">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-1-1-1-4">
+<div class="para logical" id="subsubsec-parts-4-1-1-1-4-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\int e^x \sin x \, dx 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-1-1-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item iv"><a href="#subsubsec-parts-4-1-1-1-4" title="Copy heading and permalink for Item iv">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-1-1-1-5">
+<div class="para logical" id="subsubsec-parts-4-1-1-1-5-1">
+<div class="displaymath process-math">
+\begin{equation*}
+\int x^2 \cos x \, dx 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-1-1-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item v"><a href="#subsubsec-parts-4-1-1-1-5" title="Copy heading and permalink for Item v">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="solutions"><details id="subsubsec-parts-4-2" class="solution solution-like born-hidden-knowl"><summary class="knowl__link"><span class="type">Solution</span><span class="period">.</span></summary><div class="solution solution-like knowl__content">
+<div class="para logical" id="subsubsec-parts-4-2-1">
+<ol class="lower-roman ol-marker-1" id="subsubsec-parts-4-2-1-1">
+<li id="subsubsec-parts-4-2-1-1-1">
+<div class="para logical" id="subsubsec-parts-4-2-1-1-1-1">
+<div class="para">Let <span class="process-math">\(u=x\)</span> and <span class="process-math">\(dv=\sin x \, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=dx \, \text{ and } \, v=-\cos x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int x \sin x \, dx = -x\cos x +\int \cos x \, dx = -x\cos x +\sin x +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-2-1-1-1-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item i"><a href="#subsubsec-parts-4-2-1-1-1" title="Copy heading and permalink for Item i">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-2-1-1-2">
+<div class="para logical" id="subsubsec-parts-4-2-1-1-2-1">
+<div class="para">Let <span class="process-math">\(u=x^2\)</span> and <span class="process-math">\(dv=e^x \, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=2x\, dx \, \text{ and } \, v=e^x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int x^2 e^x \, dx = x^2 e^x - 2\int xe^x\, dx 
+\end{equation*}
+</div>
+<div class="para">Now, we need to apply integration by parts again to evaluate the integral <span class="process-math">\(\int xe^x\, dx\text{.}\)</span> Let <span class="process-math">\(u=x\)</span> and <span class="process-math">\(dv=e^x\, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=dx \, \text{ and } \, v=e^x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, 2\int xe^x\, dx = 2(xe^x -\int e^x\, dx) = 2xe^x - 2e^x +C
+\end{equation*}
+</div>
+<div class="para">Now we can write the final answer as:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int x^2 e^x \, dx = x^2 e^x - (2xe^x - 2e^x) +C = (x^2 - 2x + 2)e^x +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-2-1-1-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item ii"><a href="#subsubsec-parts-4-2-1-1-2" title="Copy heading and permalink for Item ii">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-2-1-1-3">
+<div class="para logical" id="subsubsec-parts-4-2-1-1-3-1">
+<div class="para">Let <span class="process-math">\(u=\log x\)</span> and <span class="process-math">\(dv=x\, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=\frac{1}{x}\, dx \, \text{ and } \, v=\frac{x^2}{2}
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int x \log x \, dx = \frac{x^2}{2} \log x - \int \frac{x^2}{2} \cdot \frac{1}{x} \, dx = \frac{x^2}{2} \log x - \frac{1}{2}\int x \, dx 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= \frac{x^2}{2} \log x - \frac{x^2}{4} +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-2-1-1-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item iii"><a href="#subsubsec-parts-4-2-1-1-3" title="Copy heading and permalink for Item iii">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-2-1-1-4">
+<div class="para logical" id="subsubsec-parts-4-2-1-1-4-1">
+<div class="para">Let <span class="process-math">\(u=\sin x\)</span> and <span class="process-math">\(dv=e^x \, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=\cos x\, dx \, \text{ and } \, v=e^x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int e^x \sin x \, dx = -e^x \sin x + \int e^x \cos x \, dx 
+\end{equation*}
+</div>
+<div class="para">Now, we need to apply integration by parts again to evaluate the integral <span class="process-math">\(\int e^x \cos x \, dx\text{.}\)</span> Let <span class="process-math">\(u=\cos x\)</span> and <span class="process-math">\(dv=e^x\, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=-\sin x\, dx \, \text{ and } \, v=e^x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int e^x \cos x \, dx = e^x \cos x + \int e^x \sin x \, dx 
+\end{equation*}
+</div>
+<div class="para">Now we can write the final answer as:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int e^x \sin x \, dx = -e^x \sin x + e^x \cos x + \int e^x \sin x \, dx 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\Rightarrow \, 2\int e^x \sin x \, dx = e^x (\cos x - \sin x) +C
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int e^x \sin x \, dx = \frac{e^x (\cos x - \sin x)}{2} +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-2-1-1-4-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item iv"><a href="#subsubsec-parts-4-2-1-1-4" title="Copy heading and permalink for Item iv">🔗</a></div>
+</li>
+<li id="subsubsec-parts-4-2-1-1-5">
+<div class="para logical" id="subsubsec-parts-4-2-1-1-5-1">
+<div class="para">Let <span class="process-math">\(u=x^2\)</span> and <span class="process-math">\(dv=\cos x \, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=2x\, dx \, \text{ and } \, v=\sin x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int x^2 \cos x \, dx = x^2 \sin x - 2\int x \sin x \, dx 
+\end{equation*}
+</div>
+<div class="para">Now, we need to apply integration by parts again to evaluate the integral <span class="process-math">\(\int x \sin x \, dx\text{.}\)</span> Let <span class="process-math">\(u=x\)</span> and <span class="process-math">\(dv=\sin x\, dx\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+or, \, du=dx \, \text{ and } \, v=-\cos x
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\therefore \, \int x \sin x \, dx = -x \cos x + \int \cos x \, dx = -x \cos x + \sin x +C
+\end{equation*}
+</div>
+<div class="para">Now we can write the final answer as:</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\int x^2 \cos x \, dx = x^2 \sin x - 2(-x \cos x + \sin x) +C 
+\end{equation*}
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+= x^2 \sin x + 2x \cos x - 2\sin x +C
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-2-1-1-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item v"><a href="#subsubsec-parts-4-2-1-1-5" title="Copy heading and permalink for Item v">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#subsubsec-parts-4-2-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Solution 4.1.13.1"><a href="#subsubsec-parts-4-2" title="Copy heading and permalink for Solution 4.1.13.1">🔗</a></div>
+</div></details></div>
+<div class="autopermalink" data-description="Example 4.1.13"><a href="#subsubsec-parts-4" title="Copy heading and permalink for Example 4.1.13">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 4.1.1.4: Integration by Parts:"><a href="#subsubsec-parts" title="Copy heading and permalink for Subsubsection 4.1.1.4: Integration by Parts:">🔗</a></div></section><div class="autopermalink" data-description="Subsection 4.1.1: Methods of Integration"><a href="#subsec-integ_methods" title="Copy heading and permalink for Subsection 4.1.1: Methods of Integration">🔗</a></div></section><div class="autopermalink" data-description="Section 4.1: Integrations"><a href="#sec_fourth-integ" title="Copy heading and permalink for Section 4.1: Integrations">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="ch-fourth.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ex_fourth.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>

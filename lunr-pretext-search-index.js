@@ -4669,7 +4669,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4.1",
   "title": "Integrations",
-  "body": " Integrations        Methods of Integration   There are basic four methods of doing integration:   Integration by Inspection Method:    Integration by Substitution Method:    Integration using Partial Fractions:    Integration by Parts:       Integration by Inspection Method:    Find the antiderivative (or integral) of the following functions by inspection method.                                     As                               Find the antiderivative (or integral) of the following functions by inspection method.                                                                           Find the integration of             Find the integration of                                                                    Find the integration of                                                   If such that , then find                Find the integration of                                                                                  Find the integration of                                                 Integration by Substitution Method:    Find the antiderivative (or integral) of the following functions by substitution method.                                  Let       Let       Let        Let       Let                 In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -           Integrate the functions:                        Let       put         put            Integration using Partial Fractions:                      Integration by Parts:                 "
+  "body": " Integrations        Methods of Integration   There are basic four methods of doing integration:   Integration by Inspection Method:    Integration by Substitution Method:    Integration using Partial Fractions:    Integration by Parts:       Integration by Inspection Method:    Find the antiderivative (or integral) of the following functions by inspection method.                                     As                               Find the antiderivative (or integral) of the following functions by inspection method.                                                                           Find the integration of             Find the integration of                                                                    Find the integration of                                                   If such that , then find                Find the integration of                                                                                  Find the integration of                                                 Integration by Substitution Method:    Find the antiderivative (or integral) of the following functions by substitution method.                                  Let       Let       Let        Let       Let                 In this kind of function we need to find the derivative of some function which is already in the problem. For example: Let differentiate w.r.t.\" \", we get -           Integrate the functions:                        Let       put         put            Integration using Partial Fractions:  The method of partial fractions is a technique used to break down a rational function into simpler fractions that can be easily integrated. This method is particularly useful when the degree of the numerator is less than the degree of the denominator. The process involves expressing the rational function as a sum of simpler fractions, which can then be integrated separately.                        Step 1: Factor the denominator as: Step 2: Partial fraction decomposition of the function is: Step 3: Find the values of A and B by multiplying both sides of the equation by the denominator and then equating the coefficients of the powers of x on both sides of the equation. We get:   Expand: Equating the coefficients of x and the constant term, we get: and Solving these equations, we get: and Step 4: Now, we can write the function as: Step 5: Now, we can integrate the function as:       Step 1: Partial fraction decomposition of the function is: Step 2: Find the values of A and B by multiplying both sides of the equation by the denominator and then equating the coefficients of the powers of x on both sides of the equation. We get: Step 3: Expand: Equating the coefficients of x and the constant term, we get: and Solving these equations, we get: and Step 4: Now, we can write the function as: Step 5: Now, we can integrate the function as:           Integration by Parts:  The integration by parts is a method of integration which is used to integrate the product of two functions. The formula for integration by parts is given by: where and are two functions of , and and are their respective derivatives and antiderivatives.  A commonly used mnemonics for choosing u (the function to differentiate) and dv (the function to integrate) in integration by parts is the ILATE rule (choose u in this priority order): Inverse trigonometric, Logarithmic, Algebraic (polynomials), Trigonometric, Exponential.                                       Let and       Let and   Now, we need to apply integration by parts again to evaluate the integral . Let and   Now we can write the final answer as:     Let and        Let and   Now, we need to apply integration by parts again to evaluate the integral . Let and   Now we can write the final answer as:       Let and   Now, we need to apply integration by parts again to evaluate the integral . Let and   Now we can write the final answer as:           "
 },
 {
   "id": "subsubsec-inspection-2",
@@ -4771,22 +4771,31 @@ var ptx_lunr_docs = [
   "body": "  Integrate the functions:                        Let       put         put         "
 },
 {
-  "id": "subsubsec-partial_fraction-2",
+  "id": "subsubsec-partial_fraction-3",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsubsec-partial_fraction-2",
+  "url": "sec_fourth-integ.html#subsubsec-partial_fraction-3",
   "type": "Example",
   "number": "4.1.12",
   "title": "",
-  "body": "                 "
+  "body": "                      Step 1: Factor the denominator as: Step 2: Partial fraction decomposition of the function is: Step 3: Find the values of A and B by multiplying both sides of the equation by the denominator and then equating the coefficients of the powers of x on both sides of the equation. We get:   Expand: Equating the coefficients of x and the constant term, we get: and Solving these equations, we get: and Step 4: Now, we can write the function as: Step 5: Now, we can integrate the function as:       Step 1: Partial fraction decomposition of the function is: Step 2: Find the values of A and B by multiplying both sides of the equation by the denominator and then equating the coefficients of the powers of x on both sides of the equation. We get: Step 3: Expand: Equating the coefficients of x and the constant term, we get: and Solving these equations, we get: and Step 4: Now, we can write the function as: Step 5: Now, we can integrate the function as:        "
 },
 {
-  "id": "subsubsec-parts-2",
+  "id": "subsubsec-parts-3",
   "level": "2",
-  "url": "sec_fourth-integ.html#subsubsec-parts-2",
+  "url": "sec_fourth-integ.html#subsubsec-parts-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "ILATE "
+},
+{
+  "id": "subsubsec-parts-4",
+  "level": "2",
+  "url": "sec_fourth-integ.html#subsubsec-parts-4",
   "type": "Example",
   "number": "4.1.13",
   "title": "",
-  "body": "            "
+  "body": "                                    Let and       Let and   Now, we need to apply integration by parts again to evaluate the integral . Let and   Now we can write the final answer as:     Let and        Let and   Now, we need to apply integration by parts again to evaluate the integral . Let and   Now we can write the final answer as:       Let and   Now, we need to apply integration by parts again to evaluate the integral . Let and   Now we can write the final answer as:        "
 },
 {
   "id": "ex_fourth",
