@@ -119,15 +119,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.13.5';
+eBookConfig.runestone_version = '8.0.0';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.52176322e2c1dde5.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.bbf2283c5c1d4f99.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
-<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.b12a7b3f0773ebcd.css">
+<script src="_static/prefix-runtime.ce7e0a2163cb330f.bundle.js"></script><script src="_static/prefix-713.de0ab26248766350.bundle.js"></script><script src="_static/prefix-runestone.f4a2ffb04bb978bb.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-713.f43ced6a6134ea74.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.87414d180ebeebd6.css">
 <script src="https://sagecell.sagemath.org/static/embedded_sagecell.js"></script><script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script><script>// Make *any* div with class 'sagecell-sage' an executable Sage cell
 // Their results will be linked, only within language type
@@ -170,171 +170,200 @@ sagecell.makeSagecell({
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-interactive_quiz.html" class="internal"><span class="codenumber">1</span> <span class="title">Interactive Quizzes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_interactive-eqn.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Equations and Inequalities</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_interactive-fnc.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Quizzes on Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-function" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Determining if an Equation is a Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-grap-func" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Ploting of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-" class="internal"><span class="codenumber">1.2.3</span> <span class="title">Greatest Integer Function,  <span class="process-math">\(\lfloor x \rfloor\)</span> and Fractional Part Function, <span class="process-math">\(\{x\}\)</span></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-evn_odd" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Even and Odd Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-domain" class="internal"><span class="codenumber">1.2.5</span> <span class="title">Determing the Domain of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-range" class="internal"><span class="codenumber">1.2.6</span> <span class="title">Determing the Range of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-log_exp" class="internal"><span class="codenumber">1.2.7</span> <span class="title">Exponentail and Logarithms Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#subsec-composite_function" class="internal"><span class="codenumber">1.2.8</span> <span class="title">Composite Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-fnc.html#sec_interactive-fnc-11" class="internal"><span class="codenumber">1.2.9</span> <span class="title">Asymptotes and Graphs of Functions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_interactive-limits.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Points of Discontinuity in Limits</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_interactive-derivative.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Derivatives</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-derivative.html#subsec-short_derv" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Differentiation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-derivative.html#subsec-impl_func" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Implicit Differentiation</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_interactive-derivative.html#subsec-tngnt-norm" class="internal"><span class="codenumber">1.4.3</span> <span class="title">Tangent and Normal Lines</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-item toc-chapter contains-active">
-<div class="toc-title-box"><a href="ch-first.html" class="internal"><span class="codenumber">1</span> <span class="title">Numbers &amp; Functions</span></a></div>
+<div class="toc-title-box"><a href="ch-first.html" class="internal"><span class="codenumber">2</span> <span class="title">Numbers &amp; Functions</span></a></div>
 <ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Review</span></a></div>
+<div class="toc-title-box"><a href="sec_first-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Review</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-quadrt" class="internal"><span class="codenumber">1.1.1</span> <span class="title">Quadratic Equations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsec-quadrt" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Quadratic Equations</span></a></div></li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec_first-intro.html#subsec-numb_syst" class="internal"><span class="codenumber">1.1.2</span> <span class="title">Number Systems</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-number_notation" class="internal"><span class="codenumber">1.1.2.1</span> <span class="title">Standard Notations of Number Systems:</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-intro.html#subsec-numb_syst" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Number Systems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_first-intro.html#subsubsec-number_notation" class="internal"><span class="codenumber">2.1.2.1</span> <span class="title">Standard Notations of Number Systems:</span></a></div></li></ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-intervals.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></div>
+<div class="toc-title-box"><a href="sec_first-intervals.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Number Line <span class="process-math">\(\&amp;\)</span> Intervals</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">1.2.1</span> <span class="title">Inequality Rules</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-mod_fn" class="internal"><span class="codenumber">1.2.2</span> <span class="title">Modulus Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-ineqlt" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Inequality Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-intervals.html#subsec-mod_fn" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Modulus Functions</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-inequal.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Inequality</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-inequal.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Inequality</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-functions.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Function</span></a></div>
+<div class="toc-title-box"><a href="sec_first-functions.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Function</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-func_type" class="internal"><span class="codenumber">1.4.1</span> <span class="title">Types of Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-graph" class="internal"><span class="codenumber">1.4.2</span> <span class="title">Graph of some Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-gif-fpf" class="internal"><span class="codenumber">1.4.3</span> <span class="title">GIF and FPF</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-func_type" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Types of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-graph" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Graph of some Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-functions.html#subsec-gif-fpf" class="internal"><span class="codenumber">2.4.3</span> <span class="title">GIF and FPF</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-domain.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Domain</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-domain.html#subsec-dom_ex" class="internal"><span class="codenumber">1.5.1</span> <span class="title">Determining Domain:</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-domain.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Domain</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-domain.html#subsec-dom_ex" class="internal"><span class="codenumber">2.5.1</span> <span class="title">Determining Domain:</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-range.html" class="internal"><span class="codenumber">1.6</span> <span class="title">Range</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-range.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Range</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-asympt.html" class="internal"><span class="codenumber">1.7</span> <span class="title">Asymptote</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-asympt.html#subsec-asympt_gr" class="internal"><span class="codenumber">1.7.1</span> <span class="title">Graph of Asymptotic Functions</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-asympt.html" class="internal"><span class="codenumber">2.7</span> <span class="title">Asymptote</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-asympt.html#subsec-asympt_gr" class="internal"><span class="codenumber">2.7.1</span> <span class="title">Graph of Asymptotic Functions</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="sec_first-log.html" class="internal"><span class="codenumber">1.8</span> <span class="title">Logarithm</span></a></div>
+<div class="toc-title-box"><a href="sec_first-log.html" class="internal"><span class="codenumber">2.8</span> <span class="title">Logarithm</span></a></div>
 <ul class="structural toc-item-list active">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_plot" class="internal"><span class="codenumber">1.8.1</span> <span class="title">Graph of Lagarithimic Function:</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_rule" class="internal"><span class="codenumber">1.8.2</span> <span class="title">Logarithmic Rules</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-exp_eqn" class="internal"><span class="codenumber">1.8.3</span> <span class="title">Solving Exponential Equations.</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_eqn" class="internal"><span class="codenumber">1.8.4</span> <span class="title">Solving Logarithmic Equations.</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-appl" class="internal"><span class="codenumber">1.8.5</span> <span class="title">Applications of Logarithmic Expression</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_plot" class="internal"><span class="codenumber">2.8.1</span> <span class="title">Graph of Lagarithimic Function:</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_rule" class="internal"><span class="codenumber">2.8.2</span> <span class="title">Logarithmic Rules</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-exp_eqn" class="internal"><span class="codenumber">2.8.3</span> <span class="title">Solving Exponential Equations.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-log_eqn" class="internal"><span class="codenumber">2.8.4</span> <span class="title">Solving Logarithmic Equations.</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-log.html#subsec-appl" class="internal"><span class="codenumber">2.8.5</span> <span class="title">Applications of Logarithmic Expression</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_second-funct-gr.html" class="internal"><span class="codenumber">1.9</span> <span class="title">The Graph of Functions</span></a></div>
+<div class="toc-title-box"><a href="sec_second-funct-gr.html" class="internal"><span class="codenumber">2.9</span> <span class="title">The Graph of Functions</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-trnsform" class="internal"><span class="codenumber">1.9.1</span> <span class="title">Transformation of Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">1.9.2</span> <span class="title">Transformation of Graph</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-trnsform" class="internal"><span class="codenumber">2.9.1</span> <span class="title">Transformation of Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_transf" class="internal"><span class="codenumber">2.9.2</span> <span class="title">Transformation of Graph</span></a></div></li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">1.9.3</span> <span class="title">Graph of Quadratic Function</span></a></div>
+<div class="toc-title-box"><a href="sec_second-funct-gr.html#subsec-gr_funct" class="internal"><span class="codenumber">2.9.3</span> <span class="title">Graph of Quadratic Function</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">1.9.3.1</span> <span class="title">Special Graphs</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-first_example" class="internal"><span class="codenumber">1.9.3.2</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-spcl_gr" class="internal"><span class="codenumber">2.9.3.1</span> <span class="title">Special Graphs</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_second-funct-gr.html#subsubsec-first_example" class="internal"><span class="codenumber">2.9.3.2</span> <span class="title">Examples</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-comp.html" class="internal"><span class="codenumber">1.10</span> <span class="title">Combinations of Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_first-comp.html" class="internal"><span class="codenumber">2.10</span> <span class="title">Combinations of Functions</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_first-inverse.html" class="internal"><span class="codenumber">1.11</span> <span class="title">Inverse Functions</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-inverse.html#subsec-invrs_trig" class="internal"><span class="codenumber">1.11.1</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li></ul>
+<div class="toc-title-box"><a href="sec_first-inverse.html" class="internal"><span class="codenumber">2.11</span> <span class="title">Inverse Functions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_first-inverse.html#subsec-invrs_trig" class="internal"><span class="codenumber">2.11.1</span> <span class="title">Inverse Trigonometric Functions</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">1.12</span> <span class="title">Exercise</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-second.html" class="internal"><span class="codenumber">2</span> <span class="title">Introduction to Calculus</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Limits</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-sided_lmt" class="internal"><span class="codenumber">2.1.1</span> <span class="title">One-Sided Limits</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-def-limit" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Definition of Limit</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-direct-subst" class="internal"><span class="codenumber">2.1.3</span> <span class="title">Evaluate Limit</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-onesd_lmt" class="internal"><span class="codenumber">2.1.4</span> <span class="title">One-Sided Limits</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-linfty" class="internal"><span class="codenumber">2.1.5</span> <span class="title">Limit at Infinity</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-lindet" class="internal"><span class="codenumber">2.1.6</span> <span class="title">Indeterminate Form</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-losc" class="internal"><span class="codenumber">2.1.7</span> <span class="title">Oscillating Function</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-tangnt" class="internal"><span class="codenumber">2.1.8</span> <span class="title">Difference Quotient:</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_second-lmtlaws.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Limit Laws</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-sqzt" class="internal"><span class="codenumber">2.2.1</span> <span class="title">Squeeze Theorem</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-std_lmt" class="internal"><span class="codenumber">2.2.2</span> <span class="title">Some Standard Limits</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm2" class="internal"><span class="codenumber">2.2.3</span> <span class="title"><span class="process-math">\(0\times\infty, \infty^0, \)</span> and <span class="process-math">\(0^0\)</span> Forms</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm3" class="internal"><span class="codenumber">2.2.4</span> <span class="title"><span class="process-math">\(\infty-\infty \)</span> Forms</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleA.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Example A</span></a></div></li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_second-contf.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Continuity</span></a></div>
-<ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contFns" class="internal"><span class="codenumber">2.4.1</span> <span class="title">Types of Continuous Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-dscont_type" class="internal"><span class="codenumber">2.4.2</span> <span class="title">Types of Discontinuities</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-holes" class="internal"><span class="codenumber">2.4.3</span> <span class="title">Holes</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">2.4.4</span> <span class="title">Continuity on an Interval</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">2.4.5</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-ivt" class="internal"><span class="codenumber">2.4.6</span> <span class="title">Intermediate Value Theorem</span></a></div></li>
-</ul>
-</li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleB.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Example B</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">2.6</span> <span class="title">Exercise</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_first.html" class="internal"><span class="codenumber">2.12</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-third.html" class="internal"><span class="codenumber">3</span> <span class="title">Differentiation</span></a></div>
+<div class="toc-title-box"><a href="ch-second.html" class="internal"><span class="codenumber">3</span> <span class="title">Introduction to Calculus</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_third-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Derivative (First Principle)</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec-drvt" class="internal"><span class="codenumber">3.1.1</span> <span class="title">Derivative using First Principle</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_third-diff.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Derivative (short cut rule)</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-diff.html#subsec-st_derv" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Standard Derivatives</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-invrse.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Derivatives of Inverse Functions</span></a></div></li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_third-implct.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Implicit Differentiation</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-implct.html#subsec-paramtrc" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Parametric Functions</span></a></div></li></ul>
-</li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-diffblt.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Differentiability</span></a></div></li>
-<li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_third-appl-drvt.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Application of Derivative</span></a></div>
+<div class="toc-title-box"><a href="sec_second-intro.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Limits</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-rate-msr" class="internal"><span class="codenumber">3.6.1</span> <span class="title">Measurement of Rate</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-apprx" class="internal"><span class="codenumber">3.6.2</span> <span class="title">Approximatation and error analysis</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-tngnt" class="internal"><span class="codenumber">3.6.3</span> <span class="title">Tangent and Normal at a Point</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-rolls_th" class="internal"><span class="codenumber">3.6.4</span> <span class="title">Rolle’s Theorem</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-meanv_th" class="internal"><span class="codenumber">3.6.5</span> <span class="title">Mean Value Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-sided_lmt" class="internal"><span class="codenumber">3.1.1</span> <span class="title">One-Sided Limits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-def-limit" class="internal"><span class="codenumber">3.1.2</span> <span class="title">Definition of Limit</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-direct-subst" class="internal"><span class="codenumber">3.1.3</span> <span class="title">Evaluate Limit</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-onesd_lmt" class="internal"><span class="codenumber">3.1.4</span> <span class="title">One-Sided Limits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-linfty" class="internal"><span class="codenumber">3.1.5</span> <span class="title">Limit at Infinity</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-lindet" class="internal"><span class="codenumber">3.1.6</span> <span class="title">Indeterminate Form</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-losc" class="internal"><span class="codenumber">3.1.7</span> <span class="title">Oscillating Function</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-intro.html#subsec-tangnt" class="internal"><span class="codenumber">3.1.8</span> <span class="title">Difference Quotient:</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-lmtlaws.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Limit Laws</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-sqzt" class="internal"><span class="codenumber">3.2.1</span> <span class="title">Squeeze Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-std_lmt" class="internal"><span class="codenumber">3.2.2</span> <span class="title">Some Standard Limits</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm2" class="internal"><span class="codenumber">3.2.3</span> <span class="title"><span class="process-math">\(0\times\infty, \infty^0, \)</span> and <span class="process-math">\(0^0\)</span> Forms</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-lmtlaws.html#subsec-inderForm3" class="internal"><span class="codenumber">3.2.4</span> <span class="title"><span class="process-math">\(\infty-\infty \)</span> Forms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleA.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Example A</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_second-contf.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Continuity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contFns" class="internal"><span class="codenumber">3.4.1</span> <span class="title">Types of Continuous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-dscont_type" class="internal"><span class="codenumber">3.4.2</span> <span class="title">Types of Discontinuities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-holes" class="internal"><span class="codenumber">3.4.3</span> <span class="title">Holes</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-int_cont" class="internal"><span class="codenumber">3.4.4</span> <span class="title">Continuity on an Interval</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-contf_proprt" class="internal"><span class="codenumber">3.4.5</span> <span class="title">Properties of Continuous Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_second-contf.html#subsec-ivt" class="internal"><span class="codenumber">3.4.6</span> <span class="title">Intermediate Value Theorem</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_second-exampleB.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Example B</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_second.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Exercise</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-third.html" class="internal"><span class="codenumber">4</span> <span class="title">Differentiation</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-intro.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Derivative (First Principle)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-intro.html#subsec-drvt" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Derivative using First Principle</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-diff.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Derivative (short cut rule)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-diff.html#subsec-st_derv" class="internal"><span class="codenumber">4.2.1</span> <span class="title">Standard Derivatives</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-invrse.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Derivatives of Inverse Functions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-implct.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Implicit Differentiation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-implct.html#subsec-paramtrc" class="internal"><span class="codenumber">4.4.1</span> <span class="title">Parametric Functions</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-diffblt.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Differentiability</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec_third-appl-drvt.html" class="internal"><span class="codenumber">4.6</span> <span class="title">Application of Derivative</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-rate-msr" class="internal"><span class="codenumber">4.6.1</span> <span class="title">Measurement of Rate</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-apprx" class="internal"><span class="codenumber">4.6.2</span> <span class="title">Approximatation and error analysis</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-tngnt" class="internal"><span class="codenumber">4.6.3</span> <span class="title">Tangent and Normal at a Point</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-rolls_th" class="internal"><span class="codenumber">4.6.4</span> <span class="title">Rolle’s Theorem</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-meanv_th" class="internal"><span class="codenumber">4.6.5</span> <span class="title">Mean Value Theorem</span></a></div></li>
 <li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-max_min" class="internal"><span class="codenumber">3.6.6</span> <span class="title">Maxima and Minima</span></a></div>
+<div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsec-max_min" class="internal"><span class="codenumber">4.6.6</span> <span class="title">Maxima and Minima</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsubsec-loc_max" class="internal"><span class="codenumber">3.6.6.1</span> <span class="title">Local Maxima</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsubsec-loc_min" class="internal"><span class="codenumber">3.6.6.2</span> <span class="title">Local Minima</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsubsec-loc_max" class="internal"><span class="codenumber">4.6.6.1</span> <span class="title">Local Maxima</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_third-appl-drvt.html#subsubsec-loc_min" class="internal"><span class="codenumber">4.6.6.2</span> <span class="title">Local Minima</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Examples</span></a></div></li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Exercise</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec_third-examples.html" class="internal"><span class="codenumber">4.7</span> <span class="title">Examples</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_third.html" class="internal"><span class="codenumber">4.8</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-fourth.html" class="internal"><span class="codenumber">4</span> <span class="title">Antiderivative</span></a></div>
+<div class="toc-title-box"><a href="ch-fourth.html" class="internal"><span class="codenumber">5</span> <span class="title">Antiderivative</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec_fourth-integ.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Integrations</span></a></div>
+<div class="toc-title-box"><a href="sec_fourth-integ.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Integrations</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="sec_fourth-integ.html#subsec-integ_methods" class="internal"><span class="codenumber">4.1.1</span> <span class="title">Methods of Integration</span></a></div>
+<div class="toc-title-box"><a href="sec_fourth-integ.html#subsec-integ_methods" class="internal"><span class="codenumber">5.1.1</span> <span class="title">Methods of Integration</span></a></div>
 <ul class="structural toc-item-list">
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-inspection" class="internal"><span class="codenumber">4.1.1.1</span> <span class="title">Integration by Inspection Method:</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-substitution" class="internal"><span class="codenumber">4.1.1.2</span> <span class="title">Integration by Substitution Method:</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-partial_fraction" class="internal"><span class="codenumber">4.1.1.3</span> <span class="title">Integration using Partial Fractions:</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-parts" class="internal"><span class="codenumber">4.1.1.4</span> <span class="title">Integration by Parts:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-inspection" class="internal"><span class="codenumber">5.1.1.1</span> <span class="title">Integration by Inspection Method:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-substitution" class="internal"><span class="codenumber">5.1.1.2</span> <span class="title">Integration by Substitution Method:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-partial_fraction" class="internal"><span class="codenumber">5.1.1.3</span> <span class="title">Integration using Partial Fractions:</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec_fourth-integ.html#subsubsec-parts" class="internal"><span class="codenumber">5.1.1.4</span> <span class="title">Integration by Parts:</span></a></div></li>
 </ul>
 </li></ul>
 </li>
-<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Exercise</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a href="ex_fourth.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Exercise</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-backmatter">
@@ -370,7 +399,7 @@ sagecell.makeSagecell({
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec_first-log"><h2 class="heading hide-type">
-<span class="type">Section</span><span class="space"> </span><span class="codenumber">1.8</span><span class="space"> </span><span class="title">Logarithm</span>
+<span class="type">Section</span><span class="space"> </span><span class="codenumber">2.8</span><span class="space"> </span><span class="title">Logarithm</span>
 </h2>
 <section class="introduction" id="sec_first-log-2"><div class="para logical" id="sec_first-log-2-1">
 <div class="para">A function that gives the exponent to which a fixed number (base) must be raised to produce a given number (argument) is called a logarithmic function. </div>
@@ -465,7 +494,7 @@ a^x=y
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="sec_first-log-2-7"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.1</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.1</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_first-log-2-7-1">
 <div class="para"><dfn class="terminology">Evaluate:</dfn></div>
@@ -503,7 +532,7 @@ a^x=y
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.1"><a href="#sec_first-log-2-7" title="Copy heading and permalink for Example 1.8.1">🔗</a></div></article><div class="para logical" id="sec_first-log-2-8">
+<div class="autopermalink" data-description="Example 2.8.1"><a href="#sec_first-log-2-7" title="Copy heading and permalink for Example 2.8.1">🔗</a></div></article><div class="para logical" id="sec_first-log-2-8">
 <div class="para"><dfn class="terminology">Logarithm to Exponent Conversion:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -513,7 +542,7 @@ y=\log_{b}{(x)} \rightarrow \, x= b^y
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="sec_first-log-2-9"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.2</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.2</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_first-log-2-9-1">
 <ol class="decimal" id="sec_first-log-2-9-1-1">
@@ -542,7 +571,7 @@ y=\log_{b}{(x)} \rightarrow \, x= b^y
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-9-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.2"><a href="#sec_first-log-2-9" title="Copy heading and permalink for Example 1.8.2">🔗</a></div></article><div class="para logical" id="sec_first-log-2-10">
+<div class="autopermalink" data-description="Example 2.8.2"><a href="#sec_first-log-2-9" title="Copy heading and permalink for Example 2.8.2">🔗</a></div></article><div class="para logical" id="sec_first-log-2-10">
 <div class="para"><dfn class="terminology">Exponent to Logarithm Conversion:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -552,7 +581,7 @@ b^m=n \rightarrow \, m= \log_{b}{(n)}
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-10" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="sec_first-log-2-11"><h3 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.3</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.3</span><span class="period">.</span>
 </h3>
 <div class="para logical" id="sec_first-log-2-11-1">
 <ol class="decimal" id="sec_first-log-2-11-1-1">
@@ -581,8 +610,8 @@ b^m=n \rightarrow \, m= \log_{b}{(n)}
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#sec_first-log-2-11-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.3"><a href="#sec_first-log-2-11" title="Copy heading and permalink for Example 1.8.3">🔗</a></div></article></section><section class="subsection" id="subsec-log_plot"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.8.1</span><span class="space"> </span><span class="title">Graph of Lagarithimic Function:</span>
+<div class="autopermalink" data-description="Example 2.8.3"><a href="#sec_first-log-2-11" title="Copy heading and permalink for Example 2.8.3">🔗</a></div></article></section><section class="subsection" id="subsec-log_plot"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.8.1</span><span class="space"> </span><span class="title">Graph of Lagarithimic Function:</span>
 </h3>
 <div class="para logical" id="subsec-log_plot-2">
 <div class="para"><span class="process-math">\(y=\log_{2}{(x)} \rightarrow \, x= 2^y\)</span></div>
@@ -601,10 +630,10 @@ x &amp; y  \\ \hline
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_plot-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <figure class="figure figure-like" id="subsec-log_plot-3"><div class="image-box" style="width: 50%; margin-left: 25%; margin-right: 25%;"><img src="external/log2.png" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">1.8.4<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 1.8.4"><a href="#subsec-log_plot-3" title="Copy heading and permalink for Figure 1.8.4">🔗</a></div></figcaption></figure><div class="para" id="subsec-log_plot-4">Domain: <span class="process-math">\({x \in \mathbb R|x\gt 0}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_plot-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.8.4<span class="period">.</span></span><span class="space"> </span><div class="autopermalink" data-description="Figure 2.8.4"><a href="#subsec-log_plot-3" title="Copy heading and permalink for Figure 2.8.4">🔗</a></div></figcaption></figure><div class="para" id="subsec-log_plot-4">Domain: <span class="process-math">\({x \in \mathbb R|x\gt 0}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_plot-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 1.8.1: Graph of Lagarithimic Function:"><a href="#subsec-log_plot" title="Copy heading and permalink for Subsection 1.8.1: Graph of Lagarithimic Function:">🔗</a></div></section><section class="subsection" id="subsec-log_rule"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.8.2</span><span class="space"> </span><span class="title">Logarithmic Rules</span>
+<div class="autopermalink" data-description="Subsection 2.8.1: Graph of Lagarithimic Function:"><a href="#subsec-log_plot" title="Copy heading and permalink for Subsection 2.8.1: Graph of Lagarithimic Function:">🔗</a></div></section><section class="subsection" id="subsec-log_rule"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.8.2</span><span class="space"> </span><span class="title">Logarithmic Rules</span>
 </h3>
 <div class="para logical" id="subsec-log_rule-2">
 <div class="para"><dfn class="terminology">Power Rule:</dfn></div>
@@ -616,7 +645,7 @@ x &amp; y  \\ \hline
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="subsec-log_rule-3"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.5</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.5</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="subsec-log_rule-3-1">
 <ol class="decimal" id="subsec-log_rule-3-1-1">
@@ -657,7 +686,7 @@ x &amp; y  \\ \hline
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-3-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.5"><a href="#subsec-log_rule-3" title="Copy heading and permalink for Example 1.8.5">🔗</a></div></article><div class="para logical" id="subsec-log_rule-4">
+<div class="autopermalink" data-description="Example 2.8.5"><a href="#subsec-log_rule-3" title="Copy heading and permalink for Example 2.8.5">🔗</a></div></article><div class="para logical" id="subsec-log_rule-4">
 <div class="para"><dfn class="terminology">Product Rule:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -667,7 +696,7 @@ x &amp; y  \\ \hline
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-4" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="subsec-log_rule-5"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.6</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.6</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="subsec-log_rule-5-1">
 <ol class="decimal" id="subsec-log_rule-5-1-1">
@@ -686,7 +715,7 @@ x &amp; y  \\ \hline
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-5-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.6"><a href="#subsec-log_rule-5" title="Copy heading and permalink for Example 1.8.6">🔗</a></div></article><div class="para logical" id="subsec-log_rule-6">
+<div class="autopermalink" data-description="Example 2.8.6"><a href="#subsec-log_rule-5" title="Copy heading and permalink for Example 2.8.6">🔗</a></div></article><div class="para logical" id="subsec-log_rule-6">
 <div class="para"><dfn class="terminology">Quotient Rule:</dfn></div>
 <div class="displaymath process-math">
 \begin{equation*}
@@ -696,12 +725,12 @@ x &amp; y  \\ \hline
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-6" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="subsec-log_rule-7"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.7</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.7</span><span class="period">.</span>
 </h4>
 <div class="para" id="subsec-log_rule-7-1">
 <span class="process-math">\(\log_{4}{(30)} -  \log_{4}{(60)}=  \log_{4}{(\frac{30}{60})} =\log_{4}{5} \approx 1.16\)</span><div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-7-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.7"><a href="#subsec-log_rule-7" title="Copy heading and permalink for Example 1.8.7">🔗</a></div></article><div class="para logical" id="subsec-log_rule-8">
+<div class="autopermalink" data-description="Example 2.8.7"><a href="#subsec-log_rule-7" title="Copy heading and permalink for Example 2.8.7">🔗</a></div></article><div class="para logical" id="subsec-log_rule-8">
 <div class="para"><dfn class="terminology">Other Rules or Tricks:</dfn></div>
 <ol class="decimal" id="subsec-log_rule-8-2">
 <li id="subsec-log_rule-8-2-1">
@@ -748,7 +777,7 @@ x &amp; y  \\ \hline
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-8" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
 <article class="example example-like" id="subsec-log_rule-9"><h4 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.8.8</span><span class="period">.</span>
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.8.8</span><span class="period">.</span>
 </h4>
 <div class="para logical" id="subsec-log_rule-9-1">
 <ol class="decimal" id="subsec-log_rule-9-1-1">
@@ -773,8 +802,8 @@ x &amp; y  \\ \hline
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_rule-9-1" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Example 1.8.8"><a href="#subsec-log_rule-9" title="Copy heading and permalink for Example 1.8.8">🔗</a></div></article><div class="autopermalink" data-description="Subsection 1.8.2: Logarithmic Rules"><a href="#subsec-log_rule" title="Copy heading and permalink for Subsection 1.8.2: Logarithmic Rules">🔗</a></div></section><section class="subsection" id="subsec-exp_eqn"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.8.3</span><span class="space"> </span><span class="title">Solving Exponential Equations.</span>
+<div class="autopermalink" data-description="Example 2.8.8"><a href="#subsec-log_rule-9" title="Copy heading and permalink for Example 2.8.8">🔗</a></div></article><div class="autopermalink" data-description="Subsection 2.8.2: Logarithmic Rules"><a href="#subsec-log_rule" title="Copy heading and permalink for Subsection 2.8.2: Logarithmic Rules">🔗</a></div></section><section class="subsection" id="subsec-exp_eqn"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.8.3</span><span class="space"> </span><span class="title">Solving Exponential Equations.</span>
 </h3>
 <div class="para logical" id="subsec-exp_eqn-2">
 <ol class="decimal" id="subsec-exp_eqn-2-1">
@@ -835,8 +864,8 @@ or, \, x \log{(2)} \amp = (2x-5) \log{(7)} = 2x \log{(7)} -5 \log{(7)}\\
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-exp_eqn-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 1.8.3: Solving Exponential Equations."><a href="#subsec-exp_eqn" title="Copy heading and permalink for Subsection 1.8.3: Solving Exponential Equations.">🔗</a></div></section><section class="subsection" id="subsec-log_eqn"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.8.4</span><span class="space"> </span><span class="title">Solving Logarithmic Equations.</span>
+<div class="autopermalink" data-description="Subsection 2.8.3: Solving Exponential Equations."><a href="#subsec-exp_eqn" title="Copy heading and permalink for Subsection 2.8.3: Solving Exponential Equations.">🔗</a></div></section><section class="subsection" id="subsec-log_eqn"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.8.4</span><span class="space"> </span><span class="title">Solving Logarithmic Equations.</span>
 </h3>
 <div class="para logical" id="subsec-log_eqn-2">
 <ol class="decimal" id="subsec-log_eqn-2-1">
@@ -927,8 +956,8 @@ or, 10^1 \amp = x^2+9x+18 \, \text{ on removing log }\\
 </ol>
 <div class="autopermalink" data-description="Paragraph"><a href="#subsec-log_eqn-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" data-description="Subsection 1.8.4: Solving Logarithmic Equations."><a href="#subsec-log_eqn" title="Copy heading and permalink for Subsection 1.8.4: Solving Logarithmic Equations.">🔗</a></div></section><section class="subsection" id="subsec-appl"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.8.5</span><span class="space"> </span><span class="title">Applications of Logarithmic Expression</span>
+<div class="autopermalink" data-description="Subsection 2.8.4: Solving Logarithmic Equations."><a href="#subsec-log_eqn" title="Copy heading and permalink for Subsection 2.8.4: Solving Logarithmic Equations.">🔗</a></div></section><section class="subsection" id="subsec-appl"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.8.5</span><span class="space"> </span><span class="title">Applications of Logarithmic Expression</span>
 </h3>
 <div class="para" id="subsec-appl-2">Logarithms can be used to analyze either very small or very large numbers. It has wide applications in science such as represent earthquake magnitude (Richter scale), sound intensity (decibels), and chemical acidity (pH scale).<div class="autopermalink" data-description="Paragraph"><a href="#subsec-appl-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -940,7 +969,7 @@ plot(log(x, 2), (x, 0.1, 10),
      gridlines=True,
      aspect_ratio='automatic')
 </script></div>
-<div class="autopermalink" data-description="Subsection 1.8.5: Applications of Logarithmic Expression"><a href="#subsec-appl" title="Copy heading and permalink for Subsection 1.8.5: Applications of Logarithmic Expression">🔗</a></div></section><div class="autopermalink" data-description="Section 1.8: Logarithm"><a href="#sec_first-log" title="Copy heading and permalink for Section 1.8: Logarithm">🔗</a></div></section></div>
+<div class="autopermalink" data-description="Subsection 2.8.5: Applications of Logarithmic Expression"><a href="#subsec-appl" title="Copy heading and permalink for Subsection 2.8.5: Applications of Logarithmic Expression">🔗</a></div></section><div class="autopermalink" data-description="Section 2.8: Logarithm"><a href="#sec_first-log" title="Copy heading and permalink for Section 2.8: Logarithm">🔗</a></div></section></div>
 <div id="ptx-content-footer" class="ptx-content-footer">
 <a class="previous-button button" href="sec_first-asympt.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec_second-funct-gr.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
