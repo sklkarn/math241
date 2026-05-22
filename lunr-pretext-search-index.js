@@ -1257,98 +1257,278 @@ var ptx_lunr_docs = [
   "url": "sec_interactive-limits.html",
   "type": "Section",
   "number": "1.3",
-  "title": "Points of Discontinuity in Limits",
-  "body": " Points of Discontinuity in Limits    Identify the point of discontinuity for the function \\(f(x) = \\frac{x^2 - 9}{x - 3}\\).     x = 3 (Removable)    x = 3 (Infinite)    x = -3 (Jump)    No discontinuity       Where is the function \\(f(x) = \\frac{1}{x^2 - 4}\\) discontinuous?     x = 2 only    x = 4 only    x = 2 and x = -2    x = 0       What type of discontinuity exists at x = 0 for \\(f(x) = \\frac{\\sin(x)}{x}\\)?     Jump Discontinuity    Removable Discontinuity    Infinite Discontinuity    The function is continuous       For \\(f(x) = \\frac{x+2}{x^2+5x+6}\\), identify the vertical asymptote(s).     x = -2 and x = -3    x = -2 only    x = -3 only    x = 3 only       A jump discontinuity occurs when:     The left and right hand limits are equal but do not equal the function value.    The limit goes to infinity.    The left and right hand limits exist but are not equal.    The function is undefined at that point only.       Identify the point of discontinuity for \\(f(x) = \\ln(x)\\).     x = 1    x = e    x = 0    There are no points of discontinuity in its domain.       Find the value of \\(k\\) that makes \\(f(x)\\) continuous at x = 2: \\( f(x) = \\begin{cases} x^2 & \\text{if } x \\le 2 \\\\ kx & \\text{if } x > 2 \\end{cases} \\).     k = 1    k = 2    k = 4    k = 0       Which function has an infinite discontinuity at x = 0?     \\(f(x) = x\/x\\)    \\(f(x) = 1\/x\\)    \\(f(x) = \\sin(x)\\)    \\(f(x) = |x|\/x\\)       The function \\(f(x) = \\frac{x-1}{x^2-1}\\) has:     A hole at x = 1 and asymptote at x = -1    A hole at x = -1 and asymptote at x = 1    Two asymptotes    Two holes       If \\(\\lim_{x \\to c} f(x)\\) does not exist, the function is definitely discontinuous at c.     True    False     "
+  "title": "Limits Quiz",
+  "body": " Limits Quiz       Evaluating Limits    Evaluate:     4    2    0    6       Evaluate:     6    3    0    Undefined       Evaluate:     2.5    0    5    Infinity       Evaluate:     2    -2    0       Evaluate:     0    1    Undefined       Evaluate:     4    2    1       Evaluate:     1\/\\pi    1    \\pi       Evaluate:     a\/b    b\/a    1       Evaluate:     5    1    0       Evaluate:     2    1\/2    1       Pieceweise Functions in Limits    Evaluate the limit of the function as :      5    4    1    0       Find for the function:      4    2    6    0       Determine if exists for:     Yes, the limit is 1    No, because there is a jump    Yes, the limit is 0    No, because e^x is undefined       Find the right-hand limit as :     2    3    4    Does Not Exist       What value of would make the limit exist at ?     -2    2    6    0       Evaluate if:     -3    1    0    Does Not Exist       Identify the type of discontinuity at :     Infinite Discontinuity    Jump Discontinuity    Removable Discontinuity    Continuous       Find for:     5    7    -1    6       Given , what is the exact value of ?     0    -2    Undefined    1       If and , the two-sided limit exists if and only if:     L = M    L != M    L + M = 0    L = f(a)       Points of Discontinuity in Limits    Identify the point of discontinuity for the function \\(f(x) = \\frac{x^2 - 9}{x - 3}\\).     x = 3 (Removable)    x = 3 (Infinite)    x = -3 (Jump)    No discontinuity       Where is the function \\(f(x) = \\frac{1}{x^2 - 4}\\) discontinuous?     x = 2 only    x = 4 only    x = 2 and x = -2    x = 0       What type of discontinuity exists at x = 0 for \\(f(x) = \\frac{\\sin(x)}{x}\\)?     Jump Discontinuity    Removable Discontinuity    Infinite Discontinuity    The function is continuous       For , identify the vertical asymptote(s).     x = -2 and x = -3    x = -2 only    x = -3 only    x = 3 only       A jump discontinuity occurs when:     The left and right hand limits are equal but do not equal the function value.    The limit goes to infinity.    The left and right hand limits exist but are not equal.    The function is undefined at that point only.       Identify the point of discontinuity for .     x = 1    x = e    x = 0    There are no points of discontinuity in its domain.       Find the value of \\(k\\) that makes \\(f(x)\\) continuous at x = 2: .     k = 1    k = 2    k = 4    k = 0       Which function has an infinite discontinuity at x = 0?     \\(f(x) = x\/x\\)    \\(f(x) = 1\/x\\)    \\(f(x) = \\sin(x)\\)    \\(f(x) = |x|\/x\\)       The function has:     A hole at x = 1 and asymptote at x = -1    A hole at x = -1 and asymptote at x = 1    Two asymptotes    Two holes       If does not exist, the function is definitely discontinuous at c.     True    False      "
 },
 {
-  "id": "sec_interactive-limits-2",
+  "id": "subsec-limits-2",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-2",
+  "url": "sec_interactive-limits.html#subsec-limits-2",
   "type": "Checkpoint",
   "number": "1.3.1",
+  "title": "",
+  "body": "  Evaluate:     4    2    0    6    "
+},
+{
+  "id": "subsec-limits-3",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-3",
+  "type": "Checkpoint",
+  "number": "1.3.2",
+  "title": "",
+  "body": "  Evaluate:     6    3    0    Undefined    "
+},
+{
+  "id": "subsec-limits-4",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-4",
+  "type": "Checkpoint",
+  "number": "1.3.3",
+  "title": "",
+  "body": "  Evaluate:     2.5    0    5    Infinity    "
+},
+{
+  "id": "subsec-limits-5",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-5",
+  "type": "Checkpoint",
+  "number": "1.3.4",
+  "title": "",
+  "body": "  Evaluate:     2    -2    0    "
+},
+{
+  "id": "subsec-limits-6",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-6",
+  "type": "Checkpoint",
+  "number": "1.3.5",
+  "title": "",
+  "body": "  Evaluate:     0    1    Undefined    "
+},
+{
+  "id": "subsec-limits-7",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-7",
+  "type": "Checkpoint",
+  "number": "1.3.6",
+  "title": "",
+  "body": "  Evaluate:     4    2    1    "
+},
+{
+  "id": "subsec-limits-8",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-8",
+  "type": "Checkpoint",
+  "number": "1.3.7",
+  "title": "",
+  "body": "  Evaluate:     1\/\\pi    1    \\pi    "
+},
+{
+  "id": "subsec-limits-9",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-9",
+  "type": "Checkpoint",
+  "number": "1.3.8",
+  "title": "",
+  "body": "  Evaluate:     a\/b    b\/a    1    "
+},
+{
+  "id": "subsec-limits-10",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-10",
+  "type": "Checkpoint",
+  "number": "1.3.9",
+  "title": "",
+  "body": "  Evaluate:     5    1    0    "
+},
+{
+  "id": "subsec-limits-11",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-limits-11",
+  "type": "Checkpoint",
+  "number": "1.3.10",
+  "title": "",
+  "body": "  Evaluate:     2    1\/2    1    "
+},
+{
+  "id": "subsec-piecewise_lmt-2",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-2",
+  "type": "Checkpoint",
+  "number": "1.3.11",
+  "title": "",
+  "body": "  Evaluate the limit of the function as :      5    4    1    0    "
+},
+{
+  "id": "subsec-piecewise_lmt-3",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-3",
+  "type": "Checkpoint",
+  "number": "1.3.12",
+  "title": "",
+  "body": "  Find for the function:      4    2    6    0    "
+},
+{
+  "id": "subsec-piecewise_lmt-4",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-4",
+  "type": "Checkpoint",
+  "number": "1.3.13",
+  "title": "",
+  "body": "  Determine if exists for:     Yes, the limit is 1    No, because there is a jump    Yes, the limit is 0    No, because e^x is undefined    "
+},
+{
+  "id": "subsec-piecewise_lmt-5",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-5",
+  "type": "Checkpoint",
+  "number": "1.3.14",
+  "title": "",
+  "body": "  Find the right-hand limit as :     2    3    4    Does Not Exist    "
+},
+{
+  "id": "subsec-piecewise_lmt-6",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-6",
+  "type": "Checkpoint",
+  "number": "1.3.15",
+  "title": "",
+  "body": "  What value of would make the limit exist at ?     -2    2    6    0    "
+},
+{
+  "id": "subsec-piecewise_lmt-7",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-7",
+  "type": "Checkpoint",
+  "number": "1.3.16",
+  "title": "",
+  "body": "  Evaluate if:     -3    1    0    Does Not Exist    "
+},
+{
+  "id": "subsec-piecewise_lmt-8",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-8",
+  "type": "Checkpoint",
+  "number": "1.3.17",
+  "title": "",
+  "body": "  Identify the type of discontinuity at :     Infinite Discontinuity    Jump Discontinuity    Removable Discontinuity    Continuous    "
+},
+{
+  "id": "subsec-piecewise_lmt-9",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-9",
+  "type": "Checkpoint",
+  "number": "1.3.18",
+  "title": "",
+  "body": "  Find for:     5    7    -1    6    "
+},
+{
+  "id": "subsec-piecewise_lmt-10",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-10",
+  "type": "Checkpoint",
+  "number": "1.3.19",
+  "title": "",
+  "body": "  Given , what is the exact value of ?     0    -2    Undefined    1    "
+},
+{
+  "id": "subsec-piecewise_lmt-11",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-piecewise_lmt-11",
+  "type": "Checkpoint",
+  "number": "1.3.20",
+  "title": "",
+  "body": "  If and , the two-sided limit exists if and only if:     L = M    L != M    L + M = 0    L = f(a)    "
+},
+{
+  "id": "subsec-cont-2",
+  "level": "2",
+  "url": "sec_interactive-limits.html#subsec-cont-2",
+  "type": "Checkpoint",
+  "number": "1.3.21",
   "title": "",
   "body": "  Identify the point of discontinuity for the function \\(f(x) = \\frac{x^2 - 9}{x - 3}\\).     x = 3 (Removable)    x = 3 (Infinite)    x = -3 (Jump)    No discontinuity    "
 },
 {
-  "id": "sec_interactive-limits-3",
+  "id": "subsec-cont-3",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-3",
+  "url": "sec_interactive-limits.html#subsec-cont-3",
   "type": "Checkpoint",
-  "number": "1.3.2",
+  "number": "1.3.22",
   "title": "",
   "body": "  Where is the function \\(f(x) = \\frac{1}{x^2 - 4}\\) discontinuous?     x = 2 only    x = 4 only    x = 2 and x = -2    x = 0    "
 },
 {
-  "id": "sec_interactive-limits-4",
+  "id": "subsec-cont-4",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-4",
+  "url": "sec_interactive-limits.html#subsec-cont-4",
   "type": "Checkpoint",
-  "number": "1.3.3",
+  "number": "1.3.23",
   "title": "",
   "body": "  What type of discontinuity exists at x = 0 for \\(f(x) = \\frac{\\sin(x)}{x}\\)?     Jump Discontinuity    Removable Discontinuity    Infinite Discontinuity    The function is continuous    "
 },
 {
-  "id": "sec_interactive-limits-5",
+  "id": "subsec-cont-5",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-5",
+  "url": "sec_interactive-limits.html#subsec-cont-5",
   "type": "Checkpoint",
-  "number": "1.3.4",
+  "number": "1.3.24",
   "title": "",
-  "body": "  For \\(f(x) = \\frac{x+2}{x^2+5x+6}\\), identify the vertical asymptote(s).     x = -2 and x = -3    x = -2 only    x = -3 only    x = 3 only    "
+  "body": "  For , identify the vertical asymptote(s).     x = -2 and x = -3    x = -2 only    x = -3 only    x = 3 only    "
 },
 {
-  "id": "sec_interactive-limits-6",
+  "id": "subsec-cont-6",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-6",
+  "url": "sec_interactive-limits.html#subsec-cont-6",
   "type": "Checkpoint",
-  "number": "1.3.5",
+  "number": "1.3.25",
   "title": "",
   "body": "  A jump discontinuity occurs when:     The left and right hand limits are equal but do not equal the function value.    The limit goes to infinity.    The left and right hand limits exist but are not equal.    The function is undefined at that point only.    "
 },
 {
-  "id": "sec_interactive-limits-7",
+  "id": "subsec-cont-7",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-7",
+  "url": "sec_interactive-limits.html#subsec-cont-7",
   "type": "Checkpoint",
-  "number": "1.3.6",
+  "number": "1.3.26",
   "title": "",
-  "body": "  Identify the point of discontinuity for \\(f(x) = \\ln(x)\\).     x = 1    x = e    x = 0    There are no points of discontinuity in its domain.    "
+  "body": "  Identify the point of discontinuity for .     x = 1    x = e    x = 0    There are no points of discontinuity in its domain.    "
 },
 {
-  "id": "sec_interactive-limits-8",
+  "id": "subsec-cont-8",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-8",
+  "url": "sec_interactive-limits.html#subsec-cont-8",
   "type": "Checkpoint",
-  "number": "1.3.7",
+  "number": "1.3.27",
   "title": "",
-  "body": "  Find the value of \\(k\\) that makes \\(f(x)\\) continuous at x = 2: \\( f(x) = \\begin{cases} x^2 & \\text{if } x \\le 2 \\\\ kx & \\text{if } x > 2 \\end{cases} \\).     k = 1    k = 2    k = 4    k = 0    "
+  "body": "  Find the value of \\(k\\) that makes \\(f(x)\\) continuous at x = 2: .     k = 1    k = 2    k = 4    k = 0    "
 },
 {
-  "id": "sec_interactive-limits-9",
+  "id": "subsec-cont-9",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-9",
+  "url": "sec_interactive-limits.html#subsec-cont-9",
   "type": "Checkpoint",
-  "number": "1.3.8",
+  "number": "1.3.28",
   "title": "",
   "body": "  Which function has an infinite discontinuity at x = 0?     \\(f(x) = x\/x\\)    \\(f(x) = 1\/x\\)    \\(f(x) = \\sin(x)\\)    \\(f(x) = |x|\/x\\)    "
 },
 {
-  "id": "sec_interactive-limits-10",
+  "id": "subsec-cont-10",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-10",
+  "url": "sec_interactive-limits.html#subsec-cont-10",
   "type": "Checkpoint",
-  "number": "1.3.9",
+  "number": "1.3.29",
   "title": "",
-  "body": "  The function \\(f(x) = \\frac{x-1}{x^2-1}\\) has:     A hole at x = 1 and asymptote at x = -1    A hole at x = -1 and asymptote at x = 1    Two asymptotes    Two holes    "
+  "body": "  The function has:     A hole at x = 1 and asymptote at x = -1    A hole at x = -1 and asymptote at x = 1    Two asymptotes    Two holes    "
 },
 {
-  "id": "sec_interactive-limits-11",
+  "id": "subsec-cont-11",
   "level": "2",
-  "url": "sec_interactive-limits.html#sec_interactive-limits-11",
+  "url": "sec_interactive-limits.html#subsec-cont-11",
   "type": "Checkpoint",
-  "number": "1.3.10",
+  "number": "1.3.30",
   "title": "",
-  "body": "  If \\(\\lim_{x \\to c} f(x)\\) does not exist, the function is definitely discontinuous at c.     True    False    "
+  "body": "  If does not exist, the function is definitely discontinuous at c.     True    False    "
 },
 {
   "id": "sec_interactive-derivative",
@@ -1808,6 +1988,159 @@ var ptx_lunr_docs = [
   "number": "1.4.50",
   "title": "",
   "body": "  Find the slope of the tangent line to at .           1       "
+},
+{
+  "id": "sec_interactive-appl-derv",
+  "level": "1",
+  "url": "sec_interactive-appl-derv.html",
+  "type": "Section",
+  "number": "1.5",
+  "title": "Application of Derivatives",
+  "body": " Application of Derivatives       Approximation and Rates    Use linear approximation to estimate the value of by using the function at .     5.1    5.05    5.2    5.01       The radius of a sphere is measured to be 10 cm with a maximum error of 0.1 cm. Use differentials to estimate the maximum error in the calculated volume ( ).                    A stone is dropped into a still pond, sending out a circular ripple. If the radius increases at a constant rate of 3 cm\/s, how fast is the area of the circle increasing when the radius is 10 cm?                    The side of a square is measured to be 5 cm with a possible error of 1%. What is the approximate percentage error in the calculated area?     1%    2%    0.5%    4%       A 13-foot ladder leans against a vertical wall. If the bottom of the ladder slides away from the wall at 2 ft\/s, how fast is the top of the ladder sliding down the wall when the bottom is 5 feet from the wall?     -5\/12 ft\/s    -10 ft\/s    -5\/6 ft\/s    -2 ft\/s       The edge of a cube is measured with a relative error of 0.02. Use differentials to estimate the relative error in the calculated volume of the cube.     0.02    0.04    0.06    0.08       Find the linearization of at .                    A balloon is being inflated so that its volume increases at a rate of 100 cm³\/s. How fast is the radius of the balloon increasing when the diameter is 10 cm?                    If , find the differential when and .     0.04    0.02    0.06    0.10       The demand function for a product is given by . If the production is increasing at a rate of 10 units per month, find the rate of change of price when .     -10 per month    -20 per month    -5 per month    -100 per month      "
+},
+{
+  "id": "subsec-approx-2",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-2",
+  "type": "Checkpoint",
+  "number": "1.5.1",
+  "title": "",
+  "body": "  Use linear approximation to estimate the value of by using the function at .     5.1    5.05    5.2    5.01    "
+},
+{
+  "id": "subsec-approx-3",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-3",
+  "type": "Checkpoint",
+  "number": "1.5.2",
+  "title": "",
+  "body": "  The radius of a sphere is measured to be 10 cm with a maximum error of 0.1 cm. Use differentials to estimate the maximum error in the calculated volume ( ).                 "
+},
+{
+  "id": "subsec-approx-4",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-4",
+  "type": "Checkpoint",
+  "number": "1.5.3",
+  "title": "",
+  "body": "  A stone is dropped into a still pond, sending out a circular ripple. If the radius increases at a constant rate of 3 cm\/s, how fast is the area of the circle increasing when the radius is 10 cm?                 "
+},
+{
+  "id": "subsec-approx-5",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-5",
+  "type": "Checkpoint",
+  "number": "1.5.4",
+  "title": "",
+  "body": "  The side of a square is measured to be 5 cm with a possible error of 1%. What is the approximate percentage error in the calculated area?     1%    2%    0.5%    4%    "
+},
+{
+  "id": "subsec-approx-6",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-6",
+  "type": "Checkpoint",
+  "number": "1.5.5",
+  "title": "",
+  "body": "  A 13-foot ladder leans against a vertical wall. If the bottom of the ladder slides away from the wall at 2 ft\/s, how fast is the top of the ladder sliding down the wall when the bottom is 5 feet from the wall?     -5\/12 ft\/s    -10 ft\/s    -5\/6 ft\/s    -2 ft\/s    "
+},
+{
+  "id": "subsec-approx-7",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-7",
+  "type": "Checkpoint",
+  "number": "1.5.6",
+  "title": "",
+  "body": "  The edge of a cube is measured with a relative error of 0.02. Use differentials to estimate the relative error in the calculated volume of the cube.     0.02    0.04    0.06    0.08    "
+},
+{
+  "id": "subsec-approx-8",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-8",
+  "type": "Checkpoint",
+  "number": "1.5.7",
+  "title": "",
+  "body": "  Find the linearization of at .                 "
+},
+{
+  "id": "subsec-approx-9",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-9",
+  "type": "Checkpoint",
+  "number": "1.5.8",
+  "title": "",
+  "body": "  A balloon is being inflated so that its volume increases at a rate of 100 cm³\/s. How fast is the radius of the balloon increasing when the diameter is 10 cm?                 "
+},
+{
+  "id": "subsec-approx-10",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-10",
+  "type": "Checkpoint",
+  "number": "1.5.9",
+  "title": "",
+  "body": "  If , find the differential when and .     0.04    0.02    0.06    0.10    "
+},
+{
+  "id": "subsec-approx-11",
+  "level": "2",
+  "url": "sec_interactive-appl-derv.html#subsec-approx-11",
+  "type": "Checkpoint",
+  "number": "1.5.10",
+  "title": "",
+  "body": "  The demand function for a product is given by . If the production is increasing at a rate of 10 units per month, find the rate of change of price when .     -10 per month    -20 per month    -5 per month    -100 per month    "
+},
+{
+  "id": "sec_interactive-antidrv",
+  "level": "1",
+  "url": "sec_interactive-antidrv.html",
+  "type": "Section",
+  "number": "1.6",
+  "title": "Antiderivatives (Integration)",
+  "body": " Antiderivatives (Integration)       Inspection and Substitution    Use the inspection method to find the general antiderivative:                 Evaluate using substitution:                 By inspection, find the antiderivative of .              Find .              Evaluate using .             "
+},
+{
+  "id": "subsec-antidrv-2",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-2",
+  "type": "Checkpoint",
+  "number": "1.6.1",
+  "title": "",
+  "body": "  Use the inspection method to find the general antiderivative:              "
+},
+{
+  "id": "subsec-antidrv-3",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-3",
+  "type": "Checkpoint",
+  "number": "1.6.2",
+  "title": "",
+  "body": "  Evaluate using substitution:              "
+},
+{
+  "id": "subsec-antidrv-4",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-4",
+  "type": "Checkpoint",
+  "number": "1.6.3",
+  "title": "",
+  "body": "  By inspection, find the antiderivative of .           "
+},
+{
+  "id": "subsec-antidrv-5",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-5",
+  "type": "Checkpoint",
+  "number": "1.6.4",
+  "title": "",
+  "body": "  Find .           "
+},
+{
+  "id": "subsec-antidrv-6",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-6",
+  "type": "Checkpoint",
+  "number": "1.6.5",
+  "title": "",
+  "body": "  Evaluate using .           "
 },
 {
   "id": "sec_first-intro",
