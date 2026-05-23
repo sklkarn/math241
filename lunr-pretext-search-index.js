@@ -2095,7 +2095,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "1.6",
   "title": "Antiderivatives (Integration)",
-  "body": " Antiderivatives (Integration)       Inspection and Substitution    Use the inspection method to find the general antiderivative:                 Evaluate using substitution:                 By inspection, find the antiderivative of .              Find .              Evaluate using .              Integration by Parts and Partial Fractions     Use integration by parts to evaluate:                Correct! Use integration by parts with , .    Incorrect. Remember: .        Evaluate the following antiderivative:                  Use partial fraction decomposition to find:                  What is the correct form of the partial fraction decomposition for the integrand ?                  Evaluate using integration by parts:                "
+  "body": " Antiderivatives (Integration)       Inspection and Substitution    Use the inspection method to find the general antiderivative:                 Evaluate using substitution:                 By inspection, find the antiderivative of .              Find .              Evaluate using .              Find the antiderivative:                       Find                       Evaluate                       Find                       Evaluate                       Integration by Parts and Partial Fractions    Evaluate                       Find                       Evaluate                       Find                       Evaluate                       Find                       Evaluate                       Find                       Evaluate                       Find                        Use integration by parts to evaluate:                             Correct! Use integration by parts with , .      Incorrect. Remember: .         Evaluate the following antiderivative:                              Use partial fraction decomposition to find:                              What is the correct form of the partial fraction decomposition for the integrand ?                              Evaluate using integration by parts:                            "
 },
 {
   "id": "subsec-antidrv-2",
@@ -2143,49 +2143,184 @@ var ptx_lunr_docs = [
   "body": "  Evaluate using .           "
 },
 {
+  "id": "subsec-antidrv-7",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-7",
+  "type": "Checkpoint",
+  "number": "1.6.6",
+  "title": "",
+  "body": "  Find the antiderivative:                    "
+},
+{
+  "id": "subsec-antidrv-8",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-8",
+  "type": "Checkpoint",
+  "number": "1.6.7",
+  "title": "",
+  "body": "  Find                    "
+},
+{
+  "id": "subsec-antidrv-9",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-9",
+  "type": "Checkpoint",
+  "number": "1.6.8",
+  "title": "",
+  "body": "  Evaluate                    "
+},
+{
+  "id": "subsec-antidrv-10",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-10",
+  "type": "Checkpoint",
+  "number": "1.6.9",
+  "title": "",
+  "body": "  Find                    "
+},
+{
+  "id": "subsec-antidrv-11",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-antidrv-11",
+  "type": "Checkpoint",
+  "number": "1.6.10",
+  "title": "",
+  "body": "  Evaluate                    "
+},
+{
   "id": "subsec-int_parts-2",
   "level": "2",
   "url": "sec_interactive-antidrv.html#subsec-int_parts-2",
   "type": "Checkpoint",
-  "number": "1.6.6",
+  "number": "1.6.11",
   "title": "",
-  "body": "  Use integration by parts to evaluate:                Correct! Use integration by parts with , .    Incorrect. Remember: .    "
+  "body": "  Evaluate                    "
 },
 {
   "id": "subsec-int_parts-3",
   "level": "2",
   "url": "sec_interactive-antidrv.html#subsec-int_parts-3",
   "type": "Checkpoint",
-  "number": "1.6.7",
+  "number": "1.6.12",
   "title": "",
-  "body": "  Evaluate the following antiderivative:              "
+  "body": "  Find                    "
 },
 {
   "id": "subsec-int_parts-4",
   "level": "2",
   "url": "sec_interactive-antidrv.html#subsec-int_parts-4",
   "type": "Checkpoint",
-  "number": "1.6.8",
+  "number": "1.6.13",
   "title": "",
-  "body": "  Use partial fraction decomposition to find:              "
+  "body": "  Evaluate                    "
 },
 {
   "id": "subsec-int_parts-5",
   "level": "2",
   "url": "sec_interactive-antidrv.html#subsec-int_parts-5",
   "type": "Checkpoint",
-  "number": "1.6.9",
+  "number": "1.6.14",
   "title": "",
-  "body": "  What is the correct form of the partial fraction decomposition for the integrand ?              "
+  "body": "  Find                    "
 },
 {
   "id": "subsec-int_parts-6",
   "level": "2",
   "url": "sec_interactive-antidrv.html#subsec-int_parts-6",
   "type": "Checkpoint",
-  "number": "1.6.10",
+  "number": "1.6.15",
   "title": "",
-  "body": "  Evaluate using integration by parts:              "
+  "body": "  Evaluate                    "
+},
+{
+  "id": "subsec-int_parts-7",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-7",
+  "type": "Checkpoint",
+  "number": "1.6.16",
+  "title": "",
+  "body": "  Find                    "
+},
+{
+  "id": "subsec-int_parts-8",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-8",
+  "type": "Checkpoint",
+  "number": "1.6.17",
+  "title": "",
+  "body": "  Evaluate                    "
+},
+{
+  "id": "subsec-int_parts-9",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-9",
+  "type": "Checkpoint",
+  "number": "1.6.18",
+  "title": "",
+  "body": "  Find                    "
+},
+{
+  "id": "subsec-int_parts-10",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-10",
+  "type": "Checkpoint",
+  "number": "1.6.19",
+  "title": "",
+  "body": "  Evaluate                    "
+},
+{
+  "id": "subsec-int_parts-11",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-11",
+  "type": "Checkpoint",
+  "number": "1.6.20",
+  "title": "",
+  "body": "  Find                    "
+},
+{
+  "id": "subsec-int_parts-12",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-12",
+  "type": "Checkpoint",
+  "number": "1.6.21",
+  "title": "",
+  "body": "  Use integration by parts to evaluate:                             Correct! Use integration by parts with , .      Incorrect. Remember: .     "
+},
+{
+  "id": "subsec-int_parts-13",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-13",
+  "type": "Checkpoint",
+  "number": "1.6.22",
+  "title": "",
+  "body": "  Evaluate the following antiderivative:                          "
+},
+{
+  "id": "subsec-int_parts-14",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-14",
+  "type": "Checkpoint",
+  "number": "1.6.23",
+  "title": "",
+  "body": "  Use partial fraction decomposition to find:                          "
+},
+{
+  "id": "subsec-int_parts-15",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-15",
+  "type": "Checkpoint",
+  "number": "1.6.24",
+  "title": "",
+  "body": "  What is the correct form of the partial fraction decomposition for the integrand ?                          "
+},
+{
+  "id": "subsec-int_parts-16",
+  "level": "2",
+  "url": "sec_interactive-antidrv.html#subsec-int_parts-16",
+  "type": "Checkpoint",
+  "number": "1.6.25",
+  "title": "",
+  "body": "  Evaluate using integration by parts:                          "
 },
 {
   "id": "sec_first-intro",
